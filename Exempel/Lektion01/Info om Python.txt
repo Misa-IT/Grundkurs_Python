@@ -1,8 +1,12 @@
 Webutveckling
+	Django
+	Flask
 Dataanalys
 
 Maskininlärning
 AI
+
+Scripting
 
 Google
 Spotify
@@ -14,3 +18,5 @@ Reddit
 
 
 Syntax
+
+IDE = integrerad utvecklingsmiljö = texteditor

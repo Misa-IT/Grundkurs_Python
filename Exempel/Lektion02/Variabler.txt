@@ -1,0 +1,18 @@
+Variabler
+Datatyper
+
+Spara värdet 23 i en variabel som heter min_andra_variabel
+Spara texten "23" i en variabel som heter min_variabel
+Skapa en lista som heter fruit som innehåller dessa saker: 
+
+str = String = Text
+int = Integer = Heltal
+float = Float = Flyttal
+
+lst = List = Lista
+dict = Dictionary = 
+tuple = ????
+set
+
+Immutable
+Variabler är behållare.
