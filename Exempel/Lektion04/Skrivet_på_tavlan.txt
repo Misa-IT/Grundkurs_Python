@@ -1,7 +1,7 @@
 Element = En sak i en samling av saker
 
 Splice(splice:ing)
-Att en viss del av en mängd
+Att hämta en viss del av en mängd
 [FRÅN:TILL:HOPP]
 
 .pop()
