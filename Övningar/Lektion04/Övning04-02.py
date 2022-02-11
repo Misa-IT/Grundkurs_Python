@@ -7,4 +7,3 @@ my_long_list = ["Det", "här", "är", "en", "lista", "som", "innehåller", "väl
 print("Resultatet av nästa print() ska det vara: ['som', 'innehåller', 'väldigt', 'många',"
       " 'element', 'för', 'att', 'visa', 'att', 'man', 'kan']")
 print()
-
