@@ -1,6 +1,6 @@
 Element = En sak i en samling av saker
 
-Splice(splice:ing)
+Slice(slice:ing)
 Att hämta en viss del av en mängd
 [FRÅN:TILL:HOPP]
 
