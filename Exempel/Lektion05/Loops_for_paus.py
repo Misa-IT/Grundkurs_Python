@@ -11,4 +11,4 @@ my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]  # Summan av dessa blir 45
 
 # Skriv en loop som frågar användaren vad hen heter och hälsar med namn tills man
 # skriver något specifikt. Då ska loopen avslutas.
-# Tips: Här passar en While-väldigt bra.
+# Tips: Här passar en While väldigt bra.
