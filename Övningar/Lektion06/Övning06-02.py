@@ -1,4 +1,4 @@
-#
+# Den här koden kör oändligt. Rätta till så att den inte gör det.
 
 def print_and_increment(my_inner_int):
     print(my_inner_int)
