@@ -10,8 +10,7 @@ while run:
 
 while True:
     namn = input("NAMN?")
-    if namn == "quit:
+    if namn == "quit":
         break
     else:
         print("Hej, ", namn)
-    

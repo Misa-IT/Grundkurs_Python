@@ -38,10 +38,10 @@ Upprepa så länge kastrullen inte är full med potatis:
 	Lägg i kastrullen
 	
 Psueudokod för For-loop:
-För varje potatis:
+För varje potatis i säcken:
 	Skala potatisen
 	Lägg potatisen i kastrullen
 	
-För varje potatis, kalla den x:
+För varje potatis i säcken, kalla den x:
 	Skala potatisen x
 	Lägg potatisen x i kastrullen
