@@ -1,5 +1,7 @@
 # Ett exempel där vi skapar en klass för dryck och sen skapar instanser
 # av objektet.
+# Av: Henrik Tunedal
+
 
 class Dryck:
     def __init__(self, namn, pris, slutsålt=False):
