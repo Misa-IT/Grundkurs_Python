@@ -24,3 +24,9 @@ Attribut
 	
 Konstruktor
 	__init__ metoden som körs när man skapar ett objekt.
+
+	
+Klass = Bok
+Klass som ärver från Bok = Pocketbok
+Klass som ärver från Pocketbok = Sagan om Ringen
+Objekt skapat från klassen Sagan om Ringen = Mitt exemplar av Sagan om Ringen
