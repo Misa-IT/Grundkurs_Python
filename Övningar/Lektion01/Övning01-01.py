@@ -1,3 +1,3 @@
-# Något i denna kodrad gör att programet inte fungerar, rätta felet:
+# Något i denna kodrad gör att programmet inte fungerar, rätta felet:
 
 print("Hello World)
