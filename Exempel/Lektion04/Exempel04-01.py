@@ -1,4 +1,4 @@
-# Demonstration av splicing och metoder på listor, tuples och dicts.
+# Demonstration av slicing och metoder på listor, tuples och dicts.
 
 my_fruit_list = ["päron", "äpplen", "apelsiner", "citroner", "vindruvor"]
 
