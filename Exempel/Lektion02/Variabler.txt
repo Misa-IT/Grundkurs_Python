@@ -1,18 +1,28 @@
-Variabler är saker vi sparar.
-Datatyper är hur vi sparar.
+Variabler = Variabla
 
-Spara värdet 23 i en variabel som heter min_andra_variabel.
-Spara texten "23" i en variabel som heter min_variabel.
-Skapa en lista som heter fruit som innehåller dessa saker: 
+f(x)= x^2
 
-str = String = Text
-int = Integer = Heltal
-float = Float = Flyttal
+Syntax = Gramatik
 
-lst = List = Lista
-dict = Dictionary = 
-tuple = Typ en oföränderlig lst
-set = Kan bara innehålla en av varje sak. T.ex. Tillåts inte två ettor.
+Gå till rad 3
 
-Immutable
-Variabler är behållare.
+Variabler är saker vi sparar i datorns minne.
+Datatyper är hur vi sparar data.
+
+typecasting/casting = Att be datorn tolka något som om det vore något annat.
+
+Typer av datatyper:
+Typer av lådor som bara innehåller en typ av sak.
+str = String = Text Ex: "Hej"
+int = Integer = Heltal Ex: 2
+float = Float = Flyttal/Decimaltal Ex: 2.0
+
+
+lst = List = lista Kan ses på som en hylla, allt står i en viss ordning.
+
+tuple = Kan ses på som en hylla där nån har superlimmat fast allting.
+
+dict = Dictionary = Ordlista 
+nyckel:värde t.ex. 2:"Två","ålder":32
+
+set = Set En låda där det bara får finnas en sak av varje sak. 
