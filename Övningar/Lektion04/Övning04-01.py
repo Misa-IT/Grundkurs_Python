@@ -1,5 +1,9 @@
-# Vänd på listan med hjälp av en metod.
+# Rätta till While-loopen så att den fungerar:
 
-en_lista = ["Det", "här", "är", "en", "lista."]
+my_first_int = 20
+my_second_int = 300
 
-print("Här ska det stå ['lista.', 'en', 'är', 'här', 'Det']:", en_lista)
+while my_first_int < my_second_int
+my_first_int = my_first_int + 7
+print(my_first_int)
+

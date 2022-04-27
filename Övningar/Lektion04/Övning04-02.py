@@ -1,9 +1,7 @@
-# Returnera element från listan från det femte till det sextonde, räknat från noll.
+#Lägg till alla element från my_int_list till my_new_list.
 
-my_long_list = ["Det", "här", "är", "en", "lista", "som", "innehåller", "väldigt",
-                "många", "element", "för", "att", "visa", "att", "man", "kan", "ha",
-                "radbyten", "i", "en", "deklaration"]
-
-print("Resultatet av nästa print() ska det vara: ['som', 'innehåller', 'väldigt', 'många',"
-      " 'element', 'för', 'att', 'visa', 'att', 'man', 'kan']")
-print()
+my_int_list = [1, 2, 3, 4, 5, 6, 7]
+my_new_list = []
+for each thing in my_int_list:
+    my_new_list.append()
+print(my_new_list)
