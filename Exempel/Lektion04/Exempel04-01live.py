@@ -1,4 +1,4 @@
-# Exempel som visar hur While-loopar fungerar och kan användas.
+# Hur while-loopar fungerar och kan användas
 
 my_int = 1
 my_second_int = 10

@@ -1,6 +1,5 @@
 # Här försöker vi hämta alla element i en lista, lägga till 5 om
 # elementet i listan är en integer eller float och sen skapa en ny lista.
-# Se övning04-02 för ledtrådar.
 
 my_mixed_list = [1, 2, 3, 4, 5, "Här", "är", "några", "strängar!", 6, 7,
                  ["En", "lista", "i", "listan!"], 8, 9]
