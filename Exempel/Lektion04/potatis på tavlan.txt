@@ -1,4 +1,4 @@
-Skala potatis med pseudokod
+Skala tre potatisar med pseudokod
 
 1. Ta en potatis
 2. Skala potatisen
@@ -6,9 +6,11 @@ Skala potatis med pseudokod
 4. Ta en potatis
 5. Skala potatisen
 6. Lägg potatisen i kastrullen
-osv.
+7. Ta en potatis.
+8. Skala potatisen.
+9. Lägg potatisen i kastrullen.
 
-Med loop:
+Skala potatis med en loop:
 1. Ta en potatis
 2. Skala potatisen
 3. Lägg potatisen i kastrullen
@@ -23,7 +25,7 @@ Skala potatis tills kastrullen är full:
 6. Hoppa till steg 1
 7. Sluta skala potatis
 
-Pseudokod för While:
+Pseudokod för while:
 Upprepa:
 	Om kastrullen är full med potatis:
 		Avbryt potatisskalningen
