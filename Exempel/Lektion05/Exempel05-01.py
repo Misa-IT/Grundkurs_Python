@@ -15,5 +15,5 @@ print(my_fruit_list[2:5])
 print(my_fruit_list[2:])
 print(my_fruit_list[-3:])
 
-# Splicing fungerar även på strängar.
+# Slicing fungerar även på strängar.
 print("1234567890"[0:5])
