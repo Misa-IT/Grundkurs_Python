@@ -2,7 +2,7 @@
 
 my_fruit_list = ["päron", "äpplen", "apelsiner", "citroner", "vindruvor"]
 
-# Jag hämtar och skriver ut de tre första elementen ur my_fruits_list på
+# Jag hämtar och skriver ut de tre första elementen ur my_fruit_list på
 # två olika sätt
 print(my_fruit_list[0:3])
 print(my_fruit_list[:3])
