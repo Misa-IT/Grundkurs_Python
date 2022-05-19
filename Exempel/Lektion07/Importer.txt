@@ -2,7 +2,7 @@ Module = Modul = En python-fil
 T.ex. min_grej.py
 
 Package = Paket = En mapp med Python-filer menade att kunna importeras , ofta tillsammans.
-T.ex Django
+T.ex Django.utils eller math
 
 Namespace
 Ett system för att inte råka skriva över variabler, funktioner eller annat när man har kod från flera källor. 
