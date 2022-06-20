@@ -1,0 +1,22 @@
+Module = Modul = En python-fil
+T.ex. min_grej.py
+
+Package = Paket = En mapp med Python-filer menade att kunna importeras , ofta tillsammans.
+T.ex Django.utils eller math
+
+Namespace
+Ett system för att inte råka skriva över variabler, funktioner eller annat när man har kod från flera källor. 
+module1.my_function() och module2.my_function()
+
+Import
+T.ex. import math
+
+Vanliga moduler:
+Random - För slumpade saker
+Pathlib - För när man ska hålla på med filvägar
+Math - För matte
+Tkinter - Simpla grafiska gränssnitt
+Collections - För olika typer av datasamlingar
+Time - Tid
+Datetime - För både tid och datum
+Sys - För att interagera med datorns system

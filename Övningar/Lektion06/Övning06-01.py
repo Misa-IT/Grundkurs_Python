@@ -1,5 +1,5 @@
 # Rätta till koden så att vi skapar en funktion som skriver ut
-# vad användaren skriver in och sen kör den.
+# vad användaren skriver in och sen kör den skapade funktionen.
 
 my_func:
     user_input = input("Vad vill du att jag ska säga? ")
