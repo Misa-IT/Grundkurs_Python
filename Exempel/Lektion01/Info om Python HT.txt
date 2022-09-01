@@ -1,0 +1,32 @@
+Python: Ett programmeringsspråk
+
+for i in range(len(food)):
+	print(food[i])
+	
+for piece in food:
+	print(piece)
+	
+Syntax == Grammatik
+
+Var används Python?
+Webutveckling
+Dataanalys
+Maskininlärning
+AI
+
+Scripting
+
+
+Företag som använder Python:
+
+Google, Spotify, Netflix, Facebook, Dropbox, Reddit
+
+REPL
+
+Pseudokod:
+För varje sak i listan food så:
+	skriv ut den saken
+	
+
+IDLE är en IDE
+Integrated Development Environment

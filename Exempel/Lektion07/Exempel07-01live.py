@@ -3,6 +3,7 @@
 
 import tobeimported
 
+tobeimported.my_function()
 print(__name__)
 
 if __name__ == '__main__':
