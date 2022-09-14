@@ -29,7 +29,7 @@ johan={"namn":"Johan", "ålder":32, "längd":180}
 set = Set En låda där det bara får finnas en sak av varje sak.
 
 
-Konkatenering
+Konkatenering är att slå ihop två saker, t.ex. strängar, genom att lägga dem efter varandra.
 
 Casting eller Typecasting
 int(my_variable)
