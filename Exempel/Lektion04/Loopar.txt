@@ -19,6 +19,6 @@ För varje sak i [något] så gör detta:
 for [sak] in [samling]:
 	Instruktioner
 
-Itereringsvariabel är den variabel man kollar på vid varje varv i loopen,
+Itereringsvariabel är den variabel man kollar på vid varje varv i loopen.
 
 Element = En specifik sak i en samling.
