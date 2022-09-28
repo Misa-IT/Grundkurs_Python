@@ -1,0 +1,33 @@
+Element == En sak i en samlingsdatatyp.
+T.ex. "Första elementet i den här listan".
+
+De vanligaste samlingdatatyperna:
+lst = List
+tuple = Tuple
+dict = Dictionary
+set = Set
+
+
+lst = List = lista Kan ses på som en hylla, allt står i en viss ordning.
+
+tuple = Kan ses på som en hylla där nån har summerlimmat fast allting.
+
+dict = Dictionary = Ordlista
+nyckel:värde t.ex. 2:"två", "ålder":32
+johan={"namn":"Johan", "ålder":33, "längd":180}
+
+
+Hur vi skapar en lista:
+[ element, element, element]
+
+Hur vi skapar en tuple:
+( element, element, element)
+
+Hur vi skapar en dict:
+{ nyckel:värde, nyckel:värde, nyckel:värde)
+
+
+my_list = [1, 2, 3]
+my_dict = {1:"ett", 2:"två"}
+my_set = {1, 2, 3, 4}
+my_tuple = (1, 2, 3, 4)
