@@ -1,5 +1,5 @@
-# Rätta till syntaxfelen så att vi:
-# Lägger till alla element från my_int_list till my_new_list.
+# Rätta till syntaxfelen så att vi lägger till alla element från my_int_list
+# till my_new_list.
 
 # .append() på en lista fungerar så att det som är innanför parentesen
 # läggs till i listan man har precis innan .append().

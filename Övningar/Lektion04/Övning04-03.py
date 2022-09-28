@@ -1,6 +1,6 @@
 # Här försöker vi hämta alla element i en lista och lägga till dem i en ny lista.
-# För varje element i listan kollar vi om det är en integer eller float och om
-# så är fallet vill vi addera 5 till det elementet.
+# När vi lägger till varje element i listan kollar vi om det är en integer eller
+# float och om så är fallet vill vi addera 5 till det elementet.
 # Se övning04-02 för ledtrådar.
 
 my_mixed_list = [1, 2, 3, 4, 5, "Här", "är", "några", "strängar!", 6, 7,
