@@ -10,3 +10,4 @@ Det som står innanför parenteserna kallas för parametrar eller argument.
 
 Metoder:
 my_list.append("Nån text")
+append() # Detta är fel, metoder måste kallas från ett objekt.

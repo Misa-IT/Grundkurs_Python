@@ -24,7 +24,7 @@ Hur vi skapar en tuple:
 ( element, element, element)
 
 Hur vi skapar en dict:
-{ nyckel:värde, nyckel:värde, nyckel:värde)
+{ nyckel:värde, nyckel:värde, nyckel:värde}
 
 
 my_list = [1, 2, 3]
