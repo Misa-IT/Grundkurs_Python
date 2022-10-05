@@ -5,7 +5,7 @@
 my_first_list = ["Listor kan ligga i listor.", ["Man kan till och med ha listor i listor som ligger i listor",
                                                 ["Spännande, va?"]]]
 
-my_second_list = ["Det här är den yttre listan!", ["Efter den här strängen ska my_second_list läggas till."],
+my_second_list = ["Det här är den yttre listan!", ["Efter den här strängen ska my_first_list läggas till."],
                   "Nästlade listor kan vara krångliga ibland."]
 
 print(my_second_list)
