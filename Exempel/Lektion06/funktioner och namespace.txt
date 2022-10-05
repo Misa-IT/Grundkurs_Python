@@ -1,0 +1,24 @@
+Python är ett objektorienterat programmeringsspråk
+
+Namespace/ Namnrymd är avkiljningar för att hålla namn unika.
+
+
+Funktioner = Procedurer = Subrutiner
+
+Funktion = Instruktion
+
+Metod = Funktion från ett specifikt objekt.
+
+
+Argument = Det man skickar till en funktion
+Positional arguments / postitionsargument
+Keyword arguments / nyckelordsargument
+
+Matematiska funktioner ser väldigt liknande ut till funktioner
+i Python:
+f(x)= x * 2
+y = x * 2
+
+Designprincip i Python:
+DRY
+Don't Repeat Yourself
