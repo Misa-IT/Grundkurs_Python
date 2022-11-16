@@ -14,8 +14,8 @@ Argument = Det man skickar till en funktion
 Positional arguments / postitionsargument
 Keyword arguments / nyckelordsargument
 
-Matematiska funktioner ser väldigt liknande ut till funktioner
-i Python:
+Matematiska funktioner ser väldigt liknande
+ut till funktioner i Python:
 f(x)= x * 2
 y = x * 2
 
