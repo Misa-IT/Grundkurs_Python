@@ -12,7 +12,10 @@ Syntax = Grammatik
 
 
 Typer av datatyper:
-Typer av lådor som bara innehåller en typ av sak.
+Datatyper som bara kan innehålla en specifik typ av sak.
+Samlingsdatatyper, datatyper som kan innehålla flera saker.
+
+Typer av lådor som bara innehåller en typ av sak:
 str = String = Text Ex: "Hej"
 int = Integer = Heltal Ex: 2
 float = Float = Flyttal/Decimaltal Ex: 2.0
