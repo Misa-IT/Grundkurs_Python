@@ -1,4 +1,7 @@
 # Ändra i de båda print() så att vi får rätt resultat.
+# Raderna där vi skapar variablerna ska alltså inte ändras och inga ny rader
+# ska läggas till.
+# Använd det som vi gick igenom på lektion3.
 
 my_first_number = 2
 my_second_number = 3

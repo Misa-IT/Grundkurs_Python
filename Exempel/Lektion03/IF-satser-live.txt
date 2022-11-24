@@ -1,0 +1,31 @@
+Flödeskontroll:
+	Hur ett program "flödar".
+
+Indentering är viktigt!
+
+Gå till affären och köp ett paket ägg. Om de har limpor, köp två.
+
+if affären_har_limpor == True:
+	mängd_äggkartonger_att_köpa = 2
+else:
+	mängd_äggkartonger_att_köpa = 1
+
+
+
+if hattkanter == 3:
+	hatt = min
+else:
+	hatt = inte_min
+	
+	
+Varför det är viktigt att följa konventioner:
+
+OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
+if hattkanter==3:
+
+
+
+
+ hatt=m
+else:
+         hatt=im

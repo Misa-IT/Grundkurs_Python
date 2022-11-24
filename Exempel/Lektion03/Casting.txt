@@ -1,0 +1,7 @@
+Casting, eller Typecasting, är att be om värdet på en variabel fast som om den vore av en annan datatyp.
+
+str(det_som_ska_ändras)
+Ge mig värdet av det_som_ska_ändras som om det vore text.
+
+int(det_som_ska_ändras)
+Ge mig värdet av det_som_ska_ändras som om det vore ett heltal.

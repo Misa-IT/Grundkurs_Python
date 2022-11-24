@@ -1,3 +1,5 @@
+Created by: Henrik Tunedal
+
 höjd = 3
 
 while höjd > 0:

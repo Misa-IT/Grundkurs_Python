@@ -22,7 +22,7 @@ float = Float = Flyttal/Decimaltal Ex: 2.0
 bool = Boolean = Sant/Falskt
 
 Samlingsdatatyper:
-lst = List = lista Kan ses på som en hylla, allt står i en viss ordning.
+list = List = lista Kan ses på som en hylla, allt står i en viss ordning.
 tuple = Kan ses på som en hylla där nån har summerlimmat fast allting.
 
 dict = Dictionary = Ordlista
