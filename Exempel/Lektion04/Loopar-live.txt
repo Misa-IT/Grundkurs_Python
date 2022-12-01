@@ -1,0 +1,26 @@
+Flödeskontroll del 2, Loopar:
+
+while-loopar och for-loopar
+
+while-loopar:
+
+Så länge [något] så gör detta:
+	[det som ska göras]
+	
+while [något]:
+	[det som ska göras]
+	
+	
+for-loopar:
+
+För varje sak i [något] så gör detta:
+	[det som ska göras]
+	
+for [sak] in [samling]:
+	[det som ska göras]
+	
+Itereringsvariabel är det som man kollar på vid varje varv i loopen.
+
+Iterera = Upprepa
+
+Element = En specifik sak i en samling

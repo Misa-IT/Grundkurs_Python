@@ -1,0 +1,49 @@
+Skala potatis utan loopar:
+
+1. Ta en potatis
+2. Skala potatisen
+3. Lägg potatisen i kastrullen
+4. Ta en potatis
+5. Skala potatisen
+6. Lägg potatisen i kastrullen
+osv
+osv
+
+Skala potatis med en loop:
+1. Ta en potatis
+2. Skala potatisen
+3. Lägg potatisen i kastrullen
+4. Hoppa till steg 1
+
+Skala potatis tills kastrullen är full:
+1. Kolla om kastrullen är full
+2. Om kastrullen är full i steg 1, hoppa till steg 7
+3. Ta en potatis
+4. Skala potatisen
+5. Lägg potatisen i kastrullen
+6. Hoppa till steg 1
+7. Sluta skala potatis
+
+Pseudokod för en while-loop:
+Upprepa:
+	Om kastrullen är full med potatis:
+		Avbryt potatisskalningen
+	Annars:
+		Ta en potatis
+		Skala potatisen
+		Lägg potatisen i kastrullen
+		
+
+while True:
+	if kastrull_full == True:
+		break
+	else:
+		take_potato()
+		peel_potato()
+		put_in_pan()
+
+
+while kastrull_full == False:
+		take_potato()
+		peel_potato()
+		put_in_pan()
