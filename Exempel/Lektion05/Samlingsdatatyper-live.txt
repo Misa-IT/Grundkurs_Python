@@ -1,0 +1,25 @@
+Nomenklatur, d.v.s termer som används:
+Element = En specifik sak i en samling.
+
+De vanligaste samlingsdatatyperna:
+lst = list
+tuple = tuple
+dict = dictionary
+set = set
+
+lst = list = lista. Kan ses på som en hylla, allt står i en viss ordning.
+
+tuple = Kan ses på som en hylla där någon har summerlimmat fast alla element.
+
+dict = dictionary = ordlista. 
+nyckel:värde t.ex. 2:"två", "ålder":33
+johan = {"namn":"Johan", "ålder":33, "längd":180}
+emma = {"namn":"Emma", "ålder": 31, "längd":172}
+Nycklar måste vara unika. Försöker man lägga till en dubblett så skriver man över det gamla värdet.
+
+set Kan ses på som en låda, allt ligger där det får plats men det får bara finnas en av varje sak. Sakerna får inte kunna ändras på. T.ex. inga listor.
+
+my_list = [1,2,3,4]
+my_dict = {1:"ett", 2:"tre"}
+my_set = {1,2,3,4}
+my_tuple = (1,2,3,4,5)

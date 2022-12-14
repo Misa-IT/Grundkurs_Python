@@ -1,0 +1,13 @@
+Nomenklatur, d.v.s termer som används:
+Element = En specifik sak i en samling
+
+Slice:ing
+Att ta en specifik del av en mängd. I Python är det oftast
+samlingsdatatyper vi talar om när vi talar om mängder.
+
+my_list = [1, 2, 3, 4, 5, 6, 7]
+my_list[0] ger en etta om vi har listan ovan.
+my_list[2] ger en trea om vi har listan ovan.
+
+my_list[0:2]
+my_list[:2] ger alla element från BÖRJAN till index två. 1,2 i detta fall.
