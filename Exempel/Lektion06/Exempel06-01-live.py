@@ -1,6 +1,6 @@
 # Funktioner (också kallade procedurer eller subrutiner) används
 # för att separera och namnge en del av programmet, som ett eget
-# litet miniprogram, så att man kan återanvända den.
+# litet miniprogram, så att man kan återanvända koden.
 #
 # I det här exemplet skriver vi en simpel funktion som skriver
 # ut en hälsning på skärmen.
