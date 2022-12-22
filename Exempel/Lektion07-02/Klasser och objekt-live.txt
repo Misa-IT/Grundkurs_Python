@@ -4,7 +4,7 @@ Objektorienterad programmering:
 	En typ av programmering där man använder sig av objekt för att dela upp data och funktioner.
 	
 Objekt:
-	En grupp data och instruktionerna för datorn om hur man behandlar sadga data.
+	En grupp data och instruktionerna för datorn om hur man behandlar sagda data.
 	En Instans av en Klass.
 	
 Instans:
@@ -16,7 +16,7 @@ Klass:
 	
 Metoder:
 	Funktioner kopplade till ett specifikt objekt.
-	Har alltid argumentet self.
+	Har alltid argumentet self om objektet är instantierat.
 	
 Attribut:
 	Egenskaper hos ett objekt. Oftast data/variabler och metoder.

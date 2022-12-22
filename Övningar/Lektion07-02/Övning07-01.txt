@@ -2,7 +2,7 @@
 # svaret kan hittas i ordlistan:
 https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/EXnL3Fjn54VAkuptx901szoBo8U8aTWjpjDGaN_Vy3PDEg?e=9HF9hM
 
-
+# TODO: Ta bort biten om instantiering
 # Skriv din egen klass och anropa metoder från den.
 # Klassen behöver inte ha en __init__ eller kunna användas för att skapa
 # nya objekt, det kan du göra i nästa övning.
