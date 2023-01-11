@@ -1,8 +1,8 @@
-# Här vill vi hämta ut ett värde från en dict och skriva ut det.
-# Kompletera koden så att den fungerar.
+# Här försöker vi använda funktionen choice från paketet random men
+# något är fel med koden. Rätta till så att det fungerar.
 
+import random
 
-my_dict = {"ett": "one", "två": "two", "tre": "three"}
+my_list = ["Funktionen", "ska", "välja", "en", "av", "dessa", "strängar", "slumpmässigt"]
 
-print("Två på engelska är: ")
-print("Raden ska vara 'Två på englska är: two'")
+print(choice(my_list))
