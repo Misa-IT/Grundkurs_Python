@@ -1,27 +1,12 @@
-# Påminnelse: Om man glömt någon term som används nedan så kanske
-# svaret kan hittas i ordlistan:
-https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/EXnL3Fjn54VAkuptx901szoBo8U8aTWjpjDGaN_Vy3PDEg?e=9HF9hM
+# Henriks förslag på saker att öva på:
 
+# Här är mina förslag till övningar för lektion 8.
 
-# Fortsätt med din klass från Övning09-03.
+# Utöka exemplet cafe3.py med följande förbättringar:
+# * Lägg till fler produkter.
+# * Visa före beställning vilka produkter som finns att beställa.
+# (Hint: Att loopa över en dictionary ger nycklarna, vilka sedan kan slås upp.)
+# * Visa något lämpligt meddelande vid beställning av produkt som inte finns. (Hint: Använd in-operationen.)
 
-# Nu vill vi kunna skapa ett nytt objekt från klassen och något ska hända när
-# man använder en eller flera parametrar vid skapandet.
-# Tips: print() vill veta hur ett objekt representeras som en sträng: __str__
-
-# VARNING: Om man använder exemplet så kan det bli ganska avancerat och
-# man kanske måste ta hjälp av Exempel09-03.py.
-
-
-# Exempel: Om man använde exemplet från Övning09-02 och skapade
-# en kalkylator, t.ex. Calculator så vill vi nu kunna lagra data i kalkylatorn.
-# Förslagsvis så sparar den resultatet från skapandet och kanske de
-# 10 senaste resultaten när man använder en specifik instans.
-# Kalkylatorn kanske också klarar av att ta emot antingen två eller tre parametrar
-# t.ex. new = Calculator(3, 2, subtract)
-
-
-# Exempel: Gör en klass som heter Calculator och ge den metoder för att
-# räkna ut addition, subtraktion och multiplikation.
-# T.ex. Calculator.add(8,2)
-
+# Ni kan också pröva att göra samma sak i cafe1.py och cafe2.py för att jämföra
+# olika sätt att uppnå resultatet.
