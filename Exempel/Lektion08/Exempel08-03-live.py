@@ -28,4 +28,5 @@ for card in my_card_list:
 
 shuffle(my_random_list)
 print(my_random_list)
+print()
 print(my_card_list)
