@@ -11,3 +11,13 @@ T.ex. modul1.min_funktion() och modul2.min_funktion()
 Import / Import --> Att hämta kod från en annan modul eller paket.
 T.ex. import math
 T.ex. from math import pi
+
+Vanliga moduler:
+random - För slumpartade saker
+pathlib - För att hålla på med filvägar
+math - För avancerad mattematik
+tkinter - Simpla grafiska gränssnitt
+collections - För olika typer av datasamlingar
+time - Tid
+datetime - För både datum och tid
+sys - För att interagera med datorns system
