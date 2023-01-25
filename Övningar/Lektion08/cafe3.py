@@ -1,28 +1,17 @@
-kaffepris = 20
-tepris = 15
-ölpris = 50
+# Orignal av: Henrik Tunedal
+# Ett exempel av ett program för ett cafe, med dicts.
 
-kaffe_slutsålt = False
-te_slutsålt = False
-öl_slutsålt = True
+priser = {"kaffe": 20, "te": 15, "öl": 50}
+
+slutsålt = {"öl"}
 
 
 def produktpris(produkt):
-    if produkt == "kaffe":
-        return kaffepris
-    elif produkt == "te":
-        return tepris
-    elif produkt == "öl":
-        return ölpris
+    return priser[produkt]
 
 
 def produkt_slutsåld(produkt):
-    if produkt == "kaffe":
-        return kaffe_slutsålt
-    elif produkt == "te":
-        return te_slutsålt
-    elif produkt == "öl":
-        return öl_slutsålt
+    return produkt in slutsålt
 
 
 def main():

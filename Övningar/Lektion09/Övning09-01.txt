@@ -1,5 +1,4 @@
-# Pröva att implementera de lösningar ni kom fram till förra veckan med Henriks
-# övningar på cafe4.
+# Pröva att implementera de lösningar ni kom fram till förra veckan med cafe4.
 
 # Utöka exemplet cafe4.py med följande förbättringar:
 

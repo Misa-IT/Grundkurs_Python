@@ -1,7 +1,3 @@
-# Henriks förslag på saker att öva på:
-
-# Här är mina förslag till övningar för lektion 8.
-
 # Utöka exemplet cafe3.py med följande förbättringar:
 # * Lägg till fler produkter.
 # * Visa före beställning vilka produkter som finns att beställa.

@@ -12,7 +12,7 @@ class MyObject:
     def __init__(self, value):
         self.value = value
 
-    # Vi definierar hur MyObjekt-objekt reagerar när man försöker addera två
+    # Vi definierar hur MyObject-objekt reagerar när man försöker addera två
     # separata instanser.
     def __add__(self, other):
         return MyObject(self.value + other.value)

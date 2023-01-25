@@ -1,3 +1,6 @@
+# Orignal av: Henrik Tunedal
+# Ett exempel av ett program för ett cafe, med listor.
+
 produkter = ["kaffe", "te", "öl"]
 priser = [20, 15, 50]
 slutsålt = [False, False, True]

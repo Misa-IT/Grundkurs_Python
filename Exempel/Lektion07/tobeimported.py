@@ -8,3 +8,6 @@ def my_function():
 # vilket man i vanliga fall inte skulle göra i en modul som är tänkt
 # att importeras.
 print("Den här strängen ligger i tobeimported")
+
+if __name__ == "__main__":
+    print("tobeimported är main.")

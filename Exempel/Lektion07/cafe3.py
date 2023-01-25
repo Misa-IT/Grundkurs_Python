@@ -1,3 +1,6 @@
+# Orignal av: Henrik Tunedal
+# Ett exempel av ett program för ett cafe, med dicts.
+
 priser = {"kaffe": 20, "te": 15, "öl": 50}
 
 slutsålt = {"öl"}
