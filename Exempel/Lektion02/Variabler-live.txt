@@ -1,42 +1,35 @@
-Variabel = Variabla
+Variabler = Variabla
+Datatyper
 
-x = 42
-
-I matematiken kan det se ut så här: f(x) = x^2
 
 Variabler är saker vi sparar i datorns minne.
-Datatyper är hur vi sparar data.
-
+Datatyper är HUR vi sparar data.
 
 Syntax = Grammatik
 
-
 Typer av datatyper:
-Datatyper som bara kan innehålla en specifik typ av sak.
+Datatyper kan bara innehålla en specifik typ av sak.
 Samlingsdatatyper, datatyper som kan innehålla flera saker.
 
-Typer av lådor som bara innehåller en typ av sak:
+Typer av lådor som bara kan innehålla en typ av sak:
 str = String = Text Ex: "Hej"
 int = Integer = Heltal Ex: 2
 float = Float = Flyttal/Decimaltal Ex: 2.0
-bool = Boolean = Sant/Falskt
+bool = Boolean = Sant/Falsk
 
 Samlingsdatatyper:
 list = List = lista Kan ses på som en hylla, allt står i en viss ordning.
-tuple = Kan ses på som en hylla där nån har summerlimmat fast allting.
+tuple = Tuple = Kan ses på som en hylla där nån har superlimmat fast allting.
 
 dict = Dictionary = Ordlista
-nyckel:värde t.ex. 2:"två", "ålder":32
-johan={"namn":"Johan", "ålder":32, "längd":180}
+nyckel:värde t.ex. 2:"två", "ålder":33
+johan = {"namn":"Johan", "ålder":33, "längd":180}
 
-set = Set En låda där det bara får finnas en sak av varje sak.
+set = Set Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på.
 
+list skapas med []
+tuple skapas med ()
+dict skapas med {} och måste vara i nyckel:värde format
+set skapas med {}
 
 Konkatenering är att slå ihop två saker, t.ex. strängar, genom att lägga dem efter varandra.
-
-Casting eller Typecasting
-int(my_variable)
-Ge mig värdet av my_variable som ett heltal.
-
-str(my_variable)
-Ge mig värdet av my_variable som text.

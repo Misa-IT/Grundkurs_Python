@@ -1,4 +1,4 @@
-# Några fel i dessa kodrader gör att programet inte fungerar, rätta felen
+# Några fel i dessa kodrader gör att programmet inte fungerar, rätta felen
 # så att vi får resultaten 110 och "5555":
 
 my_variable = 55
