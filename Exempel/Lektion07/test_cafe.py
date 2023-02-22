@@ -5,7 +5,7 @@
 from unittest import TestCase
 from unittest.mock import Mock, patch
 
-import cafe1, cafe2, cafe3
+from Exempel.Lektion04 import cafe1, cafe2, cafe3
 
 
 class CafeOrderTestMixin:

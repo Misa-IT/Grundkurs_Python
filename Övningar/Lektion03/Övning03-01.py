@@ -1,7 +1,11 @@
-# Lägg till parenteser så att min_variabel får värdet 12 och min_andra_variabel får värdet 16.0.
+# Ändra i de båda print() så att vi får rätt resultat.
+# Raderna där vi skapar variablerna ska alltså inte ändras och inga ny rader
+# ska läggas till.
+# Använd det som vi gick igenom på lektion2.
 
-min_variabel = 2 + 4 * 2
-print("min_variabel har värdet:", min_variabel)
+my_first_number = 2
+my_second_number = 3
+my_third_number = "4"
 
-min_andra_variabel = 20 + 40 / 10 + 10
-print("min_andra_variabel har värdet:", min_andra_variabel)
+print("Här ska det stå 9:", my_first_number + my_second_number + my_third_number)
+print("Här ska det stå 234:", my_first_number + my_second_number + my_third_number)

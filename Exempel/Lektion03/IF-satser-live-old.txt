@@ -1,28 +1,26 @@
 Flödeskontroll:
 	Hur ett program "flödar".
-	
-Indentering är jätteviktigt!
+
+Indentering är viktigt!
 
 Gå till affären och köp ett paket ägg. Om de har limpor, köp två.
 
-Vad man menar med detta/ hur en människa troligen tolkar det:
-	Inköpslista:
-	1 paket ägg
-	2 limpor
-	
-Hur en dator skulle tolka det:
-	Inköpslista:
-	Om affären säljer limpor så köp två paket ägg.
-	Annars, köp ett paket ägg.
-	
 if affären_har_limpor == True:
 	mängd_äggkartonger_att_köpa = 2
 else:
 	mängd_äggkartonger_att_köpa = 1
+
+
+
+if hattkanter == 3:
+	hatt = min
+else:
+	hatt = inte_min
+	
 	
 Varför det är viktigt att följa konventioner:
 
-OLÄSBART FÖR MÄNNISKOR(Datorn har inga problem):
+OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
 if hattkanter==3:
 
 
