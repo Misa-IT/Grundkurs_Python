@@ -1,6 +1,6 @@
+Flödeskontroll del 2, Loopar:
+
 while-loopar & for-loopar
-
-
 
 while-loopar:
 
@@ -20,5 +20,7 @@ for [sak] in [samling]:
 	Instruktioner
 
 Itereringsvariabel är den variabel man kollar på vid varje varv i loopen.
+
+Iterera = Upprepa
 
 Element = En specifik sak i en samling.

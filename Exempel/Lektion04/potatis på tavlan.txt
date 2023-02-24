@@ -38,7 +38,21 @@ Upprepa så länge kastrullen inte är full med potatis:
 	Ta en potatis
 	Skala potatisen
 	Lägg i kastrullen
-	
+
+	while True:
+		if kastrull_full == True:
+			break
+		else:
+			take_potato()
+			peel_potato()
+			put_in_pan()
+
+
+	while kastrull_full == False:
+			take_potato()
+			peel_potato()
+			put_in_pan()
+
 Psueudokod för For-loop:
 För varje potatis i säcken:
 	Skala potatisen
