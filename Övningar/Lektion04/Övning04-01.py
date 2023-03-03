@@ -1,4 +1,8 @@
-# Rätta till While-loopen så att den fungerar och skriver ut 27, 34, 41, etc. :
+# Rätta till While-loopen så att den fungerar och skriver ut:
+# 27
+# 34
+# 41
+# etc.
 
 my_first_int = 20
 my_second_int = 300
