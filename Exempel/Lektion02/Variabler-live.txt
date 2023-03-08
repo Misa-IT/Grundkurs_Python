@@ -8,7 +8,7 @@ Datatyper är HUR vi sparar data.
 Syntax = Grammatik
 
 Typer av datatyper:
-Datatyper kan bara innehålla en specifik typ av sak.
+Vissa Datatyper kan bara innehålla en specifik typ av sak.
 Samlingsdatatyper, datatyper som kan innehålla flera saker.
 
 Typer av lådor som bara kan innehålla en typ av sak:
