@@ -1,5 +1,7 @@
 Funktioner och metoder
 
+Funktioner:
+Exempelfunktion: print()
 En funktion är en instruktion till datorn.
 När man vill använda en funktion så "kallar" man på den.
 Det gör man genom att använda parenteser.
@@ -9,5 +11,7 @@ T.ex. print("Hej")
 Det som står innanför parenteserna kallas för parametrar eller argument.
 
 Metoder:
-my_list.append("Nån text")
+Metoder är alltid kopplade till objekt.
+Exempelmetod:
+my_list.append()
 append() # Detta är fel, metoder måste kallas från ett objekt.
