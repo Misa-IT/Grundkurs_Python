@@ -1,9 +1,10 @@
 # Funktioner (också kallade procedurer eller subrutiner) används
 # för att separera och namnge en del av programmet, som ett eget
-# litet miniprogram, så att man kan återanvända den.
+# litet miniprogram, så att man kan återanvända koden.
 #
 # I det här exemplet skriver vi en simpel funktion som skriver
 # ut en hälsning på skärmen.
+
 def hello_world():
     print("Hello World")
 
@@ -17,15 +18,19 @@ def hello(name):
     print("Hej ", name, "!", sep="")
 
 
+
 # Funktioner kan också ge värden tillbaka, vilket man kallar
 # att returnera ett värde. De liknar på det sättet funktioner
 # inom matematiken.
 #
-# I det här exemplet returnerar vi argumentet upphöjt till två,
-# d.v.s. kvadraten.
+# I det här exemplet returnerar vi argumentet multiplicerat med två.
+
 def f(x):
-    return x ** 2
+    return x * 2
+
+
 
 
 hello_world()
 hello("Johan")
+print(f(3))
