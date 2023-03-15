@@ -2,10 +2,10 @@
 
 my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]
 
-# Skriv ut hela listan
+# Skriv ut hela listan.
 print(my_fruit_list)
 
-#Skriv ut det första elementet
+# Hämta och skriv ut det första elementet.
 print(my_fruit_list[0])
 
 # Hämta och skriv ut de tre första elementen ur my_fruit_list på två

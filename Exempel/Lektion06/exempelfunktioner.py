@@ -15,7 +15,7 @@ exempelfunktion()
 
 
 # Om vi vill skriva en funktion som ska kunna ta emot instruktioner om vad den ska arbeta med
-# så måste vi skriva det innaför parenteserna när vi DEFINERAR vår funktion.
+# så måste vi skriva det innanför parenteserna när vi DEFINERAR vår funktion.
 # T.ex. Vilken text som ska skrivas ut av print() eller vilka tal som ska läggas ihop
 # med en funktion som kanske heter add().
 def funktion_som_tar_emot_tre_argument(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3):

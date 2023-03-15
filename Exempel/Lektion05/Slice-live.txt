@@ -3,7 +3,7 @@ Slice!
 Nomenklatur, d.v.s termer som används:
 Element == En sak i en samling. T.ex. "Första elementet i den här listan".
 
-Slice:ing
+Slicing
 Att ta en specifik del av en mängd. I Python är det oftast samlingsdatatyper vi talar om när vi talar om mängder.
 
 my_list = [1, 2, 3, 4, 5, 6, 7]
