@@ -1,4 +1,5 @@
-# Den här koden kör oändligt. Rätta till så att den inte gör det.
+# Den här koden kör oändligt. Rätta till så att den inte gör det på ett sätt
+# som inte ändrar programmets funktionalitet. D.v.s. loopen ska vara kvar.
 
 def print_and_increment(my_inner_int):
     print(my_inner_int)

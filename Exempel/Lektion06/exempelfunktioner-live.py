@@ -16,7 +16,7 @@ def exempelfunktion():
 exempelfunktion()
 
 
-# Om vi vill askriva en funktion som ska kunna ta emot instruktioner om vad den
+# Om vi vill skriva en funktion som ska kunna ta emot instruktioner om vad den
 # ska arbeta med så måste vi skriva det innanför parenteserna när vi
 # DEFINERAR vår funktion.
 # T.ex. vilken text som ska skrivas ut av print() eller vilka tal som ska
