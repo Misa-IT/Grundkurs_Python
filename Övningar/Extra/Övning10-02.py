@@ -2,7 +2,7 @@
 # och skapa en ny klass som vi kan skapa objekt att lägga i en ny lista.
 
 # Lägg till något så att vi importerar exercise
-import exercise
+import extra_exercises
 
 print("Personerna från listan är:", exercise.alphabetic_list_of_first_names)
 

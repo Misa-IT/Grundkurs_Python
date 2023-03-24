@@ -6,7 +6,7 @@
 # VARNING: Svår!
 
 # Lägg till något så att vi importerar exercise
-import exercise
+import extra_exercises
 
 print("Personerna från listan är:", exercise.alphabetic_list_of_first_names)
 
