@@ -1,4 +1,4 @@
-# Ska kunna importeras från Övning10-02.
+# Ska kunna importeras från ÖvningExtra-02.
 
 # I den här filen så finns en rad uppgifter. Vissa bygger på varandra och
 # vissa måste lösas för att Övning10-02 ska fungera. Fastnar ni nånstans,

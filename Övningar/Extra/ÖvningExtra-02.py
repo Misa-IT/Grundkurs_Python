@@ -1,4 +1,4 @@
-# Nu vill vi hämta in variabler från filen exercise.py
+# Nu vill vi hämta in variabler från filen extra_exercises.py
 # och skapa en ny klass som vi kan skapa objekt att lägga i en ny lista.
 
 # Lägg till något så att vi importerar exercise

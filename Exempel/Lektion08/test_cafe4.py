@@ -1,7 +1,7 @@
 import sys, unittest
 from pathlib import Path
 
-import cafe4
+from Exempel.Lektion08 import cafe4
 
 sys.path.append(str(Path(__file__).resolve().parent / "../Lektion08"))
 lek8_test_cafe = __import__("test_cafe")  # lura PyCharm

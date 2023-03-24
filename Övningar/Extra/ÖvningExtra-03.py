@@ -1,7 +1,7 @@
 # Nu vill vi hämta in variabler och en funktion från filen exercise.py
 # och från listan personer skapa en dict där varje person är ett
 # element med sitt namn som nyckeln och en lista för ålder och längd som värde.
-# T.ex. "Anna Andersson":(23, 172)
+# T.ex. "Anna Andersson":[23, 172]
 
 # VARNING: Svår!
 
