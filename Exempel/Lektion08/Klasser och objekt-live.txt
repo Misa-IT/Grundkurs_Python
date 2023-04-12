@@ -24,12 +24,12 @@ Attribut:
 	Egenskaper hos ett objekt. Oftast data/variabler och metoder.
 	
 Konstruktor:
-	__int__-metoden som körs när man skapar ett objekt.
+	__init__-metoden som körs när man skapar ett objekt.
 	
 Arv:
 	När man använder sig av en annan ritning (en annan Klass) för att påbörja ritningen för en ny Klass.
 	
 Klass = Bok
-Klass som ärver från Bok = Poketbok(Bok)
+Klass som ärver från Bok = Pocketbok(Bok)
 Klass som ärver från Pocketbok = Sagan om Ringen som pocketbok.
 Objekt skapat från Klassen "Sagan om Ringen som pocketbok" = Mitt exemplar av den boken.

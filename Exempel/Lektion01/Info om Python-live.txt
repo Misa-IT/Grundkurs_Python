@@ -1,0 +1,40 @@
+Python: Ett programmeringsspråk
+
+Ett programmeringsspråk är ett språk som datorer förstår.
+
+Python är ett programmeringsspråk som är relativt lätt att lära sig; koden är mer lättläslig än i många äldre programmeringsspråk.
+
+for i in range(len(food)):
+	print(food[i])
+	
+for piece in food:
+	print(piece)
+	
+	
+Syntax
+Hur man skriver saker. I naturliga språk kallar vi det gramatik.
+
+Python är ett objektorienterat programmeringsspråk.
+
+
+Var används Python?
+
+Webutveckling
+Dataanalys
+Maskininlärning
+AI
+Skripting
+
+Företag som använder Python:
+Google, Spotify, Netflix, Facebook, Dropbox, Reddit
+
+Pseudokod, låtsaskod:
+
+För varje sak i listan food så:
+	skriv ut den saken
+	
+	
+IDLE är en IDE
+Integrated Development Enviroment
+
+(IDLE Shell är en REPL)

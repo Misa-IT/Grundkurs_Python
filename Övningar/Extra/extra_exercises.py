@@ -37,7 +37,7 @@ def personal_info(lista, vem):
 
 def main():
 
-    print("Om du ser den här texten när du kör programmet från Övning10-02"
+    print("Om du ser den här texten när du kör programmet från ÖvningExtra-02"
           " har något gått snett.")
 
     # Skriv färdigt den här loopen så att det skrivs ut hela meningar

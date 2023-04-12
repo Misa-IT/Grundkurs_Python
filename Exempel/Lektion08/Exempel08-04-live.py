@@ -27,7 +27,7 @@ class Cat(Animal):
 
 def main():
     fido = Dog("Fido")
-    pelle = Cat("Pelle")
+    pelle = Cat("Pelle", True)
     animals = [fido, pelle]
     for a in animals:
         a.speak()

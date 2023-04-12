@@ -21,7 +21,7 @@ my_instance = MyClass()
 print("Listan i instansen:", my_instance.my_list)
 
 # Vi testar att lägga till något i listan som ligger i instansen/objektet:
-my_instance.my_list.append(3)
+my_instance.my_list = [4,5]
 
 # Vi kollar vad som ligger i listan i instansen och vad som ligger i klassen
 print("Listan i instansen:", my_instance.my_list)
