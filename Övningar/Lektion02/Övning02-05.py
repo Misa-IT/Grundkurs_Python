@@ -7,5 +7,5 @@
 my_list = 2, 3, 4
 my_second_list = [5, 6, 7, 8]
 new_list = my_list + my_second_list
-print("Här ska det stå <class 'list'>: ",type(new_list))
-print("Här ska det stå [2, 3, 4, 5, 6, 7, 8]: ", new_list)
+print("Här ska det stå <class 'list'> när programmet körs: ",type(new_list))
+print("Här ska det stå [2, 3, 4, 5, 6, 7, 8] när programmet körs: ", new_list)
