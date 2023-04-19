@@ -38,3 +38,4 @@ IDLE är en IDE
 Integrated Development Enviroment
 
 (IDLE Shell är en REPL)
+Read-Eval-Print Loop
