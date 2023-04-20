@@ -18,8 +18,8 @@ Behöver du kunna lagra dubbletter?
 		List
 	Behöver du något som är oföränderligt?
 		Tuple
-
+		
 Behöver du kunna ändra på det som ska lagras?
 	Lägg det som värden i en Dict
-	
+
 Annars Set

@@ -14,21 +14,25 @@ Samlingsdatatyper, datatyper som kan innehålla flera saker.
 Varje sak som ligger i en samlingsdatatyp kallas för element.
 
 Typer av datatyper som bara kan innehålla en typ av sak:
-str = String = Text Ex: "Hej"
+str = String = Text Ex: "Hej, hallå!"
 int = Integer = Heltal Ex: 2
 float = Float = Flyttal/Decimaltal Ex: 2.0
 bool = Boolean = Sant/Falskt
 
 Samlingsdatatyper:
 list = List = lista Kan ses på som en hylla, allt står i en viss ordning.
+[1, 2, 3]
 
 tuple = Tuple = Kan ses på som en hylla där nån har superlimmat fast allting.
+(1, 2, 3)
 
 dict = Dictionary = Ordbok
 nyckel:värde t.ex. 2:"två", "ålder":33
 johan = {"namn":"Johan", "ålder":33, "längd":180}
 
 set = Set Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på.
+{1, 2, 3}
+
 
 list skapas []
 tuple skapas med ()
