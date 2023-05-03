@@ -1,4 +1,4 @@
-# Nu vill vi hämta in variabler och en funktion från filen exercise.py
+# Nu vill vi hämta in variabler och en funktion från filen extra_exercises.py
 # och från listan personer skapa en dict där varje person är ett
 # element med sitt namn som nyckeln och en lista för ålder och längd som värde.
 # T.ex. "Anna Andersson":[23, 172]

@@ -1,4 +1,5 @@
 Fyrfaldigt leve - illustration av programflöde
+Orginal av: Henrik Tunedal
 ----------------------------------------------
 
 Nedan visas ett och samma program i fyra olika versioner:
