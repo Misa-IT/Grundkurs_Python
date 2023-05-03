@@ -1,16 +1,25 @@
-# Rätta till syntaxfelen så att vi lägger till alla element från my_int_list
-# till my_new_list.
-# Sista raden ska INTE ändras och när programmet körs så ska vi få ut:
-# [1, 2, 3, 4, 5, 6, 7]
+# Rätta till programmet så att när det körs får vi ut:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# Åtta
+# Nio
+# 10
+my_list = [1, 2, 3, 4, 5, 6, 7, "Åtta", "Nio", 10]
+# Ovanstående kod ska INTE ändras.
 
-# .append() på en lista fungerar så att det som är innanför parentesen
-# läggs till i listan man har precis innan .append().
 
-my_int_list = [1, 2, 3, 4, 5, 6, 7]
-my_new_list = []
-# Ovanstående kod ska inte ändras på.
+# Svara i en kommentar på nästa rad vad för typ av loop passar bäst här:
 
 
-for each thing in my_int_list:
-    my_new_list.append()
-print(my_new_list)
+loop my_list:
+    print()
+
+
+
+# Extrafråga: Hur skulle vi kunna göra så att programmet skriver ut innehållet
+# i listan på en rad istället för på flera stycken? Svara i en kommentar:

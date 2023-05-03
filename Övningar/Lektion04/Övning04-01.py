@@ -1,5 +1,5 @@
-# Rätta till While-loopen så att den fungerar och skriver ut följande när
-# programmet körs:
+# Rätta till While-loopen så att den fungerar och skriver ut rader enligt
+# mönstret nedan när programmet körs:
 # 27
 # 34
 # 41
