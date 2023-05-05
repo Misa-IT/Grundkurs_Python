@@ -1,39 +1,41 @@
 Nomenklatur, d.v.s termer som används:
-Element == En sak i en samlingsdatatyp.
-T.ex. "Första elementet i den här listan".
+Element == En sak i en samling. T.ex. "Första elementet i den här listan".
 
-De vanligaste samlingdatatyperna:
-list = List
+De vanligaste samlingsdatatyperna:
+list = List = Lista
 tuple = Tuple
-dict = Dictionary
+dict = Dictionary = Ordbok
 set = Set
 
 
 list = Lista Kan ses på som en hylla, allt står i en viss ordning.
 
-tuple = Kan ses på som en hylla där nån har summerlimmat fast allting.
+tuple = Kan ses på som en hylla där någon har superlimmat fast allting. Oföränderlig.
 
-dict = Dictionary = Ordlista
+dict = Dictionary = Ordbok
 nyckel:värde t.ex. 2:"två", "ålder":33
-johan={"namn":"Johan", "ålder":33, "längd":180}
-emma = {"namn":"Emma", "ålder": 31, "längd":172}
-Nycklar måste vara unika. Försöker man lägga till en dubblett så skriver man över det gamla värdet.
+johan = {"namn":"Johan", "ålder":33, "längd":180}
+emma = {"namn":"Emma", "ålder":31, "längd":172}
+Nycklar måste vara unika. Försöker man lägga till en dublett så skriver man över det gamla värdet.
+Nycklar får inte gå att ändras på.
 
-set Kan ses på som en låda, allt ligger där det får plats men det får bara finnas en av varje sak. Sakerna får inte kunna ändras på. T.ex. inga listor.
+set = Kan ses på som en låda, allt ligger där det får plats men det får bara finnas en av varje sak. Sakerna får inte kunna ändras på T.ex. inga listor.
 
 
 Hur vi skapar en lista:
-[ element, element, element]
+[element, element, element]
 
 Hur vi skapar en tuple:
-( element, element, element)
+(element, element, element)
 
 Hur vi skapar en dict:
-{ nyckel:värde, nyckel:värde, nyckel:värde}
+{nyckel:värde, nyckel:värde, nyckel:värde}
 
+Hur vi skapar ett set:
+{element, element, element}
 
 När man skapar listor, tuples,dicts och set:
 my_list = [1, 2, 3]
-my_tuple = (1, 2, 3, 4)
-my_dict = {1:"ett", 2:"två"}
-my_set = {1, 2, 3, 4}
+my_tuple = (1, 2, 3)
+my_dict = {1:"ett", 2:"två", 3:"tre"}
+my_set = {1, 2, 3}

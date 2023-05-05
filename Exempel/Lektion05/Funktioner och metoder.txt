@@ -1,17 +1,17 @@
-Funktioner och metoder
+Funktioner och metoder!
 
 Funktioner:
 Exempelfunktion: print()
 En funktion är en instruktion till datorn.
 När man vill använda en funktion så "kallar" man på den.
-Det gör man genom att använda parenteser.
+Det gör man genom att använda parenteser efter namnet på funktionen.
 
 T.ex. print("Hej")
 
 Det som står innanför parenteserna kallas för parametrar eller argument.
 
 Metoder:
-Metoder är alltid kopplade till objekt.
-Exempelmetod:
+Metoder är som funktioner men de är alltid kopplade till objekt.
+Exemplemetod:
 my_list.append()
 append() # Detta är fel, metoder måste kallas från ett objekt.
