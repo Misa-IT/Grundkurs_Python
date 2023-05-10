@@ -8,10 +8,16 @@ Det gör man genom att använda parenteser efter namnet på funktionen.
 
 T.ex. print("Hej")
 
-Det som står innanför parenteserna kallas för parametrar eller argument.
+Det som står innanför parenteserna kallas för parametrar eller argument och är
+extra instruktioner till datorn.
+I exemplet ovan så vill vi alltså att "Hej" skrivs ut på skärmen så vi
+skickar "Hej" som ett Argument till print()
+
+
 
 Metoder:
 Metoder är som funktioner men de är alltid kopplade till objekt.
-Exemplemetod:
+
+Exempelmetod:
 my_list.append()
 append() # Detta är fel, metoder måste kallas från ett objekt.

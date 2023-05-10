@@ -1,5 +1,11 @@
 Nomenklatur, d.v.s termer som används:
-Element == En sak i en samling. T.ex. "Första elementet i den här listan".
+    Element == En sak i en samling. T.ex. "Första elementet i den här listan".
+
+
+Det finns två huvudsakliga sätt att hämta/läsa information i samlingsdatatyper:
+    Slicing
+    Metoder
+
 
 De vanligaste samlingsdatatyperna:
 list = List = Lista
