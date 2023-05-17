@@ -1,5 +1,5 @@
-# Orginal av Henrik Tunedal
-# Ett exempel av ett program för ett cafe, utan samlingar.
+# Original av Henrik Tunedal
+# Ett exempel av ett program för ett kafé, utan samlingar.
 
 kaffepris = 20
 tepris = 15

@@ -9,7 +9,7 @@ def hello_world():
     print("Hello World")
 
 
-# Man kan också ge funktionen data som den behöver, i form av
+# Man kan också ge funktioner data som de behöver, i form av
 # s.k. argument, som då inte behöver delas i hela programmet.
 #
 # I det här exemplet accepterar vår funktion ett argument, ett namn,
@@ -24,10 +24,13 @@ def hello(name):
 # inom matematiken.
 #
 # I det här exemplet returnerar vi argumentet multiplicerat med två.
+# Notera att det returnerade värdet nedan inte skrivs ut om vi inte skickar
+# det vidare till print().
 
 def f(x):
     return x * 2
 
+# Exemplet ovan är t.ex. väldigt likt den matematiska funktionen f(x)= x*2
 
 
 

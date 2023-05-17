@@ -1,27 +1,44 @@
 Funktioner!
 
+Nomenklatur, vad man menar med specifika termer:
+    Funktion - En samling kod som namngivits för att lätt kunna återanvändas.
+    Metod - En funktion som ligger i ett objekt.
+    Argument - Det man skickar till en funktion.
+    Objekt - En samling av data och instruktioner om hur man interagerar med
+             den. T.ex. via metoder som ligger i objektet eller med operatorer
+             (+,-,*, etc.)
+
+
 Python är ett objektorienterat programmeringsspråk.
+    Vi kommer tala mer om objekt i Lektion07.
+
 
 Namespace / Namnrymd är avskiljningar för att hålla namn unika.
-Exempel: Postnummer, epost.
-Exempel: info@misa.se
+    Exempel: Postnummer, epost.
+    Exempel: info@misa.se
 
-Funktioner = Procedurer = Subrutiner
-Functions = Processes = Sub-routines
+Funktioner kallas för olika saker i olika språk:
+    Funktioner = Procedurer = Subrutiner
+    Functions = Processes = Sub-routines
 
 Funktion = Instruktion till datorn
 
 Metod = Funktion från ett specifikt objekt.
 
 Argument = Det man skickar till en funktion
-Positional arguments / positionsargument
-Keyword arguments / nyckelordsargument
+    Positional arguments / Positionsargument
+    Keyword arguments / Nyckelordsargument
 
 Matematiska funktioner ser väldigt liknande ut till funktioner i Python:
-f(x) = x * 2
-y = x * 2
+Matte:
+    f(x) = x * 2
+    eller
+    y = x * 2
+Python:
+    def f(x):
+        return x * 2
 
 Designprincip i Python:
-DRY
-Don't Repeat Yourself
-Upprepa Dig Inte
+    DRY
+    Don't Repeat Yourself
+    Upprepa Dig Inte
