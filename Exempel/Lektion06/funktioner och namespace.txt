@@ -10,7 +10,7 @@ Nomenklatur, vad man menar med specifika termer:
 
 
 Python är ett objektorienterat programmeringsspråk.
-    Vi kommer tala mer om objekt i Lektion07.
+    Vi kommer tala mer om objekt i Lektion08.
 
 
 Namespace / Namnrymd är avskiljningar för att hålla namn unika.
