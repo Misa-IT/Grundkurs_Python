@@ -4,6 +4,8 @@
 # badtemperaturen som den får som argument. Bedömningen kan t.ex. vara
 # "för kallt", "lagom" eller "för varmt".
 
+# TODO: Lägg in slumpad temperatur så de slutar hårdkoda.
+
 
 def bedöm_badtemperatur(antal_grader_celsius):
     return "av okänd badvänlighet"

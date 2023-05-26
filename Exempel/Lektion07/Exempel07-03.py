@@ -2,6 +2,7 @@
 # importeras. Även ett exempel på varför det kan vara viktigt att följa
 # stilregler.
 
+#import random
 from random import choices, shuffle
 
 my_card_list = ["Ruter Två", "Ruter Tre", "Ruter Fyra", "Ruter Fem",
@@ -30,4 +31,5 @@ for card in my_card_list:
 shuffle(my_random_list)
 
 print(my_card_list)
+print()
 print(my_random_list)
