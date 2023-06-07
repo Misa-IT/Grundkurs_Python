@@ -1,6 +1,4 @@
-# Fortsatt från Exempel09-01.
-# Nu skapar vi nya objekt från klasser.
-
+# Ett lite mer avancerat exempel av arv.
 
 class Animal:
     sound = "Jag låter som alla andra djur."
@@ -16,6 +14,7 @@ class Dog(Animal):
     def __init__(self, name, legs=4):
         self.name = name
         self.number_of_legs = legs
+        
 
 
 class Cat(Animal):
@@ -25,6 +24,7 @@ class Cat(Animal):
         self.prickig = prickig
 
 
+
 def main():
     fido = Dog("Fido")
     pelle = Cat("Pelle", True)
@@ -32,5 +32,5 @@ def main():
     for a in animals:
         a.speak()
 
-
-main()
+if __name__ == "__main__":
+    main()
