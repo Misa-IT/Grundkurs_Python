@@ -1,3 +1,5 @@
+Klasser! Objekt!
+
 Nomenklatur (vad man menar med en viss fras eller ord:
 
 Objektorienterad programmering:
@@ -16,7 +18,7 @@ Klass:
 
 Metoder:
 	Funktioner kopplade till ett specifikt objekt.
-	Har alltid argumentet self om objektet är instantierat.
+	Har "alltid" argumentet self.
 
 Attribut:
 	Egenskaper hos ett objekt. Oftast data/variabler och metoder.
@@ -28,6 +30,6 @@ Arv:
 	När man använder sig av en annan ritning (en annan klass) för att påbörja ritningen för en ny klass.
 
 Klass = Bok
-Klass som ärver från Bok = Pocketbok
-Klass som ärver från Pocketbok = Sagan om Ringen vol.1 som pocketbok
-Objekt skapat från klassen "Sagan om Ringen vol.1 som pocketbok" = Mitt exemplar av den boken.
+Klass som ärver från Bok = Pocketbok(Bok)
+Klass som ärver från Pocketbok = Sagan om Ringen som pocketbok.
+Objekt skapat från Klassen "Sagan om Ringen som pocketbok" = Mitt exemplar av den boken.
