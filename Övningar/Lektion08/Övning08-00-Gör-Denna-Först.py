@@ -1,4 +1,4 @@
-# Lägg till fler parametrar till Animal som kan ärvas av andra klasser.
+# Lägg till fler attribut till Animal som kan ärvas av andra klasser.
 # Förslag: Ålder, vikt, etc.
 
 # Lägg även till en ny klass av något annat djur som inte har fyra ben.

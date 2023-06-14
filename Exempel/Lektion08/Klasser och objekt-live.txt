@@ -27,7 +27,7 @@ Nomenklatur (vad man menar med en specik fras eller ord):
 		__init__ metoden som körs när man skapar ett objekt.
 		
 	Arv:
-		När man använder sig av en annan ritning (en annan klass) för att påbörja ritning för en ny klass.
+		När man använder sig av en annan ritning (en annan klass) för att påbörja ritningen för en ny klass.
 		
 Klass = Bok
 Klass som ärver från Bok = Pocketbok(Bok)

@@ -1,4 +1,4 @@
-# Fortsatt från Exempel09-01.
+# Fortsatt från Exempel08-04.
 # Nu skapar vi nya objekt från klasser.
 
 

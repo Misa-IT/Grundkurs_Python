@@ -1,12 +1,13 @@
-# Exempel på hur man definerar en klass och hur man kan dagra data
+# Exempel på hur man definerar en klass och hur man kan lagra data
 # däri, vi hoppar över metoder i detta exempel.
 
 # Vi skapar en klass genom att använda oss av detta mönster:
 # Det reserverade ordet "class"
 # Namnet på vår klass. Namnet bör börja med stor bokstav och ha en stor bokstav
 # i början av varje ord. Bör inte innehålla åäö/ bör vara alphanummeriskt.
-# Ett kolon (:) för att visa att nu börjar ett kodblock.
 # OM vi ska ha ett arv så har man parenteser också, vi går igenom det senare.
+# Ett kolon (:) för att visa att nu börjar ett kodblock.
+
 
 
 class MyClass:
