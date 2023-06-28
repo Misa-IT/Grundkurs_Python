@@ -1,6 +1,6 @@
 # Påminnelse: Om man glömt någon term som används nedan så kanske
 # svaret kan hittas i ordlistan:
-https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/EXnL3Fjn54VAkuptx901szoBo8U8aTWjpjDGaN_Vy3PDEg?e=9HF9hM
+# https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/EXnL3Fjn54VAkuptx901szoBo8U8aTWjpjDGaN_Vy3PDEg?e=9HF9hM
 
 
 # Skriv din egen klass och anropa metoder från den.
@@ -11,3 +11,4 @@ https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/EXnL3Fjn54V
 # räkna ut addition, subtraktion och multiplikation.
 # T.ex. Calculator.add(8,2) returnerar 10.
 
+TODO: Fixa bättre exempel. Statiska metoder är inte grundkurs.
