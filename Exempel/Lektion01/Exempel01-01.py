@@ -1,3 +1,2 @@
-# Ett program som demonsterar Hello World.
-
+# Ett exempel på hur print() fungerar.
 print("Hello World")

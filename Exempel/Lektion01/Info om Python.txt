@@ -11,26 +11,36 @@ for piece in food:
 	print(piece)
 
 
-Syntax
-Hur man skriver saker. I naturliga språk kallar vi det grammatik.
+Python är ett objektorienterat programmeringsspråk.
+Detta kommer att vara viktigt senare i kursen men vi kommer börja redan nästa vecka med att prata om vad det betyder.
+
+
 Var används Python?
 
-Webutveckling
+Webbutveckling
 Dataanalys
 Maskininlärning
 AI
-Skripting
+Scripting
 
-Företag som använder Python:
-Google, Spotify, Netflix, Facebook, Dropbox, Reddit
+Företag och organisationer som använder Python:
+Google, Spotify, Netflix, Facebook, Dropbox, Reddit, SAS, Ica, NASA
 
-Pseudokod:
+
+Syntax
+Hur man skriver saker. I naturliga språk kallar vi det grammatik.
+Jag kommer att tjata jättemycket om syntax.
+
+
+Pseudokod, låtsaskod:
 För varje sak i listan food så:
 	skriv ut den saken
 
 
 
 IDLE är en IDE
-Integrated Development Enviromnent
+Integrated Development Environment
+Integrerad Utvecklingsmiljö
 
-
+(IDLE Shell är en REPL)
+Read-Eval-Print Loop
