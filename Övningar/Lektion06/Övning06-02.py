@@ -10,4 +10,3 @@ amount = int(input("Hur många gånger ska jag köra? "))
 my_int = 0
 while my_int < amount:
     print_and_increment(my_int)
-
