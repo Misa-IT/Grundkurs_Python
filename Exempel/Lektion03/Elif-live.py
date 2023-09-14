@@ -1,15 +1,18 @@
-siffra = 5
+siffra = 8
 
-if siffra == 1:
+if siffra <= 1:
     resultat = 1
-elif siffra == 2:
+elif siffra <= 2:
     resultat = 2
-elif siffra == 3:
+elif siffra <= 3:
     resultat = 3
-elif siffra == 3:
-    resultat = "Läses detta?"
+elif siffra <= 4:
+    resultat = 4
+elif siffra <= 5:
+    resultat = 5
+if siffra <= 6:
+    resultat = 6
 else:
-    print("NU KRASCHAR VI!")
-
+    resultat = "Något annat"
 
 print(resultat)

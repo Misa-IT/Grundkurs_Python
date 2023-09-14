@@ -1,33 +1,64 @@
-Flödeskontroll:
+Flödeskontroll, del 1!
 	Hur ett program "flödar".
-	
-Indentering är jätteviktigt!
 
-Gå till affären och köp ett paket ägg. Om de har limpor, köp två.
+INDENTERING ÄR JÄTTEVIKTIGT!
 
-Vad man menar med detta/ hur en människa troligen tolkar det:
+IF-satser
+
+Pseudokod är låtsaskod som man använder som "skiss":
+
+"Gå till affären och köp ett packet ägg. Om de har limpor, köp två."
+
+Vad man menar med detta:
 	Inköpslista:
-	1 paket ägg
+	1 packet ägg
 	2 limpor
 	
 Hur en dator skulle tolka det:
-	Inköpslista:
-	Om affären säljer limpor så köp två paket ägg.
-	Annars, köp ett paket ägg.
+	Köp två ägg om affären säljer limpor.
+	Annars, köp ett packet ägg.
 	
-if affären_har_limpor == True:
+if affären_säljer_limpor == True:
 	mängd_äggkartonger_att_köpa = 2
 else:
 	mängd_äggkartonger_att_köpa = 1
 	
-Varför det är viktigt att följa konventioner:
+om affären_säljer_limpor är sant så
+	mängd_äggkartonger_att_köpa 2
+annars så
+	mängd_äggkartonger_att_köpa 1
+	
+if hattkanter == 3:
+	hatt = min
+else:
+	hatt = inte_min
+	
+Varför det är viktigt att följa konventioner:	
 
-OLÄSBART FÖR MÄNNISKOR(Datorn har inga problem):
-if hattkanter==3:
+OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
+if hk ==3:
+
+
+
 
 
 
 
  hatt=m
 else:
-         hatt=im
+
+							hatt=im
+							
+							
+							
+Tecken som är konstateranden:
+=
++=
+-=
+Tecken som är frågor:
+==		(Lika med)
+<		(Mindre än)
+>		(Större än)
+<=		(Mindre än eller lika med)
+>=		(Större än eller lika med)
+|		(OR, eller)
