@@ -7,16 +7,16 @@ IF-satser
 
 Pseudokod är låtsaskod som man använder som "skiss":
 
-"Gå till affären och köp ett packet ägg. Om de har limpor, köp två."
+"Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
 
 Vad man menar med detta:
 	Inköpslista:
-	1 packet ägg
+	1 paket ägg
 	2 limpor
 	
 Hur en dator skulle tolka det:
-	Köp två ägg om affären säljer limpor.
-	Annars, köp ett packet ägg.
+	Köp två paket ägg om affären säljer limpor.
+	Annars, köp ett paket ägg.
 	
 if affären_säljer_limpor == True:
 	mängd_äggkartonger_att_köpa = 2

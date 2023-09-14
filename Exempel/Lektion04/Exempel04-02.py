@@ -1,4 +1,5 @@
 # Exempel som visar hur While-loopar fungerar och kan användas.
+# Också ett exempel på indenteringsnivåer.
 
 my_int = 1
 my_second_int = 10

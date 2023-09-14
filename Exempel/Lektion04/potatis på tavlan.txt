@@ -1,3 +1,7 @@
+Orginal: Henrik Tunedal
+Skala potatis i pseudokod - illustration av styrstrukturer
+----------------------------------------------------------
+
 Skala tre potatisar med pseudokod:
 
     1. Ta en potatis
@@ -48,26 +52,36 @@ Pseudokod för while:
 			peel_potato()
 			put_in_pan()
 
-
 Upprepa så länge kastrullen inte är full med potatis:
-
 	Ta en potatis
 	Skala potatisen
 	Lägg i kastrullen
 
-	while kastrull_full == False:
-			take_potato()
-			peel_potato()
-			put_in_pan()
+    while kastrull_full == False:
+        take_potato()
+        peel_potato()
+        put_in_pan()
 
-Pseudokod för For-loop:
+Pseudokod för for-loop:
 
     För varje potatis i säcken:
-        Skala potatisen
-        Lägg potatisen i kastrullen
+        Ta den potatisen
+        Skala den potatisen
+        Lägg den potatisen i kastrullen
+
+    for potato in potatoes:
+        take potato
+        peel potato
+        put potato in pot
 
 Alternativ till ovanstående:
 
     För varje potatis i säcken, kalla den x:
-        Skala potatisen x
-        Lägg potatisen x i kastrullen
+        Ta x
+        Skala x
+        Lägg x i kastrullen
+
+    for x in sack:
+        take_potato(x)
+        peel_potato(x)
+        put_in_pot(x)

@@ -10,7 +10,7 @@ elif siffra <= 4:
     resultat = 4
 elif siffra <= 5:
     resultat = 5
-if siffra <= 6:
+elif siffra <= 6:
     resultat = 6
 else:
     resultat = "Något annat"
