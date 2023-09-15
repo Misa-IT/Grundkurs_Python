@@ -4,7 +4,7 @@
 # [1, 2, 3, 4, 5, 6, 7]
 
 # .append() på en lista fungerar så att det som är innanför parentesen
-# läggs till i listan man har precis innan .append().
+# läggs till i slutet på listan man har precis innan .append().
 
 my_int_list = [1, 2, 3, 4, 5, 6, 7]
 my_new_list = []
