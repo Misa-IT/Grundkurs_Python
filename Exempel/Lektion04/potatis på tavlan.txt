@@ -50,7 +50,7 @@ Pseudokod för while:
 		else:
 			take_potato()
 			peel_potato()
-			put_in_pan()
+			put_in_pot()
 
 Upprepa så länge kastrullen inte är full med potatis:
 	Ta en potatis
@@ -60,7 +60,7 @@ Upprepa så länge kastrullen inte är full med potatis:
     while kastrull_full == False:
         take_potato()
         peel_potato()
-        put_in_pan()
+        put_in_pot()
 
 Pseudokod för for-loop:
 
