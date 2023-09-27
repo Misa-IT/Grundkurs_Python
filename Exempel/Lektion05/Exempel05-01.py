@@ -1,4 +1,5 @@
-# Demonstration av slicing på listor och strängar.
+# Demonstration av slicing på listor och strängar
+# Tuples fungerar för detta syfte precis som listor.
 
 my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]
 
@@ -13,10 +14,10 @@ print(my_fruit_list[0])
 print(my_fruit_list[0:3])
 print(my_fruit_list[:3])
 
-# Gör detsamma med de tre elementen i mitten.
+# Hämta och skriv ut de tre elementen i mitten.
 print(my_fruit_list[1:4])
 
-# Slutligen, de tre sista elementen. På tre olika sätt.
+# Slutligen, de tre sista elementen. På tre olika sätt. Plus en bonus.
 print(my_fruit_list[2:5])
 print(my_fruit_list[2:])
 print(my_fruit_list[-3:])

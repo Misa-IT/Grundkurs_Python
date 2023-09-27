@@ -3,6 +3,7 @@
 # Sista raden ska INTE ändras och när programmet körs så ska vi få ut:
 # [1, 2, 3, 4, 5, 6, 7]
 
+# TODO: Förtydliga att "på en lista" är att man sätter det efter listan.
 # .append() på en lista fungerar så att det som är innanför parentesen
 # läggs till i slutet på listan man har precis innan .append().
 

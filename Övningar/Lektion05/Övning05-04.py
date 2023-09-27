@@ -6,13 +6,15 @@
 # ändra på samlingar genom att skriva kod.
 # Använd helst metoder istället för att skapa en ny lista.
 
-# Resultatet som ska skrivas ut är:
+# Resultatet som ska skrivas ut är (ert resultat kommer inte ha radbyten på samma
+# ställen, det är inte viktigt):
 # ['Det här är den yttre listan!',
 # ['Efter den här strängen ska my_first_list läggas till.', ['Listor kan ligga i listor.',
 # ['Man kan till och med ha listor i listor som ligger i listor', ['Spännande, va?']]]],
 # 'Nästlade listor kan vara krångliga ibland.']
 
-# Notera exakt var parenteserna ligger i det förväntade resultatet.
+
+# OBS! Notera exakt var parenteserna ligger i det förväntade resultatet.
 
 my_first_list = ["Listor kan ligga i listor.", ["Man kan till och med ha listor i listor som ligger i listor",
                                                 ["Spännande, va?"]]]
