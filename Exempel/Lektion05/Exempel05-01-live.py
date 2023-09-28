@@ -3,13 +3,14 @@
 
 my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]
 
-# Skriv ut hela listan
+# Skriv ur hela listan.
 print(my_fruit_list)
 
 # Hämta och skriv ut det första elementet
 print(my_fruit_list[0])
 
-# Hämta och skriv ut de tre första elementen på två olika sätt
+# Hämta och skriv ut de tre första elementen ur my_fruit_list på två
+# olika sätt.
 print(my_fruit_list[0:3])
 print(my_fruit_list[:3])
 
@@ -23,4 +24,4 @@ print(my_fruit_list[-3:])
 print(my_fruit_list[len(my_fruit_list)-3:])
 
 # Slicing fungerar även på strängar.
-print("1234567890"[0:5])
+print("123456789"[0:5])
