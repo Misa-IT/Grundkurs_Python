@@ -1,5 +1,8 @@
-# Den här koden kör oändligt. Rätta till så att den inte gör det på ett sätt
-# som inte ändrar programmets funktionalitet. D.v.s. loopen ska vara kvar.
+# Den här koden kör oändligt.
+# Rätta till den så att det inte längre händer.
+
+# MEN programmets funktionalitet ska inte ändras!
+# D.v.s. loopen ska vara kvar och raden "while my_int < amount:" ska INTE ändras.
 
 def print_and_increment(my_inner_int):
     print(my_inner_int)

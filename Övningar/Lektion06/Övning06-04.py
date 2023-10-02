@@ -2,7 +2,7 @@
 # I ordning så gör de: addition, subtraktion, multiplikation, division
 # av två argument som man anger när man kör funktionen.
 
-# Uppgifter är att utöka den här filen så att den hanterar fler räknesätt
+# Uppgiften är att utöka den här filen så att den hanterar fler räknesätt
 # eller operatorer.
 # Länk till exempel på operatorer:
 # https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/ESehIlchRdpFoetFBbWIeSwBx3dZnTMy0XUxAA9_GJLpxA?e=2eE3tf

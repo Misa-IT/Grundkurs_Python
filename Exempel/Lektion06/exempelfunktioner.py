@@ -19,7 +19,7 @@ exempelfunktion()
 # ska arbeta med så måste vi skriva det innanför parenteserna när vi
 # DEFINERAR vår funktion.
 # T.ex. vilken text som ska skrivas ut av print() eller vilka tal som ska
-# läggas ihop med en funktion som adderar två tal.
+# läggas ihop av en funktion som adderar två tal.
 def funktion_som_tar_emot_tre_argument(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3):
     print(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3)
 
@@ -27,4 +27,4 @@ def funktion_som_tar_emot_tre_argument(godtyckligt_namn1, godtyckligt_namn2, god
 # det som skickats till vår funktion som argument.
 
 
-funktion_som_tar_emot_tre_argument(8,"HEJ",4.654)
+funktion_som_tar_emot_tre_argument(8, "HEJ", 4.567)

@@ -7,7 +7,7 @@
 # NOTERA: Det är ENDAST i funktionen evaluate_temperature som ni ska göra ändringar
 
 
-def evaluate_temperature(degrees_celsius):
+def bedöm_badtemperatur(antal_grader):
     return "av okänd badvänlighet"
 
 
@@ -22,14 +22,14 @@ def main():
     # funktionen klarar av både förutbestämda och slumpade temperaturer.
     from random import choices
     random_temp = choices(range(60), k=5)
-    temperatures = [0, 25, 10, 50] + random_temp
+    temperaturer = [0, 25, 10, 50] + random_temp
 
-    for temperature in temperatures:
+    for temperatur in temperaturer:
         # Här anropar vi vår funktion evaluate_temperature och får
         # tillbaka en bedömning.
-        assessment = evaluate_temperature(temperature)
+        bedömning = bedöm_badtemperatur(temperatur)
 
-        print("Vid", temperature, "grader anses badvattnet vara", assessment)
+        print("Vid", temperatur, "grader anses badvattnet vara", bedömning)
 
 
 # Här anropar vi funktionen main. Namnet är konventionellt för den
