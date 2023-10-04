@@ -1,5 +1,5 @@
 # Original av: Henrik Tunedal
-# Övning 06-03: Komplettera funktionen bedöm_badtemperatur så att den
+# Övning 06-03: Komplettera funktionen evaluate_temperature så att den
 # returnerar lämpliga bedömningar, från fall till fall, av
 # badtemperaturen som den får som argument. Bedömningen kan t.ex. vara
 # "för kallt", "lagom" eller "för varmt".

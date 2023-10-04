@@ -2,6 +2,7 @@ Funktioner!
 
 Nomenklatur, vad man menar med specifika termer:
 	Funktion - En samling kod som namngivits för att lätt kunna återanvändas.
+	           En instruktion till datorn.
 	Metod - En funktion som ligger i ett objekt.
 	Argument - Det man skickar till en funktion.
 	Objekt - En samling av data och instruktioner om hur man interagerar med
@@ -10,7 +11,7 @@ Nomenklatur, vad man menar med specifika termer:
 
 
 Python är ett objektorienterat programmeringsspråk.
-    Vi kommer tala mer om objekt i Lektion08.
+    Vi kommer tala mer om Objekt i Lektion08.
 
 
 Namespace / Namnrymd är avskiljningar för att hålla namn unika.
