@@ -1,8 +1,23 @@
 # Original av: Henrik Tunedal
+
+# Denna övning finns i två varianter:
+
+# Övning06-03.py har namnen på funktioner och variabler på engelska vilket är
+# hur man bör skriva men kanske rör till det för vissa.
+
+# Övning06-03-sv.py har namnen på funktioner och variabler på svenska vilket
+# orsaka problem på vissa datorer och bör undvikas.
+
+# NI BEHÖVER BARA GÖRA EN AV DESSA. De är identiska utöver språket på namnen i
+# filen.
+
+
 # Övning 06-03: Komplettera funktionen bedöm_badtemperatur så att den
 # returnerar lämpliga bedömningar, från fall till fall, av
 # badtemperaturen som den får som argument. Bedömningen kan t.ex. vara
 # "för kallt", "lagom" eller "för varmt".
+# Som minst efterfrågas tre bedömningsnivåer, t.ex. de ovan, men ni kan lägga
+# till fler om ni vill.
 
 # NOTERA: Det är ENDAST i funktionen evaluate_temperature som ni ska göra ändringar
 
