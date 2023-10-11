@@ -1,7 +1,7 @@
 Funktioner!
 
 Nomenklatur, vad man menar med specifika termer:
-	Funktion - En intruktion till datorn. En samling kod som
+	Funktion - En instruktion till datorn. En samling kod som
 			   namngivits för att lätt kunna återanvändas.
 	Metod - En funktion som ligger i ett objekt. (Eller en Klass men det är utanför grundkursen)
 	Argument - Det man skickar till en funktion.

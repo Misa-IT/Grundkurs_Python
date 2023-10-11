@@ -1,7 +1,7 @@
 Namnrymder! Importer!
 
-Nomenklatur, vad menar med termer i detta sammanhang:
-	Module / Modul -> En modul är en fil. Varje .py-fil är en modul.
+Nomenklatur, vad som menas med termer i detta sammanhang:
+	Module / Modul -> En Modul är en fil. Varje .py-fil är en modul.
 	T.ex. min_grej.py
 	
 	Packages / Paket -> En mapp som innehåller moduler menade att återanvändas.
@@ -11,13 +11,13 @@ Nomenklatur, vad menar med termer i detta sammanhang:
 	
 	Import / Import -> Att hämta kod från andra moduler och/eller paket.
 	T.ex. import math
-	
+
 Vanliga moduler:
 random - För slumpade saker
 pathlib - För att hålla på med filvägar
 math - För avancerad matematik
 tkinter - Simpla grafiska gränssnitt
-collections - För olika typer av datasamlingar
+collections - För olika typer av datasamlingar / samlingsdatatyper
 time - Tid
-datetime - För både tid och datum
+datetime - För både datum och tid
 sys - För att interagera med datorns system

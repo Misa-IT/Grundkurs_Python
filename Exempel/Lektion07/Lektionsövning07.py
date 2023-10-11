@@ -1,5 +1,6 @@
-# Skriv ett program som består av två moduler, varav modul ett importerar
-# den andra och kör en funktion från den andra modulen med ett argument.
+# Skriv ett program som består av två moduler, d.v.s. filer, varav modul
+# ett importerar den andra och kör en funktion från den andra modulen
+# med ett argument.
 
 # Filen med funktionen är också en del av uppgiften och funktionens
 # funktion är valfri.

@@ -6,6 +6,8 @@
 # eller operatorer.
 # Lägg till minst två nya funktioner, helst några fler. Max fem nya.
 
+# TODO: Ändra tabellen så att inte de icke-relevanta operatorerna förvirrar.
+# TODO: Ta bort ett räknesätt här kanske?
 # Länk till exempel på operatorer:
 # https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/ESehIlchRdpFoetFBbWIeSwBx3dZnTMy0XUxAA9_GJLpxA?e=2eE3tf
 

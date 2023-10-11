@@ -2,7 +2,8 @@
 
 
 # def för att meddela att vi DEFINERAR vad en ny funktion betyder.
-# Namnet på funktionen bör vara lätt att förstå och BÖR inte innehålla åäö.
+# Namnet på funktionen bör vara lätt att förstå och BÖR inte innehålla åäö. Namnet
+# bör också vara i små bokstäver med understreck (_) istället för mellanslag.
 # Parenteser, (), för att de MÅSTE vara där även om vi inte planerar att använda
 # argument med denna funktion.
 # Kolon, :, för att påbörja själva definitionen.

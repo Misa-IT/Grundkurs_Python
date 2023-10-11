@@ -36,7 +36,7 @@ def main():
     # Följande tre rader slumpar fram fem temperaturer så att vi testar om
     # funktionen klarar av både förutbestämda och slumpade temperaturer.
     from random import choices
-    random_temp = choices(range(60), k=5)
+    random_temp = choices(range(1, 60), k=5)
     temperaturer = [0, 25, 10, 50] + random_temp
 
     for temperatur in temperaturer:
