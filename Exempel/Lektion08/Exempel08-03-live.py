@@ -13,6 +13,7 @@ class MyClass:
     def __init__(self):
         self.my_instance_list = ["Jag ligger i en instans."]
 
+
 my_instance = MyClass()
 my_second_instance = MyClass()
 print("Listan i klassen:", MyClass.my_list)
@@ -27,6 +28,6 @@ print("Inre listan i första instansen:", my_instance.my_instance_list)
 print("Inre listan i andra instansen:", my_second_instance.my_instance_list)
 print()
 
-my_instance.my_instance_list.append("Jag ska hamna i den första instansens lista")
+my_instance.my_instance_list.append("Jag ska hamna i den första instansens lista!")
 print("Inre listan i första instansen:", my_instance.my_instance_list)
 print("Inre listan i andra instansen:", my_second_instance.my_instance_list)

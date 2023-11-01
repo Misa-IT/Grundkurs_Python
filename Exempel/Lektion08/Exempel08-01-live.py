@@ -17,6 +17,7 @@ class MyClass:
     my_str = "HEJ"
     my_list = [1, 2]
 
+
 # Om vi vill skapa en INSTANS av klassen skriver vi så här:
 my_instance = MyClass()
 

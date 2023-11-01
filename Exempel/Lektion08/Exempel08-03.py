@@ -6,10 +6,10 @@ class MyClass:
     my_str = "HEJ!"
     my_list = [1, 2]
 
-# När vi ska skapa en ny instans/ett nytt objekt av en klass så anropas
-# automatiskt metoden __init__.
-# __init__ är en så kallad konstruktor.
-# Notera att eftersom __init__ är en metod så måste första argumentet vara self.
+    # När vi ska skapa en ny instans/ett nytt objekt av en klass så anropas
+    # automatiskt metoden __init__.
+    # __init__ är en så kallad konstruktor.
+    # Notera att eftersom __init__ är en metod så måste första argumentet vara self.
     def __init__(self):
         self.my_instance_list = ["Jag ligger i en instans."]
 

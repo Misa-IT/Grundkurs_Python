@@ -15,6 +15,15 @@ class Dog(Animal):
 class Cat(Animal):
     pass
 
+# a = Animal()
+# fido = Dog()
+# pelle = Cat()
+#
+#
+# a.speak()
+# fido.speak()
+# pelle.speak()
+
 
 def main():
     animals = [Dog(), Cat()]
