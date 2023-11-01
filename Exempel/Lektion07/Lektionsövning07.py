@@ -5,7 +5,9 @@
 # Filen med funktionen är också en del av uppgiften och funktionens
 # funktion är valfri.
 # Ett möjligt alternativ är en funktion som hälsar användaren
-# med ett namn som anges via ett argument
+# med ett namn som anges via ett argument antingen genom att skriva in det
+# i anropet, som exemplet längst ned i denna fil, eller så kan man be
+# användaren att skriva in namnet.
 # D.v.s. med funktionen input()
 
 
