@@ -1,9 +1,9 @@
 Klasser! Objekt!
 
-Nomenklatur (vad man menar med en specik fras eller ord):
+Nomenklatur (vad man menar med en specifik fras eller ord):
 
 	Objektorienterad programmering:
-		En typ av programmering där man använder sig av objekt för att dela upp data och funktioner. Inkapsling är en av de viktigaste bitarna och vi känner till det begräppet sen tidigare med namnet namespaces.
+		En typ av programmering där man använder sig av objekt för att dela upp data och funktioner. Inkapsling är en av de viktigaste bitarna och vi känner till det begreppet sen tidigare med namnet namespaces.
 		
 	Objekt:
 		En grupp data och instruktionerna för datorn om hur man behandlar sagda data.

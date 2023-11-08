@@ -34,13 +34,11 @@ Jag kommer att tjata jättemycket om syntax.
 
 Pseudokod, låtsaskod:
 För varje sak i listan food så:
-	skriv ut den saken
-
-
+	skriv ut den saken på skärmen
 
 IDLE är en IDE
 Integrated Development Environment
 Integrerad Utvecklingsmiljö
 
 (IDLE Shell är en REPL)
-Read-Eval-Print Loop
+Read-Eval-Print-Loop
