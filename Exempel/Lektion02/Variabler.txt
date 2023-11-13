@@ -12,11 +12,11 @@ Typer av datatyper:
 Vissa Datatyper kan bara innehålla en specifik typ av sak. Jag kallar dessa för "simpla datatyper".
 Samlingsdatatyper, datatyper som kan innehålla flera saker.
 
-Varje sak som ligger i en variabel av en samlingsdatatyp kallas för element.
+Varje sak som ligger i en variabel av en samlingsdatatyp kallas för Element.
 
 
-Typer av datatyper som bara kan innehålla en typ av sak ("simpla datatyper"):
-str = String = Text Ex: "Hej, hallå! 4 är en siffra.", 'Hej, hallå!', """Hej, hallå!"""
+Datatyper som bara kan innehålla en typ av sak ("simpla datatyper"):
+str = String = Text Ex: "Hej, hallå!", 'Hej, Hallå!', """Hej, Hallå!"""
 int = Integer = Heltal Ex: 2
 float = Float = Flyttal/Decimaltal Ex: 2.0
 bool = Boolean = Sant/Falskt
@@ -26,7 +26,7 @@ Samlingsdatatyper:
 list = List = lista Kan ses på som en hylla, allt står i en viss ordning.
 [1, 2, 3]
 
-tuple = Tuple = Kan ses på som en hylla där nån har superlimmat fast allting.
+tuple = Tuple = Kan ses på som en hylla där någon har superlimmat fast allting.
 (1, 2, 3)
 
 dict = Dictionary = Ordbok
@@ -39,7 +39,7 @@ set = Set Kan ses på som en låda där det bara får finnas en av varje sak. De
 Nedanstående är en referens för snabb översikt:
 list skapas med []
 tuple skapas med ()
-dict skapas med {} och måste vara i nyckel:värde format
+dict skapas med {} och måste vara i nyckel:värde-format
 set skapas med {} Se nedan för ett förtydligande!
 
 När man skapar samlingsvariabler så kan de vara tomma, t.ex. a = (), men det finns ett viktigt undantag:
