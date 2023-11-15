@@ -23,7 +23,7 @@ print()
 
 # Nästa rad kommer att krascha programmet så efter att vi bekräftat det så
 # kommenterar vi bort den.
-print("Det finns ingen inre lista i klassen:", MyClass.my_instance_list)
+#print("Det finns ingen inre lista i klassen:", MyClass.my_instance_list)
 print("Inre listan i första instansen:", my_instance.my_instance_list)
 print("Inre listan i andra instansen:", my_second_instance.my_instance_list)
 print()
