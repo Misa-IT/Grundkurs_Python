@@ -19,7 +19,7 @@ Datatyper som bara kan innehålla en typ av sak ("simpla datatyper"):
 str = String = Text Ex: "Hej, hallå!", 'Hej, hallå!', """Hej, hallå!""", '''Hej, hallå!'''
 int = Integer = Heltal Ex: 2
 float = Float = Flyttal/Decimaltal Ex: 2.0
-bool = Boolean = Sant/Falskt
+bool = Boolean = Sant/Falskt Ex: True eller False
 
 
 Samlingsdatatyper:
