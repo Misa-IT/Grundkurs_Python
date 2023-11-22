@@ -1,18 +1,15 @@
-siffra = 8
+siffra = -4
 
-if siffra <= 1:
+
+if siffra >= 0:
     resultat = 1
-elif siffra <= 2:
+elif siffra >= 1:
     resultat = 2
-elif siffra <= 3:
+elif siffra >= 2:
     resultat = 3
-elif siffra <= 4:
-    resultat = 4
-elif siffra <= 5:
-    resultat = 5
-elif siffra <= 6:
-    resultat = 6
 else:
-    resultat = "Något annat"
+    resultat = "Något gick fel"
+
+
 
 print(resultat)

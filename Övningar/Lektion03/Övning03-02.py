@@ -1,7 +1,14 @@
-# Komplettera koden så att "Hello World" bara skrivs ut om 20 är mindre än 30.
-# Använd variablerna i jämförelsen.
+# Lägg till en IF-sats så att greeting inte ändras så länge
+# we_want_to_mess_with_greeting är False.
 
-my_variable =
-my_second_variable =
-if
-print("Hello World")
+# Uppgiften är att använda en if-sats och att ta bort en av definitionerna
+# helt är inte rätt svar.
+
+we_want_to_mess_with_greeting = False
+greeting = "Hej och tack! Jag blev inte borttagen!"
+
+greeting = "Ånej! Jag blev ändrad!"
+
+print(greeting)
+
+
