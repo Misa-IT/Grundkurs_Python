@@ -7,8 +7,6 @@ elif siffra >= 1:
     resultat = 2
 elif siffra >= 2:
     resultat = 3
-else:
-    resultat = "Något gick fel"
 
 
 
