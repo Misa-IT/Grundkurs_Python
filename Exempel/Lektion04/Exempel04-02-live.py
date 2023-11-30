@@ -1,5 +1,5 @@
 # Exempel som visar hur while-loopar fungerar och kan användas.
-# ÄVen ett exempel på indenteringsnivåer.
+# Även ett exempel på indenteringsnivåer.
 
 my_int = 1
 my_second_int = 10

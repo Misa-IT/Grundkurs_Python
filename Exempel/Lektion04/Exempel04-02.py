@@ -12,3 +12,5 @@ while my_int < my_second_int:
         print("Här är ett udda tal!")
     my_int = my_int + 1
 print("Nu är loopen över!")
+
+# TODO: FÖRKLARA ATT MAN KOLLAR OM my_int ÄR JÄMT

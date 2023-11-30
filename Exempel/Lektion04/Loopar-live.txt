@@ -1,6 +1,6 @@
 Flödeskontroll del 2, Loopar:
 
-Nomeklatur, vad man menar med specifika termer i denna kontext.
+Nomenklatur, vad man menar med specifika termer i denna kontext.
 	Element - En sak i en samling. T.ex. "Första elementet i en lista"
 	
 	Iteringvariabel är den variabel man kollar på vid varje varv i loopen. Kan också kallas upprepningsvariabel.
@@ -31,5 +31,5 @@ För varje element i [samling] så gör detta:
 For each thing in [collection] do this:
 	Instructions
 
-for [sak] in [samling]:
+for [itereringsvariabel] in [samling]:
 	Instruktioner
