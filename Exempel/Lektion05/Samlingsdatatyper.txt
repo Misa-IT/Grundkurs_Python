@@ -1,9 +1,9 @@
 Samlingsdatatyper, repetition!
 
-Nomenklatur, d.s. termer som används:
+Nomenklatur, d.v.s. termer som används och vad de betyder:
 	Element - En sak i en samling. T.ex. "Första elementet i den här listan".
 
-Det finns två huvudsakliga sätt att hämta/läsa information i samlingsdatatyper:
+Det finns två huvudsakliga sätt att hämta/läsa information i samlingsvariabler:
 	Slicing
 	Metoder
 
@@ -14,18 +14,19 @@ dict = Dictionary = Ordbok
 set = Set
 
 
-list = Lista Kan ses på som en hylla, allt står i en viss ordning.
+list = Lista = Kan ses på som en hylla, allt står i en viss ordning. Föränderlig.
 
 tuple = Kan ses på som en hylla där någon har superlimmat fast allting. Oföränderlig.
 
 dict = Dictionary = Kan ses på som en faktisk ordbok
+    Varje element består av två delar åtskilda av ett kolon. Först står nyckeln sen kommer värdet.
     nyckel:värde t.ex. 2:"två", "ålder":33
-    johan = {"namn":"Johan", "ålder":33, "längd":180}
+    johan = {"namn":"Johan", "ålder":34, "längd":180}
     emma = {"namn":"Emma", "ålder":31, "längd":172}
     Nycklar måste vara unika. Försöker man lägga till en dubblett så skriver man över det gamla värdet för den nyckeln.
     Nycklar får inte gå att ändras på.
 
-set = Kan ses på som en låda, allt ligger där det får plats men det får bara finnas en av varje sak. Sakerna får inte kunna ändras på. T.ex. inga listor.
+set = Kan ses på som en låda, allt ligger där det får plats och det får bara finnas en av varje sak. Sakerna får inte kunna ändras på. T.ex. inga listor.
 
 
 Hur vi skapar en lista:

@@ -9,10 +9,11 @@
 # Resultatet som ska skrivas ut är:
 # ['x', ['efter här', [100, [200, [300]]]], 'z']
 
+# OBS!
+# OBS! Notera exakt var parenteserna ligger i det förväntade resultatet. OBS!
+# OBS!
 
-# OBS! Notera exakt var parenteserna ligger i det förväntade resultatet.
-
-my_first_list = [100, [200,[300]]]
+my_first_list = [100, [200, [300]]]
 
 my_second_list = ["x", ["efter här"], "z"]
 # Ovanstående rader ska INTE ändras.
