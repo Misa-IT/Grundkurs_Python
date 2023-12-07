@@ -1,3 +1,6 @@
+# Denna övning finns även i en variant med mycket mindre text och har siffror i listorna istället
+# för strängar. Den filen heter "Övning05-04-siffror.py".
+
 # Lägg till listan my_first_list till listan som ligger i my_second_list genom
 # att använda er av vad vi gått igenom på Lektion05.
 # my_first_list ska ligga efter den str som ligger där i.
