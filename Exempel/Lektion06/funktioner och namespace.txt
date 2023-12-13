@@ -24,9 +24,6 @@ Funktioner kallas för olika saker i olika språk:
     Funktioner = Procedurer = Subrutiner
     Functions = Processes = Sub-routines
 
-Funktion = Instruktion till datorn
-
-Metod = Funktion från ett specifikt objekt.
 
 Argument = Det man skickar till en funktion
     Positional arguments / Positionsargument
