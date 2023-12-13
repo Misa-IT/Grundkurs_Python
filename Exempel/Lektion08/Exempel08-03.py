@@ -1,5 +1,5 @@
-# Exempel på hur man kan definera hur varje objekt som skapas från en klass
-# ska se ut. Även exempel på instansvariabler och hur man definerar metoder.
+# Exempel på hur man kan definiera hur varje objekt som skapas från en klass
+# ska se ut. Även exempel på instansvariabler och hur man definierar metoder.
 
 class MyClass:
     my_int = 42

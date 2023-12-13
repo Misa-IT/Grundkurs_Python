@@ -1,7 +1,7 @@
 # Vi skriver lite funktioner tillsamans:
 
 
-# def för att meddela att vi DEFINERAR vad en ny funktion betyder.
+# def för att meddela att vi DEFINIERAR vad en ny funktion betyder.
 # Namnet på funktionen bör vara lätt att förstå och BÖR inte innehålla åäö. Namnet
 # bör också vara i små bokstäver med understreck (_) istället för mellanslag.
 # Parenteser, (), för att de MÅSTE vara där även om vi inte planerar att använda
@@ -11,8 +11,9 @@
 def exempelfunktion():
     print("Vår funktion gör inget för stunden så jag lägger in lite text så länge.")
 
+
 # När vi vill köra vår funktion, även kallat för att anropa eller kalla på den, så
-# måste vi använda parenteser, (), efter namnet för att meddela att vi faktiktiskt
+# måste vi använda parenteser, (), efter namnet för att meddela att vi faktiskt
 # vill köra funktionen.
 exempelfunktion()
 
@@ -27,5 +28,6 @@ def funktion_som_tar_emot_tre_argument(godtyckligt_namn1, godtyckligt_namn2, god
 
 # Det som vi skrev inom parenteserna i DEFINITIONEN är alltså vad vi namnger
 # det som skickats till vår funktion som argument.
+
 
 funktion_som_tar_emot_tre_argument(8, "HEJ", 4.567)

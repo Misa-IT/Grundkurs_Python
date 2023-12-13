@@ -2,6 +2,8 @@
 
 ### Nomenklatur, vad man menar med specifika termer:
 
+    Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar eller ändrar en variabel.
+        Används även när man skapar egna funktioner och klasser. Klasser kommer vi gå igenom i en senare vecka.
 	Funktion - En samling kod som namngivits för att lätt kunna återanvändas. En instruktion till datorn.
 	Metod - En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför grundkursen)
 	Argument - Det man skickar till en funktion.

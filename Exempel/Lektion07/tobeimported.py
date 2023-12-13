@@ -1,4 +1,4 @@
-# Här definerar vi saker som vi kan hämta från andra moduler.
+# Här definierar vi saker som vi kan hämta från andra moduler.
 
 def my_function():
     print("Jag kommer från en annan modul!")

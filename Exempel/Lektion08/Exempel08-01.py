@@ -1,4 +1,4 @@
-# Exempel på hur man definerar en klass och hur man kan lagra data
+# Exempel på hur man definierar en klass och hur man kan lagra data
 # däri, vi hoppar över metoder i detta exempel.
 
 # Vi skapar en klass genom att använda oss av detta mönster:
