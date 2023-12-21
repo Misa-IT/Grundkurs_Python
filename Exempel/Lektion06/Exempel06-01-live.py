@@ -5,7 +5,7 @@
 # I det här exemplet skriver vi en simpel funktion som skriver
 # ut en hälsning på skärmen.
 
-def hello world():
+def hello_world():
     print("Hello World!")
 
 
@@ -13,7 +13,7 @@ def hello world():
 # s.k. argument, som då inte behöver delas i hela programmet.
 #
 # I det här exemplet accepterar vår funktion ett argument, ett namn,
-# som vi vill att prgrammet ska hälsa på.
+# som vi vill att programmet ska hälsa på.
 
 def hello(name):
     print("Hej ", name, "!", sep="")
@@ -34,4 +34,5 @@ def f(x):
 
 hello_world()
 hello("Johan")
-print(f(2))
+f(2)
+print(f(4))

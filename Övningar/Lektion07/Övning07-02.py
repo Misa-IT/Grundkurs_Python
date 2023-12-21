@@ -1,7 +1,8 @@
-# Övning 07-02: Skriv en modul med funktioner för kattläten
-# och anropa den modulens funktioner från det här programmets main-funktion.
+# Övning 07-02: Skapa en modul med funktioner för kattläten
+# och lägg till anrop på den nya modulens funktioner i den här
+# modulens main-funktion.
 
-from exempelpaket.animals.mammals.dogs import bark, bark_loudly
+from exempelpaket import *
 
 
 def main():

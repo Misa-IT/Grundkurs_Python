@@ -22,7 +22,7 @@ Namespace / Namnrymd är avskiljningar för att hålla namn unika.
 	Exempel: Postnummer, epost
 	Exempel: info@misa.se
 
-Funktioner kallas för olika saker i oilka språk:
+Funktioner kallas för olika saker i olika språk:
 	Funktioner = Procedurer = Subrutiner
 	Functions = Processes = Sub-routines
 
