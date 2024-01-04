@@ -1,14 +1,17 @@
 # Nu vill vi hämta in variabler från filen extra_exercises.py
-# och skapa en ny klass som vi kan skapa objekt att lägga i en ny lista.
+# och definiera en ny klass som vi kan skapa objekt ifrån och lägga i de skapade
+# objekten i en lista.
 
-# Lägg till något så att vi importerar exercise
+
+# Övning: Lägg till något så att vi importerar "extra_exercises" men kallar
+# modulen för "exercise" i denna namnrymd.
 import extra_exercises
 
 print("Personerna från listan är:", exercise.alphabetic_list_of_first_names)
 
 
-# Komplettera koden så att en persons information lagras i ett nytt objekt
-# när det skapas.
+# Övning: Komplettera klassen nedan så att en persons information lagras i ett
+# nytt objekt när det skapas.
 class Person:
     name = str()
     age = int()
@@ -18,7 +21,8 @@ class Person:
         self.name
 
 
-# Komplettera koden så att varje person från personer läggs in i obj_personer:
+# Övning: Komplettera koden nedan så att varje person från personer läggs in
+# i obj_personer:
 obj_personer = []
 for person in exercise.personer:
     pass
