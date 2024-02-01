@@ -6,13 +6,14 @@ Python är ett programmeringsspråk som är relativt lätt att lära sig; koden 
 
 for i in range(len(food)):
 	print(food[i])
-	
+
 for piece in food:
 	print(piece)
 
 
 Python är ett objektorienterat programmeringsspråk.
-Detta kommer att vara viktigt senare i kursen men vi kommer börja redan nästa vecka med att prata om vad det betyder.
+TODO: FÖRTYDLIGA VAD 'DETTA' SYFTAR PÅ
+Detta kommer att vara viktigt senare i kursen men vi börjar redan nästa vecka med att prata om vad det betyder.
 
 
 Var används Python?
@@ -24,21 +25,23 @@ AI
 Scripting
 
 Företag och organisationer som använder Python:
-Google, Spotify, Netflix, Facebook, Dropbox, Reddit, SAS, Ica, NASA
+Google, Spotify, Netflix, Facebook, Dropbox, Reddit, SAS, ICA, NASA
 
 
 Syntax
-Hur man skriver saker. I naturliga språk kallar vi det grammatik.
+Hur man skriver saker. I naturliga språk kallar vi det för grammatik.
 Jag kommer att tjata jättemycket om syntax.
 
 
 Pseudokod, låtsaskod:
-För varje sak i listan food så:
-	skriv ut den saken på skärmen
+För varje sak i listan food:
+	Skriv ut den saken på skärmen
+
 
 IDLE är en IDE
 Integrated Development Environment
 Integrerad Utvecklingsmiljö
+
 
 (IDLE Shell är en REPL)
 Read-Eval-Print-Loop

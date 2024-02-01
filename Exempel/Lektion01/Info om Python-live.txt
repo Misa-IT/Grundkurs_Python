@@ -12,7 +12,7 @@ for piece in food:
 
 
 Python är ett objektorienterat programmeringsspråk.
-Detta kommer att vara viktigt senare i kursen men vi börjar redan nästa vecka med att prata om vad det betyder.
+Detta kommer vara viktigt senare i kursen men vi börjar redan nästa vecka med att prata om vad det betyder.
 
 
 Var används Python?
@@ -21,9 +21,9 @@ Webbutveckling
 Dataanalys
 Maskininlärning
 AI
-Scripting
+Skripting
 
-Företag och organisationer som använder Python:
+Ett urval av företag och organisationer som använder Python:
 Google, Spotify, Netflix, Facebook, Dropbox, Reddit, SAS, ICA, NASA
 
 
@@ -39,7 +39,7 @@ För varje sak i listan food:
 
 IDLE är en IDE
 Integrated Development Environment
-Integrerad Utvecklingsmiljö
+Integreread Utvecklingsmiljö
 
 
 (IDLE Shell är en REPL)
