@@ -17,7 +17,7 @@ Varje sak som ligger i en variabel av en samlingsdatatyp kallas för Element.
 
 
 Datatyper som bara kan innehålla en sak ("simpla datatyper"):
-str = String = Text T.ex. "Hej, hallå!", 'Hej, hallå!', """Hej, hallå!""", '''Hej, hallå
+str = String = Text T.ex. "Hej, hallå!", 'Hej, hallå!', """Hej, hallå!""", '''Hej, hallå!'''
 int = Integer = Heltal T.ex. 2 eller 4324567
 float = Float(Floating point number) = Flyttal (Decimaltal) T.ex. 2.0
 bool = Boolean = Sant/Falskt T.ex. True eller False
@@ -33,6 +33,7 @@ tuple = Tuple = Kan ses på som en bokhylla, allt står i en viss ordning men n�
 dict = Dictionary = Ordbok
 key:value eller nyckel:värde T.ex. {2:"två", "ålder":34}
 Nycklar får inte kunna ändras på.
+Nycklar måste vara unika.
 johan = {"namn":"Johan", "ålder":34, "längd":180}
 
 set = Set = Mängd = Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på.

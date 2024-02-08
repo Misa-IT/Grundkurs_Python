@@ -23,10 +23,10 @@ bool = Boolean = Sant/Falskt Ex: True eller False
 
 
 Samlingsdatatyper:
-list = List = lista Kan ses på som en hylla, allt står i en viss ordning.
+list = List = lista Kan ses på som en bokhylla, allt står i en viss ordning.
 [1, 2, 3]
 
-tuple = Tuple = Kan ses på som en hylla, allt står i en viss ordning men nån har superlimmat fast allting.
+tuple = Tuple = Kan ses på som en bokhylla, allt står i en viss ordning men nån har superlimmat fast allting.
 (1, 2, 3)
 
 dict = Dictionary = Ordbok
