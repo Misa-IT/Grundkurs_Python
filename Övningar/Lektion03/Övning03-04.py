@@ -4,6 +4,8 @@
 # nästa gång OM användaren skriver in något som är utanför önskat
 # spann på 1 till 12.
 
+# TODO: Lägg till något om att man inte behöver skriva alla tolv.
+
 month = int(input("Skriv in en siffra mellan 1 och 12: "))
 if month == 1:
     print("Januari")

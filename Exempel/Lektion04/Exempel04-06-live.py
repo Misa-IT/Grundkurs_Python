@@ -5,11 +5,13 @@ kolumnbredd = 5
 
 rad = 1
 while rad <= table_size:
-    #Mata ut en rad med värden.
+    # Mata ut en rad med värden.
     kolumn = 1
     while kolumn <= table_size:
-        print(str(kolumn*rad),"\t", sep="", end="")
+        #print(str(rad * kolumn).ljust(kolumnbredd), end="")
+        print(rad * kolumn, "\t", sep="", end="")
         kolumn += 1
-    print() # Mata ut en radbrytning för att avsluta raden
+        
+    print()
 
     rad += 1

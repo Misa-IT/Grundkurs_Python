@@ -10,9 +10,9 @@ Skala tre potatisar med pseudokod:
     4. Ta en potatis
     5. Skala potatisen
     6. Lägg potatisen i kastrullen
-    7. Ta en potatis.
-    8. Skala potatisen.
-    9. Lägg potatisen i kastrullen.
+    7. Ta en potatis
+    8. Skala potatisen
+    9. Lägg potatisen i kastrullen
 
 
 Skala potatis med en loop:
@@ -42,7 +42,7 @@ Pseudokod för while:
         Annars:
             Ta en potatis
             Skala potatisen
-            Lägg i kastrullen
+            Lägg potatisen i kastrullen
 
 	while True:
 		if kastrull_full == True:
@@ -50,17 +50,17 @@ Pseudokod för while:
 		else:
 			take_potato()
 			peel_potato()
-			put_in_pot()
+			put_potato_in_pot()
 
-Upprepa så länge kastrullen inte är full med potatis:
+Upprepa så länge kastrullen inte är full:
 	Ta en potatis
 	Skala potatisen
-	Lägg i kastrullen
+	Lägg potatisen i kastrullen
 
     while kastrull_full == False:
         take_potato()
         peel_potato()
-        put_in_pot()
+        put_potato_in_pot()
 
 Pseudokod för for-loop:
 
@@ -70,9 +70,9 @@ Pseudokod för for-loop:
         Lägg den potatisen i kastrullen
 
     for potato in potatoes:
-        take potato
-        peel potato
-        put potato in pot
+        take_potato()
+        peel_potato()
+        put_potato_in_pot()
 
 Alternativ till ovanstående:
 
@@ -84,4 +84,4 @@ Alternativ till ovanstående:
     for x in sack:
         take_potato(x)
         peel_potato(x)
-        put_in_pot(x)
+        put_potato_in_pot(x)

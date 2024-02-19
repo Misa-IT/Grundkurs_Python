@@ -38,3 +38,30 @@ if hattkanter == 3:
 	hatt = min
 else:
 	hatt = inte_min
+	
+Varför det är viktigt att följa konventoner:
+
+OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
+
+if hk  ==3:
+
+
+
+
+ hatt=m
+else:
+
+				hatt   = im
+				
+Tecken som är konstateranden(påståenden):
+=
++=
+-=
+Tecken som är frågor:
+==		(Lika med)
+<		(Mindre än)
+>		(Större än)
+<=		(Mindre än eller lika med)
+>=		(Större än eller lika med)
+!=		(Inte lika med)
+|		(OR, eller)
