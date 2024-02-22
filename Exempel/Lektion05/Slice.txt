@@ -1,12 +1,12 @@
 Slice!
 
-Nomenklatur, d.v.s. termer som används och vad de betyder:
+Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 
     Samlingsvariabel - En variabel av en samlingsdatatyp.
 
 	Element - En sak i en samling. T.ex. "Första elementet i den här listan".
 
-Slicing
+Slicing, Slice:ing, att slice:a
 	Att ta en specifik del av en mängd. I Python är det oftast samlingsvariabler vi talar om när vi talar om mängder.
 
 my_list = [1, 2, 3, 4, 5, 6, 7]
