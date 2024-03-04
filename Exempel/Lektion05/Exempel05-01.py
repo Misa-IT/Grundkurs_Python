@@ -25,7 +25,7 @@ print(my_fruit_list[-3:])
 print(my_fruit_list[len(my_fruit_list)-3:])
 
 
-#Slicing fungerar även på strängar.
+# Slicing fungerar även på strängar.
 print("123456789"[0:5])
 
 # När man hämtar från en dict så använder man samma syntax för att hämta ett

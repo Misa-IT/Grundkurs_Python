@@ -8,10 +8,10 @@ Det finns två huvudsakliga sätt att hämta/läsa information i samlingsvariabl
 	Metoder
 
 De vanligaste samlingsdatatyperna:
-list = List = Lista
-tuple = Tuple
-dict = Dictionary = Ordbok
-set = Set = Mängd
+    list = List = Lista
+    tuple = Tuple
+    dict = Dictionary = Ordbok
+    set = Set = Mängd
 
 
 list = Lista = Kan ses på som en hylla, allt står i en viss ordning. Föränderlig.
@@ -42,7 +42,7 @@ Hur vi skapar ett set:
 namnet_vi_vill_ha = {element, element, element}
 
 När man skapar listor, tuples, dicts och set:
-my_list = [1, 2, 3]
-my_tuple = (1, 2, 3)
-my_dict = {1:"ett", 2:"två", 3:"tre"}
-my_set = {1, 2, 3}
+    my_list = [1, 2, 3]
+    my_tuple = (1, 2, 3)
+    my_dict = {1:"ett", 2:"två", 3:"tre"}
+    my_set = {1, 2, 3}
