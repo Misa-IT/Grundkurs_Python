@@ -1,21 +1,24 @@
 Funktioner!
 
-Nomenklatur, vad man menar med specifika termer:
-	Definera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar
-				eller ändrar en variabel.
-				Används även när man skapar egna funktioner och klasser. Klasser kommer vi gå
+Nomenklatur, vad man menar med specifika termer i denna kontext:
+	Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar
+				eller använder en variabel.
+				Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi gå
 				igenom i en senare vecka.
-	Funktion - En samling kod som namngivits för att lätt kunna återanvändas.
+	Funktion - 	En samling kod som namngivits för att lätt kunna återanvändas.
 				En instruktion till datorn.
-	Metod - En funktion som ligger i ett objekt.
-	Argument - Det man skickar till en funktion eller metod.
-	Objekt - En samling av data och instruktioner om hur man interagerar med den.
-				T.ex. via metoder som ligger i objektet eller med operatorer
+	Metod - 	En funktion som ligger i ett objekt.
+	Argument - 	Det man skickar till en funktion.
+	Objekt -	En samling av data och instruktioner om hur man interagerar med den.
+				T.ex. via metoder som ligger i objektet eller med operatorer.
 				(+, -, *, etc.)
 
 
+SYNTAX ÄR VIKTIGT
+
+
 Python är ett objektorienterat programmeringsspråk.
-	Vi kommer tala mer om Objekt i Lektion08.
+	Vi kommer att tala mer om Objekt i Lektion08.
 
 
 Namespace / Namnrymd är avskiljningar för att hålla namn unika.
@@ -26,12 +29,13 @@ Funktioner kallas för olika saker i olika språk:
 	Funktioner = Procedurer = Subrutiner
 	Functions = Processes = Sub-routines
 
+
 Argument = Det man skickar till en funktion eller metod
 	Positional arguments / Positionsargument
 	Keyword arguments / Nyckelordsargument
 
 
-Matematiska funktioner ser väldigt liknande ut till funktioner i Python:
+Mattematiska funktioner ser väldigt liknande ut till funktioner i Python:
 Matte:
 	f(x) = x * 2
 	eller
