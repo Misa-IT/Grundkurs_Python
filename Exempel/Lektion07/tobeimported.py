@@ -1,7 +1,7 @@
 # Här definierar vi saker som vi kan hämta från andra moduler.
 
 def my_function():
-    print("Jag kommer från en annan modul!")
+    print("Jag kommer från funktionen i tobeimported.py")
 
 
 # För att tydliggöra hur importfinessen fungerar visar vi ett meddelande

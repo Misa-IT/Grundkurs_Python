@@ -12,9 +12,9 @@ def exempelfunktion():
     print("Vår funktion gör inget för stunden så jag lägger in lite text så länge.")
 
 
-# När vi vill köra vår funktion, även kallat för att anropa eller kalla på den, så
-# måste vi använda parenteser, (), efter namnet för att meddela att vi faktiskt
-# vill köra funktionen.
+# När vi vill köra vår funktion, även kallat för att 'anropa' eller 'kalla' på den, så
+# måste vi använda parenteser, (), efter namnet för att meddela att vi faktiskt vill
+# köra funktionen.
 exempelfunktion()
 
 

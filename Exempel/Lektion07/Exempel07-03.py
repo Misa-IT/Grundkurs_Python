@@ -28,6 +28,10 @@ print()  # Tomt print() för att göra en tom rad.
 my_random_list = []
 for card in my_card_list:
     my_random_list.append(card)
+
+print(my_random_list)
+print()
+
 shuffle(my_random_list)
 
 print(my_card_list)

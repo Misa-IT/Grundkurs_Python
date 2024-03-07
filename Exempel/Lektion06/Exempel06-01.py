@@ -29,11 +29,17 @@ def hello(name):
 
 def f(x):
     return x * 2
-
 # Exemplet ovan är t.ex. väldigt likt den matematiska funktionen f(x)= x*2
-
 
 
 hello_world()
 hello("Johan")
 print(f(3))
+dubblat = f(4)
+f(8)
+9
+
+f_av_ett = f(1)  # Vi lagrar resultat av f(1) i f_av_ett
+f_av_f_av_ett = f(f_av_ett)     # Vi tar resultat från förra raden, skickar det till
+                                # f och lagrar resultatet på nytt i en ny variabel.
+print("Vad är", f_av_f_av_ett)

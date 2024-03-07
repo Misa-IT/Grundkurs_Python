@@ -31,12 +31,15 @@ def f(x):
 
 # Exemplet ovan är t.ex. väldigt likt den mattematiska funktionen f(x) = x * 2
 
+ett = f(1)
+vad = f(ett)
+print("Vad är", vad)
 
-
-
+# TODO:
 
 hello_world()
 hello("Johan")
 print(f(3))
 dubblat = f(4)
 f(8)
+9
