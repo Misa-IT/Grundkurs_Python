@@ -2,8 +2,10 @@
 # importeras. Även ett exempel på varför det kan vara viktigt att följa
 # stilregler.
 
+#import random as ran
 import random
 from random import choices
+
 
 my_card_list = ["Ruter Två", "Ruter Tre", "Ruter Fyra", "Ruter Fem",
                 "Ruter Sex", "Ruter Sju", "Ruter Åtta", "Ruter Nio",
@@ -20,21 +22,25 @@ my_card_list = ["Ruter Två", "Ruter Tre", "Ruter Fyra", "Ruter Fem",
                 "Spader Åtta", "Spader Nio", "Spader Tio", "Spader Knekt",
                 "Spader Drottning", "Spader Kung", "Spader Äss"]
 
-print("En slumpad dragning av fem spelkort: ", choices(my_card_list, k=5))
+print("En slumpad dragning av fem spelkort:", choices(my_card_list, k=5))
 
-print()  # Tomt print() för att göra en tom rad.
+print() # Tomt print() för att göra en tom rad.
 
 # Vi skapar en ny lista och slumpar ordningen:
-#my_random_list = my_card_list  <--- FEL! Då kopplas de ihop.
 my_random_list = []
+
 for card in my_card_list:
     my_random_list.append(card)
-    
-print(my_random_list)
-print()
 
-random.shuffle(my_random_list)
-
-print(my_card_list)
+print("My card list:", my_card_list)
 print()
-print(my_random_list)
+print("My random list:", my_random_list)
+
+print()
+print()
+x = random.shuffle(my_random_list) # Fel. 'x = ' ska inte vara där.
+print(x)
+
+print("My card list:", my_card_list)
+print()
+print("My random list:", my_random_list)
