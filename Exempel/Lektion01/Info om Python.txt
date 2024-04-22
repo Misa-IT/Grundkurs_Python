@@ -12,8 +12,7 @@ for piece in food:
 
 
 Python är ett objektorienterat programmeringsspråk.
-TODO: FÖRTYDLIGA VAD 'DETTA' SYFTAR PÅ
-Detta kommer att vara viktigt senare i kursen men vi börjar redan nästa vecka med att prata om vad det betyder.
+Denna term kommer att vara viktigt senare i kursen men vi börjar redan nästa vecka med att prata om vad det betyder.
 
 
 Var används Python?
@@ -24,7 +23,7 @@ Maskininlärning
 AI
 Scripting
 
-Företag och organisationer som använder Python:
+Ett urval av företag och organisationer som använder Python:
 Google, Spotify, Netflix, Facebook, Dropbox, Reddit, SAS, ICA, NASA
 
 

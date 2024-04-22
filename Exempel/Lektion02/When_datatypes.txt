@@ -11,8 +11,8 @@ Snabbt att konvertera till set och tillbaka för att ta bort dubbletter.
 Supersnabbt att kolla om något finns i ett set.
 Unordered Mutable Collection of Immutables
 
-Dicts -> När man har stora mängder data som man vill kunna referera till snabbt.
-Mutable Mappingtype Collection
+Dict -> När man har stora mängder data som man vill kunna referera till snabbt.
+Mutable Mapping-type Collection
 
 
 Behöver du kunna lagra dubbletter?
@@ -23,7 +23,7 @@ Behöver du kunna lagra dubbletter?
 		Behöver du något som är oföränderligt?
 			Tuple
 
-Behöver du kunna ändra på det som ska lagras?
-	Lägg det som värden i en Dict
+    Behöver du kunna ändra på det som ska lagras?
+	    Lägg det som värden i en Dict
 	
 Annars Set
