@@ -17,29 +17,30 @@ Denna term kommer att vara viktigt senare i kursen men vi börjar redan nästa v
 
 Var används Python?
 
-Webbutveckling
-Dataanalys
-Maskininlärning
-AI
-Scripting
+	Webbutveckling
+	Dataanalys
+	Maskininlärning
+	AI
+	Scripting
 
 Ett urval av företag och organisationer som använder Python:
-Google, Spotify, Netflix, Facebook, Dropbox, Reddit, SAS, ICA, NASA
+	Google, Spotify, Netflix, Facebook, Dropbox, Reddit, SAS, ICA, NASA
 
 
-Syntax
-Hur man skriver saker. I naturliga språk kallar vi det för grammatik.
-Jag kommer att tjata jättemycket om syntax.
+Syntax:
+	Hur man skriver saker. I naturliga språk kallar vi det för grammatik.
+	Jag kommer att tjata jättemycket om syntax.
 
 
 Pseudokod, låtsaskod:
-För varje sak i listan food:
-	Skriv ut den saken på skärmen
+	Kodliknande text som man använder för att "skissa" ett program.
+	För varje sak i listan food:
+		Skriv ut den saken på skärmen
 
 
-IDLE är en IDE
-Integrated Development Environment
-Integrerad Utvecklingsmiljö
+IDLE är en IDE:
+	Integrated Development Environment
+	Integrerad Utvecklingsmiljö
 
 
 (IDLE Shell är en REPL)
