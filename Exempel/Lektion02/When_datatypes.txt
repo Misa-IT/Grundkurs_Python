@@ -1,4 +1,4 @@
-List -> När man vill lagra data som ska kunna ändras och man bryr sig om ordningen.
+List  -> När man vill lagra data som ska kunna ändras och man bryr sig om ordningen.
 Ett kösystem skulle kunna vara en lista.
 Ordered Mutable Collection
 
@@ -14,16 +14,16 @@ Unordered Mutable Collection of Immutables
 Dict -> När man har stora mängder data som man vill kunna referera till snabbt.
 Mutable Mapping-type Collection
 
+Bryr du dig om ordningen?
 
-Behöver du kunna lagra dubbletter?
-	Isf, List eller Tuple
-		Behöver du kunna ändra på data?
-			Om ja: List
-			annars: Tuple
-		Behöver du något som är oföränderligt?
-			Tuple
+    Ja:
+        Behöver du kunna ändra på data?
+            Ja: List
+            Nej: Tuple
+        Behöver du något som är oföränderligt?
+            Tuple
 
-    Behöver du kunna ändra på det som ska lagras?
-	    Lägg det som värden i en Dict
-	
-Annars Set
+    Nej:
+        Behöver du kunna ändra på det som ska lagras eller behöver du kunna lagra dubbletter?
+            Ja: Lägg det som värden i en Dict
+            Nej: Set
