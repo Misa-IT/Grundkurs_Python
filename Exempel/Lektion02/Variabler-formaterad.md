@@ -19,9 +19,9 @@ Vissa Datatyper kan bara innehålla en specifik typ av sak. Jag kallar dessa fö
 ### Datatyper som bara kan innehålla en typ av sak ("simpla datatyper")
 | Internt namn | Betydelse | Exempel |
 | :--- | :--- | :--- |
-| str | String = Text | Ex: "Hej, hallå!", 'Hej, hallå!', """Hej, hallå!""", '''Hej, hallå!''' |
-| int | Integer = Heltal | Ex: 2 eller 4324567 |
-| float | Float(Floating point number) = Flyttal (Decimaltal) | Ex: 2.0 |
+| str | String = Text | "Hej, hallå!", 'Hej, hallå!', """Hej, hallå!""", '''Hej, hallå!''' |
+| int | Integer = Heltal | 2 eller 4324567 |
+| float | Float(Floating point number) = Flyttal (Decimaltal) | 2.0 |
 | bool | Boolean = Sant/Falskt | True eller False |
 
 

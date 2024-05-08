@@ -1,4 +1,4 @@
-List  -> När man vill lagra data som ska kunna ändras och man bryr sig om ordningen.
+List -> När man vill lagra data som ska kunna ändras och man bryr sig om ordningen.
 Ett kösystem skulle kunna vara en lista.
 Ordered Mutable Collection
 
