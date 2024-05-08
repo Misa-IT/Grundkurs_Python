@@ -1,7 +1,7 @@
 # Här försöker vi hämta alla element i en lista och lägga till dem i en ny lista.
 # När vi lägger till varje element i listan kollar vi om det är en integer eller
 # float och om så är fallet vill vi addera 5 till det elementet.
-# Se övning04-03 för ledtrådar.
+# Se övning04_03 för ledtrådar.
 
 # Sista raden ska INTE ändras på och när programmet körs så ska vi få ut:
 # [6, 7, 8, 9, 10, 'Här', 'är', 'några', 'strängar!', 11, 12, ['En', 'lista', 'i', 'listan!'], 13, 14]

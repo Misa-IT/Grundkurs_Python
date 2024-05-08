@@ -12,7 +12,7 @@ print("Den här strängen ligger i tobeimported_live")
 print("Från tobeimported_live:", __name__)
 print()
 
-x = input("Skriv något till Exempel07-02: ")
+x = input("Skriv något till Exempel07_02: ")
           
 print()
 if __name__ == "__main__":

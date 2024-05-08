@@ -1,7 +1,7 @@
 # Här skriver vi fyra olika matematiska funktioner.
 # I ordning så gör de: addition, subtraktion, multiplikation och division
 # av två argument som man anger när man kör funktionen.
-# Notera att vi till skillnad från i Exempel06-01.py inte returnerar resultatet
+# Notera att vi till skillnad från i Exempel06_01.py inte returnerar resultatet
 # utan skriver ut det på skärmen direkt.
 
 def add(int1, int2):
