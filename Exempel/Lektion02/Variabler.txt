@@ -30,14 +30,14 @@ Samlingsdatatyper:
 	list = List = lista Kan ses på som en bokhylla, allt står i en viss ordning.
 		T.ex: [1, 2, 3]
 
-	tuple = Tuple = Kan ses på som en bokhylla, allt står i en viss ordning men nån har superlimmat fast allting.
+	tuple = Tuple = Kan ses på som en bokhylla, allt står i en viss ordning men någon har superlimmat fast allting.
 		T.ex: (1, 2, 3)
 
 	dict = Dictionary = Ordbok
-	nyckel:värde
-	Nycklar får inte kunna ändras på.
-		T.ex: {2:"två", "ålder":34}
-		T.ex: johan = {"namn":"Johan", "ålder":34, "längd":180}
+		nyckel:värde
+		Nycklar får inte kunna ändras på.
+			T.ex: {2:"två", "ålder":34}
+			T.ex: johan = {"namn":"Johan", "ålder":34, "längd":180}
 
 	set = Set = Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på.
 		T.ex: {1, 2, 3}
