@@ -36,5 +36,11 @@ print(resultat)
 #     resultat = 5
 # elif siffra <= 6:
 #     resultat = 6
+# elif siffra <= 7:
+#     resultat = 7
+# elif siffra <= 8:
+#     resultat = 8
+# elif siffra <= 9:
+#     resultat = 9
 # else:
 #     resultat = "Något annat"

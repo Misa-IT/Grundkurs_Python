@@ -39,7 +39,7 @@ if hattkanter == 3:
 else:
 	hatt = inte_min
 	
-Varför det är viktigt att följa konventoner:
+Varför det är viktigt att följa konventioner:
 
 OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
 
