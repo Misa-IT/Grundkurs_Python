@@ -1,4 +1,6 @@
 # Hur många äggkartonger ska vi köpa?
+# Notera att vi kan få oönskade resultat då vi enbart har två möjliga
+# fall i vår if-sats.
 
 store_sells_loaves_of_bread = input("Säljer butiken limpor? True eller False: ")
 
