@@ -14,22 +14,22 @@ I Python finns det while-loopar och for-loopar.
 while-loopar:
 
 Så länge [något] så gör detta:
-	Instruktioner
+	[Instruktioner]
 
 While [something] do this:
-    Instructions
+	[Instructions]
 
 while [något]:
-	Instruktioner
+	[Instruktioner]
 
 
 for-loopar:
 
 För varje element i [samling] så gör detta:
-	Instruktioner
+	[Instruktioner]
 
 For each thing in [collection] do this:
-    Instructions
+    [Instructions]
 
 for [sak/itereringsvariabel] in [samling]:
-	Instruktioner
+	[Instruktioner]

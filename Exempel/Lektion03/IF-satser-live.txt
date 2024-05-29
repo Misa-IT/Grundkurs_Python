@@ -9,23 +9,22 @@ IF-satser
 
 Pseudokod är låtsaskod som man använder som "skiss".
 
-
 "Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
+
+Med limpor menar jag brödlimpor.
 
 Vad man menar med detta:
 	Inköpslista:
-	1 paket ägg
-	2 limpor
-
-
+		1 paket ägg
+		2 limpor
 
 Hur en dator skulle tolka det:
-	Köp två paket ägg om äffären säljer limpor.
+	Köp två paket ägg om affären säljer limpor.
 	Annars, köp ett paket ägg.
 
 om affären_säljer_limpor är sant så
 	mängd_äggkartonger_att_köpa är 2
-annars så:
+annars så
 	mängd_äggkartonger_att_köpa är 1
 
 if affären_säljer_limpor == True:
@@ -38,21 +37,24 @@ if hattkanter == 3:
 	hatt = min
 else:
 	hatt = inte_min
-	
-Varför det är viktigt att följa konventioner:
 
-OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
 
-if hk  ==3:
+Varför det är viktigt att följa konventioner (stilregler):
+
+	OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
+
+if hk        ==3:
+
+
 
 
 
 
  hatt=m
 else:
+										hatt      =    im
 
-				hatt   = im
-				
+
 Tecken som är konstateranden(påståenden):
 =
 +=

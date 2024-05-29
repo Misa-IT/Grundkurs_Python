@@ -3,10 +3,10 @@
 table_size = int(input("Hur många kolumner ska vi ha?"))
 kolumnbredd = 5
 
-rad = 1 # RAD
+rad = 1
 while rad <= table_size:
     # Mata ut en rad med värden.
-    kolumn = 1 # KOLUMN
+    kolumn = 1
     while kolumn <= table_size:
         # print(str(rad * kolumn).rjust(kolumnbredd), end="")
         print(str(rad * kolumn), "\t", sep="", end="")

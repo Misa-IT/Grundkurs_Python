@@ -1,26 +1,16 @@
-siffra = 1
+siffra = int(input("Vad är siffran? "))
+resultat = "Felaktigt!"
 
-
-if siffra <= 1:
+if siffra == 1:
     resultat = 1
+    print("Siffra är 1")
 elif siffra <= 2:
     resultat = 2
+    print("Siffra är 2")
 elif siffra <= 3:
     resultat = 3
-elif siffra <= 4:
-    resultat = 4
-elif siffra <= 5:
-    resultat = 5
-elif siffra <= 6:
-    resultat = 6
-elif siffra <= 7:
-    resultat = 7
-elif siffra <= 8:
-    resultat = 8
-elif siffra <= 9:
-    resultat = 9
+    print("Siffra är 3")
 else:
-    resultat = "Något annat"
+    print("Hittade inget korrekt val!")
 
-
-print(resultat)
+print("Resultat är:", resultat)
