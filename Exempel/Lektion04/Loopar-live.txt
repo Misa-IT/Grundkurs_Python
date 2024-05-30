@@ -13,23 +13,26 @@ I Python finns det while-loopar och for-loopar.
 
 while-loopar:
 
-Så länge [något] så gör detta:
+	Så länge som [Något] stämmer så gör detta:
+		[Instruktioner]
+	
+	While [Something] do this:
+		[Instructions]
+	
+	while [Något]:
+		[Instruktioner]
+
+
+for-loopar
+
+För varje element i [Samling] så gör detta:
 	[Instruktioner]
 
-While [something] do this:
+For each thing in [Collection] do this:
 	[Instructions]
 
-while [något]:
+For each thing in [Collection], call the thing [Name], and do this:
+	[Instructions]
+
+for [Sak/Itereringsvariabel] in [Samling]:
 	[Instruktioner]
-
-
-for-loopar:
-
-För varje element i [samling] så gör detta:
-	Instruktioner
-
-For each thing in [collection] do this:
-	Instructions
-
-for [sak/itereringsvariabel] in [samling]:
-	Instruktioner
