@@ -1,6 +1,6 @@
 Slice!
 
-Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget.
+Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 	
 	Samlingsvariabel - En variabel av en samlingsdatatyp.
 	
@@ -9,7 +9,7 @@ Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget.
 	Spann - Interval, man kan "spänna över" något T.ex. en bro. 
 
 Slicing, Slice:ing, att slice:a
-	Att ta en specifik del av en mängd. I Python är det oftast samlingvariabler vi talar om när vi talar om mängder.
+	Att ta en specifik del av en mängd. I Python är det oftast samlingsvariabler vi talar om när vi talar om mängder.
 
 my_list = [1, 2, 3, 4, 5, 6, 7]
 my_list[0] ger en etta om vi har listan ovan.

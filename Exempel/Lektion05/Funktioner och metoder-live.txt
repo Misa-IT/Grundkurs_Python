@@ -17,4 +17,4 @@ Metoder är som funktioner men de är alltid kopplade till Objekt (eller Klasser
 
 Exempelmetod:
 	my_list.append()
-	append() <--- Är fel, metoder måste komma från / användas från Objekt.
+	append() <--- Är fel, metoder måste kallas från / användas från Objekt.
