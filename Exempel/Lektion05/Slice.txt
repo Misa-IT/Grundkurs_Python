@@ -25,4 +25,4 @@ Ber vi om ett specifikt element så får vi endast det elementet tillbaka, inte 
 
 [FRÅN:TILL:FREKVENS]
 
-De parenteser vi använder när vi tar en slice har inget med de parenteser vi använder för att skapa listor trots att de är samma typ av parenteser.
+De parenteser vi använder när vi tar en slice har inget med de parenteser vi använder för att skapa listor att göra trots att de är samma typ av parenteser.

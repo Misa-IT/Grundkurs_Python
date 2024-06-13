@@ -1,11 +1,13 @@
 Samlingsdatatyper, repetition!
 
-Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget.
-	Element - En sak i en samling. T.ex. "Första elementet i den här listan".
+Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
+	Element - En sak i en samling. T.ex. "Första elementet i den här listan."
+
 
 Det finns två huvudsakliga sätt att hämta/läsa information i samlingsvariabler:
 	Slicing
 	Metoder
+
 
 De vanligaste samlingsdatatyperna:
 	list = List = Lista
@@ -24,23 +26,23 @@ dict = Dictionary = Kan ses på som en faktisk ordbok.
 	johan = {"namn":"Johan", "ålder":34, "längd":180}
 	emma = {"namn":"Emma", "ålder":31, "längd":172}
 	Nycklar måste vara unika inom ett dictionary. Försöker man lägga in en dubblett så skriver man över det gamla värdet för den nyckeln.
-	Nycklar får inte gå att ändras på.
+	Nycklar får inte gå att ändra på.
 
-set = Kan ses på som en låda, allt ligger där det får plats och det får bara finnas en av varje sak.
+set = Mängd = Kan ses på som en låda, allt ligger där det får plats och det får bara finnas en av varje sak.
 	Sakerna får inte gå att kunna ändras på. T.ex. inga listor.
 
 
 Hur vi skapar en lista:
-namnet_vi_vill_ha = [element, element, element]
+	namnet_vi_vill_ha = [element, element, element]
 
 Hur vi skapar en tuple:
-namnet_vi_vill_ha = (element, element, element)
+	namnet_vi_vill_ha = (element, element, element)
 
 Hur vi skapar en dict:
-namnet_vi_vill_ha = {nyckel:värde, nyckel:värde, nyckel:värde}
+	namnet_vi_vill_ha = {nyckel:värde, nyckel:värde, nyckel:värde}
 
 Hur vi skapar ett set:
-namnet_vi_vill_ha = {element, element, element}
+	namnet_vi_vill_ha = {element, element, element}
 
 
 När man skapar listor, tuples, dicts och set:
