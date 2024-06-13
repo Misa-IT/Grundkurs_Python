@@ -19,7 +19,7 @@ def hello(name):
 
 
 # Funktioner kan också ge värden tillbaka, vilket man kallar
-# att returnera ett värde. De liknar på det sättet funktioner inom mattematiken.
+# att returnera ett värde. De liknar på det sättet funktioner inom matematiken.
 #
 # I det här exemplet returnerar vi argumentet multiplicerat med två.
 # Notera att det returnerade värdet nedan inte skrivs ut om vi inte skickar det

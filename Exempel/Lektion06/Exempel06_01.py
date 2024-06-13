@@ -6,7 +6,7 @@
 # ut en hälsning på skärmen.
 
 def hello_world():
-    print("Hello World")
+    print("Hello, World!")
 
 
 # Man kan också ge funktioner data som de behöver, i form av
