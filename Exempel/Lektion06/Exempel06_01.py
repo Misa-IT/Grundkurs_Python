@@ -36,6 +36,7 @@ hello_world()
 hello("Johan")
 print(f(3))
 dubblat = f(4)
+print(dubblat)
 f(8)
 9
 

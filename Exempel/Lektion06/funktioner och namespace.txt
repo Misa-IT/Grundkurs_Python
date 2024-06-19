@@ -29,7 +29,6 @@ Funktioner kallas för olika saker i olika språk:
 	Funktioner = Procedurer = Subrutiner
 	Functions = Processes = Sub-routines
 
-
 Argument = Det man skickar till en funktion eller metod
 	Positional arguments / Positionsargument
 	Keyword arguments / Nyckelordsargument
