@@ -2,7 +2,10 @@
 # Rätta till den så att det inte längre händer.
 
 # MEN programmets funktionalitet ska inte ändras!
-# D.v.s. loopen ska vara kvar och raden "while my_int < amount:" ska INTE ändras.
+# D.v.s:
+# Loopen ska vara kvar.
+# Specifikt raden "while my_int < amount:" ska INTE ändras.
+# Funktionen ska fortfarande skriva ut ett värde och returnera my_inner_int + 1.
 
 def print_and_increment(my_inner_int):
     print(my_inner_int)
