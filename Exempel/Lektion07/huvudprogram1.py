@@ -1,7 +1,7 @@
 print("Här börjar programmet och dess modulnamn är:", __name__)
 
-import tjosanmodul.extragrejer
+import exempelpaket.extragrejer
 
-tjosanmodul.extragrejer.mitt_namn()
+exempelpaket.extragrejer.mitt_namn()
 
 print("Klart!")

@@ -20,4 +20,4 @@ a = 10
 print("Här börjar vi och a är:", a)
 f()
 print("Nu är det slut och a är:", a)
-
+print(b)
