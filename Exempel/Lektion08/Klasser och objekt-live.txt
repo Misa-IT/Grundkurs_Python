@@ -4,16 +4,16 @@ Nomenklatur (vad man menar med en specifik fras eller ord):
 
 	Objektorienterad programmering:
 		En typ av programmering där man använder sig av objekt för att dela upp data och funktionalitet. Inkapsling är en av de viktigaste bitarna och vi känner till det begreppet sen tidigare med namnet namespace.
-	
+
 	Klass:
 		En ritning för en typ av objekt.
 		Precis som en pepparkaksform kan användas för att göra flera pepparkakor så kan en Klass användas för att skapa flera objekt.
-	
+
 	Objekt:
 		En grupp data och instruktionerna för datorn om hur man behandlar sagda data.
 		En Instans av en Klass.
 		Om Klassen är en pepparkaksform så är Objekt pepparkakorna som vi skapar med hjälp av formen.
-	
+
 	Instans:
 		En specifik kopia av ett koncept.
 		T.ex. en specifik bok istället för konceptet böcker.

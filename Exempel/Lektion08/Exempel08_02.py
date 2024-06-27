@@ -5,7 +5,7 @@
 # Namnet på vår klass. Namnet bör börja med stor bokstav och ha en stor bokstav
 # i början av varje ord. Bör inte innehålla åäö eller andra tecken som inte
 # finns på ett engelskt tangentbord.
-# OM vi ska ha ett arv så har man parenteser också, vi går igenom det senare.
+# OM vi ska ha ett arv så har man parenteser också, vi går igenom detta senare.
 # Ett kolon (:) för att visa att nu börjar ett kodblock.
 
 class MyClass:
@@ -39,6 +39,7 @@ print("Listan i klassen:", MyClass.my_list)
 my_second_instance = MyClass()
 print("Listan i den andra instansen:", my_second_instance.my_list)
 print()
+
 
 # Notera skillnaden om vi gör en tilldelning istället för att använda .append():
 my_instance.my_list = [4, 5]
