@@ -21,9 +21,9 @@ range10 = range(10)
 print("Här börjar List Comprehensions")
 # List Comprehensions, med if och utan if.
 complist = [x for x in listintstr]
-comlistif = [x for x in listintstr if type(x) == int]
+complistif = [x for x in listintstr if type(x) == int]
 print("Utan if: ", complist)
-print("Med if: ", comlistif)
+print("Med if: ", complistif)
 
 # Man behöver inte hämta från en lista för att göra en List Comprehension:
 complistif2 = [x for x in tupleintstr if type(x) == int]
