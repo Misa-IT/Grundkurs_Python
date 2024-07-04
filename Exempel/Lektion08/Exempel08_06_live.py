@@ -1,24 +1,28 @@
 # Exempel på hur man kan definiera hur man interagerar med objekt
 
-# Detta är ett simplistiskt exempel men i fortsättningskursen går man
-# igenom mer i detalj hur man kan använda sig av detta.
+# Detta är ett simplistiskt exempel men i fortsättningskursen (kanske)
+# man går igenom mer i detalj hur man kan använda sig av detta.
 
-# DONT COPY: VARNING: Det här kan bli ganska avancerat mot slutet.
+# VARNING: Det här kan bli ganska avancerat mot slutet.
+
 
 class MyObject:
 
-    # Vi definierar vad som händer när man skapar ett nytt objekt från
-    # vår klass (vår mall, vår ritning).
+    # Vi definerar vad som händer när man skapar ett nytt objekt
+    # från vår klass (vår mall, vår ritning).
     def __init__(self, value):
         self.value = value
 
-    # Vi definierar hur MyObject-objekt reagerar när man försöker addera två
-    # separata instanser.
+
     def __add__(self, other):
         return MyObject(self.value + other.value)
+    
 
 
-# Skapa två nya objekt från mallen MyObject
+class x():
+    pass
+
+# Skapa två nya object från mallen MyObject
 object1 = MyObject(42)
 object2 = MyObject(84)
 

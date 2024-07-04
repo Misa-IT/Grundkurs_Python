@@ -9,14 +9,18 @@ class Animal:
     def speak(self):
         print(self.sound)
 
-
 class Dog(Animal):
     sound = "Woof"
 
     def __init__(self, name, fluffy_fur=True):
         self.name = name
         self.fluffy_fur = fluffy_fur
-
+        
+    def speak(self, volume):
+        if volume == "Loud":
+            print(self.sound + "!")
+        else:
+            print(sound)
 
 class Cat(Animal):
 
@@ -29,25 +33,7 @@ a = Animal()
 fido = Dog("Fido")
 pelle = Cat("Pelle", True)
 
-fido.speak()
+fido.speak("Loud")
 pelle.speak()
 
 print(pelle.prickig)
-print("\n\n\n")
-
-
-# def main():
-#     a = Animal()
-#     fido = Dog("Fido")
-#     pelle = Cat("Pelle", True)
-#     animals = [a, fido, pelle]
-#     for a in animals:
-#         a.speak()
-#         if a.fluffy_fur == True:
-#             print("Jag har fluffig päls.")
-#         else:
-#             print("Jag har inte fluffig päls.")
-
-
-if __name__ == '__main__':
-    main()

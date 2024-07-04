@@ -1,6 +1,6 @@
 Flödeskontroll del 2, Loopar:
 
-Nomenklatur, vad man menar med specifika termer i denna kontext.
+Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 	Element = En sak i en samling. T.ex. "Första elementet i en lista."
 	
 	Iterera = Upprepa

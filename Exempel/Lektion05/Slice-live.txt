@@ -1,6 +1,6 @@
 Slice!
 
-Nomenklatur, d.v.s termer som används och vad de betyder i sammanhanget:
+Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 	
 	Samlingsvariabel = En variabel av en samlingsdatatyp.
 	

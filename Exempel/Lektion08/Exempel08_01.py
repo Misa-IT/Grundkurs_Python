@@ -11,7 +11,6 @@
 # Ett kolon (:) för att visa att nu börjar ett kodblock.
 
 
-
 class MyClass:
 
     # I klassen kan vi lagra variabler.

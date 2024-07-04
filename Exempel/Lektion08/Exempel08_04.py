@@ -15,20 +15,24 @@ class Dog(Animal):
 class Cat(Animal):
     pass
 
+
+# Vi skapar instanser av våra klasser.
 # a = Animal()
 # fido = Dog()
 # pelle = Cat()
 #
-#
+# Vi ber våra instanser att använda sin metod.
 # a.speak()
 # fido.speak()
 # pelle.speak()
 
 
 def main():
+    # Vi ber våra instanser att använda sin metod.
     animals = [Dog(), Cat()]
     for a in animals:
         a.speak()
 
 
-main()
+if __name__ == '__main__':
+    main()
