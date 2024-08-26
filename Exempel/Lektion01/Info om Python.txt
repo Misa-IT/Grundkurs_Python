@@ -12,7 +12,7 @@ for piece in food:
 
 
 Python är ett objektorienterat programmeringsspråk.
-Denna term kommer att vara viktigt senare i kursen men vi börjar redan nästa vecka med att prata om vad det betyder.
+Denna term kommer att vara viktig senare i kursen men vi börjar redan nästa lektion med att prata om vad det betyder.
 
 
 Var används Python?
