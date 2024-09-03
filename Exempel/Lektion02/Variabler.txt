@@ -8,9 +8,9 @@ Datatyper är HUR vi sparar data.
 Syntax = Grammatik
 
 
-Typer av datatyper:
-	Vissa Datatyper kan bara innehålla en specifik typ av sak. Jag kallar dessa för "simpla datatyper".
-	Samlingsdatatyper, datatyper som kan innehålla flera saker.
+Typer av Datatyper:
+	Vissa Datatyper kan bara innehålla en specifik typ av sak. Jag kallar dessa Datatyper för "simpla datatyper".
+	Samlingsdatatyper, Datatyper som kan innehålla flera saker.
 
 Varje sak som ligger i en variabel av en samlingsdatatyp kallas för Element.
 
@@ -35,11 +35,11 @@ Samlingsdatatyper:
 
 	dict = Dictionary = Ordbok
 		nyckel:värde
-		Nycklar får inte kunna ändras på.
+		Nycklar får inte kunna ändras på och måste vara unika.
 			T.ex: {2:"två", "ålder":34}
 			T.ex: johan = {"namn":"Johan", "ålder":34, "längd":180}
 
-	set = Set = Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på.
+	set = Set = Mängd Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på.
 		T.ex: {1, 2, 3}
 
 Nedanstående är en referens för snabb översikt:
