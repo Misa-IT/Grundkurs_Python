@@ -9,12 +9,6 @@ class Animal:
 class Dog(Animal):
     sound = "Woof"
 
-    def speak(self, volume):
-        if volume = "Loud":
-            print(self.sound + "!")
-        else:
-            print(sound)
-
 class Cat(Animal):
     pass
 

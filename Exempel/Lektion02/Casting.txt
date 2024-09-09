@@ -12,4 +12,4 @@ Betyder "Ge mig värdet av min_variabel som ett heltal".
 str(min_variabel)
 Betyder "Ge mig värdet på min_variabel som text".
 
-Notera parenteserna, det är väldigt viktigt var man har parenteser i Python och var man inte har parenteser.
+Notera parenteserna, det är VÄLDIGT viktigt var man har parenteser i Python och var man inte har parenteser.

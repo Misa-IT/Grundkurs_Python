@@ -17,6 +17,6 @@ Varje sak som ligger i en variabel av en samlingsdatatyp kallas för Element.
 
 Datatyper som bara kan innehålla en sak ("simpla datatyper"):
 	str = String = Text
-		T.ex: "Hej, hallå!", 'Hej, hallå', """Hej, hallå""", '''Hej, hallå'''
+		T.ex: "Hej, hallå!", 'Hej, hallå!', """Hej, hallå!""", '''Hej, hallå!'''
 	int = Integer = Heltal
 		T.ex: 2

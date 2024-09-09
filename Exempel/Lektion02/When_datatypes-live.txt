@@ -11,7 +11,7 @@ Snabbt att konvertera till set och tillbaka för att ta bort dubbletter.
 Supersnabbt att kolla om något finns i ett set.
 Unordered Mutable Collection of Immutables
 
-Dictionary -> När man har stora mängder data som man vill kunna referera till snabbt.
+Dict -> När man har stora mängder data som man vill kunna referera till snabbt.
 Mutable Mapping-type Collection
 
 
