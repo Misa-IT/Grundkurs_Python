@@ -1,15 +1,18 @@
-# Ändra i de båda print() så att vi får rätt resultat.
+# Denna övning är identisk till den som gjordes under lektionen. Lämnade du in
+# den då så behöver du inte göra det igen.
 
-# Raderna där vi skapar variablerna ska alltså inte ändras och inga nya rader
-# ska läggas till.
+# Lägg till en IF-sats så att greeting inte ÄNDRAS så länge
+# we_want_to_mess_with_greeting är False.
 
-# Eftersom vi här vill använda oss av samma variabler på olika sätt
-# så måste vi använda oss av det som vi gick igenom om att
-# hämta värden som om de vore något annat.
+# Uppgiften är att använda en if-sats.
 
-my_first_number = 2
-my_second_number = 3
-my_third_number = "4"
+# Att ta bort en av definitionerna helt är inte rätt svar.
 
-print("Här ska det stå 9:", my_first_number + my_second_number + my_third_number)
-print("Här ska det stå 234:", my_first_number + my_second_number + my_third_number)
+we_want_to_mess_with_greeting = False
+greeting = "Hej och tack! Jag blev inte borttagen!"
+
+greeting = "Ånej! Jag blev ändrad!"
+
+print(greeting)
+
+

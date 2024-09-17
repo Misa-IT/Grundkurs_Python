@@ -1,14 +1,14 @@
-# Fortsätt med programmet som du skrev i Övning03_03.py (du kan kopiera in koden
-# i den är filen) men den här gången ska programmet be användaren skriva in
-# två siffror som sen jämförs.
+# Fortsätt med programmet som du skrev i Övning03_04.py (du kan kopiera in koden
+# i den är filen).
 
-# Programmet ska därefter kontrollera om det första talet är mindre än eller
-# större än det andra talet.
+# Den här gången ska programmet även klara av att berätta
+# om talen är lika stora.
+
+# Programmet ska alltså kontrollera om det första talet är mindre än, större än
+# eller lika med det andra talet.
 # Om det första talet är mindre så ska den första raden med print() köras.
 # Om det första talet är större så ska den andra raden med print() köras.
-
-# Att kontrollera om talen är lika gör vi i en senare uppgift, hoppa över det
-# för denna uppgift.
+# Om talen är lika stora så ska den sista raden med print() köras.
 
 
 # Tips: Bara EN av raderna med print() ska skrivas ut när programmet körs.
@@ -22,3 +22,5 @@
 print(tal1, "är mindre än", tal2)
 
 print(tal1, "är större än", tal2)
+
+print(tal1, "och", tal2, "är lika stora.")
