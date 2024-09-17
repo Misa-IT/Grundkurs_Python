@@ -64,4 +64,6 @@ Tecken som är frågor:
 <=		(Mindre än eller lika med)
 >=		(Större än eller lika med)
 !=		(Inte lika med)
+
+******
 |		(OR, eller)
