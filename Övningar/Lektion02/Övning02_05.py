@@ -9,7 +9,7 @@ my_second_list = [5, 6, 7, 8]
 new_list = my_list + my_second_list
 
 
-# Nedanstående rader ska INTE ändras spå
+# Nedanstående rader ska INTE ändras på
 
 
 print("På nästa rad ska det stå <class 'list'> när programmet körs:")
