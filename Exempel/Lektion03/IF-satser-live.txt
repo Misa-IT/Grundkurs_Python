@@ -36,7 +36,7 @@ else:
 Indenteringen meddelar Python att koden tillhör ett så kallat "kodblock".
 
 
-if hattkonter == 3:
+if hattkanter == 3:
 	hatt = min
 else:
 	hatt = inte_min
@@ -59,7 +59,7 @@ else:
 						hatt     =   im
 
 
-Tecken (operatorer) som konstateranden(påstånden):
+Tecken (operatorer) som är konstateranden(påstånden):
 =
 +=
 -=

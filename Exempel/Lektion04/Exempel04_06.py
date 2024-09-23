@@ -8,7 +8,8 @@ while rad <= table_size:
     # Mata ut en rad med värden.
     kolumn = 1
     while kolumn <= table_size:
-        # print(str(rad * kolumn).rjust(kolumnbredd), end="")
+        # Skriv ut varje kolumn
+        #print(str(rad * kolumn).ljust(kolumnbredd), end="")
         print(str(rad * kolumn), "\t", sep="", end="")
         kolumn += 1
     print()   # mata ut en radbrytning för att avsluta raden

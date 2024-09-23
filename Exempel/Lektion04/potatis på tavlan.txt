@@ -69,7 +69,7 @@ Pseudokod för for-loop:
         Skala den potatisen
         Lägg den potatisen i kastrullen
 
-    for potato in potatoes:
+	for potato in potato_sack:
         take_potato()
         peel_potato()
         put_potato_in_pot()
@@ -82,6 +82,8 @@ Alternativ till ovanstående:
         Lägg x i kastrullen
 
     for x in sack:
+		# if pot_full == True:
+		# 	break
         take_potato(x)
         peel_potato(x)
         put_potato_in_pot(x)
