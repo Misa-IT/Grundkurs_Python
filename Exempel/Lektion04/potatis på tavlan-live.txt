@@ -2,8 +2,9 @@ Orginal: Henrik Tunedal
 Skala potatis i pseudokod - illustration av styrstrukturer (flödeskontroll)
 ----------------------------------------------------------
 
+
 Skala tre potatisar med pseudokod:
-	
+
 	1. Ta en potatis
 	2. Skala potatisen
 	3. Lägg potatisen i kastrullen
@@ -15,8 +16,8 @@ Skala tre potatisar med pseudokod:
 	9. Lägg potatisen i kastrullen
 
 
-Skala potatis men en loop:
-	
+Skala potatis med en loop:
+
 	1. Ta en potatis
 	2. Skala potatisen
 	3. Lägg potatisen i kastrullen
@@ -27,7 +28,7 @@ Skala potatis tills kastrullen är full:
 
 	1. Kolla om kastrullen är full
 	2. Om kastrullen var full i steg 1, hoppa till steg 7
-	3. Ta en potatis
+	3. Försök ta en potatis
 	4. Skala potatisen
 	5. Lägg potatisen i kastrullen
 	6. Hoppa till steg 1
@@ -35,7 +36,7 @@ Skala potatis tills kastrullen är full:
 
 
 Pseudokod för while:
-
+	
 	Upprepa:
 		Om kastrullen är full med potatis:
 			Avbryt potatisskalningen
@@ -44,28 +45,28 @@ Pseudokod för while:
 			Skala potatisen
 			Lägg potatisen i kastrullen
 	
+
 	while True:
-		if kastull_full == True:
+		if pot_full == True:
 			break
 		else:
 			take_potato()
 			peel_potato()
 			put_potato_in_pot()
 
+Upprepa så länge kastrullen inte är full:
+	Ta en potatis
+	Skala potatisen
+	Lägg potatisen i kastrullen
 
-	Upprepa så länge kastrullen inte är full:
-		Ta en potatis
-		Skala potatisen
-		Lägg potatisen i kastrullen
-	
-	while kastull_full == False:
+	while pot_full == False:
 		take_potato()
 		peel_potato()
 		put_potato_in_pot()
 
 
 Pseudokod för for-loop:
-	
+
 	För varje potatis i säcken:
 		Ta den potatisen
 		Skala den potatisen
@@ -75,8 +76,8 @@ Pseudokod för for-loop:
 		take_potato()
 		peel_potato()
 		put_potato_in_pot()
-	
-Alternativ för ovanstående:
+
+Alternativ till ovanstående:
 
 	För varje potatis i säcken, kalla den x:
 		Ta x
@@ -84,9 +85,15 @@ Alternativ för ovanstående:
 		Lägg x i kastrullen
 	
 	for x in sack:
+		take_potato(x)
+		peel_potato(x)
+		put_potato_in_pot(x)
+		
+		
+Komplett exempel som kollar både kastrullen och mängden potatis:
+	for x in sack:
 		if pot_full == True:
 			break
 		take_potato(x)
 		peel_potato(x)
 		put_potato_in_pot(x)
-

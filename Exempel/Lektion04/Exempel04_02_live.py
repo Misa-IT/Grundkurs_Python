@@ -12,4 +12,3 @@ while my_int < my_second_int:
     my_int = my_int + 1
 
 print("Nu är loopen över!")
-

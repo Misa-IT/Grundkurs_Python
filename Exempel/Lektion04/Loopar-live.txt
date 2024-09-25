@@ -5,7 +5,7 @@ Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 	
 	Iterera = Upprepa
 	
-	Itereringsvariabel = Den variabel man kollar på vid varje varv i loopen. Kan också kallas upprepningsvariabel.
+	Itereringsvariabel = Den variabel man kollar på vid varje varv av en loop. Kan också kallas upprepningsvariabel.
 
 
 I Python finns det while-loopar och for-loopar.
@@ -16,23 +16,23 @@ while-loopar:
 	Så länge som [Något] stämmer så gör detta:
 		[Instruktioner]
 	
-	While [Something] do this:
+	While [Something] is True do this:
 		[Instructions]
 	
-	while [Något]:
+	while [Nånting]:
 		[Instruktioner]
 
 
-for-loopar
+for-loopar:
 
-För varje element i [Samling] så gör detta:
-	[Instruktioner]
-
-For each thing in [Collection] do this:
-	[Instructions]
-
-For each thing in [Collection], call the thing [Name], and do this:
-	[Instructions]
-
-for [Sak/Itereringsvariabel] in [Samling]:
-	[Instruktioner]
+	För varje element i [Samling] så gör detta:
+		[Instruktioner]
+	
+	For each element in [Collection] do this:
+		[Instructions]
+	
+	For each thing in [Collection], call the thing [Name], and do this:
+		[Instructions]
+	
+	for [Sak/Itereringsvariabel] in [Samling]:
+		[Instruktioner]
