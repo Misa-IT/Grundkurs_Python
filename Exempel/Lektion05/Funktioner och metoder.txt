@@ -12,7 +12,7 @@ Det som står innanför parenteserna kallas för parametrar eller, som det heter
 I exemplet ovan så vill vi att "Hej" skrivs ut på skärmen så vi skickar "Hej" som ett Argument till funktionen print().
 
 Metoder:
-Metoder är som funktioner men de är alltid kopplade till Objekt (eller Klasser, men det är utanför grundkursen).
+	Metoder är som funktioner men de är alltid kopplade till Objekt (eller Klasser, men det är utanför grundkursen).
 
 Exempelmetod:
 	my_list.append()

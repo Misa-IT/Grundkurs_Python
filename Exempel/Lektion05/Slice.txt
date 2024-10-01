@@ -9,13 +9,13 @@ Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 		En sak i en samling. T.ex. "Första elementet i den här listan".
 
 	Spann:
-		Interval, man kan "spänna över" något T.ex. en bro.
+		Intervall, man kan "spänna över" något T.ex. en bro.
 
 Slicing, Slice:ing, att slice:a
 	Att ta en specifik del av en mängd. I Python är det oftast samlingsvariabler vi talar om när vi talar om mängder.
 
 my_list = [1, 2, 3, 4, 5, 6, 7]
-my_list[0] ger en etta om vi har listan ovan.
+my_list[1] ger en tvåa om vi har listan ovan.
 my_list[2] ger en trea om vi har listan ovan.
 
 Att tänka på: datorn kollar inte på element utan på positioner/indexplatser.

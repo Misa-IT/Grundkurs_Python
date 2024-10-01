@@ -1,6 +1,6 @@
 # Funktioner!
 
-### Nomenklatur, vad man menar med specifika termer:
+### Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 
     Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar eller ändrar en variabel.
         Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi gå igenom i en senare vecka.
