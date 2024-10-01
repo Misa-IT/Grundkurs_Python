@@ -2,11 +2,14 @@ Slice!
 
 Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 
-	Samlingsvariabel - En variabel av en samlingsdatatyp.
+	Samlingsvariabel:
+		En variabel av en samlingsdatatyp.
 
-	Element - En sak i en samling. T.ex. "Första elementet i den här listan".
+	Element:
+		En sak i en samling. T.ex. "Första elementet i den här listan".
 
-	Spann - Interval, man kan "spänna över" något T.ex. en bro.
+	Spann:
+		Interval, man kan "spänna över" något T.ex. en bro.
 
 Slicing, Slice:ing, att slice:a
 	Att ta en specifik del av en mängd. I Python är det oftast samlingsvariabler vi talar om när vi talar om mängder.
@@ -23,6 +26,6 @@ my_list[:2] ger en lista med alla element från BÖRJAN till men inte med index 
 Notera att när vi ber om ett spann, även om det visar sig att spannet bara innehåller ett element, så får vi tillbaka en samling av samma typ som vi hämtar ifrån.
 Ber vi om ett specifikt element så får vi endast det elementet tillbaka, inte en samling med det elementet i.
 
-[FRÅN:TILL:FREKVENS]
+[FRÅN (och med):TILL (men inte med):FREKVENS]
 
 De parenteser vi använder när vi tar en slice har inget med de parenteser vi använder för att skapa listor att göra trots att de är samma typ av parenteser.
