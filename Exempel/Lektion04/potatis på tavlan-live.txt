@@ -28,7 +28,7 @@ Skala potatis tills kastrullen är full:
 
 	1. Kolla om kastrullen är full
 	2. Om kastrullen var full i steg 1, hoppa till steg 7
-	3. Försök ta en potatis
+	3. Ta en potatis
 	4. Skala potatisen
 	5. Lägg potatisen i kastrullen
 	6. Hoppa till steg 1
@@ -54,10 +54,10 @@ Pseudokod för while:
 			peel_potato()
 			put_potato_in_pot()
 
-Upprepa så länge kastrullen inte är full:
-	Ta en potatis
-	Skala potatisen
-	Lägg potatisen i kastrullen
+	Upprepa så länge kastrullen inte är full:
+		Ta en potatis
+		Skala potatisen
+		Lägg potatisen i kastrullen
 
 	while pot_full == False:
 		take_potato()
