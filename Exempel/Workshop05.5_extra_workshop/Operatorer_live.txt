@@ -1,0 +1,44 @@
+Operatorer
+
+Tecken (operatorer) som är konstateranden(påståenden)/tilldelningar (Tilldelningsoperatorer):
+=
+	x = 42
+	
++=
+	x += 42
+		Ta det gamla värdet av denna variabel, addera/konkatenera det till höger och spara resultet i samma variabel.
+		
+-=
+	x -= 42
+		Ta det gamla värdet av denna variabel, subtrahera det till höger och spara resultet i samma variabel.
+*=
+/=
+etc.
+	De fungerar som de ovanstående, men de utför den operation som den operatorn innebär.
+
+
+Tecken som är frågor som alltid ger ett ja eller nej-svar (Jämförelseoperatorer):
+==		(Är det till vänster lika med det till höger?)
+<		(Mindre än)
+>		(Större än)
+<=		(Mindre än eller lika med)
+>=		(Större än eller lika med)
+!=		(Inte lika med)
+
+
+Den tredje typen har inget ordentligt namn, vad jag vet, men de är operatorer som ger instruktioner till Python (Beskrivande namn: instruktionsoperatorer).
+
+*		(Gånger/Multiplikation. Multiplicera det till vänster med det till höger)
+
++		(Plus/Addition/Konkatenering. Addera det till vänster med det till höger, alternativt lägg till
+		det till höger till slutet av det till vänster)
+
+-		(Minus/Subtraktion)
+
+/		(Delat med/Division)
+
+**		(Upphöjt till/Exponent)
+
+%		(Rest/Modulo. Dividera det till vänster med det till höger och kolla vad som blir som rest.)
+
+//		(Heltalsdivision. Dividera det till vänster med det till höger och ta bort alla decimaler.)

@@ -1,0 +1,24 @@
+Operatorer
+
+Tecken (operatorer) som är konstateranden(påståenden)/tilldelningar:
+=
+	x = 42
++=
+	x
+-=
+Tecken som är frågor:
+==		(Lika med)
+<		(Mindre än)
+>		(Större än)
+<=		(Mindre än eller lika med)
+>=		(Större än eller lika med)
+!=		(Inte lika med)
+
+Den tredje typen är matematiska operatorer:
+*		(Gånger/Multiplikation)
++		(Plus/Addition/Konkatenering)
+-		(Minus/Subtraktion)
+/		(Delat-med/Division)
+**		(Upphöjt-till/Exponent)
+%		(Rest/Modulo)
+//		(Heltalsdivision)

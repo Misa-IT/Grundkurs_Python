@@ -21,12 +21,12 @@ my_list[2] ger en trea om vi har listan ovan.
 
 Att tänka på: datorn kollar inte på element utan på positioner/indexplatser.
 
-my_list[0:2] ger en lista med en etta en tvåa om vi har listan ovan.
+my_list[0:2] ger en lista med en etta och en tvåa om vi har listan ovan.
 my_list[:2] ger en lista med alla element från BÖRJAN till, men inte med, index 2. En etta och en två i detta fall.
 my_list[:] ger oss en lista med alla element från BÖRJAN till SLUTET.
 
-Notera att när vi ber om ett spann, även om det visar sig att spannat bara innehåller ett element, så får vi tillbaka en samling av samma typ som vi hämtar ifrån.
-Ber vi om ett specifikt element så får vi endast det elementet tllbaka, inte en samling med det elementet i.
+Notera att när vi ber om ett spann, även om det visar sig att spannet bara innehåller ett element, så får vi tillbaka en samling av samma typ som vi hämtar ifrån.
+Ber vi om ett specifikt element så får vi endast det elementet tillbaka, inte en samling med det elementet i.
 
 [FRÅN (och med):TILL (men inte med):FREKVENS]
 
