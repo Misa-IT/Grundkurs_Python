@@ -1,26 +1,18 @@
-# Här skriver vi fyra olika matematiska funktioner.
-# I ordning så gör de: addition, subtraktion, multiplikation och division
-# av två argument som man anger när man kör funktionen.
-# Notera att vi till skillnad från i Exempel06_01.py inte returnerar resultatet
-# utan skriver ut det på skärmen direkt.
+# Exempel på vad det egentligen betyder att returnera värden.
 
-def add(int1, int2):
-    print(int1 + int2)
+print("Skriver ut värdet som returneras av print:", print("Inre print"))
+x = print("Lagrar print:s returvärde i x")
+print("Värdet på x är:", x)
 
 
-def subtract(int1, int2):
-    print(int1 - int2)
+def f(x):
+    return x * 2
 
+# Vi lagrar resultatet av f(1) i f_av_ett
+f_av_ett = f(1)
+# Vi tar resultatet från förra raden, skickar det till f och lagrar
+# resultat på nytt i en ny variabel.
+f_av_f_av_ett = f(f_av_ett)
 
-def multiply(int1, int2):
-    print(int1 * int2)
+print("Vad är", f_av_f_av_ett)
 
-
-def divide(int1, int2):
-    print(int1 / int2)
-
-
-add(3, 2)
-subtract(3, 2)
-multiply(3, 2)
-divide(3, 2)

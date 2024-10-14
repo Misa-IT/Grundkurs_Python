@@ -4,10 +4,11 @@
 # def för att meddela att vi DEFINIERAR vad en ny funktion betyder.
 # Namnet på funktionen. Bör vara lätt att förstå och BÖR inte innehålla åäö. Namnet
 # bör också vara i små bokstäver med understreck(_) istället för mellanslag.
-# Parenteser, (), för att de MÅSTE vara där även om vi inte planerar att använda
+# Parenteser, (). För att de MÅSTE vara där även om vi inte planerar att använda
 # argument med denna funktion.
-# Kolon, :, för att påbörja själva definitionen.
+# Ett kolon, :, för att påbörja själva definitionen.
 # En indentering på alla rader som tillhör funktionen.
+
 def exempelfunktion():
     print("Vår funktion gör inget för stunden så jag lägger in lite text så länge.")
 
@@ -27,7 +28,7 @@ def funktion_som_tar_emot_tre_argument(godtyckligt_namn1, godtyckligt_namn2, god
     print(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3)
 
 # Det som vi skriver inom parenteserna i DEFINITIONEN är alltså vad vi namnger
-# det som skickas till vår funktion som argument.
+# det som skickas till vår funktion som argument varje gång den körs.
 
 
 funktion_som_tar_emot_tre_argument(8, "HEJ", 4.567)

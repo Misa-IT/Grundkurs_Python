@@ -1,10 +1,8 @@
-# Funktioner (också kallade procedurer eller subrutiner) används
-# för att separera och namnge en del av programmet, som ett eget
-# litet miniprogram, så att man kan återanvända koden.
+# Funktioner används för att separera och namnge en del av programmet, som
+# ett eget litet miniprogram, så att man kan återanvända koden.
 #
-# I det här exemplet skriver vi en simpel funktion som skriver
-# ut en hälsning på skärmen.
-
+# I det här exemplet skriver vi en simpel funktion som skriver ut en hälsning
+# på skärmen.
 def hello_world():
     print("Hello, World!")
 
@@ -20,8 +18,9 @@ def hello(name):
 
 
 # Funktioner kan också ge värden tillbaka, vilket man kallar
-# att returnera ett värde. De liknar på det sättet funktioner
-# inom matematiken.
+# att RETURNERA ett värde. De liknar på det sättet funktioner
+# inom matematiken. Det returnerade värdet hamnar därefter på samma plats i
+# koden som funktionsanropet skedde.
 #
 # I det här exemplet returnerar vi argumentet multiplicerat med två.
 # Notera att det returnerade värdet nedan inte skrivs ut om vi inte skickar
@@ -29,18 +28,17 @@ def hello(name):
 
 def f(x):
     return x * 2
-# Exemplet ovan är t.ex. väldigt likt den matematiska funktionen f(x)= x*2
+# Exemplet ovan är t.ex. väldigt likt den matematiska funktionen f(x)=x*2
 
 
+# För att våra funktioner ska göra något så måste vi säga åt Python att faktiskt
+# köra dem, ovan har vi bara berättat för Python vad namnen betyder.
 hello_world()
 hello("Johan")
+
+# Notera skillnaden på vad som händer på nedanstående rader.
 print(f(3))
 dubblat = f(4)
 print(dubblat)
 f(8)
-9
-
-f_av_ett = f(1)  # Vi lagrar resultat av f(1) i f_av_ett
-f_av_f_av_ett = f(f_av_ett)     # Vi tar resultat från förra raden, skickar det till
-                                # f och lagrar resultatet på nytt i en ny variabel.
-print("Vad är", f_av_f_av_ett)
+16
