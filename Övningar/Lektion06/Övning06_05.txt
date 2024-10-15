@@ -1,0 +1,9 @@
+Original av: Henrik Tunedal
+
+
+Utöka exemplet cafe1.py med följande förbättringar:
+* Lägg till fler produkter.
+
+* Visa före beställning vilka produkter som finns att beställa.
+
+* Visa något lämpligt meddelande vid beställning av produkt som inte finns.
