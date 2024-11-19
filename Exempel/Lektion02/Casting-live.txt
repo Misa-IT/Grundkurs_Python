@@ -1,12 +1,12 @@
 Casting eller typecasting!
 
 Att be om värdet av något i en annan form.
-Det går att konvertera, "cast:a" eller "casta", mellan olika datatyper.
+Det går att konvertera, "cast:a" eller "casta", mellen olika datatyper.
 
-Det lättaste sättet, som fungerar mellan nästan alla datatyper, är att skriva namnet på den datatypen följt av en parentes, den variabel eller det värde som ska cast:as och en slutparentes.
+Det lättaste sättet, som fungerar mellan nästan alla datatyper, är att skriva namnet på den nya datatypen följt av en parentes, den variabel eller det värde som ska cast:as och en slutparantes.
 T.ex:
 	str(3)
-Detta är hur man använder en så kallad Funktion, vi kommer att prata mer om det lite senare i kursen.
+Detta, med att sätta parenteser efter ett namn, är hur man använder en så kallad Funktion, vi kommer att prata mer om det senare i kursen.
 
 int(min_variabel)
 Betyder "Ge mig värdet av min_variabel som ett heltal".
@@ -14,4 +14,4 @@ Betyder "Ge mig värdet av min_variabel som ett heltal".
 str(min_variabel)
 Betyder "Ge mig värdet av min_variabel som text".
 
-Notera parenteserna, det är VÄLDIGT viktigt var man har parenteser och var man inte har parenteser i Python.
+Notera parenteserna, det är VÄLDIGT viktigt var man har parenteser och var man inte har paranteser i Python.

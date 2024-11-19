@@ -1,5 +1,7 @@
 # Några fel i dessa kodrader gör att programmet inte fungerar, rätta felen
-# så att vi får resultaten 110 och 5555 när programmet körs:
+# så att vi får resultaten 110 och 5555 när programmet körs.
+
+# Alla rader med 55 eller "55" ska vara oförändrade.
 
 my_variable = 55
 my_second_variable = "55"

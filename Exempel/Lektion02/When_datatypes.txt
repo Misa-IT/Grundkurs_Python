@@ -4,7 +4,7 @@ Ordered Mutable Collection = Ordnad Föränderlig Samling
 
 Tuple -> När man vill ha en mängd data som man vet inte kommer ändras, man bryr sig om ordningen och vill kunna ha dubbletter.
 Koordinater passar bra som Tuple.
-Ordered Immutable Collection = Ordnad Oförenderlig Samling
+Ordered Immutable Collection = Ordnad Oföränderlig Samling
 
 Set -> När man vill lätt kunna jämföra uppsättningar med data och när man vill förhindra dubbletter.
 Snabbt att konvertera till set och tillbaka för att ta bort dubbletter.
