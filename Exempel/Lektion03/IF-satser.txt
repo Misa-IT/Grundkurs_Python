@@ -8,10 +8,10 @@ Indenteringen ska vara 4 mellanslag.
 IF-satser
 
 Pseudokod är låtsaskod som man använder som "skiss":
-
+T.ex:
 	"Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
 
-Med limpor menar jag brödlimpor.
+Med limpor så menar jag brödlimpor.
 
 Vad man menar med detta:
 	Inköpslista:
@@ -31,6 +31,9 @@ if affären_säljer_limpor == True:
 	mängd_äggkartonger_att_köpa = 2
 else:
 	mängd_äggkartonger_att_köpa = 1
+
+
+Indenteringen meddelar Python att koden tillhör ett så kallat "kodblock".
 
 
 if hattkanter == 3:
@@ -53,7 +56,8 @@ else:
 
 				hatt   = im
 
-Tecken som är konstateranden(påståenden):
+
+Tecken (operatorer) som är konstateranden(påstånden):
 =
 +=
 -=
@@ -65,5 +69,11 @@ Tecken som är frågor:
 >=		(Större än eller lika med)
 !=		(Inte lika med)
 
-******
-|		(OR, eller)
+Den tredje typen är matematiska operatorer:
+*		(Gånger/Multiplikation)
++		(Plus/Addition/Konkatenering)
+-		(Minus/Subtraktion)
+/		(Delat-med/Division)
+**		(Upphöjt-till/Exponent)
+%		(Rest/Modulo)
+//		(Heltalsdivision)
