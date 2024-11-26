@@ -1,2 +1,85 @@
 Flödeskontroll, del 1!
 	Hur ett program "flödar".
+
+
+INDENTERING ÄR JÄTTEVIKTIGT!
+Indenteringar är det som skapar kodblock.
+Indenteringen ska vara 4 stycken mellanslag.
+
+
+IF-satser
+
+Pseudokod är låtsaskod som man använder som "skiss":
+T.ex:
+	"Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
+
+Med limpor så menar jag brödlimpor.
+
+Vad man menar med detta:
+	Inköpslista:
+		1 paket ägg
+		2 limpor
+
+
+Hur en dator skulle tolka det:
+	Köp två paket ägg om affären säljer limpor.
+	Annars, köp ett paket ägg.
+
+om affären_säljer_limpor är sant så
+	mängd_äggkartonger_att_köpa är 2
+annars så
+	mängd_äggkartonger_att_köpa är 1
+
+
+if affären_säljer_limpor == True:
+	mängd_äggkartonger_att_köpa = 2
+else:
+	mängd_äggkartonger_att_köpa = 1
+
+
+Indenteringen meddelar Python att koden tillhör ett så kallat "kodblock".
+
+
+if hattkanter == 3:
+	hatt = min
+else:
+	hatt = inte_min
+
+
+Varför det är viktigt att följa konventioner (stilregler):
+
+	OLÄSBVART FÖR MÄNNISKOR (Datorn har inga problem):
+	
+if hk       == 3:
+
+
+
+
+ hatt = m
+else:
+
+
+
+					hatt      = im
+
+
+Tecken (operatorer) som är konstateranden (påståenden):
+	=
+	+=
+	-=
+Tecken som är frågor:
+	==		(Lika med)
+	<		(Mindre än)
+	>		(Större än)
+	<=		(Mindre än eller lika med)
+	>=		(Större än eller lika med)
+	!=		(Inte lika med)
+
+Den tredje typen är matematiska operatorer:
+	*		(Gånger/Multiplikation)
+	+		(Plus/Addition/Konkatenering)
+	-		(Minus/Subtraktion)
+	/		(Delat-med/Division)
+	**		(Upphöjt-till/Exponent)
+	%		(Rest/Modulo)
+	//		(Heltaldivision)
