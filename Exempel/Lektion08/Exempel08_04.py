@@ -30,6 +30,7 @@ class Cat(Animal):
 def main():
     # Vi ber våra instanser att använda sin metod.
     animals = [Dog(), Cat()]
+    print(animals)
     for a in animals:
         a.speak()
 

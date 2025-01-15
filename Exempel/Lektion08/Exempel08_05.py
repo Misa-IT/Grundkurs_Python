@@ -49,5 +49,5 @@ print("\n\n\n")
 #             print("Jag har inte fluffig päls.")
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()

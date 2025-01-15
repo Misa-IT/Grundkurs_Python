@@ -33,7 +33,7 @@ dict = Dictionary = Kan ses på som en faktisk ordbok.
 		2:"två", "ålder": 35
 		johan = {"namn":"Johan", "ålder":35, "längd":180}
 		emma = {"namn":"Emma", "ålder":31, "längd":174}
-	Nycklar måste vara unika inom ett dictionary. Försöker man lägga in en dublett så
+	Nycklar måste vara unika inom ett dictionary. Försöker man lägga in en dubblett så
 	skriver man över det gammla värdet för den nyckeln.
 	Nycklar får inte gå att ändras på, d.v.s. de måste vara oföränderliga.
 

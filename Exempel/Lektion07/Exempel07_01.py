@@ -11,5 +11,5 @@ print("Från Exempel07_01:", __name__)
 print("tobeimported ifrån Exempel07_01:", tobeimported.__name__)
 
 print()
-if __name__ == '__main__':
+if __name__ == "__main__":
     print("Exempel är main")

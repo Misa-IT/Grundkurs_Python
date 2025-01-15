@@ -2,7 +2,6 @@ Orginal: Henrik Tunedal
 Skala potatis i pseudokod - illustration av styrstrukturer (flödeskontroll)
 ----------------------------------------------------------
 
-
 Skala tre potatisar med pseudokod:
 
 	1. Ta en potatis

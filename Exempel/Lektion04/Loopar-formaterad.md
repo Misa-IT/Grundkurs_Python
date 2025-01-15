@@ -4,7 +4,8 @@
 ## Nomenklatur, vad man menar med specifika termer:
 	Element - En sak i en samling. T.ex. "Första elementet i en lista"
 	
-	Itereringsvariabel är den variabel man kollar på vid varje varv i loopen. Kan också kallas upprepningsvariabel.
+	Itereringsvariabel är den variabel man kollar på vid varje varv av en loop. Kan också kallas 
+upprepningsvariabel.
 
 	Iterera = Upprepa
 

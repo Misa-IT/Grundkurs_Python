@@ -5,32 +5,32 @@
     Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar eller ändrar en variabel.
         Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi gå igenom i en senare vecka.
 	Funktion - En samling kod som namngivits för att lätt kunna återanvändas. En instruktion till datorn.
-	Metod - En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför grundkursen)
-	Argument - Det man skickar till en funktion.
-        Positional arguments / Positionsargument
-        Keyword arguments / Nyckelordsargument
 	Objekt - En samling av data och instruktioner om hur man interagerar med den.
              T.ex. via metoder som ligger i objektet eller med operatorer
              (+, -, *, etc.)
+	Metod - En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför grundkursen)
+	Argument - Det man skickar till en funktion.
+
+## SYNTAX ÄR VIKTIGT
 
 
 ### Python är ett objektorienterat programmeringsspråk. Vi kommer tala mer om Objekt i Lektion08.
 <br>
 
-### Namespace / Namnrymd är avskiljningar för att hålla namn unika.
+### Namespaces / Namnrymder är avskiljningar för att hålla namn unika.
     Exempel: Postnummer, epost
     Exempel: info@misa.se
 
-### Funktioner kallas för olika saker i olika språk:
+### Funktioner kallas för olika saker i olika programmeringsspråk:
     Funktioner = Procedurer = Subrutiner
     Functions = Processes = Sub-routines
 
 
-### Argument = Det man skickar till en funktion
+### Argument = Det man skickar till en funktion eller metod
     Positional arguments / Positionsargument
     Keyword arguments / Nyckelordsargument
 
-### Matematiska funktioner ser väldigt liknande ut till funktioner i Python:
+### Matematiska funktioner ser väldigt liknande ut som funktioner i Python:
 #### Matte:
     f(x) = x * 2
     eller
@@ -43,4 +43,8 @@
 
     DRY
     Don't Repeat Yourself
-    Upprepa Dig Inte
+	Upprepa Dig Inte
+
+	Ska man göra samma sak flera gånger är det alltså bättre att "bryta ut" den
+	saken till en funktion, precis som man använder loopar för att inte behöva
+	skriva samma sak om och om igen.

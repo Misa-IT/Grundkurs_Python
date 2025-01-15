@@ -12,7 +12,7 @@ for piece in food:
 
 
 Python är ett objektorienterat programmeringsspråk.
-Denna term kommer att vara viktig senare i kursen men vi börjar redan nästa lektion med att prata om vad det betyder.
+	Denna term kommer att vara viktig senare i kursen men vi börjar redan nästa lektion med att prata om vad det betyder.
 
 
 Var används Python?
@@ -37,6 +37,11 @@ Pseudokod, låtsaskod:
 	För varje sak i listan food:
 		Skriv ut den saken på skärmen
 
+
+IDLE är programmet vi använder när vi skriver Pythonkod i grundkursen.
+	IDLE har två lägen:
+		- IDLE Shell
+		- Textredigerarläget
 
 IDLE är en IDE:
 	Integrated Development Environment

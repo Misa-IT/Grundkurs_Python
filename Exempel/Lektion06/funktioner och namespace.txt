@@ -10,9 +10,9 @@ Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 	Objekt -	En samling av data och instruktioner om hur man interagerar med den.
 				T.ex. via metoder som ligger i objektet eller med operatorer.
 				(+, -, *, etc.)
-	Metod - 	En funktion som ligger i ett objekt. (Eller en Klass, men det är utanför grundkursen)
-	Argument - 	Det man skickar till en funktion.
-
+	Metod - 	En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför
+	grundkursen)
+	Argument -	Det man skickar till en funktion.
 
 SYNTAX ÄR VIKTIGT
 
@@ -21,11 +21,11 @@ Python är ett objektorienterat programmeringsspråk.
 	Vi kommer att tala mer om Objekt i Lektion08.
 
 
-Namespace / Namnrymd är avskiljningar för att hålla namn unika.
+Namespaces / Namnrymder är avskiljningar för att hålla namn unika.
 	Exempel: Postnummer, epost
 	Exempel: info@misa.se
 
-Funktioner kallas för olika saker i olika språk:
+Funktioner kallas för olika saker i olika programmeringsspråk:
 	Funktioner = Procedurer = Subrutiner
 	Functions = Processes = Sub-routines
 
@@ -33,7 +33,8 @@ Argument = Det man skickar till en funktion eller metod
 	Positional arguments / Positionsargument
 	Keyword arguments / Nyckelordsargument
 
-Matematiska funktioner ser väldigt liknande ut till funktioner i Python:
+
+Matematiska funktioner ser väldigt liknande ut som funktioner i Python:
 Matte:
 	f(x) = x * 2
 	eller
@@ -47,3 +48,7 @@ Designprincip i Python:
 	DRY
 	Don't Repeat Yourself
 	Upprepa Dig Inte
+
+	Ska man göra samma sak flera gånger är det alltså bättre att "bryta ut" den
+	saken till en funktion, precis som man använder loopar för att inte behöva
+	skriva samma sak om och om igen.

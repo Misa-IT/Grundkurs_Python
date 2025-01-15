@@ -6,8 +6,7 @@
 
 #import random as ran
 import random
-from random import choices
-
+from random import sample
 
 my_card_list = ["Ruter Två", "Ruter Tre", "Ruter Fyra", "Ruter Fem",
                 "Ruter Sex", "Ruter Sju", "Ruter Åtta", "Ruter Nio",
@@ -24,7 +23,7 @@ my_card_list = ["Ruter Två", "Ruter Tre", "Ruter Fyra", "Ruter Fem",
                 "Spader Åtta", "Spader Nio", "Spader Tio", "Spader Knekt",
                 "Spader Drottning", "Spader Kung", "Spader Äss"]
 
-print("En slumpad dragning av fem spelkort:", choices(my_card_list, k=5))
+print("En slumpad dragning av fem spelkort:", sample(my_card_list, k=5))
 
 print()  # Tom print() för att göra en tom rad.
 # Om vi multiplicerar en sträng så upprepas strängen så många gånger:
@@ -35,11 +34,12 @@ print("-------"*5)
 my_random_list = []
 for card in my_card_list:
     my_random_list.append(card)
+# my_random_list = [card for card in my_card_list]  # Alternativt sätt.
 
-print("De ursprungliga listorna:")
-print("My card list:", my_card_list)
+print("De ursprungliga listorna:\n")
+print("My card list:\n", my_card_list)
 print("-------")
-print("My random list:", my_random_list)
+print("My random list:\n", my_random_list)
 
 
 print("-------"*5)
@@ -48,6 +48,6 @@ print("Värdet på x är:", x)
 
 print("-------"*5)
 print("Listorna efter blandning:")
-print("My card list:", my_card_list)
+print("My card list:\n", my_card_list)
 print("-------")
-print("My random list:", my_random_list)
+print("My random list:\n", my_random_list)

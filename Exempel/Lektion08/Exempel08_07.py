@@ -1,5 +1,7 @@
+# Ett exempel på fler av specialmetoderna man kan lägga in i egenskapade
+# objekt och hur man kan lägga in kod som förhindrar vanliga fel från att uppstå.
+
 class MyObject:
-    
 
     def __init__(self, value):
         self.value = value
@@ -25,8 +27,8 @@ d = a
 
 
 c = a + b
-print(a==b)
-print(a==d)
+print(a == b)
+print(a == d)
 print(c)
 print(str(c))
 print(str(c)+"Hej")

@@ -1,7 +1,7 @@
 # Generera en multiplikationstabell med loopar inuti loopar.
 
 table_size = int(input("Hur många kolumner ska vi ha?"))
-kolumnbredd = 5
+# kolumnbredd = 5
 
 rad = 1
 while rad <= table_size:
@@ -12,6 +12,6 @@ while rad <= table_size:
         #print(str(rad * kolumn).ljust(kolumnbredd), end="")
         print(str(rad * kolumn), "\t", sep="", end="")
         kolumn += 1
-    print()   # mata ut en radbrytning för att avsluta raden
+    print()   # För at mata ut en radbrytning för att avsluta raden
 
     rad += 1

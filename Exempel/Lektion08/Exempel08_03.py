@@ -2,6 +2,7 @@
 # ska se ut. Även exempel på instansvariabler och hur man definierar metoder.
 
 class MyClass:
+
     my_int = 42
     my_str = "HEJ!"
     my_list = [1, 2]
@@ -10,12 +11,15 @@ class MyClass:
     # automatiskt metoden __init__.
     # __init__ är en så kallad konstruktor.
     # Notera att eftersom __init__ är en metod så måste första argumentet vara self.
-    def __init__(self):
+    def __init__(self, x, y, z):
         self.my_instance_list = ["Jag ligger i en instans."]
+        self.a = x
+        self.y = y
+        self.z = z
 
 
-my_instance = MyClass()
-my_second_instance = MyClass()
+my_instance = MyClass(1, 2, 3)
+my_second_instance = MyClass(4, 5, 6)
 print("Listan i klassen:", MyClass.my_list)
 print("Listan i första instansen:", my_instance.my_list)
 print("Listan i andra instansen:", my_second_instance.my_list)

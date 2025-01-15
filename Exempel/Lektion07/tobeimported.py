@@ -8,12 +8,12 @@ def my_function():
 # För att förtydliga hur importfinessen fungerar visar vi ett meddelande
 # här, vilket man i vanliga fall inte skulle göra i en modul som är
 # tänkt att importeras.
-print("Den här strängen ligger i tobeimported")
+print("Den här strängen skrivs ut i tobeimported")
 print("__name__ ifrån tobeimported:", __name__)
 print()
 
 x = input("Vi sätter ett värde på x i tobeimported! Skriv in något som ska lagras här: ")
-
+print("Vi skriver ut x medans vi är i tobeimported:", x)
 print()
 if __name__ == "__main__":
     print("tobeimported är main")

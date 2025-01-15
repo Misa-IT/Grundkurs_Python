@@ -6,7 +6,7 @@ my_squared_list = []
 
 for number in my_int_list:
     print(number)
-    square = number * number  # kan även skivas number ** 2
+    square = number * number  # kan även skrivas number ** 2
     print(square)
     my_squared_list.append(square)
     print(my_squared_list)

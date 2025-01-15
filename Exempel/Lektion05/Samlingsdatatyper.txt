@@ -1,12 +1,18 @@
 Samlingsdatatyper, repetition!
 
 Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
+
 	Element:
 		En sak i en samling. T.ex. "Första elementet i den här listan".
+
+	Samlingsvariabel:
+		En variabel av en samlingsdatatyp.
+
 
 Det finns två huvudsakliga sätt att hämta/läsa information i samlingsvariabler:
 	Slicing
 	Metoder
+
 
 De vanligaste samlingsdatatyperna:
 	list = List = Lista
@@ -15,20 +21,24 @@ De vanligaste samlingsdatatyperna:
 	set = Set = Mängd
 
 
-list = Lista = Kan ses på som en hylla, allt står i en viss ordning. Föränderlig.
+list = Lista = Kan ses på som en hylla, allt står i en viss ordning. Föränderliga.
 
-tuple = Kan ses på som en hylla där någon har superlimmat fast allting. Oföränderlig.
+tuple = Kan ses på som en hylla där någon har superlimmat fast allting. Oföränderliga.
 
 dict = Dictionary = Kan ses på som en faktisk ordbok.
-	Varje element består av två delar åtskilda av ett kolon. Först står Nyckeln sen kommer Värdet.
-	nyckel:värde, key:value T.ex. 2:"två", "ålder":34
-	johan = {"namn":"Johan", "ålder":34, "längd":180}
-	emma = {"namn":"Emma", "ålder":31, "längd":172}
+	Varje element består av två delar åtskilda av ett kolon (:). Först står Nyckeln
+	sen kommer Värdet.
+	nyckel:värde, key:value
+	T.ex:
+		2:"två", "ålder": 35
+		johan = {"namn":"Johan", "ålder":35, "längd":180}
+		emma = {"namn":"Emma", "ålder":31, "längd":174}
 	Nycklar måste vara unika inom ett dictionary. Försöker man lägga in en dubblett så skriver man över det gamla värdet för den nyckeln.
 	Nycklar får inte gå att ändras på, d.v.s. de måste vara oföränderliga.
 
-set = Mängd = Kan ses på som en låda, allt ligger där det får plats och det får bara finnas en av varje sak.
-	Sakerna får inte gå att kunna ändras på. T.ex. inga listor.
+set = Mängd = Kan ses på som en låda, allt ligger där det får plats.
+	Det får bara finnas en av varje sak.
+	Sakerna får inte gå att kunna ändras på, d.v.s. de måste vara oföränderliga.
 
 
 Hur vi skapar en lista:

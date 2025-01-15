@@ -1,7 +1,7 @@
 # Exempel på hur man kan definiera hur man interagerar med objekt
 
-# Detta är ett simplistiskt exempel men i fortsättningskursen går man
-# igenom mer i detalj hur man kan använda sig av detta.
+# Detta är ett simplistiskt exempel men i fortsättningskursen (kanske)
+# man går igenom mer i detalj hur man kan använda sig av detta.
 
 # DONT COPY: VARNING: Det här kan bli ganska avancerat mot slutet.
 

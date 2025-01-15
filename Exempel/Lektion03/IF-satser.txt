@@ -1,8 +1,10 @@
 Flödeskontroll, del 1!
 	Hur ett program "flödar".
 
+
 INDENTERING ÄR JÄTTEVIKTIGT!
-Indenteringen ska vara 4 mellanslag.
+Indenteringar är det som skapar kodblock.
+Indenteringen ska vara 4 stycken mellanslag.
 
 
 IF-satser
@@ -18,6 +20,7 @@ Vad man menar med detta:
 		1 paket ägg
 		2 limpor
 
+
 Hur en dator skulle tolka det:
 	Köp två paket ägg om affären säljer limpor.
 	Annars, köp ett paket ägg.
@@ -26,6 +29,7 @@ om affären_säljer_limpor är sant så
 	mängd_äggkartonger_att_köpa är 2
 annars så
 	mängd_äggkartonger_att_köpa är 1
+
 
 if affären_säljer_limpor == True:
 	mängd_äggkartonger_att_köpa = 2
@@ -57,23 +61,23 @@ else:
 				hatt   = im
 
 
-Tecken (operatorer) som är konstateranden(påstånden):
-=
-+=
--=
+Tecken (operatorer) som är konstateranden (påståenden):
+	=
+	+=
+	-=
 Tecken som är frågor:
-==		(Lika med)
-<		(Mindre än)
->		(Större än)
-<=		(Mindre än eller lika med)
->=		(Större än eller lika med)
-!=		(Inte lika med)
+	==		(Lika med)
+	<		(Mindre än)
+	>		(Större än)
+	<=		(Mindre än eller lika med)
+	>=		(Större än eller lika med)
+	!=		(Inte lika med)
 
 Den tredje typen är matematiska operatorer:
-*		(Gånger/Multiplikation)
-+		(Plus/Addition/Konkatenering)
--		(Minus/Subtraktion)
-/		(Delat-med/Division)
-**		(Upphöjt-till/Exponent)
-%		(Rest/Modulo)
-//		(Heltalsdivision)
+	*		(Gånger/Multiplikation)
+	+		(Plus/Addition/Konkatenering)
+	-		(Minus/Subtraktion)
+	/		(Delat-med/Division)
+	**		(Upphöjt-till/Exponent)
+	%		(Rest/Modulo)
+	//		(Heltaldivision)

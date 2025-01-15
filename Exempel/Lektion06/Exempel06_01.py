@@ -38,6 +38,7 @@ hello("Johan")
 
 # Notera skillnaden på vad som händer på nedanstående rader.
 print(f(3))
+f(3)
 dubblat = f(4)
 print(dubblat)
 f(8)
