@@ -21,8 +21,8 @@ class Person:
         self.name
 
 
-# Övning: Komplettera koden nedan så att varje person från personer läggs in
-# i obj_personer:
+# Övning: Komplettera koden nedan så att det skapas ett objekt för varje person
+# från "personer" samt att varje nytt objekt läggs in i obj_personer:
 obj_personer = []
 for person in exercise.personer:
     pass
