@@ -1,7 +1,7 @@
 # Funktioner används för att separera och namnge en del av programmet, som
 # ett eget litet miniprogram, så att man kan återanvända koden.
 #
-# IDet här exemplet skriver vi en simpel funktion som skriver ut en
+# I det här exemplet skriver vi en simpel funktion som skriver ut en
 # hälsning på skärmen.
 def hello_world():
     print("Hello, World!")

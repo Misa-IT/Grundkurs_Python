@@ -1,5 +1,4 @@
-siffra = int(input("Vilken siffra? "))
-resultat = "OGILTIGT"
+siffra = 2
 
 if siffra <= 1:
     resultat = 1
@@ -11,6 +10,7 @@ elif siffra <= 3:
     resultat = 3
     print("Siffra är 3")
 else:
-    print("Hittade inget korrekt val!")
+    resultat = "ogiltigt"
+    print("Hittade inget korrekt val")
 
-print(resultat)
+print("resultat är", resultat)

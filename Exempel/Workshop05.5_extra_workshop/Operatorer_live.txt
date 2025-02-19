@@ -6,11 +6,13 @@ Tecken (operatorer) som är konstateranden(påståenden)/tilldelningar (Tilldeln
 	
 +=
 	x += 42
-		Ta det gamla värdet av denna variabel, addera/konkatenera det till höger och spara resultet i samma variabel.
+		Ta det gamla värdet av denna variabel, addera/konkatenera det till höger och spara
+		resultatet i samma variabel.
 		
 -=
 	x -= 42
-		Ta det gamla värdet av denna variabel, subtrahera det till höger och spara resultet i samma variabel.
+		Ta det gamla värdet av denna variabel, subtrahera det till höger och spara resultatet i
+		samma variabel.
 *=
 /=
 etc.

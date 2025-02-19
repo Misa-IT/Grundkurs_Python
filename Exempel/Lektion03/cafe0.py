@@ -1,6 +1,5 @@
-# Orginal av Henrik Tunedal
+# Original av Henrik Tunedal
 # Ett exempel av ett program för ett cafe, utan samlingar.
-from Exempel.Lektion04.cafe3 import produktpris
 
 kaffepris = 20
 tepris = 15
