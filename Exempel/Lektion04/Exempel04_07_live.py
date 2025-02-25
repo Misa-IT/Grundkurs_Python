@@ -1,13 +1,15 @@
-# Exempel som visar hur man kan läsa ut data ur en samling, behandla
-# datan och sen lagra i en annan samling.
+# Generera en multiplikationstabell med loopar inuti loopar.
 
-my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-my_squared_list = []
+table_size = int(input("Hur många kolumner ska vi ha? "))
 
-for number in my_int_list:
-    print(number)
-    square = number * number  # kan även skrivas number ** 2
-    print(square)
-    my_squared_list.append(square)
-    print(my_squared_list)
-    print()
+rad = 1
+while rad <= table_size:
+    # Mata ut en rad med värden
+    kolumn = 1
+    while kolumn <= table_size:
+        # Skriv ut varje kolumn
+        print(str(rad * kolumn), "\t", end="")
+        kolumn += 1
+    print()  # För att mata ut en rabrytning för att avsluta raden
+
+    rad += 1

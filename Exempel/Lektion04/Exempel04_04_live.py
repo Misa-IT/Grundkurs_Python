@@ -9,7 +9,6 @@ for element in my_int_list:
     print(summa_av_int)
     print()
 
-print()
 # Vi kollar genomsnittet på my_int_list:
 print(len(my_int_list))
 print("Genomsnittet är:", summa_av_int / len(my_int_list))

@@ -1,5 +1,5 @@
 Orginal: Henrik Tunedal
-Skala potatis i pseudokod - illustration av styrstrukturer
+Skala potatis i pseudokod - illustration av styrstrukturer (flödeskontroll)
 ----------------------------------------------------------
 
 Skala tre potatisar med pseudokod:

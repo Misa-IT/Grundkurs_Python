@@ -1,22 +1,20 @@
-# Här försöker vi hämta alla element i en lista och lägga till dem i en ny lista.
-# När vi lägger till varje element i listan kollar vi om det är en integer eller
-# float och om så är fallet vill vi addera 5 till det elementet.
-# Se övning04_03 för ledtrådar.
+# Rätta till syntaxfelen så att vi lägger till alla element från my_int_list
+# till my_new_list.
+# Sista raden ska INTE ändras och när programmet körs så ska vi få ut:
+# [1, 2, 3, 4, 5, 6, 7]
 
-# Sista raden ska INTE ändras på och när programmet körs så ska vi få ut:
-# [6, 7, 8, 9, 10, 'Här', 'är', 'några', 'strängar!', 11, 12, ['En', 'lista', 'i', 'listan!'], 13, 14]
+# .append() på en lista fungerar så att det som är innanför parentesen
+# läggs till i slutet på listan man har precis innan .append(). Precis som
+# att print() skriver ut det som står mellan parenteserna.
 
-my_mixed_list = [1, 2, 3, 4, 5, "Här", "är", "några", "strängar!", 6, 7,
-                 ["En", "lista", "i", "listan!"], 8, 9]
+# "På en lista" syftar i detta fall att man lägger till en punkt och apppend()
+# efter namnet på en lista. Ex: my_new_list.append("bananer")
+
+my_int_list = [1, 2, 3, 4, 5, 6, 7]
 my_new_list = []
 # Ovanstående kod ska inte ändras på.
 
 
-for element in my_mixed_list:
-    # Nedanstående rad skulle kunna kunna skrivas "if type(element) == int or type(element) == float:"
-    if type(element) in {int, float}:
-    my_new_list.a
-    else:
-    my_new_list.a
-
+for each thing in my_int_list:
+    my_new_list.append()
 print(my_new_list)

@@ -1,17 +1,19 @@
-# Generera en multiplikationstabell med loopar inuti loopar.
+# Exempel som demonstrerar break och continue.
 
-table_size = int(input("Hur många kolumner ska vi ha?"))
-kolumnbredd = 5
+# Vi skapar en itereringsvariabel och en slutpunkt
+i = 0
+end = 10
 
+# i ökas med 1 för varje varv i loopen
+while True:
+    i += 1
+    # Om i når 10 så avbryter vi loopen DIREKT, inga av loopens
+    # efterföljande rader körs.
+    if i == 10:
+        break
+    # Om i är 5 så avbryter vi nuvarande varvet. Loopen fortsätter men
+    # kvarvarande rader i loopens kodblock hoppas över för detta varv.
+    if i == 5:
+        continue
+    print(i)
 
-rad = 1
-while rad <= table_size:
-    # Mata ut en rad med värden
-    kolumn = 1
-    while kolumn <= table_size:
-        # Skriv ut varje kolumn
-        #print(str(rad * kolumn).ljust(kolumnbredd), end="")
-        print(str(rad * kolumn), "\t", end="")
-        kolumn += 1
-    print() # För att avsluta raden
-    rad += 1
