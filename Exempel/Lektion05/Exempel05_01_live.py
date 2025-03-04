@@ -4,10 +4,11 @@
 
 my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]
 
+
 # Skriv ut hela listan
 print(my_fruit_list)
 
-# Hämta och skriv ut det första elementet
+# Hämta och skriv ut första elementet
 print(my_fruit_list[0])
 
 # Hämta och skriv ut, som en lista, de tre första elementen ur my_fruit_list
@@ -30,11 +31,13 @@ print(my_fruit_list[len(my_fruit_list)-3:])
 print("123456789"[0:5])
 
 
-# När man hämtar från en dict så använder man sig av samma syntax för att hämta
+# När man hämtar från en dictr så anävnder man samma syntax för hämta
 # ett element men istället för index anger man vad man vill ha genom att skriva
-# in nyckeln.
+# nyckeln.
 johan = {"namn": "Johan", "ålder": 35, "längd": 180}
-emma = {"namn":"Emma", "ålder":31, "längd":174}
+emma = {"namn":"Emma", "ålder": 31, "längd": 174}
+
 print(johan["ålder"], emma["ålder"])
+
 for x in [johan, emma]:
     print(x["namn"])

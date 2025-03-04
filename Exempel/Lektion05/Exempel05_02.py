@@ -1,8 +1,8 @@
 # Demonstration av slicing på listor och strängmanipulering.
-# Avancerat, endast om tid finns.
+# Överkurs, endast om tid finns.
 
 my_details = ["Johan", "Marmén", "35", "180"]
 
 print(my_details)
 print(my_details[:2])
-print(" ".join(my_details[:2]))
+print("Mitt namn är", " ".join(my_details[:2]))
