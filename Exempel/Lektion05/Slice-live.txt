@@ -32,5 +32,5 @@ Ber vi om ett specifikt element så får vi endast det elementet tillbaka, inte 
 
 samlingen[FRÅN (och med):TILL (men inte med):FREKVENS]
 
-De parenteser vi använder när vi tar en slice har inget att göra med de parentser vi anävnder för
+De parenteser vi använder när vi tar en slice har inget att göra med de parenteser vi använder för
 att skapa listor, trots att de är samma typ av parenteser.

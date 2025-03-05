@@ -26,8 +26,8 @@ list = Lista = Kan ses på som en hylla, allt står i en viss ordning. Förände
 tuple = Kan ses på som en hylla där någon har superlimmat fast allting. Oföränderliga.
 
 dict = Dictionary = Kan ses på som en faktisk ordbok.
-	Varje element består av tbå delar åtskilda av ett kolon (:). Först står Nyckeln
-	sen kommer värdet.
+	Varje element består av två delar åtskilda av ett kolon (:). Först står Nyckeln
+	sen kommer Värdet.
 	nyckel:värde, key:value
 	T.ex:
 		2:"två", "ålder":35

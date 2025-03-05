@@ -31,7 +31,7 @@ print(my_fruit_list[len(my_fruit_list)-3:])
 print("123456789"[0:5])
 
 
-# När man hämtar från en dictr så anävnder man samma syntax för hämta
+# När man hämtar från en dict så använder man samma syntax för hämta
 # ett element men istället för index anger man vad man vill ha genom att skriva
 # nyckeln.
 johan = {"namn": "Johan", "ålder": 35, "längd": 180}
