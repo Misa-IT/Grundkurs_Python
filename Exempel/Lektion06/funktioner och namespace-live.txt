@@ -1,20 +1,27 @@
 Funktioner!
 
-Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
+Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
+
 	Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar
-				eller ändrar en variabel.
-				Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi att gå
+				eller ändrar på en variabel.
+				Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi gå
 				igenom i en senare vecka.
+				
 	Funktion -	En samling kod som namngivits för att lätt kunna återanvändas.
 				En instruktion till datorn.
+				
 	Objekt -	En samling av data och instruktioner om hur man interagerar med den.
 				T.ex. via metoder som ligger i objektet eller med operatorer.
 				(+, -, *, etc.)
-	Metod -		En funktion som ligger i ett objekt.
+	
+	Metod -		En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför
+				grundkursen)
+	
 	Argument -	Det man skickar till en funktion.
+	
+	Returnera - Att skicka tillbaka.
 
-
-SYNTAX ÄR VIKTIGT
+SYNTAX ÄR JÄTTEVIKTIGT
 
 
 Python är ett objektorienterat programmeringsspråk.
@@ -39,6 +46,7 @@ Matte:
 	f(x) = x * 2
 	eller
 	y = x * 2
+
 Python:
 	def f(x):
 		return x * 2
@@ -48,3 +56,7 @@ Designprincip i Python:
 	DRY
 	Don't Repeat Yourself
 	Upprepa Dig Inte
+	
+	Ska man göra samma sak flera gånger är det alltså bättre att "bryta ut" den
+	saken till en funktion, precis som man använder loopar för att inte behöva
+	göra samma sak om och om igen.
