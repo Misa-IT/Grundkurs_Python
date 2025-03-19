@@ -5,14 +5,13 @@ print("Importerar modulen tobeimported_live...")
 import tobeimported_live
 print("Importerad modul:", tobeimported_live)
 
-# Observera att koden i tobeimported_live inte körs andra gången,
+# Observera att koden i tobeimported_live inte körs andra gången
 # om vi importerar modulen igen eftersom vi har laddat den
 # tidigare.
 print()
 
 input("Vi väntar på att du ska ändra något i tobeimported_live.")
 
-print()
 print("Importerar samma modul igen!")
 import tobeimported_live
 print("Fortfarande samma modul:", tobeimported_live)
