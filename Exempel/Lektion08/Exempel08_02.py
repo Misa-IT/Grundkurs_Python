@@ -7,13 +7,11 @@ class MyClass:
     my_str = "HEJ"
     my_list = [1, 2]
 
-
-# Om vi vill skapa en INSTANS av klassen skriver vi så här:
 my_instance = MyClass()
 
-# Notera att det finns en lista i vår nyskapade instans/vårt objekt.
+# Vi kontrollerar vad som ligger i listorna:
+print("Listan i Klassen:", MyClass.my_list)
 print("Listan i instansen:", my_instance.my_list)
-print()
 
 # Vi testar att lägga till något i listan som ligger i instansen/objektet.
 my_instance.my_list.append(3)
