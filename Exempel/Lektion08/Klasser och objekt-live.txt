@@ -3,7 +3,7 @@ Klasser! Objekt!
 Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 
 	Objektorienterad programmering:
-		En typ av programmering där man använder sig av Objekt för att dela upp data och funktionalitet. Inkaplsing är en av de viktigaste bitarna och vi känner till det begreppet sen tidgare med namnet namnrymder.
+		En typ av programmering där man använder sig av Objekt för att dela upp data och funktionalitet. Inkapsling är en av de viktigaste bitarna och vi känner till det begreppet sen tidgare med namnet namnrymder.
 	
 	Objekt:
 		En samling data och instruktionerna för datorn om hur man behandlar sagda data.
@@ -31,7 +31,7 @@ Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 	
 	Arv:
 		När man använder sig av en annan "ritning" (en annan Klass) för påbörja en ny "ritning" (en ny Klass).
-		En Klass kan ärva från mer är en Klass.
+		En Klass kan ärva från mer än en Klass.
 
 Klass = Bok
 Klass som ärver från Bok = Pocketbok(Bok)
