@@ -59,6 +59,24 @@ def main():
     print("En alfabetisk lista av personers förnamn:", alphabetic_list_of_first_names)
     print("Här ska du se information om Bertil:", personal_info(personer, "Bertil"))
 
+    # Nästa rad kontrollerar att personal_info() uppfyller det övningen ber om.
+    test_personal_info()
+
+
+
+
+
+
+def test_personal_info():
+    """En funktion som kontrollerar att funktionen personal_info() returnerar
+    korrekta värden."""
+    bertil_info = ["Bertil Bengtsson", 27, 186]
+    personal_return = personal_info(personer, "Bertil")
+    wrong_type_msg = "personal_info() returnerar  inte en lista"
+    wrong_contents_msg = "Returvärdet från personal_info() innehåller inte det som efterfrågas."
+
+    assert isinstance(personal_return, list), wrong_type_msg
+    assert personal_return == bertil_info, wrong_contents_msg
 
 if __name__ == '__main__':
     main()
