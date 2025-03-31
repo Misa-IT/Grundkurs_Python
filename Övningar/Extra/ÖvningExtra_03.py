@@ -4,7 +4,6 @@
 # som värde.
 # T.ex. "Anna Andersson":[23, 172]
 
-# VARNING: Svår!
 
 # Övning: Lägg till något så att vi importerar "extra_exercises" men kallar
 # modulen för "exercise" i denna namnrymd.

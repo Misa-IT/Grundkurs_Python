@@ -16,17 +16,17 @@ personer = [("Anna Andersson", 23, 172), ("Bertil Bengtsson", 27, 186),
             ]
 
 
+# Övning: Skriv om raden nedan så att list_of_names bara innehåller namnen på
+# de personer som finns i listan "personer".
+list_of_names = personer
+
+
 # Övning: Skriv om koden nedan så att listan alphabetic_list_of_first_names
 # endast innehåller personers förnamn och att de står i alfabetisk ordning.
 # Det går att lösa på bara en rad men upp till åtta är rimligt.
 # (Ni kan döpa om listan, det långa namnet är bara för tydlighet. Glöm inte
 # att ändra i main() i så fall.)
 alphabetic_list_of_first_names = personer
-
-
-# Övning: Skriv om raden nedan så att list_of_names bara innehåller namnen på
-# de personer som finns i listan "personer".
-list_of_names = personer
 
 
 # Övning: Den här funktionen ska kunna hämta ut en specifik person från listan personer
