@@ -17,7 +17,7 @@ personer = [("Anna Andersson", 23, 172), ("Bertil Bengtsson", 27, 186),
 
 
 # Övning: Skriv om raden nedan så att list_of_names bara innehåller namnen på
-# de personer som finns i listan "personer".
+# de personer som finns i listan "personer" och inte deras övriga information.
 list_of_names = personer
 
 
@@ -49,8 +49,9 @@ def main():
     for p in personer:
         print("är""år gammal""cm lång.")
 
-    # Övning: Skriv färdigt den här loopen så att vi får ut en lista över namnen på
-    # de som är äldre än 30år i den print() som kommer efter loopen.
+    # Övning: Skriv färdigt den här loopen så att vi får ut en lista över
+    # namnen, och endast namnen, på de som är äldre än 30år i den print() som
+    # kommer efter loopen.
     over_30 = []
     #in personer:
 
@@ -59,8 +60,10 @@ def main():
     print("En alfabetisk lista av personers förnamn:", alphabetic_list_of_first_names)
     print("Här ska du se information om Bertil:", personal_info(personer, "Bertil"))
 
-    # Nästa rad kontrollerar att personal_info() uppfyller det övningen ber om.
+    # Nästa rad kontrollerar att personal_info() samt listorna uppfyller det
+    # som övningarna ber om.
     test_personal_info()
+    test_lists()
 
 
 
@@ -77,6 +80,22 @@ def test_personal_info():
 
     assert isinstance(personal_return, list), wrong_type_msg
     assert personal_return == bertil_info, wrong_contents_msg
+    print("personal_info() klarar testerna")
+
+def test_lists():
+    """En funktion som kontrollerar att listorna är korrekta."""
+    names = ['Anna Andersson', 'Bertil Bengtsson', 'Caesar Carlander', 'David Dahlgren',
+             'Felicia Fagerholm', 'Emma Eriksson', 'Harold Hasselblad', 'Gustav Grip']
+    alpha_first = ['Anna', 'Bertil', 'Caesar', 'David', 'Emma', 'Felicia', 'Gustav', 'Harold']
+    lists = [list_of_names, alphabetic_list_of_first_names]
+    list_names = ["list_of_names", "alphabetic_list_of_first_names"]
+    contents = [names, alpha_first]
+
+    for list_, contents, list_name in zip(lists, contents, list_names):
+        assert isinstance(list_, list), f"{list_name} förväntades vara en lista"
+        assert list_ == contents, f"Listan {list_name} innehåller det inte det som efterfrågades"
+
+    print("Listorna klarar testerna")
 
 if __name__ == '__main__':
     main()
