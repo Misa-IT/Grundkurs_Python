@@ -44,8 +44,8 @@ print()
 
 # Vi testar hur objekten reagerar på str() och att bara bli skickade till print()
 print("a:", a)
-print("Strängrepresentation av d (str(d):", str(a))
-print("(str(d) + 'Hej':", str(a) + "Hej")
+print("Strängrepresentation av  (str(a):", str(a))
+print("(str(a) + 'Hej':", str(a) + "Hej")
 print()
 
 
@@ -56,5 +56,5 @@ print("d:", d)
 print("e:", e)
 # Notera att e har fått en sträng som "value". Detta är antagligen inte
 # önskvärt i detta fall.
-print(type(e))
 print(type(d))
+print(type(e))
