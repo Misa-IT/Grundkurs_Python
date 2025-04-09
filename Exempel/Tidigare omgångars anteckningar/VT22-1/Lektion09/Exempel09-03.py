@@ -18,12 +18,12 @@ class MyObject:
         return MyObject(self.value + other.value)
 
 
-# Skapa två nya objekt från mallen MyObject
+# Skapa två nya objekt från mallen MyClass
 a = MyObject(23)
 b = MyObject(27)
 
 # Vi adderar de två objekten och skapar ett nytt objekt med det nya värdet.
 # Eftersom vi inte har förklarat för Python vad som händer när man använder
-# print() så måste vi skriva ut ett int-objekt som ligger i vårt MyObject-objekt.
+# print() så måste vi skriva ut ett int-objekt som ligger i vårt MyClass-objekt.
 c = a + b
 print(c.value)

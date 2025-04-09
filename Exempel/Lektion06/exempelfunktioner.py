@@ -32,5 +32,10 @@ def funktion_som_tar_emot_tre_argument(godtyckligt_namn1, godtyckligt_namn2, god
 
 
 funktion_som_tar_emot_tre_argument(8, "HEJ", 4.567)
-# funktion_som_tar_emot_tre_argument(4.567, godtyckligt_namn3=8, godtyckligt_namn2="HEJ")
-# funktion_som_tar_emot_tre_argument(6, 7)
+funktion_som_tar_emot_tre_argument(4.567, godtyckligt_namn3=5, godtyckligt_namn2="HEJ")
+funktion_som_tar_emot_tre_argument(6, 7)
+
+x = 42
+funktion_som_tar_emot_tre_argument(x, x, x)
+# Nästa rad kommer att krascha programmet.
+print(godtyckligt_namn1)

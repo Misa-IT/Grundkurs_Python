@@ -1,6 +1,6 @@
 Namnrymder! Importer!
 
-Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
+Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
 	Module / Modul =		En Modul är en fil. Varje .py-fil är en Modul.
 							För att vara specifik så är det innehållet i filen som är Modulen.
@@ -17,6 +17,7 @@ Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
 
 
 Vanliga moduler:
+
 	random = 		För slumpade saker
 	pathlib = 		För att hålla på med filsökvägar
 	math = 			För avancerad matematik

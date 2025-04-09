@@ -12,6 +12,6 @@ while rad <= table_size:
         #print(str(rad * kolumn).ljust(kolumnbredd), end="")
         print(str(rad * kolumn), "\t", sep="", end="")
         kolumn += 1
-    print()   # För at mata ut en radbrytning för att avsluta raden
+    print()   # För att mata ut en radbrytning för att avsluta raden
 
     rad += 1

@@ -1,4 +1,4 @@
-# Ett simpelt exempel av arv.
+# Ett simpelt exempel av arv. Med lite om polymorfism.
 
 
 class Animal:

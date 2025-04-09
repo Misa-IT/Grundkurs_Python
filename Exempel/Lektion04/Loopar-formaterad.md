@@ -5,9 +5,18 @@
 	Element - En sak i en samling. T.ex. "Första elementet i en lista"
 	
 	Itereringsvariabel är den variabel man kollar på vid varje varv av en loop. Kan också kallas 
-upprepningsvariabel.
+    upprepningsvariabel.
 
 	Iterera = Upprepa
+
+### Ett exempel på en dåligt formulerad instruktion:
+    Instruktion: Tvätta håret, skölj ur och upprepa.
+
+        Tvätta håret
+        Skölj ur
+        Tvätta håret
+        Skölj ur
+        [...]
 
 
 ### I Python finns det while-loopar och for-loopar.

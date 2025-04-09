@@ -1,4 +1,4 @@
-# Skriv ett program som består av två moduler, d.v.s. filer, varav modul
+# Skriv ett program som består av två moduler, dvs. filer, varav modul
 # ett importerar den andra och kör en funktion från den andra modulen
 # med ett argument.
 
@@ -8,7 +8,7 @@
 # med ett namn som anges via ett argument antingen genom att skriva in det
 # i anropet, som exemplet längst ned i denna fil, eller så kan man be
 # användaren att skriva in namnet.
-# D.v.s. med funktionen input()
+# Dvs. med funktionen input()
 
 
 # För extra utmaning kan du importera specifikt den funktion

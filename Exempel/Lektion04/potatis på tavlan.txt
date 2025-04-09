@@ -64,12 +64,12 @@ Pseudokod för while:
 		put_potato_in_pot()
 
 
-Pseudokod för for-loop:
+Pseudokod för for-loopar:
 
 	För varje potatis i säcken:
-		Ta den potatisen
-		Skala den potatisen
-		Lägg den potatisen i kastrullen
+		Ta en potatis
+		Skala potatisen
+		Lägg potatisen i kastrullen
 
 	for potato in potato_sack:
 		take_potato()
@@ -89,7 +89,8 @@ Alternativ till ovanstående:
 		put_potato_in_pot(x)
 
 
-Komplett exempel som kollar både kastrullen och mängden potatis:
+Komplett exempel som kollar både kastrullen och att det finns potatisar kvar:
+
 	for x in sack:
 		if pot_full == True:
 			break

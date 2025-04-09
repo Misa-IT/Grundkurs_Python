@@ -20,10 +20,5 @@ else:
 	
 	
 	
-Instruktion: Tvätta håret, skölj ur och upprepa.	
-	Tvätta håret
-	Skölj ur
-	Tvätta håret
-	Skölj ur
-	[...]
+
 	

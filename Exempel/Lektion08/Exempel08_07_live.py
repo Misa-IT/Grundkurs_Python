@@ -6,8 +6,8 @@
 # bör göra får man igenom i fortsättningskursen. Exception handling, om ni vill
 # läsa om det på egen hand.
 
-class MyObject:
-    
+class MyClass:
+
     # Konstruktorn
     def __init__(self, value):
         self.value = value
@@ -16,22 +16,22 @@ class MyObject:
     def __add__(self, other):
 
         #if type(self.value) == type(other.value):
-        if isinstance(other, MyObject):
-            return MyObject(self.value + other.value)
+        if isinstance(other, MyClass):
+            return MyClass(self.value + other.value)
         else:
-            return "Ogilltig operation"
+            return "Ogiltig operation"
 
     # Hur Objekt ska reagera på operatorn ==
     def __eq__(self, other):
         return self.value == other.value
 
     # Vad Objektet ska returnera när något ber om en sträng-representation av
-    # Objektet.
+    # Objektet
     def __str__(self):
         return str(self.value)
 
-a = MyObject(2)
-b = MyObject(2)
+a = MyClass(2)
+b = MyClass(2)
 c = a
 # Vi jämför Objekten:
 print("a == b:", a == b)

@@ -6,7 +6,7 @@
 # eller operatorer.
 # Lägg till minst två nya funktioner, helst några fler. Max fem nya.
 # Om du inte vet vad du ska välja för räknesätt så är förslagen
-# subtraktion (d.v.s. minus) och division (d.v.s. delat med).
+# subtraktion (dvs. minus) och division (dvs. delat med).
 
 # Länk till exempel på operatorer (Endast de som är markerade med fet stil
 # är relevanta för grundkursen:

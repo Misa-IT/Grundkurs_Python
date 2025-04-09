@@ -3,7 +3,7 @@
 #
 # Endast en rad ska ändras på!
 #
-# Att hårdkoda är inte rätt svar. D.v.s. det är inte rätt att ändra i print()
+# Att hårdkoda är inte rätt svar. Det är alltså inte rätt att ändra i print()
 # så att det står "Två på engelska är: two"
 
 

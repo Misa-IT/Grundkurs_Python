@@ -2,7 +2,8 @@ Python: Ett programmeringsspråk
 
 Ett programmeringsspråk är ett språk som datorer förstår.
 
-Python är ett programmeringsspråk som är relativt lätt att lära sig; koden är mer lättläslig än i många äldre programmeringsspråk.
+Python är ett programmeringsspråk som är relativt lätt att lära sig; koden är mer lättläslig än i
+många äldre programmeringsspråk.
 
 for i in range(len(food)):
 	print(food[i])
@@ -12,7 +13,8 @@ for piece in food:
 
 
 Python är ett objektorienterat programmeringsspråk.
-	Denna term kommer att vara viktig senare i kursen men vi börjar redan nästa lektion med att prata om vad det betyder.
+	Denna term kommer att vara viktig senare i kursen men vi börjar redan nästa lektion med att
+	prata om vad det betyder.
 
 
 Var används Python?

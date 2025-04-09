@@ -32,21 +32,22 @@ pelle = Cat("Pelle", True)
 fido.speak()
 pelle.speak()
 
+print(fido.fluffy_fur, fido.name)
 print(pelle.prickig)
-print("\n\n\n")
+print("\n" * 3)
 
 
-# def main():
-#     a = Animal()
-#     fido = Dog("Fido")
-#     pelle = Cat("Pelle", True)
-#     animals = [a, fido, pelle]
-#     for a in animals:
-#         a.speak()
-#         if a.fluffy_fur == True:
-#             print("Jag har fluffig päls.")
-#         else:
-#             print("Jag har inte fluffig päls.")
+def main():
+    a = Animal()
+    fido = Dog("Fido")
+    pelle = Cat("Pelle", True)
+    animals = [a, fido, pelle]
+    for a in animals:
+        a.speak()
+        if a.fluffy_fur == True:
+            print("Jag har fluffig päls!")
+        else:
+            print("Jag har inte fluffig päls...")
 
 
 # if __name__ == '__main__':

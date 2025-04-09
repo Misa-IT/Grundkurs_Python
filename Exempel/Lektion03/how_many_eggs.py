@@ -8,6 +8,7 @@ store_sells_loaves_of_bread = True
 
 # Vi behöver egentligen inte skriva " == True" men jag skriver
 # det här för att göra koden enklare att läsa för er.
+
 if store_sells_loaves_of_bread == True:
     egg_boxes_to_buy = 2
 else:

@@ -7,7 +7,7 @@ class MyClass:
     my_str = "HEJ!"
     my_list = [1, 2]
 
-    # När vi skapa skapa en ny Instans/ett nytt Objekt av en Klass så anropas
+    # När vi ska skapa en ny Instans/ett nytt Objekt av en Klass så anropas
     # automatiskt metoden __init__().
     # __init__() är en så kallad Konstruktor.
     # Notera att eftersom __init__() är en metod så måste första argumentet vara

@@ -22,7 +22,7 @@ def hello(name):
 # inom matematiken.
 #
 # I det här exemplet returnerar vi argumentet upphöjt till två,
-# d.v.s. kvadraten.
+# dvs. kvadraten.
 def f(x):
     return x ** 2
 

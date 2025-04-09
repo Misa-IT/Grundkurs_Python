@@ -28,10 +28,10 @@ Vissa Datatyper kan bara innehålla en specifik typ av sak. Jag kallar dessa fö
 ### Samlingsdatatyper
 | Internt namn | Betydelse | Metafor/Beskrivning | Exempel                                                                    |
 |:-------------| :--- | :--- |:---------------------------------------------------------------------------|
-| list         | List = Lista | Kan ses på som en bokhylla, allt står i en viss ordning. | \[1, 2, 3\]                                                                |
-| tuple        | Tuple | Kan ses på som en bokhylla där någon har superlimmat fast allting. | \(1, 2, 3\)                                                                |
-| dict         | Dictionary = Ordbok | Kan ses på som en faktisk ordbok, man slår upp betydelser av ord. Alla element är i formatet nyckel:värde.<br>Nycklar får inte kunna ändras på.<br>Nycklar måste vara unika. | {2:"två", "ålder":33}<br>johan = {"namn":"Johan", "ålder":34, "längd":180} |
-| set          | Set = Mängd | Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på. | {1, 2, 3}                                                                  |
+| list         | List = Lista | Kan ses på som en bokhylla, allt står i en viss ordning. | x = \[1, 2, 3\]                                                                |
+| tuple        | Tuple | Kan ses på som en bokhylla där någon har superlimmat fast allting. | x = \(1, 2, 3\)                                                                |
+| dict         | Dictionary = Ordbok | Kan ses på som en faktisk ordbok, man slår upp betydelser av ord. Alla element är i formatet nyckel:värde.<br>Nycklar får inte kunna ändras på.<br>Nycklar måste vara unika. | x = {2:"två", "ålder":33}<br>johan = {"namn":"Johan", "ålder":34, "längd":180} |
+| set          | Set = Mängd | Kan ses på som en låda där det bara får finnas en av varje sak. Det som läggs i lådan får inte kunna ändras på. | x = {1, 2, 3}                                                                  |
 
 
 #### Nedanstående är en referens för snabb översikt:

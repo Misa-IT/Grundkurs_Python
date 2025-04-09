@@ -16,7 +16,7 @@ elif siffra == 5:
 else:
     print("Hittade inget korrekt val!")
 
-print(resultat)
+print("resultat är", resultat)
 
 # if siffra <= 1:
 #     resultat = 1

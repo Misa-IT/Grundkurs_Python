@@ -1,6 +1,6 @@
 Klasser! Objekt!
 
-Nomenklatur, d.v.s. termer som används och vad de betyder i sammanhanget:
+Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
 	Objektorienterad programmering:
 		En typ av programmering där man använder sig av Objekt för att dela upp data och funktionalitet. Inkapsling är en av de viktigaste bitarna och vi känner till det begreppet sen tidgare med namnet namnrymder.

@@ -3,13 +3,13 @@ Flödeskontroll, del 1!
 
 
 INDENTERING ÄR JÄTTEVIKTIGT!
-Indenteringar är det som skapar kodblock.
+Indenteringar är det som skapar Kodblock.
 Indenteringen ska vara 4 stycken mellanslag.
 
 
 IF-satser
 
-Pseudokod är låtsaskod som man använder som "skiss":
+Pseudokod är låtsaskod som man använder som "skiss".
 T.ex:
 	"Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
 
@@ -60,11 +60,12 @@ else:
 
 				hatt   = im
 
-
-Tecken (operatorer) som är konstateranden (påståenden):
+Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
 	=
 	+=
 	-=
+	osv.
+
 Tecken som är frågor:
 	==		(Lika med)
 	<		(Mindre än)
@@ -80,4 +81,4 @@ Den tredje typen är matematiska operatorer:
 	/		(Delat-med/Division)
 	**		(Upphöjt-till/Exponent)
 	%		(Rest/Modulo)
-	//		(Heltaldivision)
+	//		(Heltalsdivision)

@@ -1,38 +1,40 @@
 # Ett exempel på fler av specialmetoderna man kan lägga in i egenskapade
-# objekt och hur man kan lägga in kod som förhindrar vanliga fel från att uppstå.
+# Klasser och hur man kan lägga in kod som förhindrar vanliga fel från
+# att uppstå.
 
 # Detta är inte exakt hur man bör göra för att förhindra dessa fel, men hur man
 # bör göra går man igenom i fortsättningskursen. Exception handling, om ni vill
 # läsa om det på egen hand.
 
-class MyObject:
+class MyClass:
 
     # Konstruktorn
     def __init__(self, value):
         self.value = value
 
-    # Hur objekt ska reagera på operatorn +
+    # Hur Objekt ska reagera på operatorn +
     def __add__(self, other):
+
         # if type(self.value) == type(other.value):
-        if isinstance(other, MyObject):
-            return MyObject(self.value + other.value)
+        if isinstance(other, MyClass):
+            return MyClass(self.value + other.value)
         else:
             return "Ogiltig operation"
 
-    # Hur objekt ska reagera på operatorn =
+    # Hur Objekt ska reagera på operatorn ==
     def __eq__(self, other):
         return self.value == other.value
 
-    # Vad objekt ska returnera när något ber om en sträng-representation av
-    # objektet
+    # Vad Objektet ska returnera när något ber om en sträng-representation av
+    # Objektet
     def __str__(self):
         return str(self.value)
 
     
 
 
-a = MyObject(2)
-b = MyObject(2)
+a = MyClass(2)
+b = MyClass(2)
 c = a
 # Vi jämför objekten:
 print("a == b:", a == b)
@@ -42,14 +44,14 @@ print("a is c:", a is c)
 print()
 
 
-# Vi testar hur objekten reagerar på str() och att bara bli skickade till print()
+# Vi testar hur Objekten reagerar på str() och att bara bli skickade till print()
 print("a:", a)
-print("Strängrepresentation av  (str(a):", str(a))
-print("(str(a) + 'Hej':", str(a) + "Hej")
+print("Strängrepresentationen av  (str(a):", str(a))
+print("str(a) + 'Hej':", str(a) + "Hej")
 print()
 
 
-# Vi testar hur objekten reagerar på ett plustecken
+# Vi testar hur Objekten reagerar på ett plustecken
 d = a + b
 e = a + 5
 print("d:", d)

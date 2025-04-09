@@ -6,6 +6,7 @@
 def hello_world():
     print("Hello, World!")
 
+
 # Man kan också ge funktioner data som de behöver, i form av
 # s.k. Argument, som du inte behöver delas i hela program.
 #

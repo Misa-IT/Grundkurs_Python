@@ -8,13 +8,12 @@ def hello_world():
 
 
 # Man kan också ge funktioner data som de behöver, i form av
-# s.k. argument, som då inte behöver delas i hela programmet.
+# s.k. Argument, som då inte behöver delas i hela programmet.
 #
-# I det här exemplet accepterar vår funktion ett argument, ett namn,
+# I det här exemplet accepterar vår funktion ett Argument, ett namn,
 # som vi vill att programmet ska hälsa på.
 def hello(name):
     print("Hej ", name, "!", sep="")
-
 
 
 # Funktioner kan också ge värden tillbaka, vilket man kallar

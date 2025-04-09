@@ -1,6 +1,6 @@
 # Här vill vi hämta ut ett värde från en dict och skriva ut det.
 # Komplettera koden så att den fungerar. Endast en rad ska ändra på.
-# Att hårdkoda är inte rätt svar. D.v.s. det är inte rätt att ändra i print()
+# Att hårdkoda är inte rätt svar. Det är alltså inte rätt att ändra i print()
 # så att det står "Två på engelska är: two"
 
 

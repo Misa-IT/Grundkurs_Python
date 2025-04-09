@@ -4,6 +4,7 @@
 
 my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]
 
+
 # Skriv ut hela listan
 print(my_fruit_list)
 
@@ -32,9 +33,11 @@ print("123456789"[0:5])
 
 # När man hämtar från en dict så använder man sig av samma syntax för att hämta
 # ett element men istället för index anger man vad man vill ha genom att skriva
-# nyckeln mellan citattecknen.
+# in nyckeln mellan parenteserna.
 johan = {"namn": "Johan", "ålder": 35, "längd": 180}
 emma = {"namn":"Emma", "ålder": 31, "längd": 174}
+
 print(johan["ålder"], emma["ålder"])
+
 for x in [johan, emma]:
     print(x["namn"])

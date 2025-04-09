@@ -27,13 +27,14 @@ print("En slumpad dragning av fem spelkort:", sample(my_card_list, k=5))
 
 print()  # Tom print() för att göra en tom rad.
 # Om vi multiplicerar en sträng så upprepas strängen så många gånger:
-print("-------"*5)
+print("-------" * 5)
 
 # Vi skapar en ny lista och slumpar ordningen:
 # my_random_list = my_card_list  # Detta är fel, men vi kollar vad som händer.
 my_random_list = []
 for card in my_card_list:
     my_random_list.append(card)
+
 # my_random_list = [card for card in my_card_list]  # Alternativt sätt.
 
 print("De ursprungliga listorna:\n")
@@ -42,12 +43,12 @@ print("-------")
 print("My random list:\n", my_random_list)
 
 
-print("-------"*5)
-x = random.shuffle(my_random_list) # Fel. 'x = ' ska inte vara där.
+print("-------" * 5)
+x = random.shuffle(my_random_list)  # Fel. 'x = ' ska inte vara där.
 print("Värdet på x är:", x)
 
-print("-------"*5)
-print("Listorna efter blandning:")
+print("-------" * 5)
+print("Listorna efter blandning:\n")
 print("My card list:\n", my_card_list)
 print("-------")
 print("My random list:\n", my_random_list)
