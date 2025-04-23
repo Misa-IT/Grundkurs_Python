@@ -1,5 +1,7 @@
 # Ändra i de båda print() så att vi får rätt resultat.
 
+
+# Variablerna ska användas i båda print().
 # Raderna där vi skapar variablerna ska alltså inte ändras och inga nya rader
 # ska läggas till.
 
