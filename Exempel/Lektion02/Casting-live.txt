@@ -4,7 +4,7 @@ Att be om värdet på något i en annan form.
 Det går att konvertera, "cast:a" eller "casta", mellan olika datatyper.
 
 Det lättaste sättet, som fungerar mellan nästan alla datatyper, är att skriva namnet på den nya dataypen
-följt av en parentes, den variabel eller det värde som ska cast:as och en sluparentes.
+följt av en parentes, den variabel eller det värde som ska cast:as och en slutparentes.
 T.ex:
 	str(3)
 	

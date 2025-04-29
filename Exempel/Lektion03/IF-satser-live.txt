@@ -3,8 +3,8 @@ Flödeskontroll, del 1!
 
 
 INDENTERING ÄR JÄTTEVIKTIGT!
-Indenteringar är det som skapar Kodblock.
-Indenteringen ska vara 4 stycken mellanslag.
+Indenteringar är det som skapar kodblock.
+Indenteringar ska vara 4 stycken mellanslag.
 
 
 IF-satser
@@ -24,10 +24,9 @@ Hur en dator skulle tolka det:
 	Annars, köp ett paket ägg.
 
 om affären_säljer_limpor är sant så
-	mängd_äggkartonger_att_köpa är 2
+mängd_äggkartonger_att_köpa är 2
 annars så
-	mängd_äggkartonger_att_köpa är 1
-
+mängd_äggkartonger_att_köpa är 1
 
 if affären_säljer_limpor == True:
 	mängd_äggkartonger_att_köpa = 2
@@ -35,8 +34,7 @@ else:
 	mängd_äggkartonger_att_köpa = 1
 
 
-Indenteringen meddelar Python att koden tillhör ett så kallat "kodblock".
-
+Indenteringen meddelar Python att koden tillhör ett så kallat kodblock.
 
 if hattkanter == 3:
 	hatt = min
@@ -54,8 +52,8 @@ if hk                  ==3:
 
  hatt=m
 else:
-	
-	
+
+
 				hatt      = im
 
 Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
