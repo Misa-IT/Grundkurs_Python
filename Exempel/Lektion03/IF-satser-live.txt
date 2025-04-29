@@ -13,7 +13,7 @@ Pseudokod är låtsaskod som man använder som "skiss".
 T.ex:
 	"Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
 
-Vad man maner med detta:
+Vad man menar med detta:
 	Inköpslista:
 		1 paket ägg
 		2 limpor
@@ -40,3 +40,41 @@ if hattkanter == 3:
 	hatt = min
 else:
 	hatt = inte_min
+
+
+Varför det är viktigt att följa konventioner (stilregler):
+
+	OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
+
+if hk                  ==3:
+
+
+
+ hatt=m
+else:
+
+
+				hatt      = im
+
+Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
+	=
+	+=
+	-=
+	osv.
+
+Tecken som är frågor:
+	==		(Lika med)
+	<		(Mindre än)
+	>		(Större än)
+	<=		(Mindre än eller lika med)
+	>=		(Större än eller lika med)
+	!=		(Inte lika med)
+
+Den tredje typen är matematiska operatorer:
+	*		(Gånger/Multiplikation)
+	+		(Plus/Addition/Konkatenering)
+	-		(Minus/Subtraktion)
+	/		(Delat-med/Division)
+	**		(Upphöjt-till/Exponent)
+	%		(Rest/Modulo)
+	//		(Heltalsdivision)
