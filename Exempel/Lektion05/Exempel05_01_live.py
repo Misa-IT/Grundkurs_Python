@@ -1,4 +1,4 @@
-# Demonstration av slicing på listor och strängar
+# Demonstration av slicing på listor och strängar.
 # Samt hur man hämtar information ur en dict.
 # Tuples fungerar för detta syfte precis som listor.
 
@@ -8,11 +8,11 @@ my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]
 # Skriv ut hela listan
 print(my_fruit_list)
 
-# Hämta och skriv ut första elementet
+# Hämta och skriv ut det första Elementet
 print(my_fruit_list[0])
 
 # Hämta och skriv ut, som en lista, de tre första elementen ur my_fruit_list
-# på två olika sätt
+# på två olika sätt.
 print(my_fruit_list[0:3])
 print(my_fruit_list[:3])
 
@@ -30,10 +30,9 @@ print(my_fruit_list[len(my_fruit_list)-3:])
 # Slicing fungerar även på strängar
 print("123456789"[0:5])
 
-
-# När man hämtar från en dict så använder man samma syntax för hämta
+# När man hämtar från en dict så använder man sig av samma syntax för att hämta
 # ett element men istället för index anger man vad man vill ha genom att skriva
-# nyckeln.
+# in nyckeln mellan parenteserna.
 johan = {"namn": "Johan", "ålder": 35, "längd": 180}
 emma = {"namn":"Emma", "ålder": 31, "längd": 174}
 
