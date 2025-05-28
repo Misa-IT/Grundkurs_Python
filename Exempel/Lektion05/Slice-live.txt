@@ -4,33 +4,37 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
 	Samlingsvariabel:
 		En variabel som har en samlingsdatatyp.
-
+	
 	Element:
-		En sak i en samling. T.ex. "Första elementet i den här listan".
-
+		En sak i en samling. T.ex. "Första elementet i den här listan."
+	
 	Spann:
-		Interval, man kan "spänna över" något. Tex. en bro.
+		Intervall, man kan "spänna över" något. T.ex. en bro.
 
 Slicing, Slice:ing, att slice:a
 	Att ta en specifik del av en mängd. I Python är det oftast samlingsvariabler
-	vi talar om när vi talar om mängder (när vi inte tlar specifikt om set).
+	vi talar om när vi talar om mängder (när vi inte talar specifikt om set).
 
 
 my_list = [1, 2, 3, 4, 5, 6, 7]
-my_list[1] ger en tvåa om vi har listan ovan.
+my_list[1] ger en två om vi har listan ovan.
 my_list[2] ger en trea om vi har listan ovan.
 
 Att tänka på: datorn tittar inte på element utan på positioner/indexplatser.
 
 my_list[0:2] ger en lista med en etta och en tvåa om vi har listan ovan.
-my_list[:2] ger en lista med alla element från BÖRJAN till, men inte med, index 2. En etta och en tvåa i detta fall.
-my_list[:] ger en lista med alla element från BÖRJAN till SLUTET.
+my_list[:2] ger en lista med alla Element från BÖRJAN till, men inte med, index 2.
+	En etta och en tvåa i detta fall.
+my_list[:] ger oss en lista med alla Element från BÖRJAN till SLUTET.
 
-Notera att när vi ber om ett spann, även om det visar sig att spannet bara innehåller ett element, så får vi tillbaka
-en samling av samma typ som hämtar ifrån.
-Ber vi om ett specifikt element så får vi endast det elementet tillbaka, inte en samling med det elementet i.
+Notera att när vi ber om ett spann, även om det visar sig att spannet bara innehåller ett (eller noll)
+	element, så får vi tillbaka en samling av samma typ som vi hämtar ifrån.
+Ber vi om ett specifikt Element så får vi endast det Elementet tillbaka, inte en samling med det
+	Elementet i.
 
-samlingen[FRÅN (och med):TILL (men inte med):FREKVENS]
+
+Syntaxen:
+	den_samling_vi_hämtar_ifrån[FRÅN och med:TILL men inte med:FREKVENS]
 
 De parenteser vi använder när vi tar en slice har inget att göra med de parenteser vi använder för
-att skapa listor, trots att de är samma typ av parenteser.
+	att skapa listor, trots att de är samma typ av parenteser.

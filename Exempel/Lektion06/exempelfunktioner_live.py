@@ -37,4 +37,5 @@ funktion_som_tar_emot_tre_argument(6, 7)
 
 x = 42
 funktion_som_tar_emot_tre_argument(x, x, x)
+# Nästa rad kommer att krascha programmet
 print(godtyckligt_namn1)

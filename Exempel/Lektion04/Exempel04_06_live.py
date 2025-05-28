@@ -4,16 +4,22 @@
 i = 0
 end = 10
 
-# i ökas med 1 för varje varv i loopen
 while True:
+    # i ökas med 1 för varje varv i loopen
     i += 1
     # Om i når 10 så avbryter vi loopen DIREKT, inga av loopens
     # efterföljande rader körs.
     if i == 10:
         break
+        print("Denna rad är omöjlig att nå!")
+        
     # Om i är 5 så avbryter vi nuvarande varvet. Loopen fortsätter men
     # kvarvarande rader i loopens kodblock hoppas över för detta varv.
     if i == 5:
+        print("Hoppar över något.")
         continue
+        print("Denna rad är omöjlig att nå!")
+
     print(i)
 
+print("Nu är loopen över!")
