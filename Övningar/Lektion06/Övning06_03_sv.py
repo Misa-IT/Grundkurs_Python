@@ -19,7 +19,7 @@
 # Som minst efterfrågas tre bedömningsnivåer, t.ex. de ovan, men ni kan lägga
 # till fler om ni vill.
 
-# NOTERA: Det är ENDAST i funktionen evaluate_temperature som ni ska göra ändringar
+# NOTERA: Det är ENDAST i funktionen bedöm_badtemperatur som ni ska göra ändringar
 
 
 def bedöm_badtemperatur(antal_grader):
