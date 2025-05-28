@@ -6,12 +6,12 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 				eller ändrar på en variabel.
 				Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi gå
 				igenom i en senare vecka.
-				
+	
 	Funktion -	En samling kod som namngivits för att lätt kunna återanvändas.
 				En instruktion till datorn.
-				
+	
 	Objekt -	En samling av data och instruktioner om hur man interagerar med den.
-				T.ex. via metoder som ligger i objektet eller med operatorer.
+				T.ex. via metoder som ligger i Objektet eller med operatorer.
 				(+, -, *, etc.)
 	
 	Metod -		En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför
@@ -19,9 +19,9 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 	
 	Argument -	Det man skickar till en funktion.
 	
-	Returnera - Att skicka tillbaka.
+	Returnera -	Att skicka tillbaka.
 
-SYNTAX ÄR JÄTTEVIKTIGT
+SYNTAX ÄR JÄTTEVIKTIGT!
 
 
 Python är ett objektorienterat programmeringsspråk.
@@ -32,16 +32,23 @@ Namespaces / Namnrymder är avskiljningar för att hålla namn unika.
 	Exempel: Postnummer, epost
 	Exempel: info@misa.se
 
+
 Funktioner kallas för olika saker i olika programmeringsspråk:
 	Funktioner = Procedurer = Subrutiner
 	Functions = Processes = Sub-routines
 
-Argument = Det man skickar till en funktion eller metod
+Argument = Det man skickar till en funktion eller metod.
+	Man "skickar" argument genom att skriva in det som ska skickas mellan
+	parenteserna när man "anropar" en funktion.
+	
 	Positional arguments / Positionsargument
-	Keyword arguments / Nyckelordsargument
+		Argument där ordningen man skriver in dem i spelar STOR roll.
+	Keywords Arguments / Nyckelordsargument
+		Argument där man anger namn på argumenten för att särskilja dem.
 
 
 Matematiska funktioner ser väldigt liknande ut som funktioner i Python:
+
 Matte:
 	f(x) = x * 2
 	eller
@@ -59,4 +66,4 @@ Designprincip i Python:
 	
 	Ska man göra samma sak flera gånger är det alltså bättre att "bryta ut" den
 	saken till en funktion, precis som man använder loopar för att inte behöva
-	göra samma sak om och om igen.
+	skriva samma sak om och om igen.
