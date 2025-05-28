@@ -4,9 +4,10 @@
 
 # Uppgiften är att utöka den här filen så att den hanterar fler räknesätt
 # eller operatorer.
-# Lägg till minst två nya funktioner, helst några fler. Max fem nya.
+# Lägg till minst tre nya funktioner, helst några fler. Max fem nya.
 # Om du inte vet vad du ska välja för räknesätt så är förslagen
-# subtraktion (dvs. minus) och division (dvs. delat med).
+# subtraktion (dvs. minus), division (dvs. delat med) och exponent (dvs.
+# upphöjt till)
 
 # Länk till exempel på operatorer (Endast de som är markerade med fet stil
 # är relevanta för grundkursen:
