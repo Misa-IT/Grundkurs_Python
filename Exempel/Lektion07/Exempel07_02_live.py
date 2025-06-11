@@ -12,6 +12,7 @@ print()
 
 input("Vi väntar på att du ska ändra något i tobeimported_live.")
 
+print()
 print("Importerar samma modul igen!")
 import tobeimported_live
 print("Fortfarande samma modul:", tobeimported_live)
