@@ -3,25 +3,30 @@ Klasser! Objekt!
 Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
 	Objektorienterad programmering:
-		En typ av programmering där man använder sig av Objekt för att dela upp data och funktionalitet. Inkapsling är en av de viktigaste bitarna och vi känner till det begreppet sen tidgare med namnet namnrymder.
+		En typ av programmering där man använder sig av Objekt för att dela upp data och
+			funktionalitet. Inkapsling är en av de viktigaste bitarna och vi känner till det
+			begreppet sen tidigare med namnet namespace.
 	
 	Objekt:
 		En samling data och instruktionerna för datorn om hur man behandlar sagda data.
-		Instans av en Klass.
-		Om Klassen är en pepparkaksform så är Objekten pepparkakorna som vi skapar med hjälp av formen.
+		En Instans av en Klass.
+		Om Klassen är en pepparkaksform så är Objekten pepparkakorna som vi skapar med hjälp av
+			formen.
 		
 	Klass:
-		En "ritning" för en typ av Objekt.
-		Precis som en pepparkaksform kan användas för att göra flera pepparkakor så kan en Klass användas för att skapa flera Objekt.
-
+		En 'ritning' för en typ av Objekt.
+		Precis som en pepparkaksform kan användas för att göra flera pepparkakor så kan en Klass
+			användas för att skapa flera Objekt.
+	
 	Instans:
-		En kopia av ett koncept.
+		En specifik kopia av ett koncept.
 		T.ex. en specifik bok istället för konceptet böcker.
-		En term man använder för att vara tydlig med att man pratar om t.ex. en specifik lista (alltså ett list-objekt) och inte list-objekt i allmänhet.
-
+		En term man använder för att vara tydlig med att man pratar om t.ex. en specifik
+			lista (alltså ett list-Objekt) och inte list-Objekt i allmänhet.
+	
 	Metoder:
-		Funktioner som ligger i Objekt. (Eller i Klasser, men det är utanför grundkursen.)
-		Har alltid argumentet self i de situationer vi går igenom i grundkursen.
+		Funktioner som ligger i Objekt. (Eler i Klasser, men det är utanför grundkursen.)
+		Har alltid argumentet self, i de situationer vi går igenom i grundkursen.
 	
 	Attribut:
 		Egenskaper hos Objekt. Oftast är de data/variabler och metoder.
@@ -30,10 +35,10 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 		__init__-metoden som körs när man skapar ett Objekt.
 	
 	Arv:
-		När man använder sig av en annan "ritning" (en annan Klass) för påbörja en ny "ritning" (en ny Klass).
-		En Klass kan ärva från mer än en Klass.
+		När man använder sig av en annan 'ritning' (en annan Klass) för att påbörja en
+			ny 'ritning' (en ny Klass).
 
 Klass = Bok
 Klass som ärver från Bok = Pocketbok(Bok)
 Klass som ärver från Pocketbok och en annan Klass = SaganOmRingenSomPocket(Pocketbok, SaganOmRingen)
-Objekt som skapas från Klassen SaganOmRingenSomPocket = Ett specifikt exemplar av den boken.
+Objekt som skspas från Klassen SaganOmRingenSomPocket = Ett specifikt exemplar av den boken.

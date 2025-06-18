@@ -25,18 +25,18 @@ class Cat(Animal):
         self.prickig = prickig
 
 
-
 a = Animal()
 fido = Dog("Fido")
 pelle = Cat("Pelle", True)
 
+
 fido.speak()
 pelle.speak()
 
-print(fido.fluffy_fur, fido.name)
-print(pelle.prickig)
 
-print("\n\n")
+print(fido.name, fido.fluffy_fur)
+print(pelle.prickig)
+print("\n" * 3)
 
 def main():
     a = Animal()
@@ -49,7 +49,6 @@ def main():
             print("Jag har fluffig päls!")
         else:
             print("Jag har inte fluffig päls...")
-
-
+            
 if __name__ == "__main__":
     main()

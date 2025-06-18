@@ -11,7 +11,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 		En samling data och instruktionerna för datorn om hur man behandlar sagda data.
 		En Instans av en Klass.
 		Om Klassen är en pepparkaksform så är Objekten pepparkakorna som vi skapar med hjälp av
-		formen.
+			formen.
 
 	Klass:
 		En 'ritning' för en typ av Objekt.
