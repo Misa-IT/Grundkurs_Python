@@ -2,9 +2,10 @@
 # Klasser och hur man kan lägga in kod som förhindrar vanliga fel från
 # att uppstå.
 
-# Detta är inte exakt hur man bör göra för att förhindra dessa fel, men hur man
-# bör göra får man igenom i fortsättningskursen. Exception handling, om ni vill
-# läsa om det på egen hand.
+# Detta är inte exakt hur man bör göra för att förhindra dessa fel, men hur
+# man bör göra går man igenom i fortsättningskursen. Exception handling,
+# om ni vill läsa om det på egen hand.
+
 
 class MyClass:
 
@@ -25,15 +26,16 @@ class MyClass:
     def __eq__(self, other):
         return self.value == other.value
 
-    # Vad Objektet ska returnera när något ber om en sträng-representation av
-    # Objektet
+    # Vad Objekt ska returnera när något ber om en sträng-representation
+    # av Objektet.
     def __str__(self):
         return str(self.value)
+
 
 a = MyClass(2)
 b = MyClass(2)
 c = a
-# Vi jämför Objekten:
+# Vi jämför objekten:
 print("a == b:", a == b)
 print("a == c:", a == c)
 print("a is b:", a is b)
@@ -41,20 +43,28 @@ print("a is c:", a is c)
 print()
 
 
-
-# Vi testar hur Objekten reagerar på str() och att bara bli skickade till print()
+# Vi testar hur Objekten reagerar på str() och att bara bli skickade till
+# print()
 print("a:", a)
-print("Strängrepresentationen av a (str(a)):", str(a))
+print("Strängrepresentationen av a str(a) :", str(a))
 print("str(a) + 'Hej':", str(a) + "Hej")
 print()
 
 
-# Vi testar hur Objekten reagerar på ett plustecken:
+# Vi testar jur Objekten reagerar på ett plustecken
 d = a + b
 e = a + 5
 print("d:", d)
 print("e:", e)
-# Notera att e har fått en sträng som "value". Detta är antagligen inte
-# önskvärt i detta fall.
+# Notera att e var fått en sträng som "value". Detta är antagligen inte
+# önskvärt i detta fal.
 print(type(d))
 print(type(e))
+
+
+
+
+
+
+
+
