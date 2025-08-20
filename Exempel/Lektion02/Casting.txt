@@ -9,9 +9,9 @@ T.ex:
 Detta, med att sätta parenteser efter ett namn, är hur man använder en så kallad Funktion, vi kommer att prata mer om det senare i kursen.
 
 int(min_variabel)
-Betyder "Ge mig värdet på min_variabel som ett heltal".
+	Betyder "Ge mig värdet på min_variabel som ett heltal".
 
 str(min_variabel)
-Betyder "Ge mig värdet på min_variabel som text".
+	Betyder "Ge mig värdet på min_variabel som text".
 
 Notera parenteserna, det är VÄLDIGT viktigt var man har parenteser och var man inte har parenteser i Python.

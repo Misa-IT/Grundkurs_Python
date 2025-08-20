@@ -40,13 +40,13 @@ Samlingsdatatyper:
 	dict = Dictionary = Ordbok
 		nyckel:värde  /  key:value
 		Nycklar får inte kunna ändras på och de måste vara unika.
-			T.ex: x = {2:"två", "ålder":34}
+			T.ex: x = {2:"två", "ålder":35}
 			T.ex: johan = {"namn":"Johan", "ålder":35, "längd":180}
 			T.ex: emma = {"namn":"Emma", "ålder":35, "längd":174, "ålder":36}
 
 	set = Set = Mängd; Kan ses på som en låda, allt hamnar där det får plats.
 		Det får bara finnas en av varje sak. Det som läggs i lådan får inte kunna gå att ändra på.
-		T.ex: x = {1, 2, 3}
+			T.ex: x = {1, 2, 3}
 
 Nedanstående är en referens för snabb översikt:
 	list skapas med []
