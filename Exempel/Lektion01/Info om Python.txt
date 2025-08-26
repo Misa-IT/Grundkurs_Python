@@ -40,7 +40,7 @@ Pseudokod, låtsaskod:
 		Skriv ut den saken på skärmen
 
 
-IDLE är programmet vi använder när vi skriver Pythonkod i grundkursen.
+IDLE är programmet vi använder under grundkursen när vi skriver Pythonkod.
 	IDLE har två lägen:
 		- IDLE Shell
 		- Textredigerarläget

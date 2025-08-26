@@ -25,7 +25,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 			lista (alltså ett list-Objekt) och inte list-Objekt i allmänhet.
 	
 	Metoder:
-		Funktioner som ligger i Objekt. (Eler i Klasser, men det är utanför grundkursen.)
+		Funktioner som ligger i Objekt. (Eller i Klasser, men det är utanför grundkursen.)
 		Har alltid argumentet self, i de situationer vi går igenom i grundkursen.
 	
 	Attribut:
