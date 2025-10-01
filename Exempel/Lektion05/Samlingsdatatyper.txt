@@ -3,7 +3,7 @@ Samlingsdatatyper, repetition!
 Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
 	Element:
-		En sak i en samling. T.ex. "Första elementet i den här listan".
+		En sak i en samling. T.ex. "Första elementet i den här listan."
 
 	Samlingsvariabel:
 		En variabel av en samlingsdatatyp.
@@ -20,22 +20,21 @@ De vanligaste samlingsdatatyperna:
 	dict = Dictionary = Ordbok
 	set = Set = Mängd
 
-
-list = Lista = Kan ses på som en hylla, allt står i en viss ordning. Föränderliga.
+list = Lista = Kan ses på som en bokhylla, allt står i en viss ordning. Föränderliga.
 
 tuple = Kan ses på som en hylla där någon har superlimmat fast allting. Oföränderliga.
 
 dict = Dictionary = Kan ses på som en faktisk ordbok.
-	Varje element består av två delar åtskilda av ett kolon (:). Först står Nyckeln
+	Varje Element består av två delar åtskilda av ett kolon (:). Först står Nyckeln
 	sen kommer Värdet.
 	nyckel:värde, key:value
 	T.ex:
-		2:"två", "ålder":35
+		2:"Två", "ålder":35
 		johan = {"namn":"Johan", "ålder":35, "längd":180}
 		emma = {"namn":"Emma", "ålder":31, "längd":174, "ålder":32}
 	Nycklar måste vara unika inom ett dictionary. Försöker man lägga in en dubblett
 		så skriver man över det gamla värdet för den nyckeln.
-	Nycklar får inte gå att ändras på, de måste alltså vara oföränderliga.
+	Nycklar får inte kunna ändras på, dvs. de måste vara oföränderliga.
 
 set = Mängd = Kan ses på som en låda, allt ligger där det får plats.
 	Det får bara finnas en av varje sak.
@@ -48,7 +47,7 @@ Hur vi skapar en lista:
 Hur vi skapar en tuple:
 	namnet_vi_vill_ha = (element, element, element)
 
-Hur vi skapar en dict:
+Hur vi skapar ett dict:
 	namnet_vi_vill_ha = {nyckel:värde, nyckel:värde, nyckel:värde}
 
 Hur vi skapar ett set:

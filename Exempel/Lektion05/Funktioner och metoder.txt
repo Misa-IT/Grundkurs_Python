@@ -2,12 +2,12 @@ Funktioner och metoder!
 
 Funktioner:
 	Exempelfunktion: print()
-	En funktion är en instruktion till datorn. En bit kod som man namngivit för
-		att lätt kunna återanvända.
+	En funktion är en instruktion till datorn. En bit kod som man namngivit
+		för att lätt kunna återanvända.
 	När man använder sig av en funktion så "kallar" man på den eller "anropar" den.
 		På engelska blir det "call".
 	Det gör man genom att använda parenteser efter namnet på funktionen.
-	T.ex: print("Hej!")
+		T.ex. print("Hej!")
 
 Det som står innanför parenteserna kallas för Argument eller, som det heter i
 	vissa andra programmeringsspråk, parametrar och är extra instruktioner till datorn.
@@ -21,4 +21,4 @@ Metoder:
 
 	Exempelmetod:
 		my_list.append()
-		append() <--- Är fel, metoder måste kallas / anropas / användas från Objekt.
+		append() <---- Är fel, metoder måste kallas / anropas / användas från Objekt.
