@@ -1,4 +1,4 @@
-# Exempel som visar hur For-loopar fungerar och kan användas.
+# Exempel som visar hur for-loopar fungerar och kan användas.
 
 my_str_list = ["Från", "den", "här", "listan", "kan", "vi", "hämta", "text!"]
 my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]

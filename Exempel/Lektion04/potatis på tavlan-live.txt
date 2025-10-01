@@ -20,7 +20,7 @@ Skala potatis med en loop:
 	1. Ta en potatis
 	2. Skala potatisen
 	3. Lägg potatisen i kastrullen
-	4. Hoppas till steg 1
+	4. Hoppa till steg 1
 
 
 Skala potatis tills kastrullen är full:

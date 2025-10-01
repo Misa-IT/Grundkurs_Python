@@ -9,13 +9,13 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 		Upprepa
 	
 	Itereringsvariabel:
-		Den variabel man kollar på vid varje varv av en loop.
+		Den variabel som man kollar på vid varje varv av en loop.
 		Kan också kallas upprepningsvariabel.
 
 
 Ett exempel på en dåligt formulerad instruktion:
 
-	Instruktion: Tvätta håret, skölj ur och upprepa.
+	Instuktion: Tvätta håret, skölj ur och upprepa.
 		Tvätta håret
 		Skölj ur
 		Tvätta håret
@@ -46,7 +46,7 @@ for-loopar:
 	For each element in [Collection] do this:
 		[Instructions]
 	
-	For each thing in [Collection], call the thing [Name], and do this:
+	For each element in [Collection], call the thing [Name], and do this:
 		[Instructions]
 	
 	for [Sak/Itereringsvariabel] in [Samling]:

@@ -36,14 +36,13 @@ Skala potatis tills kastrullen är full:
 
 Pseudokod för while:
 
-	Upprepa:
+	Upprepa oändligt:
 		Om kastrullen är full med potatis:
 			Avbryt potatisskalningen
 		Annars:
 			Ta en potatis
 			Skala potatisen
 			Lägg potatisen i kastrullen
-
 
 	while True:
 		if pot_full == True:
@@ -52,6 +51,7 @@ Pseudokod för while:
 			take_potato()
 			peel_potato()
 			put_potato_in_pot()
+
 
 	Upprepa så länge kastrullen inte är full:
 		Ta en potatis
@@ -76,14 +76,14 @@ Pseudokod för for-loopar:
 		peel_potato()
 		put_potato_in_pot()
 
-Alternativ till ovanstående:
+	Alternativ till ovanstående:
 
 	För varje potatis i säcken, kalla den x:
 		Ta x
 		Skala x
 		Lägg x i kastrullen
 
-	for x in sack:
+	for x in potato_sack:
 		take_potato(x)
 		peel_potato(x)
 		put_potato_in_pot(x)
@@ -91,7 +91,7 @@ Alternativ till ovanstående:
 
 Komplett exempel som kollar både kastrullen och att det finns potatisar kvar:
 
-	for x in sack:
+	for x in potato_sack:
 		if pot_full == True:
 			break
 		take_potato(x)

@@ -61,7 +61,7 @@ else:
 						hatt      = im
 
 
-Tecken (operatorer) som är konstateranden (påståeden / tilldelningar):
+Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
 	=
 	+=
 	-=
