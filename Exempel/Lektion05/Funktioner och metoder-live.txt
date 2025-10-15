@@ -5,11 +5,11 @@ Funktioner:
 	En funktion är en instruktion till datorn. En bit kod som man namngivit
 		för att lätt kunna återanvända.
 	När man använder sig av en funktion så "kallar" man på den eller "anropar" den.
-		På englska blir det "call".
+		På engelska blir det "call".
 	Det gör man genom att använda parenteser efter namnet på funktionen.
 		T.ex. print("Hej!")
 
-Det som står innanför parenteserna kallas för Argument eller, som heter i
+Det som står innanför parenteserna kallas för Argument eller, som det heter i
 	vissa andra programmeringsspråk, parametrar och är extra instruktioner till datorn.
 I exemplet ovan så vill vi att "Hej!" skrivs ut på skärmen så vi skickar "Hej!"
 	som ett Argument till funktionen print().

@@ -29,7 +29,7 @@ my_list[:2] ger en lista med alla Element från BÖRJAN till, men inte med, inde
 my_list[:] ger en lista med alla Element från BÖRJAN till SLUTET.
 
 Notera att när vi ber om ett Spann, även om det visar sig att spannet bara innehåller ett (eller noll)
-	Element, så får vi tillbka en samling av samma typ som vi hämtar ifrån.
+	Element, så får vi tillbaka en samling av samma typ som vi hämtar ifrån.
 Ber vi om ett specifikt Element så får vi endast det Elementet tillbaka, inte en samling med det
 	Elementet i.
 

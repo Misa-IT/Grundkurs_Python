@@ -2,7 +2,7 @@
 # Samt hur man hämtar information ur en dict.
 # Tuples fungerar för detta syfte precis som listor.
 
-my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"] #, "Banan"]
+my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]  #, "Banan"]
 
 
 # Skriv ut hela listan
@@ -32,7 +32,7 @@ print("123456789"[2:5])
 
 
 # När man hämtar från en dict så använder man sig av samma syntax för att hämta
-# ett element men istället för index anger ma nvad man vill ha genom att skriva
+# ett element men istället för index anger man vad man vill ha genom att skriva
 # in nyckeln mellan parenteserna.
 johan = {"namn": "Johan", "ålder": 36, "längd": 180}
 emma = {"namn":"Emma", "ålder": 31, "längd": 174}
