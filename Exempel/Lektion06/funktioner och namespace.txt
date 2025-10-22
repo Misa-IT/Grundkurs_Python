@@ -11,7 +11,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 				En instruktion till datorn.
 
 	Objekt -	En samling av data och instruktioner om hur man interagerar med den.
-				T.ex. via metoder som ligger i objektet eller med operatorer.
+				T.ex. via metoder som ligger i Objektet eller med operatorer.
 				(+, -, *, etc.)
 
 	Metod -		En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför
@@ -36,16 +36,23 @@ Funktioner kallas för olika saker i olika programmeringsspråk:
 	Funktioner = Procedurer = Subrutiner
 	Functions = Processes = Sub-routines
 
-Argument = Det man skickar till en funktion eller metod
+Argument = Det man skickar till en funktion eller metod.
+	Man "skickar" argument genom att skriva in det som ska skickas mellan
+	parenteserna när man "anropar" en funktion.
+
 	Positional arguments / Positionsargument
-	Keyword arguments / Nyckelordsargument
+		Argument där ordningen man skriver in dem i spelar STOR roll.
+	Keywords Arguments / Nyckelordsargument
+		Argument där man anger namn på Argumenten för att särskilja dem.
 
 
 Matematiska funktioner ser väldigt liknande ut som funktioner i Python:
+
 Matte:
 	f(x) = x * 2
 	eller
 	y = x * 2
+
 Python:
 	def f(x):
 		return x * 2

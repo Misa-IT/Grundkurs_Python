@@ -1,8 +1,9 @@
 # Funktioner används för att separera och namnge en del av programmet, som
 # ett eget litet miniprogram, så att man kan återanvända koden.
 #
-# I det här exemplet skriver vi en simpel funktion som skriver ut en hälsning
-# på skärmen.
+# I det här exemplet skriver vi en simpel funktion som skriver ut en
+# hälsning på skärmen.
+
 def hello_world():
     print("Hello, World!")
 
@@ -11,9 +12,16 @@ def hello_world():
 # s.k. Argument, som då inte behöver delas i hela programmet.
 #
 # I det här exemplet accepterar vår funktion ett Argument, ett namn,
-# som vi vill att programmet ska hälsa på.
+# som vi sen vill att funktionen ska hälsa på.
+
 def hello(name):
     print("Hej ", name, "!", sep="")
+
+
+# För att våra funktioner ska göra något så måste vi säga åt Python att faktiskt
+# köra dem, ovan har vi bara berättat för Python vad namnen betyder.
+hello_world()
+hello("Johan")
 
 
 # Funktioner kan också ge värden tillbaka, vilket man kallar
@@ -30,14 +38,9 @@ def f(x):
 # Exemplet ovan är t.ex. väldigt likt den matematiska funktionen f(x)=x*2
 
 
-# För att våra funktioner ska göra något så måste vi säga åt Python att faktiskt
-# köra dem, ovan har vi bara berättat för Python vad namnen betyder.
-hello_world()
-hello("Johan")
-
 # Notera skillnaden på vad som händer på nedanstående rader.
-print(f(3))
 f(3)
+print(f(3))
 dubblat = f(4)
 print(dubblat)
 f(8)

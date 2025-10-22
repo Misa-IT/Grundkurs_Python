@@ -2,16 +2,16 @@ Funktioner!
 
 Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
-	Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar
+	Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. är man skapar
 				eller ändrar på en variabel.
 				Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi gå
-				igenom i en senare vecka.
+				igenom i en senare lektion.
 	
-	Funktion -	En samling kod som namngivits för att lätt kunna återanvändas.
+	Funktion -	En samling kod som namngivits gör att lätt kunna återanvändas.
 				En instruktion till datorn.
 	
 	Objekt -	En samling av data och instruktioner om hur man interagerar med den.
-				T.ex. via metoder som ligger i Objektet eller med operatorer.
+				T.ex. via metoder som ligger i Objekt eller med operatorer.
 				(+, -, *, etc.)
 	
 	Metod -		En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför
@@ -21,37 +21,35 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 	
 	Returnera -	Att skicka tillbaka.
 
-SYNTAX ÄR JÄTTEVIKTIGT!
+SYNTAX ÄR JÄTTEVIKTIGT
 
 
-Python är ett objektorienterat programmeringsspråk.
-	Vi kommer att tala mer om Objekt i Lektion08
+Python är är ett objektorienterat programmeringsspråk.
+	Vi kommer att tala mer om Objekt senare i kursen.
 
 
 Namespaces / Namnrymder är avskiljningar för att hålla namn unika.
-	Exempel: Postnummer, epost
+	Exempel: Postnummer, epost, telefonnummer
 	Exempel: info@misa.se
-
 
 Funktioner kallas för olika saker i olika programmeringsspråk:
 	Funktioner = Procedurer = Subrutiner
 	Functions = Processes = Sub-routines
 
 Argument = Det man skickar till en funktion eller metod.
-	Man "skickar" argument genom att skriva in det som ska skickas mellan
-	parenteserna när man "anropar" en funktion.
+	Man "skickar" Argument genom att skriva in det som ska skickas mellan
+	parenteserna när man "anropar" en Funktion.
 	
 	Positional arguments / Positionsargument
 		Argument där ordningen man skriver in dem i spelar STOR roll.
-	Keywords Arguments / Nyckelordsargument
-		Argument där man anger namn på argumenten för att särskilja dem.
+	Keyword arguments / Nyckelordsargument
+		Argument där man anger namn på argumenten för att särkilja dem.
 
 
-Matematiska funktioner ser väldigt liknande ut som funktioner i Python:
+Matematiska Funktioner ser väldigt liknande ut som Funktioner i Python:
 
 Matte:
 	f(x) = x * 2
-	eller
 	y = x * 2
 
 Python:
@@ -65,5 +63,5 @@ Designprincip i Python:
 	Upprepa Dig Inte
 	
 	Ska man göra samma sak flera gånger är det alltså bättre att "bryta ut" den
-	saken till en funktion, precis som man använder loopar för att inte behöva
+	saken till en Funktion, precis som man använder loopar för att inte behöva
 	skriva samma sak om och om igen.

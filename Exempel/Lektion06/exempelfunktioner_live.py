@@ -1,13 +1,13 @@
 # Exempel på hur man definierar, skapar, egna funktioner:
 
-# def för att meddela att vi DEFINIERAR vad en ny funktion betyder.
+
+# def för att meddela att vi DEFINERAR vad en ny funktion betyder.
 # Namnet på funktionen. Bör vara lätt att förstå och BÖR inte innehålla åäö. Namnet
 # bör också vara i små bokstäver med understreck(_) istället för mellanslag.
-# Parenteser, (). För att de MÅSTE vara där även om vi inte planerar att använda
+# Parenteser, (), För att de MÅSTE vara där även om vi inte planerar att använda
 # argument med denna funktion.
-# Ett kolon, :, för att påbörja själva definitionen.
-# En indentering på alla rader som tillhör funktionen.
-
+# Ett kolon,(:), för att påbörja själva definitionen.
+# En indentering på alla rader som tillhör Funktionen.
 
 def exempelfunktion():
     print("Vår funktion gör inget för stunden så jag lägger in lite text så länge.")
@@ -19,9 +19,9 @@ def exempelfunktion():
 exempelfunktion()
 
 
-# Om vi vill skapa en funktion som ska kunna ta emot instruktioner om vad den ska
+# Om vi vill skapa en Funktion som ska kunna ta emot instruktioner om vad den ska
 # arbeta med så måste vi skriva in det innanför parenteserna när vi
-# DEFINIERAR vår funktion.
+# DEFINIERAR vår Funktion.
 # T.ex. vilken text som ska skrivas ut av print() eller vilka tal som ska
 # läggas ihop av en funktion som adderar två tal.
 

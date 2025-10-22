@@ -1,6 +1,7 @@
 # Exempel på vad det egentligen betyder att returnera värden.
 
 print("Skriver ut vad som egentligen returneras av print():", print("Inre print"))
+print()
 x = print("Lagrar print:s returvärde i x.")
 print("Värdet på x är:", x)
 
@@ -23,4 +24,4 @@ print("Värdet vi får tillbaka av f av f av f av f av ett,",
 
 # Det går alltså att "kedja" anrop till funktioner. Det man får tillbaka från
 # den funktion som är "längst in" skickas till föregående, vilket i sin tur
-# skickar sitt resultat till föregående och så vidare.
+# skickas till föregående och så vidare.
