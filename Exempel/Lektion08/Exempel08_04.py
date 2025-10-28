@@ -28,11 +28,11 @@ class Cat(Animal):
 
 
 def main():
-    # Vi ber våra instanser att använda sin metod.
+    # Vi skapar instanser och ber dem att använda sin metod.
     animals = [Dog(), Cat()]
     print(animals)
-    for a in animals:
-        a.speak()
+    for animal in animals:
+        animal.speak()
 
 
 if __name__ == '__main__':

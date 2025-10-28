@@ -25,7 +25,7 @@ class MyClass:
     def __eq__(self, other):
         return self.value == other.value
 
-    # Vad Objektet ska returnera när något ber om en sträng-representation av
+    # Vad Objekt ska returnera när något ber om en sträng-representation av
     # Objektet
     def __str__(self):
         return str(self.value)

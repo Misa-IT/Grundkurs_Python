@@ -16,7 +16,7 @@ class MyClass:
     # Hur Objekt ska reagera på operatorn +
     def __add__(self, other):
 
-        #if type(self.value) == type(other.value):
+        #if type(self) == type(other):
         if isinstance(other, MyClass):
             return MyClass(self.value + other.value)
         else:
@@ -26,45 +26,17 @@ class MyClass:
     def __eq__(self, other):
         return self.value == other.value
 
-    # Vad Objekt ska returnera när något ber om en sträng-representation
-    # av Objektet.
+    # Vad Objekt ska returnera när något ber om en sträng-representation av
+    # Obejektet
     def __str__(self):
         return str(self.value)
-
 
 a = MyClass(2)
 b = MyClass(2)
 c = a
-# Vi jämför objekten:
+# Vi jämför Objekten
 print("a == b:", a == b)
 print("a == c:", a == c)
 print("a is b:", a is b)
 print("a is c:", a is c)
 print()
-
-
-# Vi testar hur Objekten reagerar på str() och att bara bli skickade till
-# print()
-print("a:", a)
-print("Strängrepresentationen av a str(a) :", str(a))
-print("str(a) + 'Hej':", str(a) + "Hej")
-print()
-
-
-# Vi testar jur Objekten reagerar på ett plustecken
-d = a + b
-e = a + 5
-print("d:", d)
-print("e:", e)
-# Notera att e var fått en sträng som "value". Detta är antagligen inte
-# önskvärt i detta fal.
-print(type(d))
-print(type(e))
-
-
-
-
-
-
-
-

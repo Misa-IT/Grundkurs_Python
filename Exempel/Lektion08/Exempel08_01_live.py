@@ -1,4 +1,4 @@
-# Exempel på hur man definierar en klass och hur man kan lagra data
+# Exempel på hur man definierar en Klass och hur man kan lagra data
 # däri, vi hoppar över metoder i detta exempel.
 
 
@@ -11,8 +11,6 @@
 # Ett kolon (:) för att visa att nu börjar ett kodblock.
 # En indentering på varje rad som tillhör Klassen.
 
-
-
 class MyClass:
 
     # I Klassen kan vi lagra variabler.
@@ -24,8 +22,8 @@ class MyClass:
 # Om vi vill skapa en Instans av Klassen skriver vi så här:
 my_instance = MyClass()
 
-# Om vi vill komma åt t.ex. listan som ligger i Klasssen så gör vi så här:
+# Om vi vill komma åt t.ex. listan som ligger i Klassen så gör vi så här:
 print("Listan i Klassen:", MyClass.my_list)
 
-# Notera att vi kommer åt listan från vår nyskapade Instans/vårt Objekt:
+# Notera att v ikommer åt listan från vår nyskapade Instans/vårt Obejkt:
 print("Listan i Instansen:", my_instance.my_list)

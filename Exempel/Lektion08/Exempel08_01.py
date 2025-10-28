@@ -27,4 +27,4 @@ my_instance = MyClass()
 print("Listan i Klassen:", MyClass.my_list)
 
 # Notera att vi kommer åt listan från vår nyskapade Instans/vårt Objekt:
-print("Listan i instansen:", my_instance.my_list)
+print("Listan i Instansen:", my_instance.my_list)

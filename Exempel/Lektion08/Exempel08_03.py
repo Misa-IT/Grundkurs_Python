@@ -20,7 +20,7 @@ class MyClass:
 
 
 my_instance = MyClass(1, 2, 3)
-my_second_instance = MyClass(4, 5, 6)
+my_second_instance = MyClass(4, 5, "Hej")
 print("Listan i Klassen:", MyClass.my_list)
 print("Listan i första Instansen:", my_instance.my_list)
 print("Listan i andra Instansen:", my_second_instance.my_list)

@@ -1,5 +1,5 @@
 # Fortsatt från Exempel08_04.
-# Nu skapar vi nya objekt från klasser och demonstrerar klasser
+# Nu skapar vi nya objekt från Klasser och demonstrerar Klasser
 # som har frivilliga argument vid skapandet av instanser.
 
 class Animal:
@@ -11,7 +11,7 @@ class Animal:
 
 
 class Dog(Animal):
-    sound = "Woof!"
+    sound = "Woof"
 
     def __init__(self, name, fluffy_fur=True):
         self.name = name
@@ -25,30 +25,30 @@ class Cat(Animal):
         self.prickig = prickig
 
 
+
+
 a = Animal()
 fido = Dog("Fido")
 pelle = Cat("Pelle", True)
 
-
 fido.speak()
 pelle.speak()
 
-
-print(fido.name, fido.fluffy_fur)
+print(fido.fluffy_fur, fido.name)
 print(pelle.prickig)
 print("\n" * 3)
 
+
 def main():
-    a = Animal()
-    fido = Dog("Fido")
-    pelle = Cat("Pelle", True)
+    
     animals = [a, fido, pelle]
-    for a in animals:
-        a.speak()
-        if a.fluffy_fur == True:
+    for animal in animals:
+        animal.speak()
+        if animal.fluffy_fur == True:
             print("Jag har fluffig päls!")
         else:
             print("Jag har inte fluffig päls...")
-            
+
+
 if __name__ == "__main__":
     main()
