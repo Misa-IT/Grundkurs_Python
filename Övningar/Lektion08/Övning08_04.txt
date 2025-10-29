@@ -17,5 +17,5 @@ https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/EXnL3Fjn54V
 # en kalkylator, t.ex. Calculator så vill vi nu kunna lagra data i kalkylatorn.
 # Förslagsvis så sparar den resultatet från skapandet och kanske de
 # 10 senaste resultaten när man använder en specifik instans.
-# Kalkylatorn kanske också klarar av att ta emot antingen två eller tre parametrar
+# Kalkylatorn kanske också klarar av att ta emot antingen två eller tre argument
 # t.ex. new = Calculator(3, 2, "subtract")
