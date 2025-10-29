@@ -8,7 +8,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 			begreppet sen tidigare men namnet namespace.
 	
 	Objekt:
-		En samling data och instruktionerna om hur man behadlar sagda data.
+		En samling data och instruktionerna om hur man behandlar sagda data.
 		En Instans av en Klass.
 		Om Klassen är en pepparkaksform så är Objekten pepparkakorna vi skapar med hjälp av
 			formen.
@@ -21,7 +21,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 	Instans:
 		En specifik kopia av ett koncept.
 		T.ex. en specifik bok istället för konceptet böcker.
-		En term man använder för att vara tydlig med att man pratar om t.ex. en spcifik lista
+		En term man använder för att vara tydlig med att man pratar om t.ex. en specifik lista
 			(alltså ett list-objekt) och inte list-objekt i allmänhet.
 	
 	Metoder:

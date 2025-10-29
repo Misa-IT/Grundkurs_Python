@@ -27,7 +27,7 @@ class MyClass:
         return self.value == other.value
 
     # Vad Objekt ska returnera när något ber om en sträng-representation av
-    # Obejektet
+    # Objektet
     def __str__(self):
         return str(self.value)
 
@@ -40,3 +40,21 @@ print("a == c:", a == c)
 print("a is b:", a is b)
 print("a is c:", a is c)
 print()
+
+
+# Vi testar hur Objekten reagerar på str() och att bara bli skickade till print()
+print("a:", a)
+print("Strängreprestentationen av a (str(a)):", str(a))
+print("str(a) + 'Hej':", str(a) + "Hej")
+print()
+
+
+# Vi testar hur Objekten reagerar på ett plustecken
+d = a + b
+e = a + 5
+print("d:", d)
+print("e:", e)
+# Notera att e har fått en sträng som "value". Detta är antagligen inte
+# önskvärt i de flesta fall.
+print(type(d))
+print(type(e))

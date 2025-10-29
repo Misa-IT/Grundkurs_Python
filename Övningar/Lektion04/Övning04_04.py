@@ -7,7 +7,7 @@
 # läggs till i slutet på listan man har precis innan .append(). Precis som
 # att print() skriver ut det som står mellan parenteserna.
 
-# "På en lista" syftar i detta fall att man lägger till en punkt och apppend()
+# "På en lista" syftar i detta fall att man lägger till en punkt och append()
 # efter namnet på en lista. Ex: my_new_list.append("bananer")
 
 my_int_list = [1, 2, 3, 4, 5, 6, 7]

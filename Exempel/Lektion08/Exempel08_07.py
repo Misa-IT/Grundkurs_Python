@@ -46,7 +46,7 @@ print()
 
 # Vi testar hur Objekten reagerar på str() och att bara bli skickade till print()
 print("a:", a)
-print("Strängrepresentationen av  (str(a):", str(a))
+print("Strängrepresentationen av a (alltså str(a)):", str(a))
 print("str(a) + 'Hej':", str(a) + "Hej")
 print()
 
