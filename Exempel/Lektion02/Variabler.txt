@@ -52,7 +52,7 @@ Nedanstående är en referens för snabb översikt:
 	list skapas med []
 	tuple skapas med ()
 	dict skapas med {} och måste vara i nyckel:värde-format
-	set skapas med {} Se nedan för ett undantag och förtydligande
+	set skapas med {} Se nedan för ett viktigt undantag och förtydligande
 
 När man skapar samlingsvariabler så kan de vara tomma, t.ex. a = (), men det
 finns ett viktigt undantag:
