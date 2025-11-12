@@ -1,18 +1,19 @@
-list -> När man vill lagra data som ska kunna ändras på och man bryr sig om ordningen, eller vill
-	kunna ha dubletter.
+list -> När man vill lagra data som ska kunna ändras på och man bryr sig om ordningen,
+	eller vill kunna ha dubbletter.
 		Ett kösystem skulle kunna vara en lista.
 		Ordered Mutable Collection = Ordnad Föränderlig Samling
 
-tuple -> När man vill ha en mängd data som man vet inte kommer ändras, man bryr sig om ordningen och
-	vill kunna ha dubletter.
-		Koordinater passar bra som Tuple.
+tuple -> När man vill ha en mängd data som man vet inte kommer ändras, man bryr sig om
+	ordningen och vill kunna ha dubbletter.
+		Koordinater passar bra som tuple.
 		Ordered Immutable Collection = Ordnad Oföränderlig Samling
 
 dict -> När man har stora mängder data som man vill kunna referera till snabbt.
-	Mutable Mapping-type Collection = Föränderlig Samling av Mappningstyp (Ihoppkoppling)
+	Mutable Mapping-type Collection = Föränderlig Samling av Mappningstyp (Ihopkoppling)
 
-set -> När man vill lätt kunna jämföra uppsättningar med data och när man vill förhindra dubletter.
-	Snabbt att konvertera til lset och tillbaka för att ta bort dubletter.
-	Supersnabbt att kolla om något finns i ett set.
+set -> När man vill lätt kunna jämföra uppsättningar med data och när man vill ta bort
+	dubbletter.
+	Snabbt att konvertera till set och tillbaka för att ta bort dubbletter.
+	Supersnabbt att kolla om något finsn i ett set.
 	Unordered Mutable Collection of Unique Immutables = Oordnad Föränderlig Samling av Unika
 		Oföränderliga Element
