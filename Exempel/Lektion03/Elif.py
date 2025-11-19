@@ -1,3 +1,4 @@
+# Exempel på if-satser som innehåller elif-klausuler.
 siffra = 3
 
 if siffra == 1:
