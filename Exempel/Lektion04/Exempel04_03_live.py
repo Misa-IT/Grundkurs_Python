@@ -13,7 +13,7 @@ for element in my_str_list:
     print(element)
 print("Vi kan fortfarande läsa element utanför loopen:", element)
 
-print()  # För att lägga in ett radbyte.
+print()  # För att lägga in ett radbyte
 for element in my_int_list:
     print(element)
 print("Vi kan fortfarande läsa element utanför loopen:", element)

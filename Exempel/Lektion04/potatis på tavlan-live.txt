@@ -34,7 +34,7 @@ Skala potatis tills kastrullen är full:
 	7. Sluta skala potatis
 
 
-Pseudokod för while:
+Pseduokod för while:
 
 	Upprepa oändligt:
 		Om kastrullen är full med potatis:
@@ -52,7 +52,6 @@ Pseudokod för while:
 			peel_potato()
 			put_potato_in_pot()
 	
-	
 	Upprepa så länge kastrullen inte är full:
 		Ta en potatis
 		Skala potatisen
@@ -64,7 +63,7 @@ Pseudokod för while:
 		put_potato_in_pot()
 
 
-Pseudokod för for-loopar:
+Pseduokod för for-loopar:
 
 	För varje potatis i säcken:
 		Ta en potatis
@@ -76,7 +75,7 @@ Pseudokod för for-loopar:
 		peel_potato()
 		put_potato_in_pot()
 	
-	Alternativ till ovanstående:
+	Alternativ för ovanstående:
 	
 	För varje potatis i säcken, kalla den x:
 		Ta x

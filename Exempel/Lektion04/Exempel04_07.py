@@ -1,6 +1,6 @@
 # Generera en multiplikationstabell med loopar inuti loopar.
 
-table_size = int(input("Hur många kolumner ska vi ha?"))
+table_size = int(input("Hur många kolumner ska vi ha? "))
 # kolumnbredd = 5
 
 rad = 1

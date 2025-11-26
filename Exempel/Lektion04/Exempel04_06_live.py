@@ -6,9 +6,10 @@ end = 10
 
 while True:
     i += 1  # i ökas med 1 för varje varv i loopen
+
     # Om i når 10 så avbryter vi loopen DIREKT, inga av loopens
     # efterföljande rader körs.
-    if i == 10:
+    if i == end:
         break
         print("Denna rad är omöjlig att nå!")
 
@@ -21,5 +22,4 @@ while True:
 
     print(i)
 
-
-print("Nu är loopen över")
+print("Nu är loopen över!")

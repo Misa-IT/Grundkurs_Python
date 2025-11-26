@@ -11,5 +11,7 @@ for number in my_int_list:
     print("square =", square)
 
     my_squared_list.append(square)
-    print("my_squared_list =", my_squared_list)
+    print("my_square_list =", my_squared_list)
     print()
+
+print("my_squared_list efter loopen =", my_squared_list)

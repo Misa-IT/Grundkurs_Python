@@ -46,7 +46,7 @@ for-loopar:
 	For each element in [Collection] do this:
 		[Instructions]
 
-	For each thing in [Collection], call the thing [Name], and do this:
+	For each element in [Collection], call the thing [Name], and do this:
 		[Instructions]
 
 	for [Sak/Itereringsvariabel] in [Samling]:
