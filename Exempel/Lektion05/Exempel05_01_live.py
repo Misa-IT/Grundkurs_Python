@@ -2,13 +2,13 @@
 # Samt hur man hämtar information ur en dict.
 # Tuples fungerar för detta syfte precis som listor.
 
-my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]  #, "Banan"]
+my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]#, "Bananer", "Papaya"]
 
 
 # Skriv ut hela listan
 print(my_fruit_list)
 
-# Hämta och skriv ut det första Elementet
+# Hämta och skriv ut det Första Elementet
 print(my_fruit_list[0])
 
 # Hämta och skriv ut, som en lista, de tre första Elementen ur my_fruit_list
@@ -18,6 +18,7 @@ print(my_fruit_list[:3])
 
 # Hämta och skriv ut, som en lista, de tre Elementen i mitten
 print(my_fruit_list[1:4])
+
 
 # Hämta och skriv ut, som en lista, de tre sista Elementen ur my_fruit_list
 # på tre olika sätt. Plus en bonus.
@@ -32,7 +33,7 @@ print("123456789"[2:5])
 
 
 # När man hämtar från en dict så använder man sig av samma syntax för att hämta
-# ett element men istället för index anger man vad man vill ha genom att skriva
+# ett Element men istället för index anger man vad man vill ha genom att skriva
 # in nyckeln mellan parenteserna.
 johan = {"namn": "Johan", "ålder": 36, "längd": 180}
 emma = {"namn":"Emma", "ålder": 31, "längd": 174}

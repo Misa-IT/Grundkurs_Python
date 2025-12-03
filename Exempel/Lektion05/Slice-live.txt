@@ -6,13 +6,12 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 		En variabel som har en samlingsdatatyp.
 	
 	Element:
-		En sak i en samling. T.ex: "Första elementet i den här listan."
+		En sak i en samling. T.ex. "Första elementet i den här listan."
 	
 	Spann:
 		Intervall, man kan "spänna över" något. T.ex. en bro.
 
-Slicing, Slice:ing, att slice:a
-	
+Slicing, Slice:ing, att Slice:a
 	Att ta en specifik del av en mängd. I Python är det oftast samlingsvariabler
 	vi talar om när vi talar om mängder (när vi inte talar specifikt om set).
 
@@ -20,22 +19,23 @@ Slicing, Slice:ing, att slice:a
 my_list = [1, 2, 3, 4, 5, 6, 7]
 my_list[1] ger en tvåa om vi har listan ovan.
 my_list[2] ger en trea om vi har listan ovan.
+my_list[0] ger en etta om vi har listan ovan.
 
-Att tänka på: datorn tittar inte på element utan på postitioner/indexplatser.
+Att tänka på: datorn tittar inte på Element utan på postitioner/indexplatser.
 
 my_list[0:2] ger en lista med en etta och en tvåa om vi har listan ovan.
-my_list[:2] ger en lista med alla Element från BÖRJAN till, men inte med, index 2.
+my_list[:2] ger en lista med alla Element från BRÖJAN till, men inte med, index 2.
 	En etta och en tvåa i detta fall.
-my_list[:] ger en lista med alla Element från BÖRJAN till SLUTET.
+my_list[:] ger oss en lista med alla Element från BÖRJAN till SLUTET.
 
-Notera att när vi ber om ett Spann, även om det visar sig att spannet bara innehåller ett (eller noll)
-	Element, så får vi tillbaka en samling av samma typ som vi hämtar ifrån.
-Ber vi om ett specifikt Element så får vi endast det Elementet tillbaka, inte en samling med det
-	Elementet i.
+Notera att när vi ber om ett Spann, även om det visar sig att spannet bara innehåller
+	ett (eller noll) Element, så får vi tillbaka en samling av samma typ som vi hämtar ifrån.
+Ber vi om ett specifikt Element så får vi endast det Elementet tillbaka, inte en samling
+	med det Elementet i.
 
 
 Syntaxen:
 	den_samling_vi_hämtar_ifrån[FRÅN och med:TILL men inte med:FREKVENS]
 
-De parenteser vi använder när vi tar en slice har inget att göra med de parenteser vi anävnder för
-	att skapa listor, trots att de är samma typ av parenteser.
+De parenteser vi använder när vi tar en slice har inget att göra med de parenteser vi
+	använder för att skapa listor, trots att de är samma typ av parenteser.
