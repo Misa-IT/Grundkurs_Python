@@ -11,21 +11,21 @@ def hello_world():
 # Man kan också ge funktioner data som de behöver, i form av
 # s.k. Argument, som då inte behöver delas i hela programmet.
 #
-# I det här exemplet accepterar vår funktion ett Argument, ett namn,
-# som vi sen vill att funktionen ska hälsa på.
+# I det här exemplet accepterar vår Funktion ett Argument, ett namn,
+# som vi sen vill att Funktionen hälsar på.
 
 def hello(name):
     print("Hej ", name, "!", sep="")
 
 
-# För att våra funktioner ska göra något så måste vi säga åt Python att faktiskt
+# För att våra Funktioner ska göra något så måste vi säga åt Python att faktiskt
 # köra dem, ovan har vi bara berättat för Python vad namnen betyder.
 hello_world()
 hello("Johan")
 
 
 # Funktioner kan också ge värden tillbaka, vilket man kallar
-# att RETURNERA ett värde. De liknar på det sättet funktioner
+# att RETURNERA ett värde. De liknar på det sättet Funktioner
 # inom matematiken. Det returnerade värdet hamnar därefter på samma plats i
 # koden som funktionsanropet skedde.
 #
@@ -35,7 +35,7 @@ hello("Johan")
 
 def f(x):
     return x * 2
-# Exemplet ovan är t.ex. väldigt likt den matematiska funktionen f(x)=x*2
+# Exemplet ovan är t.ex. väldigt likt den matematiska Funktionen f(x)=x*2
 
 
 # Notera skillnaden på vad som händer på nedanstående rader.

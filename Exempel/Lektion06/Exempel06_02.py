@@ -13,7 +13,7 @@ def f(x):
 # Vi lagrar resultatet av f(1) i f_av_ett
 f_av_ett = f(1)
 # Vi tar resultatet från förra raden, skickar det till f och lagrar
-# resultatet på nytt i en ny variabel.
+# det nya resultatet i en ny variabel.
 f_av_f_av_ett = f(f_av_ett)
 
 print("Värdet på f_av_f_av_ett är:", f_av_f_av_ett)

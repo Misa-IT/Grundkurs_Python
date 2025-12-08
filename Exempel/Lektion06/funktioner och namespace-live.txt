@@ -19,7 +19,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 	
 	Argument -	Det man skickar till en funktion.
 	
-	Returnera -	Att skicka tillbaka.
+	Returnera - Att skicka tillbaka.
 
 SYNTAX ÄR JÄTTEVIKTIGT
 
