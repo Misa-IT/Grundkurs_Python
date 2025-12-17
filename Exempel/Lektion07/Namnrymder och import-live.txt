@@ -6,7 +6,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 						För att vara specifik så är det innehållet i filen som är Modulen.
 							T.ex. min_grej.py eller Exempel07_01.py
 	
-	Package / Packet =	En mapp som innehåller Moduler menade att återanvändas.
+	Package / Paket =	En mapp som innehåller Moduler menade att återanvändas.
 	
 	Namespace / Namnrymd =	Ett system för att inte skriva över variabler,
 								funktioner eller andra namngivna saker när vi har

@@ -1,14 +1,27 @@
-# Exempel på hur man importerar moduler som ligger i mappar.
-# Även hur det ser ut när man importerar paket.
-# Original av: Henrik Tunedal
+# Orginal av: Henrik Tunedal
 
-print("Här börjar programmet och dess modulnamn är:", __name__)
 
-import exempelpaket
-import exempelpaket.extragrejer
+# Exempel som demonstrerar att olika namn kan användas i olika
+# sammanhang (i det här fallet olika funktioner) för att referera till
+# ett och samma objekt (i det här fallet en lista).
 
-exempelpaket.extragrejer.mitt_namn()
 
-print("Klart!")
+def lägg_till_ingredienser(bunke):
+    bunke.append("ägg")
+    bunke.append("mjölk")
 
-exempelpaket.tjosan()
+
+def lägg_till_verktyg(verktygslåda):
+    verktygslåda.append("hammare")
+    verktygslåda.append("såg")
+
+
+def main():
+    allmänlåda = []
+    lägg_till_ingredienser(allmänlåda)
+    lägg_till_verktyg(allmänlåda)
+    print(allmänlåda)
+
+
+if __name__ == "__main__":
+    main()
