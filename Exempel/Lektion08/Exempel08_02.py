@@ -22,7 +22,7 @@ print("Listan i Klassen:", MyClass.my_list)
 print("Listan i Instansen:", my_instance.my_list)
 # Trots att vi bara ändrade i Instansen är det även ändrat i Klassen.
 # Det är för att en variabel som ligger i en Klass delas mellan Instanser
-# av den Klassen om inget skriver över namnet.
+# av den Klassen om inget annat skriver över namnet.
 # Detta kallas för att vara en "klassvariabel".
 
 

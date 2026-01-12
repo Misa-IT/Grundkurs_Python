@@ -25,7 +25,7 @@ object2 = MyClass(84)
 
 # Vi adderar de två Objekten och skapar ett nytt Objekt med det nya värdet.
 # Eftersom vi inte har förklarat för Python vad som ska hända när man
-# skickar Instanser av vår Klass till print()  så måste vi skriva ut det
+# skickar Instanser av vår Klass till print() så måste vi skriva ut det
 # specifika Attributet vi vill ha, i detta fall det int-Objekt som ligger i
 # vårt MyClass-objekt.
 combination_object = object1 + object2

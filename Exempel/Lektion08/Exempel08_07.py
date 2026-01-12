@@ -2,9 +2,10 @@
 # Klasser och hur man kan lägga in kod som förhindrar vanliga fel från
 # att uppstå.
 
-# Detta är inte exakt hur man bör göra för att förhindra dessa fel, men hur man
-# bör göra går man igenom i fortsättningskursen. Exception handling, om ni vill
-# läsa om det på egen hand.
+# Detta är inte exakt hur man bör göra för att förhindra dessa fel, men hur
+# man bör göra går man igenom i fortsättningskursen. Exception handling,
+# om ni vill läsa om det på egen hand.
+
 
 class MyClass:
 
@@ -15,7 +16,7 @@ class MyClass:
     # Hur Objekt ska reagera på operatorn +
     def __add__(self, other):
 
-        # if type(self.value) == type(other.value):
+        #if type(self) == type(other):
         if isinstance(other, MyClass):
             return MyClass(self.value + other.value)
         else:
@@ -36,7 +37,7 @@ class MyClass:
 a = MyClass(2)
 b = MyClass(2)
 c = a
-# Vi jämför objekten:
+# Vi jämför Objekten
 print("a == b:", a == b)
 print("a == c:", a == c)
 print("a is b:", a is b)
@@ -57,6 +58,6 @@ e = a + 5
 print("d:", d)
 print("e:", e)
 # Notera att e har fått en sträng som "value". Detta är antagligen inte
-# önskvärt i detta fall.
+# önskvärt i de flesta fall.
 print(type(d))
 print(type(e))
