@@ -13,7 +13,7 @@ class MyClass:
     # Notera att eftersom .__init__() är en Metod så måste första argumentet
     # vara self.
     def __init__(self, x, y, z):
-        self.my_instance_list = ["Jag ligger i en Instans"]
+        self.my_instance_list = ["Jag ligger i en Instans."]
         self.a = x
         self.y = y
         self.z = z

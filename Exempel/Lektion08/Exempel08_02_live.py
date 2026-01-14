@@ -14,13 +14,13 @@ print("Listan i Klassen:", MyClass.my_list)
 print("Listan i Instansen:", my_instance.my_list)
 print()
 
-# Vi testar att lägga in något i listan som ligger i Instansen/Objektet:
+# Vi testar att lägga till något i listan som ligger i Instansen/Objektet:
 my_instance.my_list.append(3)
 
-# Vi kollar vad som ligger i listorna
+# Vi kollar vad som ligger i listorna:
 print("Listan i Klassen:", MyClass.my_list)
 print("Listan i Instansen:", my_instance.my_list)
-# Trots att vi bara ändrade i Instansen är det även ändrat i Klassen.
+# Trots att vi bara ändrade i Instansen så är det även ändrat i Klassen.
 # Det är för att en variabel som ligger i en Klass delas mellan Instanser
 # av den Klassen om inget annat skriver över namnet.
 # Detta kallas för att vara en "klassvariabel".
@@ -32,10 +32,10 @@ print("Listan i den andra Instansen:", my_second_instance.my_list)
 print()
 
 
-# Notera skillanden om vi gör en tilldelning istället för att använda .append():
-my_instance.my_list = [4, 5]
+# Notera skillnaden om vi gör en tilldelning istället för att använda .append():
+my_instance.my_list = [4,5]
 print("Listan i Klassen:", MyClass.my_list)
-print("Listan i Instansen:", my_instance.my_list)
+print("Listan i den första Instansen:", my_instance.my_list)
 print("Listan i den andra Instansen:", my_second_instance.my_list)
 # När vi skapade listan i Instansen så blev det namnet (alltså my_list) en
 # instansvariabel.
