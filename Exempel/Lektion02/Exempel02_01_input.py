@@ -1,4 +1,4 @@
-# Exempel av input
+# Exempel av input()
 
 # input() visar en sträng för användaren, en så kallad prompt,
 # som bör uppmana användaren att skriva in ett svar.
