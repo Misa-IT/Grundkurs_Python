@@ -13,7 +13,6 @@ Detta, med att sätta parenteser efter ett namn, är hur man använder en så
 
 int(min_variabel)
 	Betyder "Ge mig värdet på min_variabel som ett heltal."
-	Betyder "Ge mig värdet på min_variabel som ett heltal."
 
 str(min_variabel)
 	Betyder "Ge mig värdet på min_variabel som text."

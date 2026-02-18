@@ -7,13 +7,13 @@ Indenteringar är det som skapar Kodblock.
 Indenteringarna ska vara 4 stycken mellanslag.
 
 
+Pseudokod är "låtsaskod" som man använder som "skiss".
+
+
 IF-satser
 
-Pseudokod är låtsaskod som man använder som "skiss".
 T.ex:
 	"Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
-
-Med limpor så menar jag brödlimpor.
 
 Vad man menar med detta:
 	Inköpslista:

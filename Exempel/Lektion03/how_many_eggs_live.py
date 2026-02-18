@@ -3,13 +3,17 @@
 
 
 # Vi konstaterar att affären säljer limpor.
-store_sells_loaves_of_bread = True
+store_sells_loaves_of_bread = False
 
+
+#Vi behöver egentligen inte skriva " == True" men jag skriver
+# det här för att göra det lättare för er att läsa.
 
 if store_sells_loaves_of_bread == True:
     egg_boxes_to_buy = 2
 else:
     egg_boxes_to_buy = 1
+
 
 if egg_boxes_to_buy == 2:
     print("Nu tänkte du fel, det var inte så jag menade.")

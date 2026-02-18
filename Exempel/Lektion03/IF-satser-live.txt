@@ -3,16 +3,16 @@ Flödeskontroll, del 1!
 
 
 INDENTERING ÄR JÄTTEVIKTIGT!
-Indenteringar är det som skapar Kodblock
+Indenteringar är det som skapar Kodblock.
 Indenteringarna ska vara 4 stycken mellanslag.
 
 
 Pseudokod är "låtsaskod" som man använder som "skiss".
 
 
-IF-satser
+IF-satser:
 
-Exempel på pseudokod:
+T.ex:
 	"Gå till affären och köp ett paket ägg. Om de har limpor, köp två."
 
 Vad man menar med detta:
@@ -26,9 +26,8 @@ Hur en dator skulle tolka det:
 
 om affären_säljer_limpor är sant så
 mängd_äggkartonger_att_köpa är 2
-annars
+annars så
 mängd_äggkartonger_att_köpa är 1
-
 
 if affären_säljer_limpor == True:
 	mängd_äggkartonger_att_köpa = 2
@@ -36,7 +35,7 @@ else:
 	mängd_äggkartonger_att_köpa = 1
 
 
-Indenteringarna meddelar Python att koden tillhör ett så kallat "Kodblock".
+Indenteringen meddelar Python att koden till hör ett så kallat "Kodblock".
 
 
 if hattkanter == 3:
@@ -49,17 +48,16 @@ Varför det är viktigt att följa konventioner (stilregler):
 
 	OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
 
-if hk         ==3:
+if hk       ==3:
 
 
 
 
  hatt=m
-
 else:
 
 
-			hatt     = im
+				hatt    = im
 
 
 Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
@@ -69,18 +67,18 @@ Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
 	osv.
 
 Tecken som är frågor:
-	==		(Lika med)
-	<		(Mindre än)
-	>		(Större än)
-	<=		(Mindre än eller lika med)
-	>=		(Större än eller lika med)
-	!=		(Inte lika med)
+	==	(Lika med)
+	<	(Mindre än)
+	>	(Större än)
+	<=	(Mindre än eller lika med)
+	>=	(Större än eller lika med)
+	!=	(Inte lika med)
 
 Den tredje typen är matematiska operatorer:
-	*		(Gånger/Multiplikation)
-	+		(Plus/Addition/Konkatenering)
-	-		(Minus/Subraktion)
-	/		(Delat-med/Division)
-	**		(Upphöjt-till/Exponent)
-	%		(Rest/Modulo)
-	//		(Heltalsdivision)
+	*	(Gånger/Multiplikation)
+	+	(Plus/Addition/Konkatenation)
+	-	(Minus/Subtraktion)
+	/	(Delat-med/Division)
+	**	(Upphöjt-till/Exponent)
+	%	(Rest/Modulo)
+	//	(Heltalsdivision)
