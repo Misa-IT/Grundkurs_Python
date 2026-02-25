@@ -15,10 +15,10 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
 Ett exempel på en dåligt formulerad instruktion:
 
-	Instruktion: Tvätta håret, skölj ur och upprepa.
-		Tvätta håret
+	Instruktion: Applicera schampo, skölj ur och upprepa.
+		Applicera schampo
 		Skölj ur
-		Tvätta håret
+		Applicera schampo
 		Skölj ur
 		[...]
 

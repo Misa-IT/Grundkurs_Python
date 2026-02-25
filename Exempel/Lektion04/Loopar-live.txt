@@ -6,14 +6,14 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 		En sak i en samling. T.ex. "Första elementet i en lista."
 	
 	Iterera:
-		Upprepa
+		Upprepa.
 	
-	Itereringsvariabel:
+	Iterereringsvariabel:
 		Den variabel man kollar på vid varje varv av en loop.
 		Kan också kallas upprepningsvariabel.
 
 
-Ett exempel på en dåligt formulerad insruktion:
+Ett exempel på en dåligt formulerad instruktion:
 
 	Instruktion: Applicera schampo, skölj ur och upprepa.
 		Applicera schampo
@@ -24,7 +24,6 @@ Ett exempel på en dåligt formulerad insruktion:
 
 
 I Python finns det while-loopar och for-loopar.
-
 
 while-loopar:
 
@@ -49,5 +48,5 @@ for-loopar:
 	For each element in [Collection], call the thing [Name], and do this:
 		[Instructions]
 	
-	for [Sak/Itereringsvariabel] in [Samling]:
-		[Instruktioner
+	for [Sak/Iterereringsvariabel] in [Samling]:
+		[Instruktioner]

@@ -6,7 +6,6 @@ end = 10
 
 while True:
     i += 1  # i ökas med 1 för varje varv i loopen
-
     # Om i når 10 så avbryter vi loopen DIREKT, inga av loopens
     # efterföljande rader körs.
     if i == end:
@@ -19,6 +18,7 @@ while True:
         print("Hoppar över något.")
         continue
         print("Denna rad är omöjlig att nå!")
+
 
     print(i)
 
