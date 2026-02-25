@@ -16,12 +16,12 @@ class Cat(Animal):
     pass
 
 
-# Vi skapar instanser av våra klasser.
+# Vi skapar instanser av våra Klasser.
 # a = Animal()
 # fido = Dog()
 # pelle = Cat()
 #
-# Vi ber våra instanser att använda sin metod.
+# Vi ber våra Instanser att använda sin metod.
 # a.speak()
 # fido.speak()
 # pelle.speak()
@@ -35,5 +35,5 @@ def main():
         animal.speak()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

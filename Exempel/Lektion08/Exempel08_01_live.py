@@ -26,5 +26,5 @@ my_instance = MyClass()
 # Om vi vill komma åt t.ex. listan som ligger i Klassen så gör vi så här:
 print("Listan i Klassen:", MyClass.my_list)
 
-# Notera att vi kommer åt listan även från vår nyskapade Instans/ vårt Objekt:
+# Notera att vi kommer åt listan även från vår nyskapade Instans/vårt Objekt:
 print("Listan i Instansen:", my_instance.my_list)

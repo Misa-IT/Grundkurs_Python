@@ -11,7 +11,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 				En instruktion till datorn.
 	
 	Objekt -	En samling data och instruktioner om hur man interagerar med den.
-				T.ex. via Metoder som ligger i Objekt eller med operatorer.
+				T.ex. via Metoder som ligger i Objektet eller med operatorer.
 					(+, -, *, etc.)
 	
 	Metod -		En Funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför

@@ -35,7 +35,7 @@ print()
 # Notera skillnaden om vi gör en tilldelning istället för att använda .append():
 my_instance.my_list = [4, 5]
 print("Listan i Klassen:", MyClass.my_list)
-print("Listan i Instansen:", my_instance.my_list)
+print("Listan i den första Instansen:", my_instance.my_list)
 print("Listan i den andra Instansen:", my_second_instance.my_list)
 # När vi skapade listan i Instansen så blev det namnet (alltså my_list) en
 # instansvariabel.

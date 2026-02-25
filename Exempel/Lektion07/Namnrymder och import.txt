@@ -2,7 +2,7 @@ Namnrymder! Importer!
 
 Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
-	Module / Modul =	En Modul är en fil. Varje .py-fil är en Modul.
+	Module / Modul = 	En Modul är en fil. Varje .py-fil är en Modul.
 						För att vara specifik så är det innehållet i filen som är Modulen.
 							T.ex. min_grej.py eller Exempel07_01.py
 
@@ -13,7 +13,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 								kod från flera källor.
 									T.ex. modul1.min_funktion() och modul2.min_funktion()
 
-	Import / Import =	Att hämta kod från andra Moduler och/eller Paket.
+	Import / Import = 	Att hämta kod från andra Moduler och/eller Paket.
 							T.ex. import math
 
 

@@ -35,8 +35,10 @@ my_random_list = []
 for card in my_card_list:
     my_random_list.append(card)
 
-# my_random_list = [card for card in my_card_list]  # Alternativt sätt.
+# Alternativa sätt:
+# my_random_list = [card for card in my_card_list]
 # my_random_list = my_card_list.copy()
+# my_random_list = my_card_list[:]
 
 
 print("De ursprungliga listorna:\n")

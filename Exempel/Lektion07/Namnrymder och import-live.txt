@@ -14,16 +14,16 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 									T.ex. modul1.min_funktion() och modul2.min_funktion()
 	
 	Import / Import = 	Att hämta kod från andra Moduler och/eller Paket.
-							Tex. import math
+							T.ex. import math
 
 
 Vanliga inbyggda moduler:
 
 	random =		För slumpade saker
-	pathlib = 		För att hålla på med filsökvägar
+	pathlib =		För att hålla på med filsökvägar
 	math =			För avancerad matematik
 	tkinter = 		För simpla grafiska gränssnitt
-	collections = 	För olika typer av datasamlingar / samlingsdatatyper
+	collections =	För olika typer av datasamlingar / samlingsdatatyper
 	time =			För tid
 	datetime =		För både datum och tid
 	sys =			För att interagera med datorns system
