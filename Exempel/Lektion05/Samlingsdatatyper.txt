@@ -26,7 +26,7 @@ tuple = Kan ses på som en hylla där någon har superlimmat fast allting. Oför
 
 dict = Dictionary = Kan ses på som en faktisk ordbok.
 	Varje Element består av två delar åtskilda av ett kolon (:). Först står Nyckeln
-	sen kommer Värdet.
+		sen kommer Värdet.
 	nyckel:värde, key:value
 	T.ex:
 		2:"Två", "ålder":36

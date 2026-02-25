@@ -21,10 +21,10 @@ my_list[1] ger en tvåa om vi har listan ovan.
 my_list[2] ger en trea om vi har listan ovan.
 my_list[0] ger en etta om vi har listan ovan.
 
-Att tänka på: datorn tittar inte på Element utan på postitioner/indexplatser.
+Att tänka på: datorn tittar inte på Element utan på positioner/indexplatser.
 
 my_list[0:2] ger en lista med en etta och en tvåa om vi har listan ovan.
-my_list[:2] ger en lista med alla Element från BRÖJAN till, men inte med, index 2.
+my_list[:2] ger en lista med alla Element från BÖRJAN till, men inte med, index 2.
 	En etta och en tvåa i detta fall.
 my_list[:] ger oss en lista med alla Element från BÖRJAN till SLUTET.
 

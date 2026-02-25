@@ -10,7 +10,7 @@ Funktioner:
 		T.ex. print("Hej!")
 
 Det som står innanför parenteserna kallas för Argument eller, som det heter i
-	vissa andra programmeringsspråk, parameterar och är extra instruktioner till datorn.
+	vissa andra programmeringsspråk, parametrar och är extra instruktioner till datorn.
 I exemplet ovan så vill vi att "Hej!" skrivs ut på skärmen så vi skickar "Hej!"
 	som ett Argument till Funktionen print().
 
@@ -20,5 +20,5 @@ Metoder:
 		(Eller Klasser, men det är utanför grundkursen)
 	
 	Exempelmetod:
-	my_list.append()
-	append() <---- Är fel, metoder måste kallas/anropas/användas från Objekt.
+		my_list.append()
+		append() <---- Är fel, metoder måste kallas/anropas/användas från Objekt.
