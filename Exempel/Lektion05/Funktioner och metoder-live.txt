@@ -21,4 +21,4 @@ Metoder:
 	
 	Exempelmetod:
 		my_list.append()
-		append() <---- Är fel, metoder måste kallas/anropas/användas från Objekt.
+		append() <---- Är fel, metoder måste kallas / anropas / användas från Objekt.
