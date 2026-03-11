@@ -33,7 +33,7 @@ def funktion_som_tar_emot_tre_argument(godtyckligt_namn1,
                                        ):
     print(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3)
 
-# Det som vi skriver inom parenteserna i DEFINITIONEN är alltås vad vi
+# Det som vi skriver inom parenteserna i DEFINITIONEN är alltså vad vi
 #   namnger det som skickas till vår Funktion som Argument varje gång
 #   den körs.
 
