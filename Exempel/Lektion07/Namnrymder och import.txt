@@ -17,7 +17,7 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 							T.ex. import math
 
 
-Vanliga inbyggda moduler:
+Vanliga inbyggda Moduler:
 
 	random =		För slumpade saker
 	pathlib =		För att hålla på med filsökvägar
