@@ -35,13 +35,12 @@ Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 		.__init__()-metoden som körs när man skapar ett Objekt.
 	
 	Arv:
-		När man använder sig av en annan "ritning" (en annan Klass) för att på börja en ny
+		När man använder sig av en annan "ritning" (en annan Klass) för att påbörja en ny
 			"ritning" (en ny Klass).
 		En Klass kan ärva från mer än en Klass.
 
-
 Klass = Bok
 Klass som ärver från Bok = Pocketbok(Bok)
-Klass som ärver från Pocketbok och en annan Klass = 
+Klass som ärver från Pocketbok och en annan Klass =
 	SaganOmRingenSomPocket(Pocketbok, SaganOmRingen)
 Objekt som skapas från Klassen SaganOmRingenSomPocket = Ett specifikt exemplar av den boken.

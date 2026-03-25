@@ -1,5 +1,5 @@
 # Lägg till fler attribut till Animal som kan ärvas av andra klasser.
-# Förslag: Ålder, vikt, etc.
+# Förslag: Fjädrar, om djuret är ett däggdjur, etc.
 
 # Lägg även till en ny klass av något annat djur som inte har fyra ben.
 
