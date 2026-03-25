@@ -5,8 +5,13 @@ Ett programmeringsspråk är ett språk som datorer förstår.
 Python är ett programmeringsspråk som är relativt lätt att lära sig; koden är mer lättläslig
 än i många äldre programmeringsspråk. Grammatiken är i princip som engelska meningar.
 
+
+Exempel på hur kod kan se enklare ut när man använder Python:
+
 for i in range(len(food)):
 	print(food[i])
+
+eller
 
 for piece in food:
 	print(piece)

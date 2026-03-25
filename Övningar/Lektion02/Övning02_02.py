@@ -1,6 +1,8 @@
 # Några fel i dessa kodrader gör att programmet inte fungerar, rätta felen
 # så att vi får resultaten 110 och 5555 när programmet körs.
 
+# Denna övning är väldigt lik en övning från förra veckan men nu finns det
+# en ny regel ni måste följa:
 # Alla rader med 55 eller "55" ska vara oförändrade och det ska inte läggas
 # till fler rader.
 
