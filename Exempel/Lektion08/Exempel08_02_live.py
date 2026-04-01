@@ -38,4 +38,4 @@ print("Listan i Klassen:", MyClass.my_list)
 print("Listan i den första Instansen:", my_instance.my_list)
 print("Listan i den andra Instansen:", my_second_instance.my_list)
 # När vi skapade listan i Instansen så blev det namnet (alltså my_list) en
-# instansvariabel.
+#   instansvariabel.
