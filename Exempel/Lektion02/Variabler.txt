@@ -45,8 +45,9 @@ Samlingsdatatyper:
 			T.ex: emma = {"namn":"Emma", "ålder":35, "längd":174, "ålder":36}
 
 	set = Set = Mängd; Kan ses på som en låda, allt hamnar där det får plats.
-		Det får bara finnas en av varje sak. Det som läggs i lådan får inte kunna gå att ändra på.
-			T.ex: x = {1, 2, 3}
+		Det får bara finnas en av varje sak. Det som läggs i lådan får inte kunna
+			gå att ändra på.
+		T.ex: x = {1, 2, 3}
 
 Nedanstående är en referens för snabb översikt:
 	list skapas med []
@@ -55,9 +56,10 @@ Nedanstående är en referens för snabb översikt:
 	set skapas med {} Se nedan för ett viktigt undantag och förtydligande
 
 När man skapar samlingsvariabler så kan de vara tomma, t.ex. a = (), men det
-finns ett viktigt undantag:
-	För att skapa ett tomt set så kan man inte skriva a = {}, då blir det ett tomt dictionary.
-	Vad man måste göra är att skriva a = set(), då blir det ett tomt set.
+	finns ett viktigt undantag:
+		För att skapa ett tomt set så kan man inte skriva a = {}, då blir det
+			ett tomt dictionary.
+		Vad man måste göra är att skriva a = set(), då blir det ett tomt set.
 
 
 Konkatenering är att slå ihop två saker, t.ex. strängar, genom att lägga dem efter varandra.
