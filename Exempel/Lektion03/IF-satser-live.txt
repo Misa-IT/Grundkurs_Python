@@ -20,6 +20,7 @@ Vad man menar med detta:
 		1 paket ägg
 		2 limpor
 
+
 Hur en dator skulle tolka det:
 	Köp två paket ägg om affären säljer limpor.
 	Annars, köp ett paket ägg.
@@ -29,13 +30,14 @@ mängd_äggkartonger_att_köpa är 2
 annars så
 mängd_äggkartonger_att_köpa är 1
 
+
 if affären_säljer_limpor == True:
 	mängd_äggkartonger_att_köpa = 2
 else:
 	mängd_äggkartonger_att_köpa = 1
 
 
-Indenteringen meddelar Python att koden till hör ett så kallat "Kodblock".
+Indenteringen meddelar Python att koden tillhör ett så kallat "Kodblock".
 
 
 if hattkanter == 3:
@@ -48,7 +50,7 @@ Varför det är viktigt att följa konventioner (stilregler):
 
 	OLÄSBART FÖR MÄNNISKOR (Datorn har inga problem):
 
-if hk       ==3:
+if hk        ==3:
 
 
 
@@ -56,9 +58,7 @@ if hk       ==3:
  hatt=m
 else:
 
-
-				hatt    = im
-
+				hatt   = im
 
 Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
 	=
@@ -76,7 +76,7 @@ Tecken som är frågor:
 
 Den tredje typen är matematiska operatorer:
 	*	(Gånger/Multiplikation)
-	+	(Plus/Addition/Konkatenation)
+	+	(Plus/Addition/Konkatenering)
 	-	(Minus/Subtraktion)
 	/	(Delat-med/Division)
 	**	(Upphöjt-till/Exponent)

@@ -67,18 +67,18 @@ Tecken (operatorer) som är konstateranden (påståenden / tilldelningar):
 	osv.
 
 Tecken som är frågor:
-	==		(Lika med)
-	<		(Mindre än)
-	>		(Större än)
-	<=		(Mindre än eller lika med)
-	>=		(Större än eller lika med)
-	!=		(Inte lika med)
+	==	(Lika med)
+	<	(Mindre än)
+	>	(Större än)
+	<=	(Mindre än eller lika med)
+	>=	(Större än eller lika med)
+	!=	(Inte lika med)
 
 Den tredje typen är matematiska operatorer:
-	*		(Gånger/Multiplikation)
-	+		(Plus/Addition/Konkatenering)
-	-		(Minus/Subtraktion)
-	/		(Delat-med/Division)
-	**		(Upphöjt-till/Exponent)
-	%		(Rest/Modulo)
-	//		(Heltalsdivision)
+	*	(Gånger/Multiplikation)
+	+	(Plus/Addition/Konkatenering)
+	-	(Minus/Subtraktion)
+	/	(Delat-med/Division)
+	**	(Upphöjt-till/Exponent)
+	%	(Rest/Modulo)
+	//	(Heltalsdivision)

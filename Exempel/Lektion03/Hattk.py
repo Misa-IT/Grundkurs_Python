@@ -1,4 +1,4 @@
-hattkanter = 1
+hattkanter = int(input("Hur många kanter har hatten?\n>>> "))
 
 if hattkanter == 3:
     hatt = "min."
