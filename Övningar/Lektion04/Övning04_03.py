@@ -5,3 +5,6 @@
 # Om användaren skriver in t.ex. "Johan" så ska programmet skriva ut något i
 # stil med "Hej Johan! Trevligt att träffas!"
 
+# Notera att både frågan och hälsningen ska köras om och om igen tills
+# användaren skriver in ordet som ska avsluta programmet.
+
