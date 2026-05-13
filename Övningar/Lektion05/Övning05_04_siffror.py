@@ -1,5 +1,6 @@
-# Denna övning finns även i en variant med mycket mindre text och har siffror i listorna istället
-# för strängar. Den filen heter "Övning05_04_siffror.py".
+# Denna övning finns även i en variant med beskrivande text i listorna istället
+# för siffror. Den filen heter "Övning05_04.py".
+# Ni behöver enbart göra en av dessa.
 
 # Lägg till listan my_first_list till listan som ligger i my_second_list genom
 # att använda er av vad vi gått igenom på Lektion05.

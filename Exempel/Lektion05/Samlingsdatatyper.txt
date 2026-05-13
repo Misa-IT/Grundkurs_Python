@@ -2,11 +2,11 @@ Samlingsdatatyper, repetition!
 
 Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
 
-	Element:
-		En sak i en samling. T.ex. "Första elementet i den här listan."
-
 	Samlingsvariabel:
 		En variabel av en samlingsdatatyp.
+
+	Element:
+		En sak i en samling. T.ex. "Första elementet i den här listan."
 
 
 Det finns två huvudsakliga sätt att hämta/läsa information i samlingsvariabler:
@@ -37,8 +37,8 @@ dict = Dictionary = Kan ses på som en faktisk ordbok.
 	Nycklar får inte kunna ändras på, dvs. de måste vara oföränderliga.
 
 set = Mängd = Kan ses på som en låda, allt ligger där det får plats.
-	Det får bara finnas en av varje sak.
-	Sakerna får inte gå att kunna ändras på, dvs. de måste vara oföränderliga.
+	Det får bara finnas en av varje sak, dvs. de måste vara unika.
+	Saker får inte kunna ändras på, dvs. de måste vara oföränderliga.
 
 
 Hur vi skapar en lista:
