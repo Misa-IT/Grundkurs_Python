@@ -2,10 +2,11 @@
 
 
 # def för att meddela att vi DEFINIERAR vad en ny Funktion betyder.
-# Namnet på Funktionen. Bör vara lätt att förstå och BÖR inte innehålla åäö. Namnet
-#   bör också vara i små bokstäver med understreck(_) istället för mellanslag.
-# Parenteser, (). För att de MÅSTE vara där även om vi inte planerar att använda
-#   argument med denna Funktion.
+# Namnet på Funktionen. Bör vara lätt att förstå och BÖR inte innehålla åäö.
+#   Namnet bör också vara i små bokstäver med understreck(_) istället för
+#       mellanslag.
+# Parenteser, (). För att de MÅSTE vara där även om vi inte planerar att
+#   använda argument med denna Funktion.
 # Ett kolon (:) för att påbörja själva definitionen.
 # En indentering på alla rader som tillhör Funktionen.
 
@@ -25,7 +26,8 @@ exempelfunktion()
 # T.ex. vilken text som ska skrivas ut av print() eller vilka tal som ska
 #   läggas ihop av en Funktion som adderar två tal.
 
-def funktion_som_tar_emot_tre_argument(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3=8):
+def funktion_som_tar_emot_tre_argument(
+    godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3=8):
     print(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3)
 
 # Det som vi skriver inom parenteserna i DEFINITIONEN är alltså vad vi namnger
