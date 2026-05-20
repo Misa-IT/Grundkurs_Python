@@ -21,6 +21,11 @@
 
 # NOTERA: Det är ENDAST i funktionen bedöm_badtemperatur som ni ska göra ändringar
 
+# Använd helst era egna preferenser i denna övning, men om ni vill ha förslag
+# så kan ni titta på följande förslag:
+#   Under 20 är det för kallt
+#   Över 40 är det för varmt
+
 
 def bedöm_badtemperatur(antal_grader):
     return "av okänd badvänlighet"
