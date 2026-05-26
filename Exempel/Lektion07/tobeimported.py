@@ -1,4 +1,4 @@
-# Här definierar vi saker som vi kan hämta från andra moduler.
+# Här definierar vi saker som vi kan hämta från andra Moduler.
 # Lägg till _live i slutet under lektion.
 
 def my_function():
@@ -17,7 +17,8 @@ print("Vi skriver ut x medans vi är i tobeimported:", x)
 print()
 
 def main():
-    print("tobeimported_live är main")
+    print("tobeimported är main")
 
 if __name__ == "__main__":
     main()
+print("=" * 10, "Slut på tobeimported", "=" * 10)
