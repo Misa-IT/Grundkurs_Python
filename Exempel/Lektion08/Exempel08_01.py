@@ -1,12 +1,12 @@
 # Exempel på hur man definierar en Klass och hur man kan lagra data
-# däri, vi hoppar över metoder i detta exempel.
+#   däri, vi hoppar över metoder i detta exempel.
 
 
 # Vi skapar en Klass genom att använda oss av detta mönster:
 # Det reserverade ordet "class".
 # Namnet på vår Klass. Namnet bör börja med stor bokstav och ha en stor bokstav
-# i början av varje ord. Bör inte innehålla åäö eller andra tecken som inte
-# finns på ett engelskt tangentbord.
+#   i början av varje ord. Bör inte innehålla åäö eller andra tecken som inte
+#   finns på ett engelskt tangentbord.
 # OM vi ska ha ett arv så har man parenteser också, vi går igenom detta senare.
 # Ett kolon (:) för att visa att nu börjar ett kodblock.
 # En indentering på varje rad som tillhör Klassen.

@@ -26,6 +26,7 @@ class Cat(Animal):
 # fido.speak()
 # pelle.speak()
 
+print()
 
 def main():
     # Vi skapar instanser och ber dem att använda sin metod.
