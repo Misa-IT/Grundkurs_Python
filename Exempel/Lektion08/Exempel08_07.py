@@ -1,10 +1,10 @@
 # Ett exempel på fler av specialmetoderna man kan lägga in i egenskapade
 # Klasser och hur man kan lägga in kod som förhindrar vanliga fel från
-# att uppstå.
+#   att uppstå.
 
 # Detta är inte exakt hur man bör göra för att förhindra dessa fel, men hur
-# man bör göra går man igenom i fortsättningskursen. Exception handling,
-# om ni vill läsa om det på egen hand.
+#   man bör göra går man igenom i fortsättningskursen. Exception handling,
+#   om ni vill läsa om det på egen hand.
 
 
 class MyClass:
@@ -27,7 +27,7 @@ class MyClass:
         return self.value == other.value
 
     # Vad Objekt ska returnera när något ber om en sträng-representation av
-    # Objektet
+    #   Objektet
     def __str__(self):
         return str(self.value)
 
@@ -58,6 +58,6 @@ e = a + 5
 print("d:", d)
 print("e:", e)
 # Notera att e har fått en sträng som "value". Detta är antagligen inte
-# önskvärt i de flesta fall.
+#   önskvärt i de flesta fall.
 print(type(d))
 print(type(e))

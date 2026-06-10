@@ -1,6 +1,6 @@
 # Fortsatt från Exempel08_04.
 # Nu skapar vi nya objekt från Klasser och demonstrerar Klasser
-# som har frivilliga argument vid skapandet av instanser.
+#   som har frivilliga argument vid skapandet av instanser.
 
 class Animal:
     sound = "Jag låter som alla andra djur."
@@ -48,6 +48,7 @@ def main():
             print("Jag har fluffig päls!")
         else:
             print("Jag har inte fluffig päls...")
+    print(animals)
 
 if __name__ == "__main__":
     main()
