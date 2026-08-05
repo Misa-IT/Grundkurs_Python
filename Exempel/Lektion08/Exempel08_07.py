@@ -20,6 +20,7 @@ class MyClass:
         if isinstance(other, MyClass):
             return MyClass(self.value + other.value)
         else:
+            # Detta är en dålig idé, se notisen ovan
             return "Ogiltig operation"
 
     # Hur Objekt ska reagera på operatorn ==
@@ -30,8 +31,6 @@ class MyClass:
     #   Objektet
     def __str__(self):
         return str(self.value)
-
-    
 
 
 a = MyClass(2)
@@ -57,7 +56,7 @@ d = a + b
 e = a + 5
 print("d:", d)
 print("e:", e)
-# Notera att e har fått en sträng som "value". Detta är antagligen inte
-#   önskvärt i de flesta fall.
+# Notera att e har blivit en sträng istället för ett MyClass-objekt.
+# Detta är antagligen inte önskvärt.
 print(type(d))
 print(type(e))

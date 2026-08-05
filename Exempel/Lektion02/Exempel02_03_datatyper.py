@@ -10,5 +10,5 @@ my_bool = True
 # Samlingsdatatyper
 my_list = [12, 13, 14]
 my_tuple = (12, 13, 14)
-my_dict = {12:"Tolv", 13:"Tretton", 14:"Fjorton"}
+my_dict = {12: "Tolv", 13: "Tretton", 14: "Fjorton"}
 my_set = {12, 13, 14}

@@ -9,6 +9,7 @@ def f():
     g()
     print("Hej en gång till ifrån f(), där b fortfarande är", b)
 
+
 def g():
     b = 30
     print("Hej från g(), där a är", a, "och b är", b)

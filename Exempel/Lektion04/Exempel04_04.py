@@ -7,7 +7,7 @@ for element in my_int_list:
     summa_av_int = summa_av_int + element  # Kan även skrivas summa_av_int += element
     print(element)
     print(summa_av_int)
-    print() # Vänta med denna
+    print()  # Vänta med denna
 
 print()  # Vänta med denna
 # Vi kollar genomsnittet på my_int_list:

@@ -28,6 +28,7 @@ class Cat(Animal):
 
 print()
 
+
 def main():
     # Vi skapar instanser och ber dem att använda sin metod.
     animals = [Dog(), Cat()]

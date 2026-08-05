@@ -1,4 +1,4 @@
-Orginal: Henrik Tunedal
+Original: Henrik Tunedal
 Skala potatis i pseudokod - illustration av styrstrukturer (flödeskontroll)
 ----------------------------------------------------------
 

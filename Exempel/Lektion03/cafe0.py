@@ -10,7 +10,6 @@ te_slutsålt = False
 öl_slutsålt = True
 
 
-
 beställning = input("Vad vill du beställa? ")
 
 if beställning == "kaffe":

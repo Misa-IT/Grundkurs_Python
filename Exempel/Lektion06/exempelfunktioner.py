@@ -26,9 +26,11 @@ exempelfunktion()
 # T.ex. vilken text som ska skrivas ut av print() eller vilka tal som ska
 #   läggas ihop av en Funktion som adderar två tal.
 
+
 def funktion_som_tar_emot_tre_argument(
     godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3=8):
     print(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3)
+
 
 # Det som vi skriver inom parenteserna i DEFINITIONEN är alltså vad vi namnger
 #   det som skickas till vår Funktion som Argument varje gång den körs.

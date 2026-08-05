@@ -38,4 +38,5 @@ def main():
         print("Jag har", a.number_of_legs, "ben.")
 
 
-main()
+if __name__ == '__main__':
+    main()

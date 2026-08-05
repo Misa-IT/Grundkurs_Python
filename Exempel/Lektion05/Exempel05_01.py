@@ -24,7 +24,7 @@ print(my_fruit_list[1:4])
 print(my_fruit_list[2:5])
 print(my_fruit_list[2:])
 print(my_fruit_list[-3:])
-print(my_fruit_list[len(my_fruit_list)-3:])
+print(my_fruit_list[len(my_fruit_list) - 3:])
 
 
 # Slicing fungerar även på strängar
@@ -35,7 +35,7 @@ print("1234567890"[2:5])
 #   hämta ett Element, men istället för index så anger man vad man vill ha
 #   genom att skriva in nyckeln mellan parenteserna.
 johan = {"namn": "Johan", "ålder": 36, "längd": 180}
-emma = {"namn":"Emma", "ålder": 31, "längd": 174}
+emma = {"namn": "Emma", "ålder": 31, "längd": 174}
 
 print(johan["ålder"], emma["ålder"])
 

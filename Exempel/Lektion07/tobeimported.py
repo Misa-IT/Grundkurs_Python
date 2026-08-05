@@ -16,8 +16,10 @@ x = input("Vi sätter ett värde på x i tobeimported! Skriv in något som ska l
 print("Vi skriver ut x medans vi är i tobeimported:", x)
 print()
 
+
 def main():
     print("tobeimported är main")
+
 
 if __name__ == "__main__":
     main()

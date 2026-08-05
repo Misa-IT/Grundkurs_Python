@@ -7,8 +7,10 @@ print("Värdet på x är:", x)
 
 print()
 
+
 def f(x):
     return x * 2
+
 
 # Vi lagrar resultatet av f(1) i f_av_ett
 f_av_ett = f(1)
@@ -21,8 +23,7 @@ print("Värdet på f_av_f_av_ett är:", f_av_f_av_ett)
 print()
 
 print("Värdet vi får tillbaka av f av f av f av f av ett,",
-      "alltså 'f(f(f(f(1))))':", f(f(f(f(1))))
-      )
+      "alltså 'f(f(f(f(1))))':", f(f(f(f(1)))))
 
 # Det går alltså att "kedja" anrop till Funktioner. Det man får tillbaka
 #   från den Funktion som är "längst in" skickas till föregående, vilket i

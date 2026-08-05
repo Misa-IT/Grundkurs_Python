@@ -36,6 +36,11 @@ if affären_säljer_limpor == True:
 else:
 	mängd_äggkartonger_att_köpa = 1
 
+Raden
+	if affären_säljer_limpor == True:
+borde istället vara
+	if affären_säljer_limpor:
+men, för att göra det lite lättare för er så skriver jag så här.
 
 Indenteringen meddelar Python att koden tillhör ett så kallat "Kodblock".
 

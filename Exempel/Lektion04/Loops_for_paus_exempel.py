@@ -6,7 +6,7 @@ while run:
         run = False
     else:
         print("Hej, ", namn, "!")
-    
+
 
 while True:
     namn = input("NAMN?")

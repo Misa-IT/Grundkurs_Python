@@ -7,6 +7,7 @@ class MyClass:
     my_str = "HEJ"
     my_list = [1, 2]
 
+
 my_instance = MyClass()
 
 # Vi kontrollerar vad som ligger i listorna:

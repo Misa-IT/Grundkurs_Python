@@ -44,11 +44,12 @@ def main():
     animals = [a, fido, pelle]
     for a in animals:
         a.speak()
-        if a.fluffy_fur == True:
+        if a.fluffy_fur == True:  # Borde egentligen bara vara if a.fluffy_fur:
             print("Jag har fluffig päls!")
         else:
             print("Jag har inte fluffig päls...")
     print(animals)
+
 
 if __name__ == "__main__":
     main()

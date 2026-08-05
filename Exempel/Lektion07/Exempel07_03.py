@@ -2,7 +2,7 @@
 # importeras. Även ett exempel på varför det kan vara viktigt att följa
 # stilregler.
 
-#Under lektion: Eventuellt: Ta bort en stor del av listan och visa en gång till.
+# Under lektion: Eventuellt: Ta bort en stor del av listan och visa en gång till.
 
 #import random as ran
 import random
