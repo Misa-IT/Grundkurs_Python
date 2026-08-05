@@ -1,4 +1,4 @@
-# Orignal av: Henrik Tunedal
+# Original av: Henrik Tunedal
 # Ett exempel av ett program för ett cafe, med dicts.
 
 

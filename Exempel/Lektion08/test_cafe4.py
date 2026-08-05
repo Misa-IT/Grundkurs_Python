@@ -1,3 +1,5 @@
+# Av: Henrik Tunedal
+
 import sys, unittest
 from pathlib import Path
 

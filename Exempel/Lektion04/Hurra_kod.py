@@ -1,3 +1,5 @@
+# Original av: Henrik Tunedal
+
 print("Välkommen")
 namn = input("Vad heter du? ")
 

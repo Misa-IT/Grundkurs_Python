@@ -1,6 +1,7 @@
 # Den här testmodulen är bara till för att testa exempelprogrammen
 # och är inte en del av grundkursen. Testning går vi igenom i den
 # avancerade kursen.
+# Av: Henrik Tunedal
 
 from unittest import TestCase
 from unittest.mock import Mock, patch
