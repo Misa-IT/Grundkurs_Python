@@ -5,7 +5,7 @@
 #   tillbaka senare.
 #
 # OBS! Denna fil är medvetet svårare än de tidigare. Det är inte så att man
-#   måste kunna lösa dessa för att gå vidare till fortsättningskursen, dessa
+#   måste kunna lösa dessa för att gå vidare till fortsättningskursen; dessa
 #   är till för att om man kan lösa dessa är man troligtvis MER än redo att
 #   gå upp.
 #
