@@ -1,12 +1,12 @@
 # Den här filen ska kunna importeras från ÖvningExtra-02 och ÖvningExtra-03.py.
 
-# I den här filen så finns en rad uppgifter. Vissa bygger på varandra och
-# vissa måste lösas för att ÖvningExtra-02 ska fungera. Fastnar ni nånstans,
-# fortsätt till nästa uppgift och kom tillbaka senare så kanske ni kommer
-# på en ny lösning.
+# I den här filen så finns en rad övningar. Vissa bygger på varandra och
+#   vissa måste lösas för att ÖvningExtra_02 ska fungera. Fastnar ni nånstans,
+#   fortsätt till nästa uppgift och kom tillbaka senare så kanske ni kommer
+#   på en ny lösning.
 
-# Glöm inte att göra uppgifterna i main(), nedan; det är fem (5) uppgifter i
-# denna fil.
+# Glöm inte att göra övningarna i main(), nedan; det är fem (5) övningar i
+#   denna fil.
 
 
 personer = [("Anna Andersson", 23, 172), ("Bertil Bengtsson", 27, 186),
@@ -17,22 +17,22 @@ personer = [("Anna Andersson", 23, 172), ("Bertil Bengtsson", 27, 186),
 
 
 # Övning: Skriv om raden nedan så att list_of_names bara innehåller namnen på
-# de personer som finns i listan "personer" och inte deras övriga information.
+#   de personer som finns i listan "personer" och inte deras övriga information.
 list_of_names = personer
 
 
 # Övning: Skriv om koden nedan så att listan alphabetic_list_of_first_names
-# endast innehåller personers förnamn och att de står i alfabetisk ordning.
+#   endast innehåller personers förnamn och att de står i alfabetisk ordning.
 # Det går att lösa på bara en rad men upp till åtta är rimligt.
-# (Ni kan döpa om listan, det långa namnet är bara för tydlighet. Glöm inte
-# att ändra i main() i så fall.)
+#   (Ni kan döpa om listan, det långa namnet är bara för tydlighet. Glöm inte
+#   att ändra i main() i så fall.)
 alphabetic_list_of_first_names = personer
 
 
 # Övning: Den här funktionen ska kunna hämta ut en specifik person från listan personer
-# och returnera en lista med den personens information (namn, ålder och längd).
+#   och returnera en lista med den personens information (namn, ålder och längd).
 # Komplettera nedanstående kod så att man får ut en lista med en persons
-# information istället för en lista om alla personer eller en tuple om bara en person.
+#   information istället för en lista om alla personer eller en tuple om bara en person.
 def personal_info(lista, vem):
     info = lista
     vem
@@ -45,13 +45,13 @@ def main():
           " har något gått snett.")
 
     # Övning: Skriv färdigt den här loopen så att det skrivs ut hela meningar
-    # med namn, ålder och längd om varje person.
+    #   med namn, ålder och längd om varje person.
     for p in personer:
         print("är""år gammal""cm lång.")
 
     # Övning: Skriv färdigt den här loopen så att vi får ut en lista över
-    # namnen, och endast namnen, på de som är äldre än 30år i den print() som
-    # kommer efter loopen.
+    #   namnen, och endast namnen, på de som är äldre än 30år i den print() som
+    #   kommer efter loopen.
     over_30 = []
     #in personer:
 
@@ -61,7 +61,7 @@ def main():
     print("Här ska du se information om Bertil:", personal_info(personer, "Bertil"))
 
     # Nästa rad kontrollerar att personal_info() samt listorna uppfyller det
-    # som övningarna ber om.
+    #   som övningarna ber om.
     test_personal_info()
     test_lists()
 
