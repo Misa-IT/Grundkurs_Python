@@ -1,0 +1,25 @@
+Läsordning för Lektion 05
+=========================
+
+Följ filerna i den här ordningen:
+
+1. Samlingsdatatyper.txt
+   Börja med repetitionen av kursens samlingsdatatyper.
+
+2. Slice.txt
+   Läs om index, positioner och slicing.
+
+3. Exempel05_01.py
+   Läs och kör exemplen med index, slicing och dictionary-nycklar.
+
+4. Retrieve_from_list_for_paus_orig.py
+   Försök hämta och skriva ut listans sista element.
+
+5. Funktioner och metoder.txt
+   Läs skillnaden mellan funktioner och metoder.
+
+6. vilka_djur.py
+   Läs och kör det tillämpade exemplet med medlemskap och listmetoder.
+
+7. Exempel05_02.py
+   Frivillig överkurs om slicing och strängmetoden join().

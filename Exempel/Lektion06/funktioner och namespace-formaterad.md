@@ -1,50 +1,102 @@
 # Funktioner!
 
-### Nomenklatur, dvs. termer som används och vad de betyder i sammanhanget:
+## Nomenklatur
 
-    Definiera - Att berätta vad något betyder. I Python använder man termen t.ex. när man skapar eller ändrar en variabel.
-        Används även när man skapar egna Funktioner och Klasser. Klasser kommer vi gå igenom i en senare vecka.
-	Funktion - En samling kod som namngivits för att lätt kunna återanvändas. En instruktion till datorn.
-	Objekt - En samling av data och instruktioner om hur man interagerar med den.
-             T.ex. via metoder som ligger i objektet eller med operatorer
-             (+, -, *, etc.)
-	Metod - En funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför grundkursen)
-	Argument - Det man skickar till en funktion.
+Termer som används och vad de betyder i sammanhanget:
 
-## SYNTAX ÄR VIKTIGT
+**Definiera:**
 
+Att berätta vad något betyder. I Python använder man termen t.ex. när man
+skapar eller ändrar på en variabel. Används även när man skapar egna Funktioner
+och Klasser. Klasser kommer vi gå igenom i en senare lektion.
 
-### Python är ett objektorienterat programmeringsspråk. Vi kommer tala mer om Objekt i Lektion08.
-<br>
+**Funktion:**
 
-### Namespaces / Namnrymder är avskiljningar för att hålla namn unika.
-    Exempel: Postnummer, epost
-    Exempel: info@misa.se
+En samling kod som namngivits för att lätt kunna återanvändas. En instruktion
+till datorn.
 
-### Funktioner kallas för olika saker i olika programmeringsspråk:
-    Funktioner = Procedurer = Subrutiner
-    Functions = Processes = Sub-routines
+**Objekt:**
 
+En samling data och instruktioner om hur man interagerar med den. T.ex. via
+Metoder som ligger i Objektet eller med operatorer. (`+`, `-`, `*`, etc.)
 
-### Argument = Det man skickar till en funktion eller metod
-    Positional arguments / Positionsargument
-    Keyword arguments / Nyckelordsargument
+**Metod:**
 
-### Matematiska funktioner ser väldigt liknande ut som funktioner i Python:
-#### Matte:
-    f(x) = x * 2
-    eller
-    y = x * 2
-#### Python:
-    def f(x):
-        return x * 2
+En Funktion som ligger i ett Objekt. (Eller en Klass, men det är utanför
+grundkursen.)
 
-### Designprincip i Python:
+**Argument:**
 
-    DRY
-    Don't Repeat Yourself
-	Upprepa Dig Inte
+Det man skickar till en Funktion.
 
-	Ska man göra samma sak flera gånger är det alltså bättre att "bryta ut" den
-	saken till en funktion, precis som man använder loopar för att inte behöva
-	skriva samma sak om och om igen.
+**Returnera:**
+
+Att skicka tillbaka.
+
+## SYNTAX ÄR JÄTTEVIKTIGT
+
+Python är ett objektorienterat programmeringsspråk. Vi kommer att tala mer om
+Objekt i Lektion08.
+
+## Namespaces / Namnrymder
+
+Namespaces / Namnrymder är avskiljningar för att hålla namn unika.
+
+Exempel: Postnummer, epost, telefonnummer
+
+Exempel: info@misa.se
+
+## Olika namn för Funktioner
+
+Funktioner kallas för olika saker i olika programmeringsspråk:
+
+```text
+Funktioner = Procedurer = Subrutiner
+Functions = Processes = Sub-routines
+```
+
+## Argument
+
+Argument = Det man skickar till en Funktion eller Metod.
+
+Man "skickar" Argument genom att skriva in det som ska skickas mellan
+parenteserna när man "anropar" en Funktion.
+
+**Positional Arguments / Positionsargument:**
+
+Argument där ordningen man skriver dem i spelar STOR roll.
+
+**Keyword Arguments / Nyckelordsargument:**
+
+Argument där man anger namn på Argumenten för att särskilja dem.
+
+## Matematiska Funktioner och Funktioner i Python
+
+Matematiska Funktioner ser väldigt liknande ut som Funktioner i Python:
+
+Matte:
+
+```text
+f(x) = x * 2
+eller
+y = x * 2
+```
+
+Python:
+
+```python
+def f(x):
+    return x * 2
+```
+
+## Designprincip i Python
+
+```text
+DRY
+Don't Repeat Yourself
+Upprepa Dig Inte
+```
+
+Ska man göra samma sak flera gånger är det alltså bättre att "bryta ut" den
+saken till en Funktion, precis som man använder loopar för att inte behöva
+skriva samma sak om och om igen.

@@ -1,0 +1,25 @@
+Läsordning för Lektion 01
+=========================
+
+Följ filerna i den här ordningen:
+
+1. Info om Python.txt
+   Läs först introduktionen till Python och programmering.
+
+2. Exempel01_01.py
+   Läs och kör det första exemplet med print() och kommentarer.
+
+3. Hello World i olika språk.txt
+   Jämför samma enkla program i Python och andra programmeringsspråk.
+
+4. Exempel01_02.py
+   Läs och kör exemplet med text och ASCII-konst.
+
+5. Exempel01_03.py
+   Detta är en motiverande förhandsvisning av vad som går att bygga senare.
+   Du behöver inte förstå koden ännu.
+
+Stödfil:
+
+- Exempel01_03.bat kan användas för att starta Exempel01_03.py i Windows.
+  Du behöver inte läsa eller förstå bat-filen.

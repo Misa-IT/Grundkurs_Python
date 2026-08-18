@@ -1,0 +1,60 @@
+Läsordning för Lektion 04
+=========================
+
+Följ filerna i den här ordningen:
+
+1. Loopar.txt eller Loopar-formaterad.md
+   Filerna har samma innehåll i två olika format. Läs en av dem.
+
+2. potatis.txt
+   Läs pseudokoden som stegvis visar varför loopar behövs.
+
+3. potatis på tavlan.txt
+   Jämför pseudokoden med while- och for-loopar i Python.
+   Filen visar jämförelser med True och False för att göra logiken tydlig.
+   I vanlig kod föredrar vi senare direkta villkor.
+
+4. Exempel04_01.py
+   Läs och kör det första exemplet med en while-loop.
+
+5. Exempel04_02.py
+   Kombinera en while-loop med villkor och flera indenteringsnivåer.
+
+6. crappybird.py
+   Läs och kör ett tillämpat exempel med while, input och villkor.
+
+7. Exempel04_03.py
+   Läs och kör det första exemplet med for-loopar.
+
+8. Exempel04_04.py
+   Se hur en for-loop kan använda en ackumulator.
+
+9. Exempel04_05.py
+   Jämför en while-loop och en for-loop som gör samma arbete.
+
+10. hurra.txt
+    Läs jämförelsen mellan en algoritm och olika implementationer.
+    Fokusera på den första Python-versionen. Versionen med funktioner är
+    en förhandsvisning av Lektion 6 och är inte ett krav ännu.
+
+11. Hurra_kod.py
+    Läs och kör kursversionen med villkor och en for-loop.
+
+12. Loops_for_paus.py
+    Försök skriva loopen själv innan du öppnar lösningen.
+
+13. Loops_for_paus_exempel.py
+    Läs lösningsförslagen efter ditt eget försök.
+
+14. Exempel04_06.py
+    Läs och kör exemplen med break och continue.
+
+15. Exempel04_07.py
+    Läs och kör exemplet med nästlade loopar.
+
+16. Exempel04_08.py
+    Se hur en loop behandlar data och bygger en ny lista.
+
+17. Exempel04_09_dryck.py
+    Frivillig fördjupning. Fokusera på den vanliga loopversionen i
+    kommentarerna. Walrusoperatorn är inte ett krav i kursen.

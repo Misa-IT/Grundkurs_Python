@@ -1,0 +1,37 @@
+Läsordning för Lektion 03
+=========================
+
+Följ filerna i den här ordningen:
+
+1. IF-satser.txt
+   Läs om flödeskontroll, pseudokod, indentering och if-satser.
+
+   Frivilligt: Flödeskontroll1_if-satser.pdf är en grafisk
+   visualisering av logiken. Den ersätter inte IF-satser.txt.
+
+2. how_many_eggs.py
+   Läs och kör det första exemplet med en if-sats.
+
+3. how_many_eggs_with_input.py
+   Se hur samma beslut kan baseras på användarens textinmatning.
+
+4. if_for_paus.py
+   Försök själv lägga till den if-sats som uppgiften ber om.
+
+5. if_for_paus_possible_solution.py
+   Läs lösningsförslaget först när du har försökt själv.
+
+6. if_for_paus_possible_solution_with_input.py
+   Detta är ett alternativt lösningsförslag som använder input().
+
+7. Elif.py
+   Läs och kör exemplet med flera elif-grenar.
+
+8. Hattkanter.py
+   Läs det korta beslutsexemplet med ett färdigt värde.
+
+9. Hattk.py
+   Läs och kör versionen där användaren anger värdet.
+
+10. cafe0.py
+    Avsluta med det tillämpade caféexemplet med variabler och villkor.

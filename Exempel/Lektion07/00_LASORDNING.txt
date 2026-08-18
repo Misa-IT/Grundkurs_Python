@@ -1,0 +1,35 @@
+Läsordning för Lektion 07
+=========================
+
+Följ filerna i den här ordningen:
+
+1. Namnrymder och import.txt eller Namnrymder och import-formaterad.md
+   Filerna har samma innehåll i två olika format. Läs en av dem.
+
+2. Exempel07_01.py tillsammans med tobeimported.py
+   Läs båda filerna och kör Exempel07_01.py för att se import och __name__.
+
+3. Exempel07_02.py
+   Filen återanvänder tobeimported.py och visar vad som händer vid flera
+   importer i samma program.
+
+4. Exempel07_03.py
+   Läs och kör ett praktiskt exempel med standardmodulen random.
+
+5. Exempel07_04.py
+   Läs och kör exemplet med namnrymder i olika funktioner.
+
+6. Exempel07_05.py tillsammans med dessa paketfiler:
+   - exempelpaket/__init__.py
+   - exempelpaket/extragrejer.py
+   Läs stödfilerna och kör sedan Exempel07_05.py.
+
+7. Exempel07_06.py
+   Läs om hur olika namn kan referera till samma föränderliga objekt.
+
+8. cafe2.py
+   Läs caféversionen med funktioner, parallella listor och en main guard.
+
+9. Lektionsövning07.py
+   Avsluta med uppgiften där du själv skapar och importerar en modul.
+   Filen är avsiktligt ofärdig och ska kompletteras innan den körs.

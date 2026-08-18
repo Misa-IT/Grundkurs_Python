@@ -1,51 +1,65 @@
-# Flödeskontroll del 2, Loopar:
+# Flödeskontroll del 2, Loopar
 
+## Nomenklatur
 
-## Nomenklatur, vad man menar med specifika termer:
-	Element - En sak i en samling. T.ex. "Första elementet i en lista"
-	
-	Itereringsvariabel är den variabel man kollar på vid varje varv av en loop. Kan också kallas 
-    upprepningsvariabel.
+Termer som används och vad de betyder i sammanhanget:
 
-	Iterera = Upprepa
+**Element:**
 
-### Ett exempel på en dåligt formulerad instruktion:
-    Instruktion: Tvätta håret, skölj ur och upprepa.
+En sak i en samling. T.ex. "Första elementet i en lista."
 
-        Tvätta håret
-        Skölj ur
-        Tvätta håret
-        Skölj ur
-        [...]
+**Iterera:**
 
+Upprepa
 
-### I Python finns det while-loopar och for-loopar.
+**Itereringsvariabel:**
 
+Den variabel man kollar på vid varje varv av en loop. Kan också kallas
+upprepningsvariabel.
 
-#### while-loopar:
+## Ett exempel på en dåligt formulerad instruktion
 
-	Obersvera att nedanstående är pseudokod!
+Instruktion: Applicera schampo, skölj ur och upprepa.
 
-	Så länge [något] så gör detta:
-		Instruktioner
+```text
+Applicera schampo
+Skölj ur
+Applicera schampo
+Skölj ur
+[...]
+```
 
-	While [something] do this:
-    	Instructions
+I Python finns det while-loopar och for-loopar.
 
-	while [något]:
-		Instruktioner
+## while-loopar
 
+```text
+Så länge som [Något] stämmer så gör detta:
+    [Instruktioner]
 
+While [Something] is True do this:
+    [Instructions]
+```
 
-for-loopar:
+```python
+while [Nånting]:
+    [Instruktioner]
+```
 
-	Obersvera att nedanstående är pseudokod!
+## for-loopar
 
-	För varje element i [samling] så gör detta:
-		Instruktioner
-	
-	For each thing in [collection] do this:
-		Instructions
-	
-	for [sak] in [samling]:
-		Instruktioner
+```text
+För varje element i [Samling] så gör detta:
+    [Instruktioner]
+
+For each element in [Collection] do this:
+    [Instructions]
+
+For each element in [Collection], call the thing [Name], and do this:
+    [Instructions]
+```
+
+```python
+for [Sak/Itereringsvariabel] in [Samling]:
+    [Instruktioner]
+```
