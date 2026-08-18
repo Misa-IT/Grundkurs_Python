@@ -14,9 +14,18 @@
 words = ["katt", "hund", "katt", "fågel", "hund", "hamster"]
 
 
-# Övning 1: Skapa ett set som innehåller varje ord från listan words exakt
-#   en gång. Skapa därefter en sorterad lista av orden i setet.
-unique_words = words
+# Övning 1: Skapa en dict där varje ord från listan words är en nyckel och
+#   antalet gånger ordet förekommer är nyckelns värde.
+#
+# Gå igenom words med en for-loop. Använd en if-sats för att kontrollera om
+#   ordet redan finns i dicten och uppdatera värdet på rätt sätt.
+# Skapa därefter en alfabetiskt sorterad lista av dictens nycklar.
+# Det går också bra att bygga hela dicten med ett enda kort uttryck.
+word_counts = {}
+
+for word in words:
+    pass
+
 sorted_unique_words = words
 
 
@@ -94,47 +103,122 @@ def guessing_game():
     pass
 
 
-def test_collections_and_functions():
-    """Kontrollerar samlingarna och funktionerna ovan."""
-    assert isinstance(unique_words, set), \
-        "unique_words förväntades vara ett set"
-    assert unique_words == {"katt", "hund", "fågel", "hamster"}, \
-        "unique_words innehåller inte de efterfrågade orden"
-    assert sorted_unique_words == ["fågel", "hamster", "hund", "katt"], \
-        "sorted_unique_words är inte korrekt sorterad"
+def test_exercise_1_count_and_sort_words():
+    """Kontrollerar ordräkningen och den sorterade listan i övning 1."""
+    expected_counts = {
+        "katt": 2,
+        "hund": 2,
+        "fågel": 1,
+        "hamster": 1,
+    }
+    expected_sorted_words = ["fågel", "hamster", "hund", "katt"]
 
-    assert summarize_numbers([2, -10, 4, 6]) == (3, 4), \
-        "summarize_numbers() ger fel resultat med standardvärdet"
-    assert summarize_numbers([2, 4, 6, 8], minimum=5) == (2, 7), \
-        "summarize_numbers() hanterar inte minimum som nyckelordsargument"
-    assert summarize_numbers([-3, -2, -1]) == (0, None), \
-        "summarize_numbers() hanterar inte en tom beräkning"
+    assert isinstance(word_counts, dict), (
+        "Övning 1: word_counts ska vara en dict."
+    )
+    assert word_counts == expected_counts, (
+        "Övning 1: word_counts ska innehålla varje ord och rätt antal."
+    )
+    assert isinstance(sorted_unique_words, list), (
+        "Övning 1: sorted_unique_words ska vara en lista."
+    )
+    assert sorted_unique_words == expected_sorted_words, (
+        "Övning 1: sorted_unique_words ska innehålla orden i alfabetisk ordning."
+    )
+    assert words == ["katt", "hund", "katt", "fågel", "hund", "hamster"], (
+        "Övning 1: listan words ska inte ändras."
+    )
 
-    assert find_first_divisible([5, 9, 12, 16], 4) == 12, \
-        "find_first_divisible() hittar inte det första passande talet"
-    assert find_first_divisible([1, 3, 5], 2) is None, \
-        "find_first_divisible() ska returnera None om inget tal passar"
-
-    print("Samlingarna och funktionerna klarar testerna")
+    print("Övning 1 är korrekt löst.")
 
 
-def test_bird_class():
-    """Kontrollerar arv, attribut och ärvda metoder."""
+def test_exercise_2_summarize_numbers():
+    """Kontrollerar urval, medelvärde och gränsfall i övning 2."""
+    numbers = [2, -10, 4, 6]
+    result = summarize_numbers(numbers)
+
+    assert isinstance(result, tuple), (
+        "Övning 2: summarize_numbers() ska returnera en tuple."
+    )
+    assert result == (3, 4), (
+        "Övning 2: standardvärdet ska ta med tal som är minst 0."
+    )
+    assert summarize_numbers([2, 4, 6, 8], minimum=5) == (2, 7), (
+        "Övning 2: minimum ska fungera som nyckelordsargument."
+    )
+    assert summarize_numbers([5, 6], minimum=5) == (2, 5.5), (
+        "Övning 2: ett tal som är lika med minimum ska tas med."
+    )
+    assert summarize_numbers([-3, -2, -1]) == (0, None), (
+        "Övning 2: returnera (0, None) när inget tal kan användas."
+    )
+    assert summarize_numbers([]) == (0, None), (
+        "Övning 2: en tom lista ska ge (0, None)."
+    )
+    assert numbers == [2, -10, 4, 6], (
+        "Övning 2: listan som skickas till funktionen ska inte ändras."
+    )
+
+    print("Övning 2 är korrekt löst.")
+
+
+def test_exercise_3_find_first_divisible():
+    """Kontrollerar sökningen och gränsfallen i övning 3."""
+    numbers = [5, 9, 12, 16]
+
+    assert find_first_divisible(numbers, 4) == 12, (
+        "Övning 3: funktionen ska returnera det första passande talet."
+    )
+    assert find_first_divisible([8, 12, 16], 4) == 8, (
+        "Övning 3: även det första talet i listan måste kontrolleras."
+    )
+    assert find_first_divisible([1, 3, 5], 2) is None, (
+        "Övning 3: returnera None när inget tal passar."
+    )
+    assert find_first_divisible([], 3) is None, (
+        "Övning 3: en tom lista ska ge None."
+    )
+    assert numbers == [5, 9, 12, 16], (
+        "Övning 3: listan som skickas till funktionen ska inte ändras."
+    )
+
+    print("Övning 3 är korrekt löst.")
+
+
+def test_exercise_4_bird_inheritance():
+    """Kontrollerar arv, attribut och ärvda metoder i övning 4."""
     bird = Bird("Pippi")
 
-    assert isinstance(bird, Animal), "Bird ärver inte från Animal"
-    assert bird.name == "Pippi", "Objektet saknar rätt namn"
-    assert bird.number_of_legs == 2, "En fågel förväntades ha två ben"
-    assert bird.speak() == "Kvitter!", "Bird har inte rätt läte"
-    assert bird.describe() == "Pippi har 2 ben.", \
-        "Bird ärver inte en fungerande describe-metod"
+    assert issubclass(Bird, Animal), (
+        "Övning 4: klassen Bird ska ärva från Animal."
+    )
+    assert bird.name == "Pippi", (
+        "Övning 4: Bird ska använda Animals konstruktor och spara namnet."
+    )
+    assert bird.number_of_legs == 2, (
+        "Övning 4: en fågel ska ha två ben."
+    )
+    assert bird.speak() == "Kvitter!", (
+        "Övning 4: en fågel ska låta 'Kvitter!'."
+    )
+    assert bird.describe() == "Pippi har 2 ben.", (
+        "Övning 4: Bird ska kunna använda den ärvda metoden describe()."
+    )
+    assert Bird.__init__ is Animal.__init__, (
+        "Övning 4: Bird ska ärva konstruktorn utan att skriva en ny."
+    )
+    assert Bird.describe is Animal.describe and Bird.speak is Animal.speak, (
+        "Övning 4: Bird ska ärva metoderna utan att skriva nya versioner."
+    )
 
-    print("Klassen Bird klarar testerna")
+    print("Övning 4 är korrekt löst.")
 
 
 def main():
-    test_collections_and_functions()
-    test_bird_class()
+    test_exercise_1_count_and_sort_words()
+    test_exercise_2_summarize_numbers()
+    test_exercise_3_find_first_divisible()
+    test_exercise_4_bird_inheritance()
     guessing_game()
 
 
