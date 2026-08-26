@@ -3,26 +3,26 @@ Läsordning för Lektion 02
 
 Följ filerna i den här ordningen:
 
-1. Variabler.txt eller Variabler-formaterad.md
+1. Exempel02_01_Variabler.txt eller Exempel02_01_Variabler-formaterad.md
    Filerna har samma innehåll i två olika format. Läs en av dem.
 
-2. Exempel02_01_typannoteringar.py
+2. Exempel02_02_typannoteringar.py
    Läs exemplet om typannoteringar för variabler.
 
-3. Exempel02_02_input.py
+3. Exempel02_03_input.py
    Läs och kör det första exemplet med input().
 
-4. Casting.txt
+4. Exempel02_04_Casting.txt
    Läs om hur värden omvandlas mellan olika datatyper.
 
-5. Exempel02_03_cast_input.py
+5. Exempel02_05_cast_input.py
    Läs och kör exemplet som kombinerar input() och omvandling.
 
-6. Exempel02_04_datatyper.py
+6. Exempel02_06_datatyper.py
    Använd filen som en kort referens över kursens datatyper.
 
-7. When_datatypes.txt
+7. Exempel02_07_When_datatypes.txt
    Läs om när de olika samlingsdatatyperna passar.
 
-8. Exempel02_05_triangel.py
+8. Exempel02_08_triangel.py
    Läs och kör exemplet som visar varför kodradernas ordning är viktig.
