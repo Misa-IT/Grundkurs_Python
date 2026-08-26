@@ -6,20 +6,23 @@ Följ filerna i den här ordningen:
 1. Variabler.txt eller Variabler-formaterad.md
    Filerna har samma innehåll i två olika format. Läs en av dem.
 
-2. Exempel02_01_input.py
+2. Exempel02_01_typannoteringar.py
+   Läs exemplet om typannoteringar för variabler.
+
+3. Exempel02_02_input.py
    Läs och kör det första exemplet med input().
 
-3. Casting.txt
+4. Casting.txt
    Läs om hur värden omvandlas mellan olika datatyper.
 
-4. Exempel02_02_cast_input.py
+5. Exempel02_03_cast_input.py
    Läs och kör exemplet som kombinerar input() och omvandling.
 
-5. Exempel02_03_datatyper.py
+6. Exempel02_04_datatyper.py
    Använd filen som en kort referens över kursens datatyper.
 
-6. When_datatypes.txt
+7. When_datatypes.txt
    Läs om när de olika samlingsdatatyperna passar.
 
-7. Exempel02_04_triangel.py
+8. Exempel02_05_triangel.py
    Läs och kör exemplet som visar varför kodradernas ordning är viktig.
