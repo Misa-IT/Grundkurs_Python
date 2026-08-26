@@ -5,5 +5,5 @@
 # print("15") är inte rätt svar.
 
 =
-y = 10
+y: int = 10
 print()
