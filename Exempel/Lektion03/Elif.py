@@ -1,19 +1,19 @@
 # Exempel på if-satser som innehåller elif-klausuler.
-siffra = 3
+siffra: int = 3
 
 if siffra == 1:
-    resultat = 1
+    resultat: int = 1
     print("Siffra är 1")
 elif siffra == 2:
-    resultat = 2
+    resultat: int = 2
     print("Siffra är 2")
 elif siffra == 3:
-    resultat = 3
+    resultat: int = 3
     print("Siffra är 3")
 elif siffra == 4:
-    resultat = 4
+    resultat: int = 4
 elif siffra == 5:
-    resultat = 5
+    resultat: int = 5
 else:
     print("Hittade inget korrekt val!")
 

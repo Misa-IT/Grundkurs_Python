@@ -4,12 +4,12 @@
 # Dessutom så är det väldigt underligt att be användaren skriva in specifikt
 #   "True" eller "False".
 
-store_sells_loaves_of_bread = input("Säljer butiken limpor? True eller False: ")
+store_sells_loaves_of_bread: str = input("Säljer butiken limpor? True eller False: ")
 
 if store_sells_loaves_of_bread == "True":
-    egg_boxes_to_buy = 2
+    egg_boxes_to_buy: int = 2
 else:
-    egg_boxes_to_buy = 1
+    egg_boxes_to_buy: int = 1
 
 print("Det blev", egg_boxes_to_buy, "äggkartonger!")
 # Detta är ett förenklat exempel. input() ger oss alltid en sträng,

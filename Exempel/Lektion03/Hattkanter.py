@@ -1,6 +1,6 @@
-hattkanter = 3
+hattkanter: int = 3
 
 if hattkanter == 3:
-    hatt = "min"
+    hatt: str = "min"
 else:
-    hatt = "inte_min"
+    hatt: str = "inte_min"
