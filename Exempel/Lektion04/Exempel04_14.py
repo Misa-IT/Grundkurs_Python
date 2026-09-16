@@ -1,8 +1,8 @@
 # Exempel som demonstrerar break och continue.
 
 # Vi skapar en itereringsvariabel och en slutpunkt
-i = 0
-end = 10
+i: int = 0
+end: int = 10
 
 while True:
     i += 1  # i ökas med 1 för varje varv i loopen

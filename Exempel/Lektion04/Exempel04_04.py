@@ -1,7 +1,7 @@
 # Exempel som visar hur while-loopar fungerar och kan användas.
 
-my_int = 1
-my_second_int = 10
+my_int: int = 1
+my_second_int: int = 10
 
 # Saker ska ske så länge my_int är mindre än my_second_int
 while my_int < my_second_int:

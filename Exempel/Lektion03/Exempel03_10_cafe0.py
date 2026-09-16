@@ -1,5 +1,6 @@
 # Original av Henrik Tunedal
 # Ett exempel av ett program för ett cafe, utan samlingar.
+# Trasigt, använd inte.
 
 kaffepris = 20
 tepris = 15

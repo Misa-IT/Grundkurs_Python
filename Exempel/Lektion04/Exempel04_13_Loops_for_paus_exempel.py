@@ -1,7 +1,7 @@
-run = True
+run: bool = True
 
 while run:
-    namn = input("Hej, vad heter du? ")
+    namn: str = input("Hej, vad heter du? ")
     if namn == "quit":
         run = False
     else:
@@ -9,7 +9,7 @@ while run:
 
 
 while True:
-    namn = input("NAMN?")
+    namn: str = input("NAMN?")
     if namn == "quit":
         break
     else:

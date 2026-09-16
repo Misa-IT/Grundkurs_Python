@@ -1,7 +1,7 @@
 # Exempel som visar hur for-loopar fungerar och kan användas.
 
-my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-summa_av_int = 0
+my_int_list: list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+summa_av_int: int = 0
 
 for element in my_int_list:
     summa_av_int = summa_av_int + element  # Kan även skrivas summa_av_int += element
