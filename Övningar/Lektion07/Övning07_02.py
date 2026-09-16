@@ -1,22 +1,28 @@
-# Den här koden kör oändligt.
-# Rätta till den så att det inte längre händer.
+# Här skriver vi två olika matematiska funktioner.
+# I ordning så gör de addition respektive multiplikation
+#   av två argument som man anger när man kör funktionen.
 
-# MEN programmets funktionalitet ska inte ändras!
-# D.v.s:
-# Loopen ska vara kvar.
-# Specifikt raden "while my_int < amount:" ska INTE ändras.
-# Funktionen ska fortfarande skriva ut ett värde och returnera my_inner_int + 1.
+# Uppgiften är att utöka den här filen så att den hanterar fler räknesätt
+#   eller operatorer.
+# Lägg till minst tre nya funktioner, helst några fler. Max fem nya.
+# Om du inte vet vad du ska välja för räknesätt så är förslagen
+#   subtraktion (dvs. minus), division (dvs. delat med) och exponent (dvs.
+#   upphöjt till)
 
-# Tips: Här har man nytta av att använda sig av typannotationer.
-#   Tänk på om funktionen ska returnera ett värde eller inte och
-#       i så fall vilken typ den ska returnera.
+# Länk till exempel på operatorer (Endast de som är markerade med fet stil
+#   är relevanta för grundkursen:
+# https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/ESehIlchRdpFoetFBbWIeSwBlFzvQteU7AbABagKyTdFPQ?e=cejb3C
 
-def print_and_increment(my_inner_int: int):
-    print(my_inner_int)
-    return my_inner_int + 1
+# Lägg även till anrop på dina nya funktioner så som jag gör längst ned i denna fil.
 
 
-amount: int = int(input("Hur många gånger ska jag köra? "))
-my_int: int = 0
-while my_int < amount:
-    print_and_increment(my_int)
+def add(int1: int, int2: int) -> None:
+    print(int1 + int2)
+
+
+def multiply(int1: int, int2: int) -> None:
+    print(int1 * int2)
+
+
+add(3, 2)
+multiply(3, 2)

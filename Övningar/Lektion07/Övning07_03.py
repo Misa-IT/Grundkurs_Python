@@ -1,58 +1,92 @@
-# Original av: Henrik Tunedal
-
-# Denna övning finns i två varianter:
-
-# Övning07_03.py har namnen på funktioner och variabler på engelska vilket är
-#   hur man bör skriva men kanske rör till det för vissa.
-
-# Övning07_03_sv.py har namnen på funktioner och variabler på svenska vilket
-#   orsaka problem på vissa datorer och bör undvikas.
-
-# NI BEHÖVER BARA GÖRA EN AV DESSA. De är identiska utöver språket på namnen i
-#   filen.
-
-
-# Övning 07_03: Komplettera funktionen evaluate_temperature så att den
-#   returnerar lämpliga bedömningar, från fall till fall, av
-#   badtemperaturen som den får som argument. Bedömningen kan t.ex. vara
-#       "för kallt", "lagom" eller "för varmt".
-# Som minst efterfrågas tre bedömningsnivåer, t.ex. de ovan, men ni kan lägga
-#    till fler om ni vill.
-
-# NOTERA: Det är ENDAST i funktionen evaluate_temperature som ni ska göra ändringar
-
-# Använd helst era egna preferenser i denna övning, men om ni vill ha förslag
-#   så kan ni titta på följande förslag:
-#       Under 20 är det för kallt
-#       Över 40 är det för varmt
+# Övning 07_03: Typannoteringar för returvärden
+#
+# I den här övningen ska du skriva funktioner och förse varje funktion
+#    med en passande returtypannotering (-> Datatyp: eller -> None:).
+#
+# Kom ihåg:
+# - Funktioner som returnerar ett värde annoteras med den datatyp de returnerar
+#   (t.ex. -> int, -> str, -> bool, -> float).
+# - Funktioner som inte returnerar något värde utan bara utför en handling
+#   (t.ex. skriver ut med print) annoteras med -> None.
+# - Typannoteringar för returvärden skrivs efter parametrarnas parentes
+#   och före kolonet, t.ex: def min_funktion(x: int) -> int:
 
 
-def evaluate_temperature(degrees_celsius: int) -> str:
-    return "av okänd badvänlighet"
+# ==============================================================================
+# Uppgift 1: Returnera ett heltal (int)
+# ==============================================================================
+# Skriv klart funktionen `double` som tar emot ett heltal `number: int`.
+# Funktionen ska returnera talet multiplicerat med 2.
+# Lägg till returtypannoteringen `-> int` på def-raden.
+
+def double(number: int):
+    # Ersätt pass med din kod här och lägg till returtypannotering ovan
+    pass
 
 
+# ==============================================================================
+# Uppgift 2: Returnera en textsträng (str)
+# ==============================================================================
+# Skriv klart funktionen `create_message` som tar emot ett namn `name: str`.
+# Funktionen ska returnera en hälsningsfras, t.ex. "Välkommen, " + name + "!".
+# Lägg till returtypannoteringen `-> str` på def-raden.
+
+def create_message(name: str):
+    # Ersätt pass med din kod här och lägg till returtypannotering ovan
+    pass
 
 
-# Allt efter denna rad ska vara oförändrat. Kommentarerna på följande rader
-#   finns enbart där för att förklara vad som händer.
+# ==============================================================================
+# Uppgift 3: Returnera ett sanningsvärde (bool)
+# ==============================================================================
+# Skriv klart funktionen `is_positive` som tar emot ett heltal `number: int`.
+# Funktionen ska returnera True om talet är större än 0, annars False.
+# Lägg till returtypannoteringen `-> bool` på def-raden.
+
+def is_positive(number: int):
+    # Ersätt pass med din kod här och lägg till returtypannotering ovan
+    pass
 
 
-def main() -> None:
-    # Följande tre rader slumpar fram fem temperaturer så att vi testar om
-    #   funktionen klarar av både förutbestämda och slumpade temperaturer.
-    from random import choices
-    random_temp: list = choices(range(1, 60), k=5)
-    temperatures: list = [0, 25, 10, 50] + random_temp
+# ==============================================================================
+# Uppgift 4: Utföra en handling utan returvärde (None)
+# ==============================================================================
+# Skriv klart funktionen `print_line` som inte tar några argument.
+# Funktionen ska skriva ut en skiljelinje: print("--------------------")
+# Eftersom funktionen inte returnerar något värde ska du lägga till
+#   returtypannoteringen `-> None` på def-raden.
 
-    for temperature in temperatures:
-        # Här anropar vi vår funktion evaluate_temperature och får
-        # tillbaka en bedömning.
-        assessment: str = evaluate_temperature(temperature)
-
-        print("Vid", temperature, "grader anses badvattnet vara", assessment)
+def print_line():
+    # Ersätt pass med din kod här och lägg till returtypannotering ovan
+    pass
 
 
-# Här anropar vi funktionen main. Namnet är konventionellt för den
-#   funktion där programmet tar sin början, men man kan egentligen kalla
-#   den vad man vill.
-main()
+# ==============================================================================
+# Testkör dina funktioner
+# ==============================================================================
+# Koden nedan anropar dina funktioner och skriver ut resultaten.
+# Du behöver inte ändra koden nedanför denna rad.
+#
+# Förväntad utskrift när allt fungerar:
+# --------------------
+# Dubblat värde: 10
+# Välkommen, Alex!
+# Är 10 positivt? True
+# Är -3 positivt? False
+# --------------------
+
+print_line()
+
+doubled_value: int = double(5)
+print("Dubblat värde:", doubled_value)
+
+greeting_message: str = create_message("Alex")
+print(greeting_message)
+
+is_ten_positive: bool = is_positive(10)
+print("Är 10 positivt?", is_ten_positive)
+
+is_negative_positive: bool = is_positive(-3)
+print("Är -3 positivt?", is_negative_positive)
+
+print_line()
