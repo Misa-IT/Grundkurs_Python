@@ -10,7 +10,7 @@ te_slutsålt = False
 öl_slutsålt = True
 
 
-def produktpris(produkt):
+def produktpris(produkt) -> int:
     if produkt == "kaffe":
         return kaffepris
     elif produkt == "te":
@@ -19,7 +19,7 @@ def produktpris(produkt):
         return ölpris
 
 
-def produkt_slutsåld(produkt):
+def produkt_slutsåld(produkt) -> bool:
     if produkt == "kaffe":
         return kaffe_slutsålt
     elif produkt == "te":
@@ -28,7 +28,7 @@ def produkt_slutsåld(produkt):
         return öl_slutsålt
 
 
-def main():
+def main() -> None:
     beställning = input("Vad vill du beställa? ")
 
     if produkt_slutsåld(beställning):

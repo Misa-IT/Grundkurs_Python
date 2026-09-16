@@ -1,4 +1,6 @@
 # Exempel på vad det egentligen betyder att returnera värden.
+# print() skriver ut text men returnerar inget värde, dvs. den returnerar None.
+# Det är därför funktioner som bara utför utskrifter annoteras med -> None.
 
 print("Skriver ut vad som egentligen returneras av print():", print("Inre print"))
 print()
@@ -8,7 +10,7 @@ print("Värdet på x är:", x)
 print()
 
 
-def f(x):
+def f(x: int) -> int:
     return x * 2
 
 

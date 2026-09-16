@@ -8,8 +8,10 @@
 # Funktionen ska fortfarande skriva ut ett värde och returnera my_inner_int + 1.
 
 # Tips: Här har man nytta av att använda sig av typannotationer.
+#   Tänk på om funktionen ska returnera ett värde eller inte och
+#       i så fall vilken typ den ska returnera.
 
-def print_and_increment(my_inner_int):
+def print_and_increment(my_inner_int: int):
     print(my_inner_int)
     return my_inner_int + 1
 

@@ -1,22 +1,23 @@
 # Här skriver vi fyra olika matematiska funktioner.
 # I ordning så gör de: addition, subtraktion, multiplikation och division
 #   av två argument som man anger när man kör funktionen.
-# Notera att vi till skillnad från i Exempel07_02.py inte returnerar resultatet
-#   utan skriver ut det på skärmen direkt.
+# Notera att vi till skillnad från i Exempel07_03.py inte returnerar resultatet
+#   utan skriver ut det på skärmen direkt. Därför annoterar vi returtypen som
+#   None.
 
-def add(int1, int2):
+def add(int1: int, int2: int) -> None:
     print(int1 + int2)
 
 
-def subtract(int1, int2):
+def subtract(int1: int, int2: int) -> None:
     print(int1 - int2)
 
 
-def multiply(int1, int2):
+def multiply(int1: int, int2: int) -> None:
     print(int1 * int2)
 
 
-def divide(int1, int2):
+def divide(int1: int, int2: int) -> None:
     print(int1 / int2)
 
 

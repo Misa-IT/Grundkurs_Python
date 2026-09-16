@@ -11,7 +11,7 @@ Följ filerna i den här ordningen:
    Läs den samlade genomgången av hur funktioner definieras och anropas.
 
 3. Exempel07_03.py
-   Läs och kör exempel med parametrar, argument och returvärden.
+   Läs och kör exempel med parametrar, argument, returvärden och returtyper.
 
 4. Exempel07_04.py
    Undersök vad print() och egna funktioner faktiskt returnerar.

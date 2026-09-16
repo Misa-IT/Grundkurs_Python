@@ -3,8 +3,10 @@
 #
 # I det här exemplet skriver vi en simpel funktion som skriver ut en
 #   hälsning på skärmen.
+# Eftersom funktionen bara utför en utskrift och inte returnerar något
+#   värde, annoterar vi returtypen som -> None.
 
-def hello_world():
+def hello_world() -> None:
     print("Hello, World!")
 
 
@@ -12,9 +14,9 @@ def hello_world():
 #   s.k. Argument, som då inte behöver delas i hela programmet.
 #
 # I det här exemplet accepterar vår Funktion ett Argument, ett namn,
-#   som vi sen vill att Funktionen hälsar på.
+#   som vi sen vill att Funktionen hälsar på. Även denna har returtypen -> None.
 
-def hello(name):
+def hello(name) -> None:
     print("Hej ", name, "!", sep="")
 
 
@@ -30,10 +32,11 @@ hello("Johan")
 #   koden som funktionsanropet skedde.
 #
 # I det här exemplet returnerar vi Argumentet multiplicerat med två.
+# Eftersom funktionen returnerar ett heltal annoterar vi returtypen som -> int.
 # Notera att det returnerade värdet nedan inte skrivs ut om vi inte skickar
 #   det vidare till print().
 
-def f(x):
+def f(x) -> int:
     return x * 2
 # Exemplet ovan är t.ex. väldigt likt den matematiska Funktionen f(x)=x*2
 

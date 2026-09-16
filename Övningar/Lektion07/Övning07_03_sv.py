@@ -41,8 +41,8 @@ def main() -> None:
     # Följande tre rader slumpar fram fem temperaturer så att vi testar om
     #   funktionen klarar av både förutbestämda och slumpade temperaturer.
     from random import choices
-    random_temp: list[int] = choices(range(1, 60), k=5)
-    temperaturer: list[int] = [0, 25, 10, 50] + random_temp
+    random_temp: list = choices(range(1, 60), k=5)
+    temperaturer: list = [0, 25, 10, 50] + random_temp
 
     for temperatur in temperaturer:
         # Här anropar vi vår funktion evaluate_temperature och får

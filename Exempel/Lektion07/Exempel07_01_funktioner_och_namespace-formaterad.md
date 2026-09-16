@@ -89,6 +89,32 @@ def f(x):
     return x * 2
 ```
 
+## Typannoteringar för returvärden
+
+Precis som vi i Lektion 2 lärde oss att annotera variabler (`namn: str = "Alex"`),
+kan vi annotera vad en funktion förväntas returnera.
+
+Returtypen skrivs med en pil `->` efter parameterparenteserna, före kolonet:
+
+```python
+def f(x) -> int:
+    return x * 2
+```
+
+Om en funktion inte returnerar något värde (utan bara utför en handling,
+t.ex. skriver ut text med `print()`), returnerar den i Python i själva verket
+värdet `None`. Då annoterar vi returtypen som `-> None`:
+
+```python
+def hej() -> None:
+    print("Hej!")
+```
+
+Precis som för variabler är typannoteringar i Python **beskrivande och
+dokumenterande.** De orsakar inte att programmet kraschar om fel typ
+returneras vid körning, men hjälper utvecklare och utvecklingsmiljöer (som
+PyCharm) att förstå och hitta fel i koden.
+
 ## Designprincip i Python
 
 ```text
