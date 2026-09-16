@@ -1,19 +1,17 @@
-# Första gången vi importerar en modul i vårt program laddas
-# den från disk och koden i modulen körs.
-# Lägg till _live i slutet under lektion.
+# Exempel på hur man kan importera funktioner och annat från andra
+# moduler och hur man refererar till dem i koden.
 
-print("Importerar modulen tobeimported...")
 import tobeimported
-print("Importerad modul:", tobeimported)
 
-# Observera att koden i tobeimported inte körs andra gången,
-# om vi importerar modulen igen eftersom vi har laddat den
-# tidigare.
+tobeimported.my_function()
+
+# Variabeln __name__ får olika värden beroende på vilken
+# fil man startade programmet ifrån. Den modulen blir då
+# "the main module", huvudmodulen.
+print("__name__ från Exempel07_01:", __name__)
+print("__name__ från tobeimported i Exempel07_01:",
+      tobeimported.__name__)
+
 print()
-
-y = input("Vi väntar på att du ska ändra något i tobeimported.")
-
-print()
-print("Importerar samma modul igen!")
-import tobeimported
-print("Fortfarande samma modul:", tobeimported)
+if __name__ == "__main__":
+    print("Exempel07_01 är main")

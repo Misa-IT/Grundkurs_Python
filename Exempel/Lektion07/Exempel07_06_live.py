@@ -1,8 +1,3 @@
-# Orginal av: Henrik Tunedal
-
-
-# Exempel som demonstrerar att olika namn kan användas i olika
-# sammanhang (i det här fallet olika funktioner) för att referera till
-# ett och samma objekt (i det här fallet en lista).
-
-
+# Exempel på hur man importerar moduler som ligger i mappar.
+# Även hur det ser ut när man importerar paket.
+# Original av: Henrik Tunedal

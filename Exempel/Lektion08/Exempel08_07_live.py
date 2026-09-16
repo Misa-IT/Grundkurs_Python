@@ -1,62 +1,54 @@
-# Ett exempel på fler av specialmetoderna man kan lägga in i egenskapade
-#   Klasser och hur man kan lägga in kod som förhindrar vanliga fel från
-#   att uppstå.
+# Fortsatt från Exempel08_04.
+# Nu skapar vi nya objekt från Klasser och demonstrerar Klasser
+# som har frivilliga argument vid skapandet av instanser.
 
-# Detta är inte exakt hur man bör göra för att förhindra dessa fel, men hur
-#   man bör göra går man igenom i fortsättningskursen. Exception handling,
-#   om ni vill läsa om det på egen hand.
+class Animal:
+    sound = "Jag låter som alla andra djur."
+    fluffy_fur = False
 
-class MyClass:
+    def speak(self):
+        print(self.sound)
 
-    # Konstruktorn
-    def __init__(self, value):
-        self.value = value
 
-    # Hur Objekt ska reagera på operatorn +
-    def __add__(self, other):
-        #print("PLUS")
+class Dog(Animal):
+    sound = "Woof!"
 
-        #if type(self) == type(other):
-        if isinstance(other, MyClass):
-            return MyClass(self.value + other.value)
+    def __init__(self, name, fluffy_fur=True):
+        self.name = name
+        self.fluffy_fur = fluffy_fur
+
+
+class Cat(Animal):
+
+    def __init__(self, name, prickig):
+        self.name = name
+        self.prickig = prickig
+
+
+a = Animal()
+fido = Dog("Fido")
+pelle = Cat("Pelle", True)
+
+fido.speak()
+pelle.speak()
+
+print(fido.fluffy_fur, fido.name)
+print(pelle.prickig)
+print("\n" * 3)
+
+
+def main():
+    a = Animal()
+    fido = Dog("Fido")
+    pelle = Cat("Pelle", True)
+    animals = [a, fido, pelle]
+    for a in animals:
+        a.speak()
+        if a.fluffy_fur == True:
+            print("Jag har fluffig päls!")
         else:
-            return "Ogiltig operation"
+            print("Jag har inte fluffig päls...")
+        print()
 
-    # Hur Objekt ska reagera på operatorn ==
-    def __eq__(self, other):
-        print("JÄMFÖR")
-        return self.value == other.value
-
-    # Vad Objekt ska returnera när något ber om en sträng-representation av
-    #   Objektet
-    def __str__(self):
-        # print("GÖR TILL STRÄNG")
-        return str(self.value)
-
-
-a = MyClass(2)
-b = MyClass(2)
-c = a
-# Vi jämför Objekten
-print("a == b:", a == b)
-print("a == c:", a == c)
-print("a is b:", a is b)
-print("a is c:", a is c)
-print()
-
-
-# Vi testar hur Objekten reagerar på str() och att bara bli skickade till print()
-print("a:", a)
-print("Strängrepresentationen av a (alltså str(a)):", str(a))
-print("str(a) + 'Hej':", str(a) + "Hej")
-
-
-# Vi testar hur Objekten reagerar på ett plustecken
-d = a + b
-e = a + 5
-print("d:", d)
-print("e:", e)
-# Notera att e har fått en sträng som "value". Detta är antagligen inte
-#   önskvärt i de flesta fall.
-print(type(d))
-print(type(e))
+if __name__ == "__main__":
+    main()

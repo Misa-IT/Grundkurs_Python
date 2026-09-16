@@ -1,14 +1,24 @@
-# Exempel på hur man importerar moduler som ligger i mappar.
-# Även hur det ser ut när man importerar paket.
+# Ett exempel på hur namnrymder fungerar med funktioner.
+# Detta exempel är tydligast när det visualiseras.
 # Original av: Henrik Tunedal
 
-print("Här börjar programmet och dess modulnamn är:", __name__)
+def f():
+    b = 20
+    a = 1000
+    print("Hej från f(), där a är", a, "och b är", b)
+    g()
+    print("Hej en gång till ifrån f(), där b fortfarande är", b)
 
-import exempelpaket
-import exempelpaket.extragrejer
 
-exempelpaket.extragrejer.mitt_namn()
+def g():
+    b = 30
+    print("Hej från g(), där a är", a, "och b är", b)
 
-print("Klart!")
 
-exempelpaket.tjosan()
+a = 10
+
+print("Här börjar vi och a är:", a)
+f()
+print("Nu är det slut och a är:", a)
+# Nästa rad kommer att krascha programmet.
+print(b)
