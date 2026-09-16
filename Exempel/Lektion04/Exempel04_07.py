@@ -1,17 +1,19 @@
-# Generera en multiplikationstabell med loopar inuti loopar.
+# Exempel som visar hur for-loopar fungerar och kan användas.
 
-table_size = int(input("Hur många kolumner ska vi ha? "))
-# kolumnbredd = 5
+my_str_list = ["Från", "den", "här", "listan", "kan", "vi", "hämta", "text!"]
+my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-rad = 1
-while rad <= table_size:
-    # Mata ut en rad med värden
-    kolumn = 1
-    while kolumn <= table_size:
-        # Skriv ut varje kolumn
-        #print(str(rad * kolumn).ljust(kolumnbredd), end="")
-        print(str(rad * kolumn), "\t", sep="", end="")
-        kolumn += 1
-    print()   # För att mata ut en radbrytning för att avsluta raden
 
-    rad += 1
+# Skriv ut hela listan
+print(my_str_list)
+
+
+# Skriv ut varje element
+for element in my_str_list:
+    print(element)
+print("Vi kan fortfarande läsa element utanför loopen:", element)
+
+print()  # För att lägga in ett radbyte.
+for element in my_int_list:
+    print(element)
+print("Vi kan fortfarande läsa element utanför loopen:", element)

@@ -1,15 +1,12 @@
-# Exempel som visar hur for-loopar fungerar och kan användas.
+# Exempel som visar hur while-loopar fungerar och kan användas.
 
-my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-summa_av_int = 0
+my_int = 1
+my_second_int = 10
 
-for element in my_int_list:
-    summa_av_int = summa_av_int + element  # Kan även skrivas summa_av_int += element
-    print(element)
-    print(summa_av_int)
-    print()  # Vänta med denna
+# Saker ska ske så länge my_int är mindre än my_second_int
+while my_int < my_second_int:
+    print(my_int)
+    my_int = my_int + 1
+    print(my_int)
 
-print()  # Vänta med denna
-# Vi kollar genomsnittet på my_int_list:
-print(len(my_int_list))
-print("Genomsnittet är:", summa_av_int / len(my_int_list))
+print("Nu är loopen över!")

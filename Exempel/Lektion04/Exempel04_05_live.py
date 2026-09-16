@@ -1,15 +1,14 @@
-# Exempel04_03 fast med både en While och en For.
-# Ibland kan man använda den typ av loop man föredrar.
+# Exempel som visar hur while-loopar fungerar och kan användas.
+# Även ett exempel på indenteringsnivåer.
 
-my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+my_int = 1
+my_second_int = 10
 
-i = 0
-while i <len(my_int_list):
-    element = my_int_list[i]
-    i += 1
-    print(element)
+while my_int < my_second_int:
+    if my_int % 2 == 0:  # Detta kollar om my_int är ett jämt tal.
+        print(my_int)
+    else:
+        print("Här är ett udda tal!")
+    my_int = my_int + 1
 
-print()
-
-for element in my_int_list:
-    print(element)
+print("Nu är loopen över!")
