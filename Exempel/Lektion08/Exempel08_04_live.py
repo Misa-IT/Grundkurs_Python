@@ -1,39 +1,56 @@
-# Exempel på hur man kan definiera hur varje Objekt som skapas från en Klass
-# ska se ut. Även exempel på instansvariabler och hur man definierar Metoder.
+# Ett exempel på en "praktisk" användning av en inbyggd modul som måste
+# importeras. Även ett exempel på varför det kan vara viktigt att följa
+# stilregler.
 
-class MyClass:
+# import random as ran
+import random
+from random import sample
 
-    my_int = 42
-    my_str = "HEJ!"
-    my_list = [1, 2]
+my_card_list = ["Ruter Två", "Ruter Tre", "Ruter Fyra", "Ruter Fem",
+                "Ruter Sex", "Ruter Sju", "Ruter Åtta", "Ruter Nio",
+                "Ruter Tio", "Ruter Knekt", "Ruter Drottning",
+                "Ruter Kung", "Ruter Äss", "Hjärter Två", "Hjärter Tre",
+                "Hjärter Fyra", "Hjärter Fem", "Hjärter Sex", "Hjärter Sju",
+                "Hjärter Åtta", "Hjärter Nio", "Hjärter Tio", "Hjärter Knekt",
+                "Hjärter Drottning", "Hjärter Kung", "Hjärter Äss",
+                "Klöver Två", "Klöver Tre", "Klöver Fyra", "Klöver Fem",
+                "Klöver Sex", "Klöver Sju", "Klöver Åtta", "Klöver Nio",
+                "Klöver Tio", "Klöver Knekt", "Klöver Drottning",
+                "Klöver Kung", "Klöver Äss", "Spader Två", "Spader Tre",
+                "Spader Fyra", "Spader Fem", "Spader Sex", "Spader Sju",
+                "Spader Åtta", "Spader Nio", "Spader Tio", "Spader Knekt",
+                "Spader Drottning", "Spader Kung", "Spader Äss"]
 
-    # När vi ska skapa en ny Instans/ett nytt Objekt av en Klass så anropas
-    #   automatiskt metoden .__init__().
-    # .__init__() är en så kallad Konstruktor.
-    # Notera att eftersom .__init__() är en Metod så måste första argumentet
-    #   vara self.
-    def __init__(self, x, y, z):
-        self.my_instance_list = ["Jag ligger i en Instans."]
-        self.a = x
-        self.y = y
-        self.z = z
+print("En slumpad dragning av fem spelkort:", sample(my_card_list, k=5))
+
+print()  # Tom print() för att göra en tom rad.
+# Om vi multiplicerar en sträng så upprepas strängen så många gånger:
+print("-------" * 5)
+
+# Vi skapar en ny lista och slumpar ordningen:
+# my_random_list = my_card_list  # Detta är fel, men vi kollar vad som händer.
+my_random_list = []
+for card in my_card_list:
+    my_random_list.append(card)
+
+# Alternativa sätt:
+# my_random_list = [card for card in my_card_list]
+# my_random_list = my_card_list.copy()
+# my_random_list = my_card_list[:]
 
 
-my_instance = MyClass(1, 2, 3)
-my_second_instance = MyClass(4, 5, "Hej")
-print("Listan i Klassen:", MyClass.my_list)
-print("Listan i första Instansen:", my_instance.my_list)
-print("Listan i andra Instansen:", my_second_instance.my_list)
-print()
+print("De ursprungliga listorna:\n")
+print("My card list:\n", my_card_list)
+print("-------")
+print("My random list:\n", my_random_list)
 
-# Nästa rad kommer att krascha programmet så efter att vi bekräftat det så
-#   kommenterar vi bort den.
-#print("Det finns ingen inre lista i Klassen:", MyClass.my_instance_list)
-print("Inre listan i första Instansen:", my_instance.my_instance_list)
-print("Inre listan i andra Instansen:", my_second_instance.my_instance_list)
-print()
 
-# Vi lägger till något med .append()
-my_instance.my_instance_list.append("Jag ska hamna i den första Instansens lista!")
-print("Inre listan i första Instansen:", my_instance.my_instance_list)
-print("Inre listan i andra Instansen:", my_second_instance.my_instance_list)
+print("-------" * 5)
+x = random.shuffle(my_random_list)  # Fel. 'x = ' ska inte vara där.
+print("Värdet på x är:", x)
+
+print("-------" * 5)
+print("Listorna efter blandning:\n")
+print("My card list:\n", my_card_list)
+print("-------")
+print("My random list:\n", my_random_list)

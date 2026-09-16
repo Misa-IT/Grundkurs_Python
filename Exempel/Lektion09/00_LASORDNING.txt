@@ -1,0 +1,54 @@
+Läsordning för Lektion 09
+=========================
+
+Följ filerna i den här ordningen:
+
+1. Exempel09_01_Klasser_och_objekt.txt eller Exempel09_01_Klasser_och_objekt-formaterad.md
+   Filerna har samma innehåll i två olika format. Läs en av dem.
+
+2. Exempel09_02.py
+   Läs det första exemplet med en klass, attribut och instanser.
+
+3. Exempel09_03.py
+   Jämför klassvariabler och instansvariabler.
+
+4. Exempel09_04.py
+   Läs om __init__(), self, instansvariabler och metoder.
+
+5. Exempel09_05_Extra.py
+   Frivillig fördjupning om föränderliga klass- och instansvariabler.
+
+6. Exempel09_06.py
+   Läs det första exemplet med arv och polymorfism.
+
+7. Exempel09_07.py
+   Fortsätt med objekt, arv och frivilliga argument.
+
+8. Exempel09_08_Pausövning09_01.py
+   Försök själv utöka klasserna och skapa nya objekt.
+
+9. Exempel09_09_cafe1.py
+   Börja jämförelsen av caféprogrammets olika versioner.
+
+10. Exempel09_10_cafe2.py
+    Jämför versionen som använder parallella listor.
+
+11. Exempel09_11_cafe3.py
+    Jämför versionen som använder dictionaries och ett set.
+
+12. Exempel09_12_cafe4.py
+    Läs slutversionen med klasser och samarbetande objekt.
+
+13. Exempel09_13.py
+    Frivillig, avancerad demonstration av specialmetoder.
+
+14. Exempel09_14.py
+    Frivillig fortsättning på specialmetoder och felkontroller.
+
+Stödfiler som inte ingår i grundkursen:
+
+- test_cafe.py
+- test_cafe4.py
+
+Testfilerna används bara för att kontrollera caféprogrammen. Du behöver inte
+läsa, ändra eller köra dem i grundkursen.

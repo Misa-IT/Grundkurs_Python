@@ -1,13 +1,22 @@
-# Här vill vi hämta ut ett värde från en dict och skriva ut det.
-# Komplettera koden så att den fungerar.
-#
-# Endast en rad ska ändras på!
-#
-# Att hårdkoda är inte rätt svar. Det är alltså inte rätt att ändra i print()
-#    så att det står "Två på engelska är: two"
+# Här försöker vi hämta alla element i en lista och lägga till dem i en ny lista.
+# När vi lägger till varje element i listan kollar vi om det är en integer eller
+#   float och om så är fallet vill vi addera 5 till det elementet.
+# Se Övning05_04 för ledtrådar.
+
+# Sista raden ska INTE ändras på och när programmet körs så ska vi få ut:
+# [6, 7, 8, 9, 10, 'Här', 'är', 'några', 'strängar!', 11, 12, ['En', 'lista', 'i', 'listan!'], 13, 14]
+
+my_mixed_list: list = [1, 2, 3, 4, 5, "Här", "är", "några", "strängar!", 6, 7,
+                 ["En", "lista", "i", "listan!"], 8, 9]
+my_new_list: list = []
+# Ovanstående kod ska inte ändras på.
 
 
-my_dict = {"ett": "one", "två": "two", "tre": "three"}
+for element in my_mixed_list:
+    # Nedanstående rad skulle kunna kunna skrivas "if type(element) == int or type(element) == float:"
+    if type(element) in {int, float}:
+    my_new_list.a
+    else:
+    my_new_list.a
 
-print("Två på engelska är: ")
-print("Raden ovanför ska vara 'Två på engelska är: two' när programmet körs.")
+print(my_new_list)

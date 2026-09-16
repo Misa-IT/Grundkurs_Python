@@ -6,10 +6,10 @@
 from unittest import TestCase
 from unittest.mock import Mock, patch
 
-from Exempel.Lektion08 import (
-    Exempel08_09_cafe1 as cafe1,
-    Exempel08_10_cafe2 as cafe2,
-    Exempel08_11_cafe3 as cafe3,
+from Exempel.Lektion09 import (
+    Exempel09_09_cafe1 as cafe1,
+    Exempel09_10_cafe2 as cafe2,
+    Exempel09_11_cafe3 as cafe3,
 )
 
 

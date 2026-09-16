@@ -1,31 +1,28 @@
-# Övning 07_04: Importera moduler från ett paket
-#
-# I mappen exempelpaket/animals/mammals/ finns en modul som heter dogs.py.
-# Den innehåller två funktioner: bark() och bark_loudly().
-#
-# Just nu kraschar programmet eftersom importen nedan inte hittar dogs-modulen.
-# Modulen ligger nämligen i ett underpaket (animals/mammals), inte direkt i exempelpaket.
-#
-# DEL 1 — Fixa importen:
-#   Ändra import-raden så att bark() och bark_loudly() importeras korrekt
-#       från exempelpaket.animals.mammals.dogs.
-#   Tips: Använd "from ... import ..." med hela sökvägen till modulen.
-#
-# DEL 2 — Skapa en ny modul för kattläten:
-#   1. Skapa en ny fil som heter cats.py i samma mapp som dogs.py
-#      (det vill säga i exempelpaket/animals/mammals/).
-#   2. I cats.py, skapa två funktioner:
-#      - meow()      som skriver ut "Mjau!"
-#      - meow_loudly() som skriver ut "MJAU!!"
-#   3. Importera dina nya funktioner här i den här filen.
-#   4. Anropa meow() och meow_loudly() i main-funktionen nedan.
+# Här skriver vi två olika matematiska funktioner.
+# I ordning så gör de addition respektive multiplikation
+#   av två argument som man anger när man kör funktionen.
 
-from exempelpaket import *
+# Uppgiften är att utöka den här filen så att den hanterar fler räknesätt
+#   eller operatorer.
+# Lägg till minst tre nya funktioner, helst några fler. Max fem nya.
+# Om du inte vet vad du ska välja för räknesätt så är förslagen
+#   subtraktion (dvs. minus), division (dvs. delat med) och exponent (dvs.
+#   upphöjt till)
+
+# Länk till exempel på operatorer (Endast de som är markerade med fet stil
+#   är relevanta för grundkursen:
+# https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/ESehIlchRdpFoetFBbWIeSwBlFzvQteU7AbABagKyTdFPQ?e=cejb3C
+
+# Lägg även till anrop på dina nya funktioner så som jag gör längst ned i denna fil.
 
 
-def main():
-    bark()
-    bark_loudly()
+def add(int1: int, int2: int) -> None:
+    print(int1 + int2)
 
 
-main()
+def multiply(int1: int, int2: int) -> None:
+    print(int1 * int2)
+
+
+add(3, 2)
+multiply(3, 2)

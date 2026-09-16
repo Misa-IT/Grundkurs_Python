@@ -1,24 +1,26 @@
-# Ett exempel på hur namnrymder fungerar med funktioner.
-# Detta exempel är tydligast när det visualiseras.
-# Original av: Henrik Tunedal
+# Här skriver vi fyra olika matematiska funktioner.
+# I ordning så gör de: addition, subtraktion, multiplikation och division
+#   av två argument som man anger när man kör funktionen.
+# Notera att vi till skillnad från i Exempel07_02.py inte returnerar resultatet
+#   utan skriver ut det på skärmen direkt.
 
-def f():
-    b = 20
-    a = 1000
-    print("Hej från f(), där a är", a, "och b är", b)
-    g()
-    print("Hej en gång till ifrån f(), där b fortfarande är", b)
+def add(int1, int2):
+    print(int1 + int2)
 
 
-def g():
-    b = 30
-    print("Hej från g(), där a är", a, "och b är", b)
+def subtract(int1, int2):
+    print(int1 - int2)
 
 
-a = 10
+def multiply(int1, int2):
+    print(int1 * int2)
 
-print("Här börjar vi och a är:", a)
-f()
-print("Nu är det slut och a är:", a)
-# Nästa rad kommer att krascha programmet.
-print(b)
+
+def divide(int1, int2):
+    print(int1 / int2)
+
+
+add(3, 2)
+subtract(3, 2)
+multiply(3, 2)
+divide(3, 2)

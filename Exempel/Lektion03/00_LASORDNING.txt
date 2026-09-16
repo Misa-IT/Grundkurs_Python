@@ -23,15 +23,3 @@ Följ filerna i den här ordningen:
 
 6. Exempel03_06_if_for_paus_possible_solution_with_input.py
    Detta är ett alternativt lösningsförslag som använder input().
-
-7. Exempel03_07_Elif.py
-   Läs och kör exemplet med flera elif-grenar.
-
-8. Exempel03_08_Hattkanter.py
-   Läs det korta beslutsexemplet med ett färdigt värde.
-
-9. Exempel03_09_Hattk.py
-   Läs och kör versionen där användaren anger värdet.
-
-10. Exempel03_10_cafe0.py
-    Avsluta med det tillämpade caféexemplet med variabler och villkor.

@@ -25,7 +25,7 @@ SYNTAX ÄR JÄTTEVIKTIGT
 
 
 Python är ett objektorienterat programmeringsspråk.
-	Vi kommer att tala mer om Objekt i Lektion08.
+	Vi kommer att tala mer om Objekt i Lektion09.
 
 
 Namespaces / Namnrymder är avskiljningar för att hålla namn unika.

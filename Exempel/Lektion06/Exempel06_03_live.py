@@ -1,48 +1,44 @@
-# Funktioner används för att separera och namnge en del av programmet, som
-# ett eget litet miniprogram, så att man kan återanvända koden.
-#
-# I det här exemplet skriver vi en simpel funktion som skriver ut en
-# hälsning på skärmen.
+# Demonstration av slicing på listor och strängar.
+# Samt hur man hämtar information ur en dict.
+# Tuples fungerar för detta syfte precis som listor.
 
-def hello_world():
-    print("Hello, World!")
-
-# Man kan också ge Funktioner data som de behöver, i form av
-#   s.k. Argument, som då inte behöver delas i hela programmet.
-#
-# I det här exemplet accepterar vår Funktion ett Argument, ett namn,
-#   som vi sen vill att Funktionen hälsar på.
-
-def hello(name):
-    print("Hej ", name, "!", sep="")
+my_fruit_list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor",
+                 "Papaya", "Mango"]
 
 
-# För att våra Funktioner ska göra något så måste vi säga åt Python att
-#   faktiskt köra dem, ovan har vi bara berättat för Python vad namnen
-#   betyder.
-hello_world()
-hello("Johan")
-print()
+# Skriv ut hela listan
+print(my_fruit_list)
+
+# Hämta och skriv ut det första Elementet
+print(my_fruit_list[0])
+
+# Hämta och skriv ut, som en lista, de tre första Elementen ur my_fruit_list
+# på två olika sätt
+print(my_fruit_list[0:3])
+print(my_fruit_list[:3])
+
+# Hämta och skriv ut, som en lista, de tre Elementen i mitten
+print(my_fruit_list[1:4])
+
+# Hämta och skriv ut, som en lista, de tre sista Elementen ur my_fruit_list
+# på tre olika sätt. Plus en bonus.
+print(my_fruit_list[2:5])
+print(my_fruit_list[2:])
+print(my_fruit_list[-3:])
+print(my_fruit_list[len(my_fruit_list)-3:])
 
 
-# Funktioner kan också ge värden tillbaka, vilket man kallar för att
-#   RETURNERA ett värde. De liknar på det sättet Funktioner inom
-#   matematiken. Det returnerade värdet hamnar därefter på samma plats i
-#   koden som funktionsanropet skedde.
-#
-# I det här exemplet returnerar vi Argumentet multiplicerat med två.
-# Notera att det returnerade värdet nedan inte skrivs ut om vi inte skickar
-#   det vidare till print().
-
-def f(x):
-    return x * 2
-# Exemplet ovan är t.ex. väldigt likt den matematiska funktionen f(x)=x*2
+# Slicing fungerar även på strängar
+print("1234567890"[2:5])
 
 
-# Notera skillnaden på vad som händer på nedanstående rader.
-f(1)
-print(f(2))
-dubblat = f(3)
-print(dubblat)
-f(4)
-8
+# När man hämtar från en dict så använder man sig av samma syntax för att
+# hämta ett Element, men istället för index så anger man vad man vill ha
+# genom att skriva in nyckeln mellan parenteserna.
+johan = {"namn": "Johan", "ålder": 36, "längd": 180}
+emma = {"namn":"Emma", "ålder": 31, "längd": 174}
+
+print(johan["ålder"], emma["ålder"])
+
+for x in [johan, emma]:
+    print(x["namn"])

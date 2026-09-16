@@ -3,23 +3,47 @@ Läsordning för Lektion 05
 
 Följ filerna i den här ordningen:
 
-1. Exempel05_01_Samlingsdatatyper.txt
-   Börja med repetitionen av kursens samlingsdatatyper.
+1. Exempel05_01.py
+   Läs och kör det första exemplet med en while-loop.
 
-2. Exempel05_02_Slice.txt
-   Läs om index, positioner och slicing.
+2. Exempel05_02.py
+   Kombinera en while-loop med villkor och flera indenteringsnivåer.
 
-3. Exempel05_03.py
-   Läs och kör exemplen med index, slicing och dictionary-nycklar.
+3. Exempel05_03_crappybird.py
+   Läs och kör ett tillämpat exempel med while, input och villkor.
 
-4. Exempel05_04_Retrieve_from_list_for_paus_orig.py
-   Försök hämta och skriva ut listans sista element.
+4. Exempel05_04.py
+   Läs och kör det första exemplet med for-loopar.
 
-5. Exempel05_05_Funktioner_och_metoder.txt
-   Läs skillnaden mellan funktioner och metoder.
+5. Exempel05_05.py
+   Se hur en for-loop kan använda en ackumulator.
 
-6. Exempel05_06_vilka_djur.py
-   Läs och kör det tillämpade exemplet med medlemskap och listmetoder.
+6. Exempel05_06.py
+   Jämför en while-loop och en for-loop som gör samma arbete.
 
-7. Exempel05_07.py
-   Frivillig överkurs om slicing och strängmetoden join().
+7. Exempel05_07_hurra.txt
+   Läs jämförelsen mellan en algoritm och olika implementationer.
+   Fokusera på den första Python-versionen. Versionen med funktioner är
+   en förhandsvisning av Lektion 7 och är inte ett krav ännu.
+
+8. Exempel05_08_Hurra_kod.py
+   Läs och kör kursversionen med villkor och en for-loop.
+
+9. Exempel05_09_Loops_for_paus.py
+   Försök skriva loopen själv innan du öppnar lösningen.
+
+10. Exempel05_10_Loops_for_paus_exempel.py
+    Läs lösningsförslagen efter ditt eget försök.
+
+11. Exempel05_11.py
+    Läs och kör exemplen med break och continue.
+
+12. Exempel05_12.py
+    Läs och kör exemplet med nästlade loopar.
+
+13. Exempel05_13.py
+    Se hur en loop behandlar data och bygger en ny lista med .append().
+
+14. Exempel05_14_dryck.py
+    Frivillig fördjupning. Fokusera på den vanliga loopversionen i
+    kommentarerna. Walrusoperatorn är inte ett krav i kursen.

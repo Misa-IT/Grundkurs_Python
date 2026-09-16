@@ -1,4 +1,4 @@
-# Exempel04_03 fast med både en While och en For.
+# Jämförelse av while och for med en lista.
 # Ibland kan man använda den typ av loop man föredrar.
 
 my_int_list: list = [1, 2, 3, 4, 5, 6, 7, 8, 9]

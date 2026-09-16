@@ -3,52 +3,33 @@ Läsordning för Lektion 08
 
 Följ filerna i den här ordningen:
 
-1. Exempel08_01_Klasser_och_objekt.txt eller Exempel08_01_Klasser_och_objekt-formaterad.md
+1. Exempel08_01_Namnrymder_och_import.txt eller Exempel08_01_Namnrymder_och_import-formaterad.md
    Filerna har samma innehåll i två olika format. Läs en av dem.
 
-2. Exempel08_02.py
-   Läs det första exemplet med en klass, attribut och instanser.
+2. Exempel08_02.py tillsammans med tobeimported.py
+   Läs båda filerna och kör Exempel08_02.py för att se import och __name__.
 
 3. Exempel08_03.py
-   Jämför klassvariabler och instansvariabler.
+   Filen återanvänder tobeimported.py och visar vad som händer vid flera
+   importer i samma program.
 
 4. Exempel08_04.py
-   Läs om __init__(), self, instansvariabler och metoder.
+   Läs och kör ett praktiskt exempel med standardmodulen random.
 
-5. Exempel08_05_Extra.py
-   Frivillig fördjupning om föränderliga klass- och instansvariabler.
+5. Exempel08_05.py
+   Läs och kör exemplet med namnrymder i olika funktioner.
 
-6. Exempel08_06.py
-   Läs det första exemplet med arv och polymorfism.
+6. Exempel08_06.py tillsammans med dessa paketfiler:
+   - exempelpaket/__init__.py
+   - exempelpaket/extragrejer.py
+   Läs stödfilerna och kör sedan Exempel08_06.py.
 
 7. Exempel08_07.py
-   Fortsätt med objekt, arv och frivilliga argument.
+   Läs om hur olika namn kan referera till samma föränderliga objekt.
 
-8. Exempel08_08_Pausövning08_01.py
-   Försök själv utöka klasserna och skapa nya objekt.
+8. Exempel08_08_cafe2.py
+   Läs caféversionen med funktioner, parallella listor och en main guard.
 
-9. Exempel08_09_cafe1.py
-   Börja jämförelsen av caféprogrammets olika versioner.
-
-10. Exempel08_10_cafe2.py
-    Jämför versionen som använder parallella listor.
-
-11. Exempel08_11_cafe3.py
-    Jämför versionen som använder dictionaries och ett set.
-
-12. Exempel08_12_cafe4.py
-    Läs slutversionen med klasser och samarbetande objekt.
-
-13. Exempel08_13.py
-    Frivillig, avancerad demonstration av specialmetoder.
-
-14. Exempel08_14.py
-    Frivillig fortsättning på specialmetoder och felkontroller.
-
-Stödfiler som inte ingår i grundkursen:
-
-- test_cafe.py
-- test_cafe4.py
-
-Testfilerna används bara för att kontrollera caféprogrammen. Du behöver inte
-läsa, ändra eller köra dem i grundkursen.
+9. Exempel08_09_Lektionsövning08.py
+   Avsluta med uppgiften där du själv skapar och importerar en modul.
+   Filen är avsiktligt ofärdig och ska kompletteras innan den körs.

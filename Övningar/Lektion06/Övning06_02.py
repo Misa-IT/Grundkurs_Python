@@ -1,20 +1,9 @@
-# Den här koden kör oändligt.
-# Rätta till den så att det inte längre händer.
+# Ändra koden nedan så att bara det element som innehåller "är" skrivs ut.
+# Skapandet av listan ska INTE ändras på och att skriva in "är"
+#   manuellt i print() är inte rätt.
 
-# MEN programmets funktionalitet ska inte ändras!
-# D.v.s:
-# Loopen ska vara kvar.
-# Specifikt raden "while my_int < amount:" ska INTE ändras.
-# Funktionen ska fortfarande skriva ut ett värde och returnera my_inner_int + 1.
-
-# Tips: Här har man nytta av att använda sig av typannotationer.
-
-def print_and_increment(my_inner_int):
-    print(my_inner_int)
-    return my_inner_int + 1
+en_lista = ["Det", "här", "är", "en", "lista."]
+# Ovanstående rad ska INTE ändras på
 
 
-amount: int = int(input("Hur många gånger ska jag köra? "))
-my_int: int = 0
-while my_int < amount:
-    print_and_increment(my_int)
+print('Här ska det stå "är" utan citattecken:', en_lista)

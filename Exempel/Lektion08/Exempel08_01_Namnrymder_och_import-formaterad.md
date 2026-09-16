@@ -6,7 +6,7 @@ Termer som används och vad de betyder i sammanhanget:
 
 | Term | Betydelse |
 | --- | --- |
-| Module / Modul | En Modul är en fil. Varje `.py`-fil är en Modul. För att vara specifik så är det innehållet i filen som är Modulen. T.ex. `min_grej.py` eller `Exempel07_01.py`. |
+| Module / Modul | En Modul är en fil. Varje `.py`-fil är en Modul. För att vara specifik så är det innehållet i filen som är Modulen. T.ex. `min_grej.py` eller `Exempel08_01.py`. |
 | Package / Paket | En mapp som innehåller Moduler menade att återanvändas. |
 | Namespace / Namnrymd | Ett system för att inte skriva över variabler, funktioner eller andra namngivna saker när vi har kod från flera källor. T.ex. `modul1.min_funktion()` och `modul2.min_funktion()`. |
 | Import / Import | Att hämta kod från andra Moduler och/eller Paket. T.ex. `import math`. |

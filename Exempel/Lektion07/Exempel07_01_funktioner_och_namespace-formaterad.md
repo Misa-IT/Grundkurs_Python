@@ -36,7 +36,7 @@ Att skicka tillbaka.
 ## SYNTAX ÄR JÄTTEVIKTIGT
 
 Python är ett objektorienterat programmeringsspråk. Vi kommer att tala mer om
-Objekt i Lektion08.
+Objekt i Lektion09.
 
 ## Namespaces / Namnrymder
 

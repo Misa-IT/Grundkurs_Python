@@ -1,41 +1,14 @@
-# Ett simpelt exempel av arv. Med lite om polymorfism.
+# Exempel på hur man importerar moduler som ligger i mappar.
+# Även hur det ser ut när man importerar paket.
+# Original av: Henrik Tunedal
 
+print("Här börjar programmet och dess modulnamn är:", __name__)
 
-class Animal:
-    sound = "Jag låter som alla andra djur."
+import exempelpaket
+import exempelpaket.extragrejer
 
-    def speak(self):
-        print(self.sound)
+exempelpaket.extragrejer.mitt_namn()
 
+print("Klart!")
 
-class Dog(Animal):
-    sound = "Woof!"
-
-
-class Cat(Animal):
-    pass
-
-
-# Vi skapar instanser av våra Klasser.
-# a = Animal()
-# fido = Dog()
-# pelle = Cat()
-#
-# Vi ber våra Instanser att använda sin metod.
-# a.speak()
-# fido.speak()
-# pelle.speak()
-
-print()
-
-
-def main():
-    # Vi skapar instanser och ber dem att använda sin metod.
-    animals = [Dog(), Cat()]
-    print(animals)
-    for animal in animals:
-        animal.speak()
-
-
-if __name__ == "__main__":
-    main()
+exempelpaket.tjosan()

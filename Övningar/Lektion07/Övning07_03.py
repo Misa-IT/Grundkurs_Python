@@ -1,38 +1,58 @@
-# Övning 07_03: Skapa och importera en egen modul
-#
-# I den här övningen ska du skapa en egen modul (en separat .py-fil)
-# och sedan importera en funktion från den.
-#
-# STEG 1 — Skapa en ny fil som heter "my_greetings.py":
-#   Skapa filen i SAMMA MAPP som den här filen
-#   (det vill säga i mappen Övningar/Lektion07/).
-#   I my_greetings.py, skriv en funktion som heter greet().
-#   Funktionen ska ta emot ett argument (ett namn) och skriva ut
-#   en hälsning, till exempel:
-#       "Hej, Anna! Välkommen!"
-#
-# STEG 2 — Importera funktionen greet() här:
-#   Använd "from my_greetings import greet" för att importera
-#   funktionen direkt.
-#
-# STEG 3 — Anropa funktionen i main():
-#   Be användaren skriva in sitt namn med input().
-#   Skicka sedan namnet som argument till greet().
-#
-# Exempel på hur my_greetings.py kan se ut:
-#
-#   def greet(name):
-#       print("Hej,", name + "! Välkommen!")
-#
+# Original av: Henrik Tunedal
 
-# --- Skriv din import här (STEG 2) ---
+# Denna övning finns i två varianter:
+
+# Övning07_03.py har namnen på funktioner och variabler på engelska vilket är
+#   hur man bör skriva men kanske rör till det för vissa.
+
+# Övning07_03_sv.py har namnen på funktioner och variabler på svenska vilket
+#   orsaka problem på vissa datorer och bör undvikas.
+
+# NI BEHÖVER BARA GÖRA EN AV DESSA. De är identiska utöver språket på namnen i
+#   filen.
 
 
-def main():
-    # Be användaren om sitt namn och anropa greet() (STEG 3):
-    name = input("Vad heter du? ")
-    # Anropa greet() här:
+# Övning 07_03: Komplettera funktionen evaluate_temperature så att den
+#   returnerar lämpliga bedömningar, från fall till fall, av
+#   badtemperaturen som den får som argument. Bedömningen kan t.ex. vara
+#       "för kallt", "lagom" eller "för varmt".
+# Som minst efterfrågas tre bedömningsnivåer, t.ex. de ovan, men ni kan lägga
+#    till fler om ni vill.
+
+# NOTERA: Det är ENDAST i funktionen evaluate_temperature som ni ska göra ändringar
+
+# Använd helst era egna preferenser i denna övning, men om ni vill ha förslag
+#   så kan ni titta på följande förslag:
+#       Under 20 är det för kallt
+#       Över 40 är det för varmt
 
 
-if __name__ == "__main__":
-    main()
+def evaluate_temperature(degrees_celsius: int) -> str:
+    return "av okänd badvänlighet"
+
+
+
+
+# Allt efter denna rad ska vara oförändrat. Kommentarerna på följande rader
+#   finns enbart där för att förklara vad som händer.
+
+
+def main() -> None:
+    # Följande tre rader slumpar fram fem temperaturer så att vi testar om
+    #   funktionen klarar av både förutbestämda och slumpade temperaturer.
+    from random import choices
+    random_temp: list[int] = choices(range(1, 60), k=5)
+    temperatures: list[int] = [0, 25, 10, 50] + random_temp
+
+    for temperature in temperatures:
+        # Här anropar vi vår funktion evaluate_temperature och får
+        # tillbaka en bedömning.
+        assessment: str = evaluate_temperature(temperature)
+
+        print("Vid", temperature, "grader anses badvattnet vara", assessment)
+
+
+# Här anropar vi funktionen main. Namnet är konventionellt för den
+#   funktion där programmet tar sin början, men man kan egentligen kalla
+#   den vad man vill.
+main()

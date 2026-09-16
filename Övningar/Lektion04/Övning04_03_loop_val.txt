@@ -1,0 +1,51 @@
+Övning 04_03: Begrepp och val av loopar
+========================================
+
+I den här övningen tränar du på begreppen kring repetition och hur man väljer
+mellan en while-loop och en for-loop. Skriv dina svar direkt i den här filen.
+
+
+UPPGIFT 1 — Begrepp
+-------------------
+Förklara kort med egna ord vad följande termer betyder:
+
+a) Element:
+   Svar:
+
+b) Iterera / Iteration:
+   Svar:
+
+c) Itereringsvariabel:
+   Svar:
+
+
+UPPGIFT 2 — Välja rätt loop
+---------------------------
+För varje situation nedan, ange om det passar bäst med en "while-loop" eller
+en "for-loop" och motivera kort:
+
+a) Du vill fråga användaren om ett lösenord tills användaren skriver rätt.
+   Loop-typ:
+   Motivering:
+
+b) Du har en inköpslista med 5 varor och vill skriva ut varje vara på skärmen.
+   Loop-typ:
+   Motivering:
+
+c) Du har en påse med potatisar och vill skala varje potatis som finns i påsen.
+   Loop-typ:
+   Motivering:
+
+d) Du spelar ett spel som ska fortsätta köra så länge spelarens liv är större än 0.
+   Loop-typ:
+   Motivering:
+
+
+UPPGIFT 3 — Stoppvillkor och oändliga loopar
+--------------------------------------------
+Klassikern "Applicera schampo, skölj ur och upprepa" saknar ett stoppvillkor
+och leder till en oändlig loop.
+
+Hur skulle du formulera ett tydligt stoppvillkor med en while-loop så att
+man slutar tvätta håret när det är rent?
+Svar (i pseudokod eller med ord):

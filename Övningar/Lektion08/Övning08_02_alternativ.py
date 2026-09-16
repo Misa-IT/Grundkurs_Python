@@ -1,14 +1,14 @@
 # Denna övning finns i två varianter:
 #
-# Övning07_02.py innehåller utförliga instruktioner och förklarar varje steg.
+# Övning08_02.py innehåller utförliga instruktioner och förklarar varje steg.
 #
-# Övning07_02_alternativ.py innehåller samma övning med mindre text.
+# Övning08_02_alternativ.py innehåller samma övning med mindre text.
 #
 # NI BEHÖVER BARA GÖRA EN AV DESSA. Välj den variant vars instruktioner
 #   fungerar bäst för dig.
 #
 #
-# Övning 07_02 — alternativ: Använda modulen math
+# Övning 08_02 — alternativ: Använda modulen math
 #
 # 1. Importera hela modulen math.
 # 2. Använd math.sqrt() för att beräkna kvadratens sidlängd.

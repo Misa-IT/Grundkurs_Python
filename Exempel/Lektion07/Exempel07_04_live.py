@@ -1,56 +1,29 @@
-# Ett exempel på en "praktisk" användning av en inbyggd modul som måste
-# importeras. Även ett exempel på varför det kan vara viktigt att följa
-# stilregler.
+# Exempel på vad det egentligen betyder att returnera värden.
 
-# import random as ran
-import random
-from random import sample
-
-my_card_list = ["Ruter Två", "Ruter Tre", "Ruter Fyra", "Ruter Fem",
-                "Ruter Sex", "Ruter Sju", "Ruter Åtta", "Ruter Nio",
-                "Ruter Tio", "Ruter Knekt", "Ruter Drottning",
-                "Ruter Kung", "Ruter Äss", "Hjärter Två", "Hjärter Tre",
-                "Hjärter Fyra", "Hjärter Fem", "Hjärter Sex", "Hjärter Sju",
-                "Hjärter Åtta", "Hjärter Nio", "Hjärter Tio", "Hjärter Knekt",
-                "Hjärter Drottning", "Hjärter Kung", "Hjärter Äss",
-                "Klöver Två", "Klöver Tre", "Klöver Fyra", "Klöver Fem",
-                "Klöver Sex", "Klöver Sju", "Klöver Åtta", "Klöver Nio",
-                "Klöver Tio", "Klöver Knekt", "Klöver Drottning",
-                "Klöver Kung", "Klöver Äss", "Spader Två", "Spader Tre",
-                "Spader Fyra", "Spader Fem", "Spader Sex", "Spader Sju",
-                "Spader Åtta", "Spader Nio", "Spader Tio", "Spader Knekt",
-                "Spader Drottning", "Spader Kung", "Spader Äss"]
-
-print("En slumpad dragning av fem spelkort:", sample(my_card_list, k=5))
-
-print()  # Tom print() för att göra en tom rad.
-# Om vi multiplicerar en sträng så upprepas strängen så många gånger:
-print("-------" * 5)
-
-# Vi skapar en ny lista och slumpar ordningen:
-# my_random_list = my_card_list  # Detta är fel, men vi kollar vad som händer.
-my_random_list = []
-for card in my_card_list:
-    my_random_list.append(card)
-
-# Alternativa sätt:
-# my_random_list = [card for card in my_card_list]
-# my_random_list = my_card_list.copy()
-# my_random_list = my_card_list[:]
-
-
-print("De ursprungliga listorna:\n")
-print("My card list:\n", my_card_list)
-print("-------")
-print("My random list:\n", my_random_list)
-
-
-print("-------" * 5)
-x = random.shuffle(my_random_list)  # Fel. 'x = ' ska inte vara där.
+print("Skriver ut vad som egentligen returneras av print():",
+      print("Inre print")
+      )
+print()
+x = print("Lagrar print:s returvärde i x.")
 print("Värdet på x är:", x)
 
-print("-------" * 5)
-print("Listorna efter blandning:\n")
-print("My card list:\n", my_card_list)
-print("-------")
-print("My random list:\n", my_random_list)
+print()
+
+def f(x):
+    return x * 2
+
+# Vi lagrar resultatet av f(1) i f_av_ett
+f_av_ett = f(1)
+# Vi tar resultatet från förra raden, skickar det till f och lagrar
+#   det nya resultatet i en ny variabel.
+f_av_f_av_ett = f(f_av_ett)
+
+print("Värdet på f_av_f_av_ett är:", f_av_f_av_ett)
+
+print("Värdet vi får tillbaka av f av f av f av f av ett,",
+      "alltså 'f(f(f(f(1))))':", f(f(f(f(1))))
+      )
+
+# Det går alltså att "kedja" anrop till Funktioner. Det man får tillbaka
+#   från den Funktion som är "längst in" skickas till föregående, vilket i
+#   sin tur skickas till föregående och så vidare.

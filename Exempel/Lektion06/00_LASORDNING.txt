@@ -3,21 +3,23 @@ Läsordning för Lektion 06
 
 Följ filerna i den här ordningen:
 
-1. Exempel06_01_funktioner_och_namespace.txt eller
-   Exempel06_01_funktioner_och_namespace-formaterad.md
-   Filerna har samma innehåll i två olika format. Läs en av dem.
+1. Exempel06_01_Samlingsdatatyper.txt
+   Börja med repetitionen av kursens samlingsdatatyper.
 
-2. Exempel06_02_exempelfunktioner.py
-   Läs den samlade genomgången av hur funktioner definieras och anropas.
+2. Exempel06_02_Slice.txt
+   Läs om index, positioner och slicing.
 
 3. Exempel06_03.py
-   Läs och kör exempel med parametrar, argument och returvärden.
+   Läs och kör exemplen med index, slicing och dictionary-nycklar.
 
-4. Exempel06_04.py
-   Undersök vad print() och egna funktioner faktiskt returnerar.
+4. Exempel06_04_Retrieve_from_list_for_paus_orig.py
+   Försök hämta och skriva ut listans sista element.
 
-5. Exempel06_05.py
-   Jämför funktioner som skriver ut direkt med funktioner som returnerar.
+5. Exempel06_05_Funktioner_och_metoder.txt
+   Läs skillnaden mellan funktioner och metoder.
 
-6. Exempel06_06_cafe1.py
-   Avsluta med caféprogrammet uppdelat i återanvändbara funktioner.
+6. Exempel06_06_vilka_djur.py
+   Läs och kör det tillämpade exemplet med medlemskap och listmetoder.
+
+7. Exempel06_07.py
+   Frivillig överkurs om slicing och strängmetoden join().

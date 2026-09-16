@@ -2,17 +2,17 @@
 
 # Denna övning finns i två varianter:
 
-# Övning06_03.py har namnen på funktioner och variabler på engelska vilket är
+# Övning07_03.py har namnen på funktioner och variabler på engelska vilket är
 #   hur man bör skriva men kanske rör till det för vissa.
 
-# Övning06_03_sv.py har namnen på funktioner och variabler på svenska vilket
+# Övning07_03_sv.py har namnen på funktioner och variabler på svenska vilket
 #   orsaka problem på vissa datorer och bör undvikas.
 
 # NI BEHÖVER BARA GÖRA EN AV DESSA. De är identiska utöver språket på namnen i
 #   filen.
 
 
-# Övning 06_03: Komplettera funktionen bedöm_badtemperatur så att den
+# Övning 07_03: Komplettera funktionen bedöm_badtemperatur så att den
 #   returnerar lämpliga bedömningar, från fall till fall, av
 #   badtemperaturen som den får som argument. Bedömningen kan t.ex. vara
 #       "för kallt", "lagom" eller "för varmt".

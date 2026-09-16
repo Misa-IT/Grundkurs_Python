@@ -1,11 +1,9 @@
-# Övning 07_01: Rätta ett anrop till en importerad funktion
-#
-# Här försöker vi använda funktionen choice från paketet random men
-# något är fel med koden. Rätta till så att den fungerar och vi får ut ett
-# slumpvist valt element.
+# Rätta till koden så att vi:
+# 1. Skapar en funktion som skriver ut vad användaren skriver in.
+# 2. Kör den skapade funktionen.
 
-import random
+my_func:
+    user_input = input("Vad vill du att jag ska säga? ")
+    print("Jag blev ombedd att säga: ", user_input)
 
-my_list = ["Funktionen", "ska", "välja", "en", "av", "dessa", "strängar", "slumpmässigt"]
-
-print(choice(my_list))
+my_func

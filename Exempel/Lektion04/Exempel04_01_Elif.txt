@@ -1,0 +1,31 @@
+Flödeskontroll: elif (Flervalsbeslut)
+
+När vi har fler än två alternativ räcker det inte med bara if och else.
+Då använder vi elif, som är en sammandragning av "else if" (annars om).
+
+
+Struktur för if, elif och else:
+
+if [första villkoret]:
+    [gör detta om första villkoret är sant]
+elif [andra villkoret]:
+    [gör detta om andra villkoret är sant]
+elif [tredje villkoret]:
+    [gör detta om tredje villkoret är sant]
+else:
+    [gör detta om inget av villkoren ovan var sant]
+
+
+Viktiga regler för elif:
+
+1. Ordningen spelar roll!
+	Python testar villkoren uppifrån och ned.
+	Så fort ett villkor är sant körs det kodblocket, och resten hoppas över.
+
+2. Du kan ha hur många elif som helst mellan if och else.
+
+3. else är frivilligt, men fångar upp allt som inte matchade något if eller elif.
+
+4. Skillnad mellan flera if och if-elif:
+	- Flera if: Varje if testas ALLTID, oberoende av de andra.
+	- if-elif-else: Bara ETT block kommer att köras (det första som stämmer).

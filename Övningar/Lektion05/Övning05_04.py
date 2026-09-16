@@ -1,32 +1,20 @@
-# Denna övning finns även i en variant med mycket mindre text och har siffror i listorna istället
-#   för strängar. Den filen heter "Övning05_04_siffror.py".
-# Ni behöver enbart göra en av dessa.
+# Rätta till syntaxfelen så att vi lägger till alla element från my_int_list
+#   till my_new_list.
+# Sista raden ska INTE ändras och när programmet körs så ska vi få ut:
+# [1, 2, 3, 4, 5, 6, 7]
 
-# Lägg till listan my_first_list till listan som ligger i my_second_list genom
-#   att använda er av vad vi gått igenom på Lektion05.
-# my_first_list ska ligga efter den str som ligger där i.
+# .append() på en lista fungerar så att det som är innanför parentesen
+#   läggs till i slutet på listan man har precis innan .append(). Precis som
+#   att print() skriver ut det som står mellan parenteserna.
 
-# Att flytta listan manuellt är inte rätt svar, övningen handlar om att
-#   ändra på samlingar genom att skriva kod.
-# Använd helst metoder istället för att skapa en ny lista.
+# "På en lista" syftar i detta fall att man lägger till en punkt och append()
+#   efter namnet på en lista. Ex: my_new_list.append("bananer")
 
-# Resultatet som ska skrivas ut är (ert resultat kommer inte ha radbyten på samma
-#   ställen, det är inte viktigt):
-# ['Det här är den yttre listan!',
-# ['Efter den här strängen ska my_first_list läggas till.', ['Listor kan ligga i listor.',
-# ['Man kan till och med ha listor i listor som ligger i listor', ['Spännande, va?']]]],
-# 'Nästlade listor kan vara krångliga ibland.']
-
-# OBS!
-# OBS! Notera exakt var parenteserna ligger i det förväntade resultatet. OBS!
-# OBS!
-
-my_first_list = ["Listor kan ligga i listor.", ["Man kan till och med ha listor i listor som ligger i listor",
-                                                ["Spännande, va?"]]]
-
-my_second_list = ["Det här är den yttre listan!", ["Efter den här strängen ska my_first_list läggas till."],
-                  "Nästlade listor kan vara krångliga ibland."]
-# Ovanstående rader ska INTE ändras.
+my_int_list: list = [1, 2, 3, 4, 5, 6, 7]
+my_new_list: list = []
+# Ovanstående kod ska inte ändras på.
 
 
-print(my_second_list)
+for each thing in my_int_list:
+    my_new_list.append()
+print(my_new_list)

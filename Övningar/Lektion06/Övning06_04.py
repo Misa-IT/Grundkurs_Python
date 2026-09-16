@@ -1,28 +1,32 @@
-# Här skriver vi två olika matematiska funktioner.
-# I ordning så gör de addition respektive multiplikation
-#   av två argument som man anger när man kör funktionen.
+# Denna övning finns även i en variant med mycket mindre text och har siffror i listorna istället
+#   för strängar. Den filen heter "Övning06_04_siffror.py".
+# Ni behöver enbart göra en av dessa.
 
-# Uppgiften är att utöka den här filen så att den hanterar fler räknesätt
-#   eller operatorer.
-# Lägg till minst tre nya funktioner, helst några fler. Max fem nya.
-# Om du inte vet vad du ska välja för räknesätt så är förslagen
-#   subtraktion (dvs. minus), division (dvs. delat med) och exponent (dvs.
-#   upphöjt till)
+# Lägg till listan my_first_list till listan som ligger i my_second_list genom
+#   att använda er av vad vi gått igenom på Lektion06.
+# my_first_list ska ligga efter den str som ligger där i.
 
-# Länk till exempel på operatorer (Endast de som är markerade med fet stil
-#   är relevanta för grundkursen:
-# https://misaab-my.sharepoint.com/:w:/g/personal/johan_marmen_misa_se/ESehIlchRdpFoetFBbWIeSwBlFzvQteU7AbABagKyTdFPQ?e=cejb3C
+# Att flytta listan manuellt är inte rätt svar, övningen handlar om att
+#   ändra på samlingar genom att skriva kod.
+# Använd helst metoder istället för att skapa en ny lista.
 
-# Lägg även till anrop på dina nya funktioner så som jag gör längst ned i denna fil.
+# Resultatet som ska skrivas ut är (ert resultat kommer inte ha radbyten på samma
+#   ställen, det är inte viktigt):
+# ['Det här är den yttre listan!',
+# ['Efter den här strängen ska my_first_list läggas till.', ['Listor kan ligga i listor.',
+# ['Man kan till och med ha listor i listor som ligger i listor', ['Spännande, va?']]]],
+# 'Nästlade listor kan vara krångliga ibland.']
+
+# OBS!
+# OBS! Notera exakt var parenteserna ligger i det förväntade resultatet. OBS!
+# OBS!
+
+my_first_list = ["Listor kan ligga i listor.", ["Man kan till och med ha listor i listor som ligger i listor",
+                                                ["Spännande, va?"]]]
+
+my_second_list = ["Det här är den yttre listan!", ["Efter den här strängen ska my_first_list läggas till."],
+                  "Nästlade listor kan vara krångliga ibland."]
+# Ovanstående rader ska INTE ändras.
 
 
-def add(int1: int, int2: int) -> None:
-    print(int1 + int2)
-
-
-def multiply(int1: int, int2: int) -> None:
-    print(int1 * int2)
-
-
-add(3, 2)
-multiply(3, 2)
+print(my_second_list)

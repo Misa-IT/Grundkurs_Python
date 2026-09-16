@@ -1,9 +1,25 @@
-# Ändra koden nedan så att bara det element som innehåller "är" skrivs ut.
-# Skapandet av listan ska INTE ändras på och att skriva in "är"
-#   manuellt i print() är inte rätt.
+# Rätta till programmet så att när det körs får vi ut:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# Åtta
+# Nio
+# 10
+my_list: list = [1, 2, 3, 4, 5, 6, 7, "Åtta", "Nio", 10]
+# Ovanstående kod ska INTE ändras.
 
-en_lista = ["Det", "här", "är", "en", "lista."]
-# Ovanstående rad ska INTE ändras på
+
+# Svara i en kommentar på nästa rad vad för typ av loop passar bäst här:
 
 
-print('Här ska det stå "är" utan citattecken:', en_lista)
+loop my_list:
+    print()
+
+
+
+# Extrafråga: Hur skulle vi kunna göra så att programmet skriver ut innehållet
+#    i listan på en rad istället för på flera stycken? Svara i en kommentar:

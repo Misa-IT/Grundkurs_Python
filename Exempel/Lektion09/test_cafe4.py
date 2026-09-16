@@ -4,13 +4,13 @@ import sys
 import unittest
 from pathlib import Path
 
-from Exempel.Lektion08 import Exempel08_12_cafe4 as cafe4
+from Exempel.Lektion09 import Exempel09_12_cafe4 as cafe4
 
-sys.path.append(str(Path(__file__).resolve().parent / "../Lektion08"))
-lek8_test_cafe = __import__("test_cafe")  # lura PyCharm
+sys.path.append(str(Path(__file__).resolve().parent / "../Lektion09"))
+lek9_test_cafe = __import__("test_cafe")  # lura PyCharm
 
 
-class Cafe4Test(lek8_test_cafe.CafeOrderTestMixin, unittest.TestCase):
+class Cafe4Test(lek9_test_cafe.CafeOrderTestMixin, unittest.TestCase):
     def test_finöl(self):
         self.order("finöl")
         self.assert_prompts(["Vad vill du beställa? "])
@@ -18,7 +18,7 @@ class Cafe4Test(lek8_test_cafe.CafeOrderTestMixin, unittest.TestCase):
                               "Det blir 70 kr, tack."])
 
     def setUp(self):
-        self.cafe = lek8_test_cafe.Cafe(cafe4)
+        self.cafe = lek9_test_cafe.Cafe(cafe4)
 
 
 if __name__ == '__main__':

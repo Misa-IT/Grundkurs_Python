@@ -3,33 +3,21 @@ Läsordning för Lektion 07
 
 Följ filerna i den här ordningen:
 
-1. Exempel07_01_Namnrymder_och_import.txt eller Exempel07_01_Namnrymder_och_import-formaterad.md
+1. Exempel07_01_funktioner_och_namespace.txt eller
+   Exempel07_01_funktioner_och_namespace-formaterad.md
    Filerna har samma innehåll i två olika format. Läs en av dem.
 
-2. Exempel07_02.py tillsammans med tobeimported.py
-   Läs båda filerna och kör Exempel07_02.py för att se import och __name__.
+2. Exempel07_02_exempelfunktioner.py
+   Läs den samlade genomgången av hur funktioner definieras och anropas.
 
 3. Exempel07_03.py
-   Filen återanvänder tobeimported.py och visar vad som händer vid flera
-   importer i samma program.
+   Läs och kör exempel med parametrar, argument och returvärden.
 
 4. Exempel07_04.py
-   Läs och kör ett praktiskt exempel med standardmodulen random.
+   Undersök vad print() och egna funktioner faktiskt returnerar.
 
 5. Exempel07_05.py
-   Läs och kör exemplet med namnrymder i olika funktioner.
+   Jämför funktioner som skriver ut direkt med funktioner som returnerar.
 
-6. Exempel07_06.py tillsammans med dessa paketfiler:
-   - exempelpaket/__init__.py
-   - exempelpaket/extragrejer.py
-   Läs stödfilerna och kör sedan Exempel07_06.py.
-
-7. Exempel07_07.py
-   Läs om hur olika namn kan referera till samma föränderliga objekt.
-
-8. Exempel07_08_cafe2.py
-   Läs caféversionen med funktioner, parallella listor och en main guard.
-
-9. Exempel07_09_Lektionsövning07.py
-   Avsluta med uppgiften där du själv skapar och importerar en modul.
-   Filen är avsiktligt ofärdig och ska kompletteras innan den körs.
+6. Exempel07_06_cafe1.py
+   Avsluta med caféprogrammet uppdelat i återanvändbara funktioner.

@@ -1,12 +1,10 @@
-# Hämta element från listan från det femte till det femtonde, räknat från noll.
-# Hur ni hämtar elementen får ni välja själva men att skriva in dem manuellt
-#   i print() är INTE rätt svar.
+# Skriv ett program som ber användaren att skriva in ett namn tills användaren
+#    skriver in något särskilt ord, förslagsvis "quit".
 
-my_long_list = ["Det", "här", "är", "en", "lista", "som", "innehåller", "väldigt",
-                "många", "element", "för", "att", "visa", "att", "man", "kan", "ha",
-                "radbyten", "i", "en", "deklaration"]
-# Ovanstående rader ska INTE ändras.
+# Programmet ska skriva ut en hälsning varje gång användaren skriver in ett namn.
+# Om användaren skriver in t.ex. "Johan" så ska programmet skriva ut något i
+#    stil med "Hej Johan! Trevligt att träffas!"
 
-print("Resultatet av nästa print() ska vara: ['som', 'innehåller', 'väldigt', 'många',"
-      " 'element', 'för', 'att', 'visa', 'att', 'man', 'kan']")
-print()
+# Notera att både frågan och hälsningen ska köras om och om igen tills
+#   användaren skriver in ordet som ska avsluta programmet.
+

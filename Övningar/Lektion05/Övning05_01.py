@@ -1,17 +1,15 @@
-# Vänd på listan med hjälp av en metod så att vi får ut rätt svar från
-#   den print() som finns på sista raden.
-#
-# Raden där listan skapas ska vara oförändrad och likaså den sista raden.
-#
-# En informationssida för de metoder som finns för Listor finns här:
-# https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+# Rätta till While-loopen så att den fungerar och skriver ut rader enligt
+#   mönstret nedan när programmet körs:
+# 27
+# 34
+# 41
+# etc.
 
-en_lista = ["Det", "här", "är", "en", "lista."]
-# Ovanstående rad ska vara oförändrad.
+my_first_int: int = 20
+my_second_int: int = 300
+# Ovanstående kod ska inte ändras på.
 
+while my_first_int < my_second_int
+my_first_int = my_first_int + 7
+print(my_first_int)
 
-
-
-
-# Nästa rad ska vara oförändrad.
-print("Här ska det stå ['lista.', 'en', 'är', 'här', 'Det']:", en_lista)
