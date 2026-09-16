@@ -1,8 +1,8 @@
 # Några fel i dessa kodrader gör att programmet inte fungerar, rätta felen
-# så att vi får resultaten (utskriften) 110 och 5555 när programmet körs.
+#   så att vi får resultaten (utskriften) 110 och 5555 när programmet körs.
 
 # Precis som förra övningen så kommer ni få lära er hur man bör lösa detta
-# nästa vecka.
+#   nästa vecka.
 
 # Att ändra till print(110) och print(5555) är inte rätt svar.
 

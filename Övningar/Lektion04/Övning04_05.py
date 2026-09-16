@@ -1,14 +1,14 @@
 # Här försöker vi hämta alla element i en lista och lägga till dem i en ny lista.
 # När vi lägger till varje element i listan kollar vi om det är en integer eller
-# float och om så är fallet vill vi addera 5 till det elementet.
+#   float och om så är fallet vill vi addera 5 till det elementet.
 # Se övning04_04 för ledtrådar.
 
 # Sista raden ska INTE ändras på och när programmet körs så ska vi få ut:
 # [6, 7, 8, 9, 10, 'Här', 'är', 'några', 'strängar!', 11, 12, ['En', 'lista', 'i', 'listan!'], 13, 14]
 
-my_mixed_list = [1, 2, 3, 4, 5, "Här", "är", "några", "strängar!", 6, 7,
+my_mixed_list: list = [1, 2, 3, 4, 5, "Här", "är", "några", "strängar!", 6, 7,
                  ["En", "lista", "i", "listan!"], 8, 9]
-my_new_list = []
+my_new_list: list = []
 # Ovanstående kod ska inte ändras på.
 
 

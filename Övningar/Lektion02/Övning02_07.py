@@ -2,12 +2,12 @@
 
 
 # Variablerna ska användas i båda print().
-# Raderna där vi skapar variablerna ska alltså inte ändras och inga nya rader
-# ska läggas till.
+#   Raderna där vi skapar variablerna ska alltså inte ändras och inga nya rader
+#   ska läggas till.
 
 # Eftersom vi här vill använda oss av samma variabler på olika sätt
-# så måste vi använda oss av det som vi gick igenom om att
-# hämta värden som om de vore något annat.
+#   så måste vi använda oss av det som vi gick igenom om att
+#   hämta värden som om de vore något annat.
 
 my_first_number = 2
 my_second_number = 3

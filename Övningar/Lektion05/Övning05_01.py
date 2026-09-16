@@ -1,5 +1,5 @@
 # Vänd på listan med hjälp av en metod så att vi får ut rätt svar från
-# den print() som finns på sista raden.
+#   den print() som finns på sista raden.
 #
 # Raden där listan skapas ska vara oförändrad och likaså den sista raden.
 #

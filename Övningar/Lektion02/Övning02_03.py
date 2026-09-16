@@ -2,7 +2,7 @@
 # Det behövs inte fler rader kod än de som redan är förberedda nedan.
 #
 # Svaret som ska skrivas ut är alltså 15 men att skriva print(15) eller
-# print("15") är inte rätt svar.
+#   print("15") är inte rätt svar.
 
 =
 y: int = 10

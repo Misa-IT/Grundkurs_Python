@@ -1,8 +1,8 @@
 # Detta program kraschar. Rätta till koden så att den fungerar och att vi
-# får ut rätt resultat från programmet när det körs.
+#   får ut rätt resultat från programmet när det körs.
 
 # Notera: Du ska alltså INTE ändra på raderna med "print" för att få ut rätt
-# resultat. Raderna med text är till för att visa om du har gjort rätt.
+#   resultat. Raderna med text är till för att visa om du har gjort rätt.
 
 my_list = 2, 3, 4
 my_second_list = [5, 6, 7, 8]

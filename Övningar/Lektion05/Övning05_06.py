@@ -1,5 +1,5 @@
 # Komplettera koden nedan så att det sista elementet i listan hämtas och skrivs
-# ut en gång för varje varv i loopen.
+#   ut en gång för varje varv i loopen.
 # Antingen genom att kolla hur lång listan är eller genom att gå baklänges.
 
 # Det som ska skrivas ut är alltså:

@@ -2,7 +2,7 @@ a: int = 52
 x: int = 48
 
 # Raderna här under får programmet att krascha, rätta till dem så att de gör
-# rätt sak (vi vill få ut tre rader; en med 52, en med 48 och en med 100).
+#   rätt sak (vi vill få ut tre rader; en med 52, en med 48 och en med 100).
 
 # Att skriva print(52), print(48) och print(100) är inte rätt svar.
 

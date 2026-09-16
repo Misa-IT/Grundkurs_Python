@@ -1,6 +1,6 @@
 # Hämta element från listan från det femte till det femtonde, räknat från noll.
 # Hur ni hämtar elementen får ni välja själva men att skriva in dem manuellt
-# i print() är INTE rätt svar.
+#   i print() är INTE rätt svar.
 
 my_long_list = ["Det", "här", "är", "en", "lista", "som", "innehåller", "väldigt",
                 "många", "element", "för", "att", "visa", "att", "man", "kan", "ha",

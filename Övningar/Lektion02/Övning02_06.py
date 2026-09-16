@@ -1,7 +1,7 @@
 # Koden nedan tar bort en etta ur samlingen, rätta till koden så att
-# programmet skriver ut [1, 2, 1] när det körs.
+#   programmet skriver ut [1, 2, 1] när det körs.
 # Notera: Raden med print ska INTE ändras och det ska inte läggas till fler
-# rader.
+#   rader.
 
 
 # Förklara i en kommentar på nästa rad varför dubbletten togs bort:

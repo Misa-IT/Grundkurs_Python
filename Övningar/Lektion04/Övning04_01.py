@@ -1,12 +1,12 @@
 # Rätta till While-loopen så att den fungerar och skriver ut rader enligt
-# mönstret nedan när programmet körs:
+#   mönstret nedan när programmet körs:
 # 27
 # 34
 # 41
 # etc.
 
-my_first_int = 20
-my_second_int = 300
+my_first_int: int = 20
+my_second_int: int = 300
 # Ovanstående kod ska inte ändras på.
 
 while my_first_int < my_second_int
