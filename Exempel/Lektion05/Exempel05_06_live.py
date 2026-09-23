@@ -1,10 +1,10 @@
-# Exempel04_03 fast med både en While och en For.
+# Jämförelse av while och for med en lista.
 # Ibland kan man använda den typ av loop man föredrar.
 
-my_int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+my_int_list: list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-i = 0
-while i <len(my_int_list):
+i: int = 0
+while i < len(my_int_list):
     element = my_int_list[i]
     i += 1
     print(element)

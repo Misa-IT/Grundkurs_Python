@@ -1,8 +1,8 @@
 # Exempel som visar hur while-loopar fungerar och kan användas.
 # Även ett exempel på indenteringsnivåer.
 
-my_int = 1
-my_second_int = 10
+my_int: int = 1
+my_second_int: int = 10
 
 while my_int < my_second_int:
     if my_int % 2 == 0:  # Detta kollar om my_int är ett jämt tal.
@@ -11,4 +11,4 @@ while my_int < my_second_int:
         print("Här är ett udda tal!")
     my_int = my_int + 1
 
-print("Nu är loopen över!")
+print("Nu är loopen slut!")
