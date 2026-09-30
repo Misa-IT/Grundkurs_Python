@@ -11,7 +11,7 @@ Syntax = Grammatik
 
 
 Typer av Datatyper:
-	- Vissa Datatyper kan bara innehålla en sak, oftast bara en specifiktyp av sak
+	- Vissa Datatyper kan bara innehålla en sak, oftast bara en specifik typ av sak
 		Jag kallar dessa Datatyper för "simpla datatyper".
 	- Samlingsdatatyper, Datatyper som kan innehålla flera saker.
 
