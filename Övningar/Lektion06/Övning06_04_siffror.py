@@ -17,9 +17,9 @@
 # OBS! Notera exakt var parenteserna ligger i det förväntade resultatet. OBS!
 # OBS!
 
-my_first_list = [100, [200, [300]]]
+my_first_list: list = [100, [200, [300]]]
 
-my_second_list = ["x", ["efter här"], "z"]
+my_second_list: list = ["x", ["efter här"], "z"]
 # Ovanstående rader ska INTE ändras.
 
 

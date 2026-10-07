@@ -1,7 +1,7 @@
-pet_store_inventory = ["Katt", "Hund", "Hamster", "Fisk"]
+pet_store_inventory: list = ["Katt", "Hund", "Hamster", "Fisk"]
 
 print("Butikens utbud är:", pet_store_inventory)
-desired_animal = input("Vilket djur vill du köpa? ")
+desired_animal: str = input("Vilket djur vill du köpa? ")
 
 if desired_animal in pet_store_inventory:
     print("Grattis!", desired_animal, "finns i butiken!")

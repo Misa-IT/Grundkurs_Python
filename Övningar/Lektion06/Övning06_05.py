@@ -7,7 +7,7 @@
 #    så att det står "Två på engelska är: two"
 
 
-my_dict = {"ett": "one", "två": "two", "tre": "three"}
+my_dict: dict = {"ett": "one", "två": "two", "tre": "three"}
 
 print("Två på engelska är: ")
 print("Raden ovanför ska vara 'Två på engelska är: two' när programmet körs.")

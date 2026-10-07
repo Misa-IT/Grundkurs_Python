@@ -17,7 +17,7 @@
 
 
 
-list_with_funny_name = ["En", "lista", "kan", "innehålla", "olika", "saker"]
+list_with_funny_name: list = ["En", "lista", "kan", "innehålla", "olika", "saker"]
 
 
 i = 0

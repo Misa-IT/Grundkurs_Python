@@ -3,7 +3,7 @@
 # Ni behöver inte använda den förberedda print-funktionen, bara det skrivs ut
 # på något sätt.
 
-list_with_funny_name = ["En", "lista", "kan", "innehålla", "olika", "saker"]
+list_with_funny_name: list = ["En", "lista", "kan", "innehålla", "olika", "saker"]
 
 length_of_list = "Här kan ni skriva en längdräknare"
 

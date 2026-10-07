@@ -6,7 +6,7 @@
 # En informationssida för de metoder som finns för Listor finns här:
 # https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
 
-en_lista = ["Det", "här", "är", "en", "lista."]
+en_lista: list = ["Det", "här", "är", "en", "lista."]
 # Ovanstående rad ska vara oförändrad.
 
 

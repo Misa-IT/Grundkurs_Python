@@ -2,7 +2,7 @@
 # Skapandet av listan ska INTE ändras på och att skriva in "är"
 #   manuellt i print() är inte rätt.
 
-en_lista = ["Det", "här", "är", "en", "lista."]
+en_lista: list = ["Det", "här", "är", "en", "lista."]
 # Ovanstående rad ska INTE ändras på
 
 

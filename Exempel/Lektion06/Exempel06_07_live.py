@@ -1,7 +1,7 @@
 # Demonstration av slicing på listor och strängmanipulering.
 # Överkurs, endast om tid finns.
 
-my_details = ["Johan", "Marmén", "36", "180"]
+my_details: list = ["Johan", "Marmén", "37", "180"]
 
 print(my_details)
 print(my_details[:2])

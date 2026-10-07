@@ -21,10 +21,12 @@
 # OBS! Notera exakt var parenteserna ligger i det förväntade resultatet. OBS!
 # OBS!
 
-my_first_list = ["Listor kan ligga i listor.", ["Man kan till och med ha listor i listor som ligger i listor",
+my_first_list: list = ["Listor kan ligga i listor.", ["Man kan till och med ha listor i listor som "
+                                                 "ligger i listor",
                                                 ["Spännande, va?"]]]
 
-my_second_list = ["Det här är den yttre listan!", ["Efter den här strängen ska my_first_list läggas till."],
+my_second_list: list = ["Det här är den yttre listan!", ["Efter den här strängen ska my_first_list "
+                                                    "läggas till."],
                   "Nästlade listor kan vara krångliga ibland."]
 # Ovanstående rader ska INTE ändras.
 
