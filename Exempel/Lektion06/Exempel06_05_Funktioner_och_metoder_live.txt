@@ -6,7 +6,7 @@ Funktioner:
 		för att lätt kunna återanvända.
 	När man använder sig av en Funktion så "kallar" man på den eller "anropar" den.
 		På engelska blir det "call".
-	Det gör man genom att använda parenteser efter namnet på Funktionen.
+	Det gör man genom att sätta parenteser efter namnet på Funktionen.
 		T.ex. print("Hej!")
 
 Det som står innanför parenteserna kallas för Argument eller, som det heter i

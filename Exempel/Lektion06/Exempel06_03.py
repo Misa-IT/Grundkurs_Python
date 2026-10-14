@@ -34,7 +34,7 @@ print("1234567890"[2:5])
 # När man hämtar från en dict så använder man sig av samma syntax för att
 #   hämta ett Element, men istället för index så anger man vad man vill ha
 #   genom att skriva in nyckeln mellan parenteserna.
-johan = {"namn": "Johan", "ålder": 36, "längd": 180}
+johan = {"namn": "Johan", "ålder": 37, "längd": 180}
 emma = {"namn": "Emma", "ålder": 31, "längd": 174}
 
 print(johan["ålder"], emma["ålder"])

@@ -5,3 +5,45 @@
 my_fruit_list: list = ["Päron", "Äpplen", "Apelsiner", "Citroner", "Vindruvor"]
 
 
+# Skriv ut hela listan
+print(my_fruit_list)
+
+
+# Hämta och skriv ut det första Elementet
+print(my_fruit_list[0])
+
+# Hämta och skriv ut, som en lista, de tre första Elementen ur my_fruit_list
+#   på två olika sätt.
+
+print(my_fruit_list[0:3])
+print(my_fruit_list[:3])
+
+# Hämta och skriv ut, som en lista, de tre Elementen i mitten
+print(my_fruit_list[1:4])
+
+# Hämta och skriv ut, som en lista, de tre sista elementen ur my_fruit_list
+#   på tre olika sätt. Plus en bonus.
+print(my_fruit_list[2:5])
+print(my_fruit_list[2:])
+print(my_fruit_list[-3:])
+print(my_fruit_list[len(my_fruit_list) - 3:])
+
+
+# Slicing fungerar även på strängar
+print("qwertyuiopå"[2:5])
+
+
+# När man hämtar från en dict så använder man sig av samma syntax för att hämta
+#   ett Element, men istället för index så anger man vad man vill ha
+#   genom att skriva in nyckeln mellan hakparenterna.
+johan = {"namn": "Johan", "ålder": 37, "längd": 180}
+emma = {"namn": "Emma", "ålder": 31, "längd": 174}
+
+print(johan["ålder"], emma["ålder"])
+
+for item in johan:
+    print(item)
+
+print()
+for person in [johan, emma]:
+    print(person["ålder"])
