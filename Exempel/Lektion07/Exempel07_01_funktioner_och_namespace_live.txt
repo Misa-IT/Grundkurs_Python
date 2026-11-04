@@ -67,7 +67,7 @@ Typannoteringar för returvärden:
 		kan vi annotera vad en funktion förväntas returnera.
 	
 	Returtypen skrivs med en pil -> efter parameterparenteserna, före kolonet:
-		def f(x) -> int:
+		def f(x: int) -> int:
 			return x * 2
 	
 	Om en Funktion inte returnerar något värde (utan bara utför en handling,

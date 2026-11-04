@@ -20,27 +20,29 @@ def exempelfunktion():
 #   meddela att vi faktiskt vill köra Funktionen.
 exempelfunktion()
 
+print("----")
 
 # Om vi vill skapa en Funktion som ska kunna ta emot instruktioner om vad
 #   den ska arbeta med så måste vi skriva in det mellan parenteserna när vi
-#   DEFINIERAR vår Funktion.
+#   DEFINIERAR vår Funktion. Vi skapar på det sättet Parametrar.
 # T.ex. vilken text som ska skrivas ut av print() eller vilka tal som ska
 #   läggas ihop av en Funktion som adderar två tal.
 
 def funktion_som_tar_emot_tre_argument(godtyckligt_namn1,
                                        godtyckligt_namn2,
                                        godtyckligt_namn3=8,
-                                       ):
+                                       ) -> None:
     print(godtyckligt_namn1, godtyckligt_namn2, godtyckligt_namn3)
 
 # Det som vi skriver inom parenteserna i DEFINITIONEN är alltså vad vi
 #   namnger det som skickas till vår Funktion som Argument varje gång
-#   den körs.
+#   den körs. Vi skapar alltså Parametrar.
 
 
 funktion_som_tar_emot_tre_argument(8, "HEJ", 4.567)
 funktion_som_tar_emot_tre_argument(4.567, godtyckligt_namn3=5,
                                    godtyckligt_namn2="HEJ")
+
 funktion_som_tar_emot_tre_argument(6, 7)
 
 x = 42

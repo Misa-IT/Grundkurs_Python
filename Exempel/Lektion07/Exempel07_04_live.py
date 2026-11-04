@@ -1,15 +1,18 @@
 # Exempel på vad det egentligen betyder att returnera värden.
+# print() skriver ut text men returnerar inget värde, dvs. den returnerar None.
+# Det är därför funktioner som bara utför utskrifter annoteras med -> None.
 
 print("Skriver ut vad som egentligen returneras av print():",
-      print("Inre print")
+      print("Inre print"),
       )
 print()
-x = print("Lagrar print:s returvärde i x.")
+x = print("Lagrar print():s returvärde i x.")
 print("Värdet på x är:", x)
 
 print()
 
-def f(x):
+
+def f(x: int) -> int:
     return x * 2
 
 # Vi lagrar resultatet av f(1) i f_av_ett
@@ -19,6 +22,8 @@ f_av_ett = f(1)
 f_av_f_av_ett = f(f_av_ett)
 
 print("Värdet på f_av_f_av_ett är:", f_av_f_av_ett)
+
+print()
 
 print("Värdet vi får tillbaka av f av f av f av f av ett,",
       "alltså 'f(f(f(f(1))))':", f(f(f(f(1))))
