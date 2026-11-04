@@ -7,15 +7,19 @@
 #   istället för mellanslag.
 # Parenteser, (). För att de MÅSTE vara där, även om vi inte planerar att
 #   använda Argument med denna Funktion.
-# Ett kolon(:) för att påbörja själva definitionen.
+# (OM man ska ha returtypsannotering så:
+#       En pil bestående av ett bindestreck och ett "större än"-tecken. (->)
+#   Därefter, typen av returvärdet.)
+# Ett kolon (:) för att påbörja själva definitionen
 # En indentering på alla rader som tillhör Funktionen.
 
-def exempelfunktion():
+
+
+def exempelfunktion() -> None:
     print("Vår Funktion gör inget för stunden så jag lägger in lite text "
           "så länge.")
 
-
-# När vi vill köra vår Funktion, även kallat för att "anropa" eller "kalla"
+# När vi vill köra vår Funktion, även kallat att "anropa" eller "kalla"
 #   på den, så måste vi använda parenteser, (), efter namnet för att
 #   meddela att vi faktiskt vill köra Funktionen.
 exempelfunktion()
