@@ -25,12 +25,10 @@ print("Listan i Instansen:", my_instance.my_list)
 #   av den Klassen om inget annat skriver över namnet.
 # Detta kallas för att vara en "klassvariabel".
 
-
 # Vi skapar en Instans till för att bekräfta:
 my_second_instance = MyClass()
 print("Listan i den andra Instansen:", my_second_instance.my_list)
 print()
-
 
 # Notera skillnaden om vi gör en tilldelning istället för att använda .append():
 my_instance.my_list = [4, 5]
