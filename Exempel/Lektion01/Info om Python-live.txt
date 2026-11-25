@@ -2,9 +2,9 @@ Python: Ett programmeringsspråk
 
 Ett programmeringsspråk är ett språk som datorer förstår.
 
-Python är ett programmeringsspråk som relativt lätt att lära sig;
-	koden är mer lättläslig än i många äldre programmeringsspråk.
-	Grammatiken är i princip engelska meningar.
+Python är ett programmeringsspråk som är relativt lätt att lära sig; koden är mer
+	lättläslig än i många andra programmeringsspråk. Grammatiken är i princip
+	engelska meningar.
 
 
 Exempel på hur kod kan se enklare ut när man använder Python:
@@ -19,11 +19,11 @@ for piece in food:
 
 
 Python är ett objektorienterat programmeringsspråk.
-	Denna term kommer att vara viktig senare i kursen men vi börjar redan
-	nästa lektion med att prata om vad det betyder.
+	Denna term kommer att vara viktig senare i kursen men vi börjar prata om vad
+	det betyder redan nästa lektion.
 
 
-Var används Python:
+Var används Python?
 
 	Webbutveckling
 	Dataanalys
@@ -36,22 +36,22 @@ Ett urval av företag och organisationer som använder Python:
 
 
 Syntax:
-	Hur man skriver saker. I naturliga språk kallar vi det för gramatik.
+	Hur man skriver saker. I naturliga språk kallar vi det för grammatik.
 	Jag kommer att tjata jättemycket om syntax.
 
 
-Psedudokod, låtsaskod:
+Pseudokod, låtsaskod:
 	Kodliknande text som man använder för att "skissa" program eller förklara
 		koncept.
-		
+	
 	För varje sak i listan food:
 		Skriv ut den saken på skärmen
 
 
-IDLE är programmet vi använder under grundkursen när vi skriver Pythonkod.
+IDLE är programet vi använder under grundkursen när vi skriver Pythonkod.
 	IDLE har två lägen:
-	- IDLE Shell
-	- Textredigerarläget
+		- IDLE Shell
+		- Textredigerarläget
 
 IDLE är en IDE:
 	Integrated Development Environment

@@ -40,7 +40,9 @@ Syntax:
 
 
 Pseudokod, låtsaskod:
-	Kodliknande text som man använder för att "skissa" ett program.
+	Kodliknande text som man använder för att "skissa" program eller förklara
+		koncept.
+
 	För varje sak i listan food:
 		Skriv ut den saken på skärmen
 
